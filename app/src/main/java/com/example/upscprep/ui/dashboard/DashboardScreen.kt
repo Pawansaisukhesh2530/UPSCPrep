@@ -30,7 +30,6 @@ fun DashboardScreen(
     userName: String = "Aspirant",
     stats: StudyStats,
     subjects: List<Subject>,
-    onNavigateToSubjects: () -> Unit,
     onLogout: () -> Unit
 ) {
     Box(
@@ -65,39 +64,6 @@ fun DashboardScreen(
             // Progress Section
             item {
                 ProgressSection(subjects = subjects)
-            }
-
-            // View All Subjects Button
-            item {
-                Button(
-                    onClick = onNavigateToSubjects,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(56.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = Color.Transparent
-                    ),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Box(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .background(
-                                brush = Brush.horizontalGradient(
-                                    colors = listOf(GradientStart, GradientEnd)
-                                ),
-                                shape = RoundedCornerShape(16.dp)
-                            ),
-                        contentAlignment = Alignment.Center
-                    ) {
-                        Text(
-                            text = "View All Subjects",
-                            fontSize = 16.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = TextPrimary
-                        )
-                    }
-                }
             }
 
             // Bottom spacing
@@ -428,4 +394,3 @@ fun ProgressItem(subject: Subject) {
         )
     }
 }
-

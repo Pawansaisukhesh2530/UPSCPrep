@@ -6,22 +6,19 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.navigation.NavType
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
+import androidx.compose.ui.unit.dp
 import com.example.upscprep.data.model.SubTopic
 import com.example.upscprep.data.model.SyllabusSubject
 import com.example.upscprep.data.model.Unit as SyllabusUnit
 import com.example.upscprep.data.repository.AuthRepository
 import com.example.upscprep.ui.auth.LoginActivity
+import com.example.upscprep.ui.assignments.AssignmentsScreen
 import com.example.upscprep.ui.dashboard.DashboardScreen
 import com.example.upscprep.ui.dashboard.DashboardViewModel
 import com.example.upscprep.ui.subjects.SubjectsScreen
@@ -33,7 +30,7 @@ import com.example.upscprep.utils.SecurePreferences
 
 /**
  * Main Activity - Entry point for Compose-based screens
- * Handles navigation between Dashboard, Subjects, Units, SubTopics, and TrackingItems screens
+ * Hosts a BottomNavigation with Dashboard, Subjects, and Assignments tabs
  */
 class MainActivity : ComponentActivity() {
 
@@ -81,7 +78,16 @@ class MainActivity : ComponentActivity() {
 }
 
 /**
- * Main navigation composable with complete navigation flow
+ * Bottom navigation tabs
+ */
+private enum class BottomTab(val route: String, val label: String) {
+    DASHBOARD("dashboard", "Dashboard"),
+    SUBJECTS("subjects", "Subjects"),
+    ASSIGNMENTS("assignments", "Assignments")
+}
+
+/**
+ * Main navigation composable using a BottomNavigation bar and simple tab state
  */
 @Composable
 fun MainNavigation(
@@ -89,116 +95,126 @@ fun MainNavigation(
     viewModel: DashboardViewModel,
     onLogout: () -> Unit
 ) {
-    val navController = rememberNavController()
     val subjects by viewModel.subjects.collectAsState()
     val stats by viewModel.stats.collectAsState()
     val repository = viewModel.getRepository()
 
-    // Store navigation data
-    var selectedSyllabusSubject: SyllabusSubject? = null
-    var selectedUnit: SyllabusUnit? = null
-    var selectedSubTopic: SubTopic? = null
+    // Keep selection state
+    var selectedTab by remember { mutableStateOf(BottomTab.DASHBOARD) }
 
-    NavHost(
-        navController = navController,
-        startDestination = "dashboard"
-    ) {
-        // Dashboard Screen
-        composable("dashboard") {
-            DashboardScreen(
-                userName = userName,
-                stats = stats,
-                subjects = subjects,
-                onNavigateToSubjects = {
-                    navController.navigate("subjects")
-                },
-                onLogout = onLogout
-            )
+    // Temporary holders for navigation to deep screens (Units/SubTopics/TrackingItems)
+    var selectedSyllabusSubject by remember { mutableStateOf<SyllabusSubject?>(null) }
+    var selectedUnit by remember { mutableStateOf<SyllabusUnit?>(null) }
+    var selectedSubTopic by remember { mutableStateOf<SubTopic?>(null) }
+    var showDeepScreen by remember { mutableStateOf(false) }
+
+    Scaffold(
+        bottomBar = {
+            NavigationBar(
+                tonalElevation = 8.dp,
+                containerColor = MaterialTheme.colorScheme.surface
+            ) {
+                NavigationBarItem(
+                    selected = selectedTab == BottomTab.DASHBOARD,
+                    onClick = { selectedTab = BottomTab.DASHBOARD },
+                    icon = { Icon(Icons.Default.Home, contentDescription = "Dashboard") },
+                    label = { Text(BottomTab.DASHBOARD.label) }
+                )
+                NavigationBarItem(
+                    selected = selectedTab == BottomTab.SUBJECTS,
+                    onClick = { selectedTab = BottomTab.SUBJECTS },
+                    icon = { Icon(Icons.Default.Menu, contentDescription = "Subjects") },
+                    label = { Text(BottomTab.SUBJECTS.label) }
+                )
+                NavigationBarItem(
+                    selected = selectedTab == BottomTab.ASSIGNMENTS,
+                    onClick = { selectedTab = BottomTab.ASSIGNMENTS },
+                    icon = { Icon(Icons.Default.Star, contentDescription = "Assignments") },
+                    label = { Text(BottomTab.ASSIGNMENTS.label) }
+                )
+            }
         }
-
-        // Subjects Screen
-        composable("subjects") {
-            SubjectsScreen(
-                subjects = subjects,
-                onSubjectClick = { subjectName ->
-                    // Load full syllabus subject data
-                    selectedSyllabusSubject = repository.getSyllabusSubjectByName(subjectName)
-                    navController.navigate("units/$subjectName")
-                },
-                onNavigateBack = {
-                    navController.popBackStack()
+    ) { paddingValues ->
+        androidx.compose.foundation.layout.Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(paddingValues)
+        ) {
+            // Main content area — switch on selected tab
+            when (selectedTab) {
+                BottomTab.DASHBOARD -> {
+                    DashboardScreen(
+                        userName = userName,
+                        stats = stats,
+                        subjects = subjects,
+                        onLogout = onLogout
+                    )
                 }
-            )
-        }
 
-        // Units Screen (NEW)
-        composable(
-            route = "units/{subjectName}",
-            arguments = listOf(
-                navArgument("subjectName") { type = NavType.StringType }
-            )
-        ) { backStackEntry ->
-            val subjectName = backStackEntry.arguments?.getString("subjectName") ?: ""
-            val syllabusSubject = selectedSyllabusSubject
-                ?: repository.getSyllabusSubjectByName(subjectName)
+                BottomTab.SUBJECTS -> {
+                    SubjectsScreen(
+                        subjects = subjects,
+                        onSubjectClick = { subjectName ->
+                            selectedSyllabusSubject = repository.getSyllabusSubjectByName(subjectName)
+                            // Navigate to Units using the deep-screen state
+                            selectedUnit = null
+                            selectedSubTopic = null
+                            showDeepScreen = true
+                        },
+                        onNavigateBack = {
+                            // No-op for tab back — deselect tab and go to dashboard
+                            selectedTab = BottomTab.DASHBOARD
+                        }
+                    )
+                }
 
-            if (syllabusSubject != null) {
+                BottomTab.ASSIGNMENTS -> {
+                    // Assignments placeholder implemented as a Compose-only screen
+                    AssignmentsScreen()
+                }
+            }
+
+            // If a deep screen is requested (from Subjects -> Units -> SubTopics -> TrackingItems)
+            if (showDeepScreen && selectedSyllabusSubject != null) {
                 UnitsScreen(
-                    syllabusSubject = syllabusSubject,
+                    syllabusSubject = selectedSyllabusSubject!!,
                     onUnitClick = { unit ->
                         selectedUnit = unit
-                        navController.navigate("subtopics/${subjectName}")
+                        selectedSubTopic = null
                     },
                     onNavigateBack = {
-                        navController.popBackStack()
+                        // Close deep screens and stay on Subjects tab
+                        selectedSyllabusSubject = null
+                        selectedUnit = null
+                        selectedSubTopic = null
+                        showDeepScreen = false
                     }
                 )
-            }
-        }
 
-        // SubTopics Screen (NEW)
-        composable(
-            route = "subtopics/{subjectName}",
-            arguments = listOf(
-                navArgument("subjectName") { type = NavType.StringType }
-            )
-        ) { backStackEntry ->
-            val subjectName = backStackEntry.arguments?.getString("subjectName") ?: ""
-            val unit = selectedUnit
+                // If a unit was selected, show SubTopics
+                if (selectedUnit != null) {
+                    SubTopicsScreen(
+                        unit = selectedUnit!!,
+                        subjectName = selectedSyllabusSubject!!.subject,
+                        onSubTopicClick = { subTopic ->
+                            selectedSubTopic = subTopic
+                        },
+                        onNavigateBack = {
+                            selectedUnit = null
+                        }
+                    )
+                }
 
-            if (unit != null) {
-                SubTopicsScreen(
-                    unit = unit,
-                    subjectName = subjectName,
-                    onSubTopicClick = { subTopic ->
-                        selectedSubTopic = subTopic
-                        navController.navigate("trackingitems/${subjectName}")
-                    },
-                    onNavigateBack = {
-                        navController.popBackStack()
-                    }
-                )
-            }
-        }
-
-        // Tracking Items Screen (NEW - Leaf Level)
-        composable(
-            route = "trackingitems/{subjectName}",
-            arguments = listOf(
-                navArgument("subjectName") { type = NavType.StringType }
-            )
-        ) {
-            val subTopic = selectedSubTopic
-            val unit = selectedUnit
-
-            if (subTopic != null && unit != null) {
-                TrackingItemsScreen(
-                    subTopic = subTopic,
-                    unitName = unit.unit_name,
-                    onNavigateBack = {
-                        navController.popBackStack()
-                    }
-                )
+                // If subtopic selected, show TrackingItems
+                if (selectedSubTopic != null && selectedUnit != null) {
+                    TrackingItemsScreen(
+                        subTopic = selectedSubTopic!!,
+                        unitName = selectedUnit!!.unit_name,
+                        onNavigateBack = {
+                            selectedSubTopic = null
+                        }
+                    )
+                }
             }
         }
     }
