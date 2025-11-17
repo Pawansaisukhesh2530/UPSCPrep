@@ -232,7 +232,8 @@ fun MainNavigation(
                                 userName = userName,
                                 stats = stats,
                                 subjects = subjects,
-                                onLogout = onLogout
+                                onLogout = onLogout,
+                                viewModel = viewModel
                             )
                         }
 
@@ -302,4 +303,3 @@ fun MainNavigation(
         }
     }
 }
-
