@@ -29,6 +29,7 @@ import com.example.upscprep.ui.subtopics.SubTopicsScreen
 import com.example.upscprep.ui.theme.UPSCPrepTheme
 import com.example.upscprep.ui.trackingitems.TrackingItemsScreen
 import com.example.upscprep.ui.units.UnitsScreen
+import com.example.upscprep.utils.SecurePreferences
 
 /**
  * Main Activity - Entry point for Compose-based screens
@@ -65,6 +66,10 @@ class MainActivity : ComponentActivity() {
      * Handle user logout
      */
     private fun handleLogout() {
+        // Clear saved credentials (Remember Me data)
+        SecurePreferences.clearCredentials(this)
+
+        // Logout from Firebase
         authRepository.logout()
 
         val intent = Intent(this, LoginActivity::class.java).apply {

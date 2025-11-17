@@ -123,6 +123,19 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <!-- Remember Me Checkbox -->
+            <CheckBox
+                android:id="@+id/cbRememberMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Remember Me"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/text_size_sm"
+                android:buttonTint="@color/gradient_purple_start"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tilPassword" />
+
             <!-- Login Button -->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnLogin"
@@ -136,7 +149,7 @@
                 android:textStyle="bold"
                 app:backgroundTint="@null"
                 app:cornerRadius="@dimen/corner_radius_md"
-                app:layout_constraintTop_toBottomOf="@id/tilPassword" />
+                app:layout_constraintTop_toBottomOf="@id/cbRememberMe" />
 
             <!-- Progress Bar -->
             <ProgressBar
