@@ -1,0 +1,2277 @@
+[
+  {
+    "subject": "Indian History",
+    "gs_paper": "GS I",
+    "units": [
+      {
+        "unit_name": "Ancient India",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Indus Valley Civilization",
+            "tracking_items": [
+              {
+                "item_id": "HIST_ANC_IVC_01",
+                "item_name": "Geographical Extent and Major Sites (Harappa, Mohenjo-daro, Lothal, Dholavira, Kalibangan)",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_IVC_02",
+                "item_name": "Town Planning: Grid Pattern, Drainage System, Great Bath",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_IVC_03",
+                "item_name": "Architecture: Citadel and Lower Town Division",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_IVC_04",
+                "item_name": "Economic Life: Agriculture (Wheat, Barley, Cotton)",
+                "suggested_flashcard_qty": 8
+              },
+              {
+                "item_id": "HIST_ANC_IVC_05",
+                "item_name": "Trade: Internal and External (Mesopotamia)",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_IVC_06",
+                "item_name": "Crafts: Pottery, Bead-making, Metallurgy",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_IVC_07",
+                "item_name": "Social Organization: Evidence from Burials",
+                "suggested_flashcard_qty": 8
+              },
+              {
+                "item_id": "HIST_ANC_IVC_08",
+                "item_name": "Religious Practices: Mother Goddess, Pashupati Seal",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_IVC_09",
+                "item_name": "Script: Characteristics and Decipherment Attempts",
+                "suggested_flashcard_qty": 7
+              },
+              {
+                "item_id": "HIST_ANC_IVC_10",
+                "item_name": "Art Forms: Seals, Sculptures (Dancing Girl, Priest King)",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_IVC_11",
+                "item_name": "Decline Theories: Climate Change, Floods, Aryan Invasion",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_IVC_12",
+                "item_name": "Late Harappan Phase and Successor Cultures",
+                "suggested_flashcard_qty": 8
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Vedic Period",
+            "tracking_items": [
+              {
+                "item_id": "HIST_ANC_VED_01",
+                "item_name": "Early Vedic Period: Geographical Extent (Sapta Sindhu)",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_VED_02",
+                "item_name": "Rigvedic Society: Tribal Organization and Jana",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_VED_03",
+                "item_name": "Rigvedic Economy: Pastoralism and Agriculture",
+                "suggested_flashcard_qty": 8
+              },
+              {
+                "item_id": "HIST_ANC_VED_04",
+                "item_name": "Rigvedic Political Structure: Rajan, Sabha, Samiti",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_VED_05",
+                "item_name": "Rigvedic Religion: Nature Worship (Indra, Agni, Varuna)",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_VED_06",
+                "item_name": "Later Vedic Period: Expansion into Gangetic Plains",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_VED_07",
+                "item_name": "Later Vedic Society: Emergence of Varna System",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_ANC_VED_08",
+                "item_name": "Later Vedic Economy: Iron Tools and Settled Agriculture",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_VED_09",
+                "item_name": "Later Vedic Political Structure: Mahajanapadas Precursors",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_VED_10",
+                "item_name": "Later Vedic Religion: Rise of Ritualism and Sacrifices",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_VED_11",
+                "item_name": "Vedic Literature: Rigveda - Hymns and Composition",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_VED_12",
+                "item_name": "Vedic Literature: Samaveda, Yajurveda, Atharvaveda",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_VED_13",
+                "item_name": "Brahmanas: Ritualistic Texts",
+                "suggested_flashcard_qty": 8
+              },
+              {
+                "item_id": "HIST_ANC_VED_14",
+                "item_name": "Aranyakas and Upanishads: Philosophical Thoughts",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_VED_15",
+                "item_name": "Vedangas and Sutras: Auxiliary Sciences",
+                "suggested_flashcard_qty": 9
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Mahajanapadas and Rise of Magadha",
+            "tracking_items": [
+              {
+                "item_id": "HIST_ANC_MAH_01",
+                "item_name": "16 Mahajanapadas: Complete List and Geography",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_ANC_MAH_02",
+                "item_name": "Republican vs Monarchical Mahajanapadas",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_MAH_03",
+                "item_name": "Factors for Rise of Magadha: Strategic Location",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_MAH_04",
+                "item_name": "Haryanka Dynasty: Bimbisara's Reign and Expansion",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_MAH_05",
+                "item_name": "Ajatashatru: Conquests and Fortification of Pataliputra",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_MAH_06",
+                "item_name": "Shishunaga Dynasty: Kalashoka",
+                "suggested_flashcard_qty": 7
+              },
+              {
+                "item_id": "HIST_ANC_MAH_07",
+                "item_name": "Nanda Dynasty: Mahapadma Nanda and Empire",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_MAH_08",
+                "item_name": "Nanda Administration and Military Strength",
+                "suggested_flashcard_qty": 8
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Buddhism and Jainism",
+            "tracking_items": [
+              {
+                "item_id": "HIST_ANC_BJ_01",
+                "item_name": "Buddha: Life and Renunciation",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_BJ_02",
+                "item_name": "Buddha's Enlightenment at Bodh Gaya",
+                "suggested_flashcard_qty": 8
+              },
+              {
+                "item_id": "HIST_ANC_BJ_03",
+                "item_name": "Four Noble Truths and Eight-fold Path",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_BJ_04",
+                "item_name": "Buddhist Councils: First to Fourth",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_ANC_BJ_05",
+                "item_name": "Hinayana vs Mahayana Buddhism",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_BJ_06",
+                "item_name": "Buddhist Sangha Organization",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_BJ_07",
+                "item_name": "Mahavira: Life and Teachings",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_BJ_08",
+                "item_name": "Jain Philosophy: Triratna and Ahimsa",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_BJ_09",
+                "item_name": "Jain Councils and Sects: Svetambara, Digambara",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_BJ_10",
+                "item_name": "Social Impact of Buddhism and Jainism",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_BJ_11",
+                "item_name": "Spread of Buddhism Outside India",
+                "suggested_flashcard_qty": 8
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Mauryan Empire - Detailed Coverage",
+            "tracking_items": [
+              {
+                "item_id": "HIST_ANC_MAU_01",
+                "item_name": "Chandragupta Maurya: Overthrow of Nandas",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_MAU_02",
+                "item_name": "Chandragupta's Expansion: Seleucus Treaty",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_MAU_03",
+                "item_name": "Megasthenes and Indica: Greek Accounts",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_MAU_04",
+                "item_name": "Chandragupta's Abdication and Jainism",
+                "suggested_flashcard_qty": 7
+              },
+              {
+                "item_id": "HIST_ANC_MAU_05",
+                "item_name": "Bindusara: Amitraghata and Southern Expansion",
+                "suggested_flashcard_qty": 8
+              },
+              {
+                "item_id": "HIST_ANC_MAU_06",
+                "item_name": "Ashoka: Accession and Early Military Campaigns",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_MAU_07",
+                "item_name": "Kalinga War: Causes and Consequences",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_MAU_08",
+                "item_name": "Ashoka's Dhamma: Principles and Implementation",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_ANC_MAU_09",
+                "item_name": "Ashoka's Dhamma Mahamattas: Officials",
+                "suggested_flashcard_qty": 8
+              },
+              {
+                "item_id": "HIST_ANC_MAU_10",
+                "item_name": "Rock Edicts: Major and Minor Details",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_MAU_11",
+                "item_name": "Pillar Edicts: Content and Locations",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_MAU_12",
+                "item_name": "Separate Edicts: Kalinga and Tarai",
+                "suggested_flashcard_qty": 8
+              },
+              {
+                "item_id": "HIST_ANC_MAU_13",
+                "item_name": "Mauryan Central Administration: Mantriparishad",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_MAU_14",
+                "item_name": "Provincial Administration: Kumara as Viceroy",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_MAU_15",
+                "item_name": "District Administration: Rajukas and Yuktas",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_MAU_16",
+                "item_name": "Arthashastra: Kautilya's Administrative Manual",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_ANC_MAU_17",
+                "item_name": "Mauryan Military Organization: Saptanga Theory",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_MAU_18",
+                "item_name": "Revenue Administration: Land Tax System",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_MAU_19",
+                "item_name": "Mauryan Espionage System",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_MAU_20",
+                "item_name": "Mauryan Art: Ashokan Pillars and Capitals",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Post-Mauryan to Gupta Period",
+            "tracking_items": [
+              {
+                "item_id": "HIST_ANC_PM_01",
+                "item_name": "Indo-Greeks: Menander and Buddhism Interaction",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_PM_02",
+                "item_name": "Shakas and Kushanas: Kanishka Patronage",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_PM_03",
+                "item_name": "Satavahanas: Deccan Expansion",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_PM_04",
+                "item_name": "Buddhism and Jainism Development Period",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_GUP_01",
+                "item_name": "Gupta Foundation: Chandragupta I",
+                "suggested_flashcard_qty": 8
+              },
+              {
+                "item_id": "HIST_ANC_GUP_02",
+                "item_name": "Samudragupta: Allahabad Inscription",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_GUP_03",
+                "item_name": "Chandragupta II Vikramaditya: Western Expansion",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_ANC_GUP_04",
+                "item_name": "Kumaragupta and Skandagupta: Later Guptas",
+                "suggested_flashcard_qty": 9
+              },
+              {
+                "item_id": "HIST_ANC_GUP_05",
+                "item_name": "Gupta Administration: Detailed Structure",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_ANC_GUP_06",
+                "item_name": "Gupta Land Revenue: Detailed System",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_GUP_07",
+                "item_name": "Gupta Literature: Kalidasa and Others",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_ANC_GUP_08",
+                "item_name": "Gupta Science: Aryabhata and Varahamihira",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_GUP_09",
+                "item_name": "Gupta Architecture and Art",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_GUP_10",
+                "item_name": "Gupta Religious Policy and Decline",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "South Indian Kingdoms",
+            "tracking_items": [
+              {
+                "item_id": "HIST_ANC_SI_01",
+                "item_name": "Sangam Age: Chera, Chola, Pandya",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_ANC_SI_02",
+                "item_name": "Sangam Literature: Tolkappiyam",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_SI_03",
+                "item_name": "Pallavas: Administration and Architecture",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_ANC_SI_04",
+                "item_name": "Chalukyas of Badami: Political History",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_ANC_SI_05",
+                "item_name": "Rashtrakutas: Art and Administration",
+                "suggested_flashcard_qty": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Medieval India - Complete Coverage",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Early Medieval Period and Delhi Sultanate",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MED_EM_01",
+                "item_name": "Rajput Kingdoms and Feudal System",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MED_EM_02",
+                "item_name": "Tripartite Struggle: Kannauj Control",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MED_EM_03",
+                "item_name": "Chola Empire: Administration Details",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_EM_04",
+                "item_name": "Arab Invasions: Sind Conquest",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_MED_DS_01",
+                "item_name": "Slave Dynasty: Aibak to Balban",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_DS_02",
+                "item_name": "Razia Sultan: First Woman Ruler",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MED_DS_03",
+                "item_name": "Balban's Theory of Kingship",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MED_KH_01",
+                "item_name": "Khilji Dynasty: Alauddin's Reforms",
+                "suggested_flashcard_qty": 15
+              },
+              {
+                "item_id": "HIST_MED_KH_02",
+                "item_name": "Alauddin's Market Control System",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_KH_03",
+                "item_name": "Deccan Conquests: Malik Kafur",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_TUG_01",
+                "item_name": "Tughlaq Dynasty: Muhammad bin Tughlaq",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_TUG_02",
+                "item_name": "Token Currency Experiment",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_TUG_03",
+                "item_name": "Firoz Shah Tughlaq: Welfare Measures",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MED_SL_01",
+                "item_name": "Sayyid and Lodi Dynasties",
+                "suggested_flashcard_qty": 10
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Vijayanagara and Bahmani Kingdoms",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MED_VIJ_01",
+                "item_name": "Vijayanagara Foundation: Harihara and Bukka",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MED_VIJ_02",
+                "item_name": "Krishnadevaraya: Greatest Ruler",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_VIJ_03",
+                "item_name": "Nayankara System: Military Feudalism",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_VIJ_04",
+                "item_name": "Vijayanagara Art and Architecture",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_BAH_01",
+                "item_name": "Bahmani Kingdom: Foundation to Decline",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MED_BAH_02",
+                "item_name": "Mahmud Gawan: Great Minister",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MED_BAH_03",
+                "item_name": "Five Deccan Sultanates: Rise",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Mughal Empire - Comprehensive",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MED_MUG_01",
+                "item_name": "Babur: Foundation and Tactics",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MED_MUG_02",
+                "item_name": "Humayun: Struggles and Exile",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MED_MUG_03",
+                "item_name": "Sher Shah Sur: Administrative Genius",
+                "suggested_flashcard_qty": 15
+              },
+              {
+                "item_id": "HIST_MED_MUG_04",
+                "item_name": "Akbar: Expansion and Consolidation",
+                "suggested_flashcard_qty": 15
+              },
+              {
+                "item_id": "HIST_MED_MUG_05",
+                "item_name": "Akbar's Rajput Policy",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_MUG_06",
+                "item_name": "Akbar's Religious Policy: Sulh-i-Kul",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_MUG_07",
+                "item_name": "Mansabdari System: Details",
+                "suggested_flashcard_qty": 15
+              },
+              {
+                "item_id": "HIST_MED_MUG_08",
+                "item_name": "Land Revenue: Todar Mal's Reforms",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_MUG_09",
+                "item_name": "Akbar's Navratna: Nine Gems",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MED_MUG_10",
+                "item_name": "Jahangir: Administrative Continuity",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MED_MUG_11",
+                "item_name": "Nur Jahan: Most Powerful Queen",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_MUG_12",
+                "item_name": "Shah Jahan: Architectural Zenith",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_MUG_13",
+                "item_name": "Taj Mahal: Marvel of Architecture",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_MUG_14",
+                "item_name": "Aurangzeb: Religious and Military Policy",
+                "suggested_flashcard_qty": 15
+              },
+              {
+                "item_id": "HIST_MED_MUG_15",
+                "item_name": "Aurangzeb's Deccan Campaigns",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_MUG_16",
+                "item_name": "Mughal Decline Factors",
+                "suggested_flashcard_qty": 13
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Maratha and Regional Powers",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MED_MAR_01",
+                "item_name": "Shivaji: Rise and Resistance",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_MAR_02",
+                "item_name": "Shivaji's Administration",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_MAR_03",
+                "item_name": "Peshwa Period: Baji Rao and Others",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_MAR_04",
+                "item_name": "Maratha Confederacy: Structure",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_MAR_05",
+                "item_name": "Third Battle of Panipat (1761)",
+                "suggested_flashcard_qty": 15
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Bhakti and Sufi Movements",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MED_BS_01",
+                "item_name": "Bhakti Movement: Origins and Philosophy",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MED_BS_02",
+                "item_name": "Major Bhakti Saints: Kabir, Nanak, Mirabai, Tulsidas",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MED_BS_03",
+                "item_name": "Guru Nanak and Sikhism Foundation",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_BS_04",
+                "item_name": "Guru Gobind Singh and Khalsa",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_BS_05",
+                "item_name": "Sufi Movement: Silsilas and Saints",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MED_BS_06",
+                "item_name": "Hindu-Muslim Synthesis: Impact",
+                "suggested_flashcard_qty": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Modern India - Complete Coverage",
+        "sub_topics": [
+          {
+            "sub_topic_name": "European Arrival to British Dominance",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MOD_EUR_01",
+                "item_name": "Portuguese, Dutch, French in India",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MOD_EUR_02",
+                "item_name": "East India Company: Charter and Expansion",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_EUR_03",
+                "item_name": "Anglo-French Rivalry: Carnatic Wars",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MOD_EUR_04",
+                "item_name": "Robert Clive and Battle of Plassey",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MOD_EUR_05",
+                "item_name": "Battle of Buxar and Dual Government",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MOD_EUR_06",
+                "item_name": "Anglo-Mysore Wars: Tipu Sultan",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MOD_EUR_07",
+                "item_name": "Anglo-Maratha Wars",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_EUR_08",
+                "item_name": "Anglo-Sikh Wars: Punjab Annexation",
+                "suggested_flashcard_qty": 12
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "British Policies and Economic Impact",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MOD_BP_01",
+                "item_name": "Land Revenue Systems: Permanent, Ryotwari",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MOD_BP_02",
+                "item_name": "Drain of Wealth: Dadabhai Naoroji",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_BP_03",
+                "item_name": "Deindustrialization Impact",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MOD_BP_04",
+                "item_name": "Railway Development: Economic Impact",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MOD_BP_05",
+                "item_name": "Famines Under British Rule",
+                "suggested_flashcard_qty": 10
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Revolt of 1857",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MOD_R57_01",
+                "item_name": "Causes: Political, Economic, Military, Social",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MOD_R57_02",
+                "item_name": "Major Centers and Leaders",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_R57_03",
+                "item_name": "Nature of Revolt: First War of Independence",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_R57_04",
+                "item_name": "Suppression and Consequences",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MOD_R57_05",
+                "item_name": "Transfer of Power to Crown (1858)",
+                "suggested_flashcard_qty": 10
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Social and Religious Reforms",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MOD_SR_01",
+                "item_name": "Raja Ram Mohan Roy and Brahmo Samaj",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MOD_SR_02",
+                "item_name": "Arya Samaj: Dayanand Saraswati",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MOD_SR_03",
+                "item_name": "Ramakrishna Mission and Vivekananda",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_SR_04",
+                "item_name": "Theosophical Society",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "HIST_MOD_SR_05",
+                "item_name": "Aligarh Movement: Sir Syed Ahmed Khan",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MOD_SR_06",
+                "item_name": "Social Reforms: Sati, Widow Remarriage",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Indian National Movement - Early Phase",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MOD_INM_01",
+                "item_name": "INC Formation (1885): Objectives",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MOD_INM_02",
+                "item_name": "Moderate Phase: Methods and Leaders",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_INM_03",
+                "item_name": "Partition of Bengal (1905)",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_INM_04",
+                "item_name": "Swadeshi Movement",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MOD_INM_05",
+                "item_name": "Extremist Phase: Tilak, Pal, Ghosh",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_INM_06",
+                "item_name": "Revolutionary Movements",
+                "suggested_flashcard_qty": 13
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Gandhian Era",
+            "tracking_items": [
+              {
+                "item_id": "HIST_MOD_GAN_01",
+                "item_name": "Gandhi's Early Experiments",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "HIST_MOD_GAN_02",
+                "item_name": "Jallianwala Bagh Massacre (1919)",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_GAN_03",
+                "item_name": "Non-Cooperation Movement (1920-22)",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_GAN_04",
+                "item_name": "Civil Disobedience Movement (1930)",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "HIST_MOD_GAN_05",
+                "item_name": "Quit India Movement (1942)",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "HIST_MOD_GAN_06",
+                "item_name": "Cabinet Mission Plan (1946)",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "HIST_MOD_GAN_07",
+                "item_name": "Independence and Partition (1947)",
+                "suggested_flashcard_qty": 13
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject": "Indian Geography",
+    "gs_paper": "GS I",
+    "units": [
+      {
+        "unit_name": "Physical Geography - Comprehensive",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Physiographic Divisions",
+            "tracking_items": [
+              {
+                "item_id": "GEO_PHY_PD_01",
+                "item_name": "Himalayan Ranges: Formation and Divisions",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "GEO_PHY_PD_02",
+                "item_name": "Great Plains: Formation and Features",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_PHY_PD_03",
+                "item_name": "Peninsular Plateau: Characteristics",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_PHY_PD_04",
+                "item_name": "Coastal Plains: Eastern and Western",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "GEO_PHY_PD_05",
+                "item_name": "Islands and Desert Regions",
+                "suggested_flashcard_qty": 10
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Drainage Systems",
+            "tracking_items": [
+              {
+                "item_id": "GEO_PHY_DS_01",
+                "item_name": "Himalayan Rivers: Indus, Ganga, Brahmaputra",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "GEO_PHY_DS_02",
+                "item_name": "Peninsular Rivers: Mahanadi to Kaveri",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "GEO_PHY_DS_03",
+                "item_name": "West-Flowing Rivers: Narmada, Tapi",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "GEO_PHY_DS_04",
+                "item_name": "Lakes and Wetlands",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Climate System",
+            "tracking_items": [
+              {
+                "item_id": "GEO_PHY_CL_01",
+                "item_name": "Monsoon System: Mechanism and Types",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "GEO_PHY_CL_02",
+                "item_name": "Seasonal Variations: Southwest, Northeast",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "GEO_PHY_CL_03",
+                "item_name": "Climatic Regions: Classification",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_PHY_CL_04",
+                "item_name": "Natural Disasters: Cyclones, Earthquakes",
+                "suggested_flashcard_qty": 13
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Vegetation and Soils",
+            "tracking_items": [
+              {
+                "item_id": "GEO_PHY_NV_01",
+                "item_name": "Forest Types and Distribution",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "GEO_PHY_NV_02",
+                "item_name": "Soil Types: Alluvial, Black, Red, Laterite",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "GEO_PHY_NV_03",
+                "item_name": "Soil Degradation and Conservation",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "GEO_PHY_NV_04",
+                "item_name": "Mangrove Forests and Coastal Vegetation",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Economic Geography and Resources",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Mineral and Energy Resources",
+            "tracking_items": [
+              {
+                "item_id": "GEO_ECO_MR_01",
+                "item_name": "Iron Ore: Distribution and Production",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "GEO_ECO_MR_02",
+                "item_name": "Coal: Types and Major Coalfields",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_ECO_MR_03",
+                "item_name": "Petroleum and Natural Gas",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_ECO_MR_04",
+                "item_name": "Non-Ferrous Metals Distribution",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "GEO_ECO_ER_01",
+                "item_name": "Thermal Power Generation",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "GEO_ECO_ER_02",
+                "item_name": "Hydroelectric Power: Major Projects",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_ECO_ER_03",
+                "item_name": "Renewable Energy: Solar, Wind, Biomass",
+                "suggested_flashcard_qty": 12
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Agriculture and Industries",
+            "tracking_items": [
+              {
+                "item_id": "GEO_ECO_AG_01",
+                "item_name": "Agricultural Zones: Crops and Regions",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "GEO_ECO_AG_02",
+                "item_name": "Green Revolution: Impact and Spread",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_ECO_AG_03",
+                "item_name": "Plantation Crops: Tea, Coffee, Rubber",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "GEO_ECO_IN_01",
+                "item_name": "Iron and Steel Industry",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_ECO_IN_02",
+                "item_name": "Textile Industry: Distribution",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "GEO_ECO_IN_03",
+                "item_name": "IT Industry and Tech Hubs",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Transport and Trade",
+            "tracking_items": [
+              {
+                "item_id": "GEO_ECO_TC_01",
+                "item_name": "Railway Network and Zones",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_ECO_TC_02",
+                "item_name": "National Highways: Golden Quadrilateral",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "GEO_ECO_TC_03",
+                "item_name": "Major Ports: Characteristics",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "GEO_ECO_TC_04",
+                "item_name": "Civil Aviation: International Airports",
+                "suggested_flashcard_qty": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Environmental Geography",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Environmental Issues and Conservation",
+            "tracking_items": [
+              {
+                "item_id": "GEO_ENV_EI_01",
+                "item_name": "Air and Water Pollution: Sources and Impact",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_ENV_EI_02",
+                "item_name": "Deforestation and Biodiversity Loss",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_ENV_EI_03",
+                "item_name": "Climate Change and Global Warming",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "GEO_ENV_CE_01",
+                "item_name": "National Parks and Wildlife Sanctuaries",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "GEO_ENV_CE_02",
+                "item_name": "Biosphere Reserves and UNESCO Sites",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "GEO_ENV_ND_01",
+                "item_name": "Natural Disasters: Earthquakes, Floods, Cyclones",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "GEO_ENV_ND_02",
+                "item_name": "Disaster Management Framework",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject": "Indian Polity and Governance",
+    "gs_paper": "GS II",
+    "units": [
+      {
+        "unit_name": "Constitution and Fundamental Framework",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Constitutional Evolution and Framework",
+            "tracking_items": [
+              {
+                "item_id": "POL_CF_HB_01",
+                "item_name": "Historical Background: British Acts and Reforms",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_CF_HB_02",
+                "item_name": "Constituent Assembly: Formation and Working",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_CF_HB_03",
+                "item_name": "Dr. B.R. Ambedkar: Role and Influence",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "POL_CF_SF_01",
+                "item_name": "Preamble: Objectives and Amendments",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_CF_SF_02",
+                "item_name": "Salient Features: Federal, Democratic, Socialist",
+                "suggested_flashcard_qty": 13
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Fundamental Rights",
+            "tracking_items": [
+              {
+                "item_id": "POL_CF_FR_01",
+                "item_name": "Article 14-18: Right to Equality",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "POL_CF_FR_02",
+                "item_name": "Article 19: Six Freedoms Detailed",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "POL_CF_FR_03",
+                "item_name": "Article 20-22: Protection in Criminal Cases",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_CF_FR_04",
+                "item_name": "Article 23-30: Rights Against Exploitation",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_CF_FR_05",
+                "item_name": "Article 32: Constitutional Remedies and Writs",
+                "suggested_flashcard_qty": 13
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Directive Principles and Duties",
+            "tracking_items": [
+              {
+                "item_id": "POL_CF_DP_01",
+                "item_name": "Directive Principles: Nature and Classification",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_CF_DP_02",
+                "item_name": "Socialistic Principles: Articles 38-39",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "POL_CF_DP_03",
+                "item_name": "Gandhian Principles: Village Panchayats",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "POL_CF_FD_01",
+                "item_name": "Fundamental Duties: Article 51A",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Union Executive - Detailed Coverage",
+        "sub_topics": [
+          {
+            "sub_topic_name": "President and Vice President",
+            "tracking_items": [
+              {
+                "item_id": "POL_UE_PR_01",
+                "item_name": "President: Qualifications and Election",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_UE_PR_02",
+                "item_name": "Presidential Powers: Executive and Legislative",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "POL_UE_PR_03",
+                "item_name": "Veto Powers: Types and Implications",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "POL_UE_PR_04",
+                "item_name": "Emergency Powers: National, State, Financial",
+                "suggested_flashcard_qty": 15
+              },
+              {
+                "item_id": "POL_UE_VP_01",
+                "item_name": "Vice President: Role and Functions",
+                "suggested_flashcard_qty": 10
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Prime Minister and Council of Ministers",
+            "tracking_items": [
+              {
+                "item_id": "POL_UE_PM_01",
+                "item_name": "Prime Minister: Appointment and Powers",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_UE_PM_02",
+                "item_name": "Council of Ministers: Structure and Functions",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "POL_UE_PM_03",
+                "item_name": "Cabinet and Cabinet Committees",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_UE_PM_04",
+                "item_name": "Collective Responsibility: Article 75",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Parliament - Comprehensive",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Structure and Composition",
+            "tracking_items": [
+              {
+                "item_id": "POL_PAR_SC_01",
+                "item_name": "Lok Sabha: Composition and Representation",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_PAR_SC_02",
+                "item_name": "Rajya Sabha: Permanent House Features",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "POL_PAR_SC_03",
+                "item_name": "Speaker and Presiding Officers",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "POL_PAR_SC_04",
+                "item_name": "Qualifications and Disqualifications",
+                "suggested_flashcard_qty": 12
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Powers and Procedures",
+            "tracking_items": [
+              {
+                "item_id": "POL_PAR_PF_01",
+                "item_name": "Legislative Powers: Ordinary Bills",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "POL_PAR_PF_02",
+                "item_name": "Money Bills and Financial Bills",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "POL_PAR_PF_03",
+                "item_name": "Constitutional Amendment: Article 368",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "POL_PAR_PF_04",
+                "item_name": "Parliamentary Procedures: Question Hour",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_PAR_PF_05",
+                "item_name": "No Confidence Motion and Adjournment",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_PAR_PF_06",
+                "item_name": "Parliamentary Committees: Types and Functions",
+                "suggested_flashcard_qty": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Judiciary - Detailed",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Supreme and High Courts",
+            "tracking_items": [
+              {
+                "item_id": "POL_JUD_SC_01",
+                "item_name": "Supreme Court: Composition and Jurisdiction",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "POL_JUD_SC_02",
+                "item_name": "Original, Appellate, and Advisory Jurisdiction",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "POL_JUD_SC_03",
+                "item_name": "Writ Jurisdiction: Article 32",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_JUD_SC_04",
+                "item_name": "Public Interest Litigation (PIL)",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "POL_JUD_HC_01",
+                "item_name": "High Courts: Organization and Jurisdiction",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_JUD_REF_01",
+                "item_name": "Collegium System and Judicial Independence",
+                "suggested_flashcard_qty": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Federalism and Centre-State Relations",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Distribution of Powers",
+            "tracking_items": [
+              {
+                "item_id": "POL_FED_DP_01",
+                "item_name": "Union, State, and Concurrent Lists",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "POL_FED_DP_02",
+                "item_name": "Residuary Powers: Article 248",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "POL_FED_AR_01",
+                "item_name": "Administrative Relations: Executive Powers",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_FED_AR_02",
+                "item_name": "All India Services: IAS, IPS, IFS",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_FED_FR_01",
+                "item_name": "Financial Relations: Tax Distribution",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "POL_FED_FR_02",
+                "item_name": "Finance Commission and GST",
+                "suggested_flashcard_qty": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Local Government and Constitutional Bodies",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Panchayati Raj and Urban Local Bodies",
+            "tracking_items": [
+              {
+                "item_id": "POL_LG_PR_01",
+                "item_name": "73rd Amendment: Panchayati Raj",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "POL_LG_PR_02",
+                "item_name": "Three-Tier Structure and Functions",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_LG_ULB_01",
+                "item_name": "74th Amendment: Urban Local Bodies",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_LG_ULB_02",
+                "item_name": "Municipal Corporations and Councils",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Independent Bodies",
+            "tracking_items": [
+              {
+                "item_id": "POL_CB_EC_01",
+                "item_name": "Election Commission: Powers and Functions",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "POL_CB_CAG_01",
+                "item_name": "CAG: Audit Functions",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "POL_CB_OB_01",
+                "item_name": "Human Rights Commission: Role",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "POL_CB_OB_02",
+                "item_name": "Commissions for SCs, STs, OBCs, Women",
+                "suggested_flashcard_qty": 12
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject": "Indian Economy - Comprehensive",
+    "gs_paper": "GS III",
+    "units": [
+      {
+        "unit_name": "Macroeconomics and Monetary Policy",
+        "sub_topics": [
+          {
+            "sub_topic_name": "National Income and GDP",
+            "tracking_items": [
+              {
+                "item_id": "ECO_BC_NI_01",
+                "item_name": "GDP, GNP, NNP: Concepts and Measurement",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "ECO_BC_NI_02",
+                "item_name": "Methods of Measuring National Income",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_BC_EGD_01",
+                "item_name": "Growth vs Development: Distinction",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_BC_EGD_02",
+                "item_name": "Human Development Index (HDI)",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_BC_EGD_03",
+                "item_name": "Sustainable Development Goals",
+                "suggested_flashcard_qty": 12
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Money and Banking System",
+            "tracking_items": [
+              {
+                "item_id": "ECO_BC_MB_01",
+                "item_name": "Money: Functions and Supply Measures",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_BC_MB_02",
+                "item_name": "RBI: Functions and Monetary Policy",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "ECO_BC_MB_03",
+                "item_name": "Monetary Policy Tools: CRR, SLR, Repo Rate",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "ECO_BC_MB_04",
+                "item_name": "Commercial Banks: Functions and Credit",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "ECO_BC_MB_05",
+                "item_name": "Payment Banks and NBFCs",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Inflation and Price Management",
+            "tracking_items": [
+              {
+                "item_id": "ECO_BC_INF_01",
+                "item_name": "Inflation: Types and Causes",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_BC_INF_02",
+                "item_name": "Measuring Inflation: WPI and CPI",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_BC_INF_03",
+                "item_name": "Inflation Targeting Framework",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_BC_INF_04",
+                "item_name": "Effects on Economy and Policy Response",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Indian Economy Since Independence",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Planning and Development Strategy",
+            "tracking_items": [
+              {
+                "item_id": "ECO_IND_PI_01",
+                "item_name": "Planning Commission: Role and Five Year Plans",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_IND_PI_02",
+                "item_name": "NITI Aayog: Replacement and Role",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_IND_ER_01",
+                "item_name": "Economic Reforms 1991: BOP Crisis",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_IND_ER_02",
+                "item_name": "LPG: Liberalization, Privatization, Globalization",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "ECO_IND_ER_03",
+                "item_name": "Impact of Reforms: Sectoral Changes",
+                "suggested_flashcard_qty": 12
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Sectoral Development",
+            "tracking_items": [
+              {
+                "item_id": "ECO_IND_SD_01",
+                "item_name": "Green Revolution: Achievements and Issues",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_IND_SD_02",
+                "item_name": "White and Blue Revolutions",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "ECO_IND_SD_03",
+                "item_name": "Industrial Policy: Evolution",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_IND_SD_04",
+                "item_name": "Service Sector: IT and ITES Growth",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_IND_SD_05",
+                "item_name": "MSMEs: Role and Challenges",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Agriculture and Rural Economy",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Agricultural Issues and Policies",
+            "tracking_items": [
+              {
+                "item_id": "ECO_AGR_AI_01",
+                "item_name": "Land Reforms: Zamindari Abolition",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_AGR_AI_02",
+                "item_name": "MSP Mechanism: Implementation",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_AGR_AI_03",
+                "item_name": "Agricultural Marketing: APMC Reforms",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_AGR_AI_04",
+                "item_name": "Farmer Distress and Support Schemes",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_AGR_AI_05",
+                "item_name": "Crop Insurance: PMFBY",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_AGR_AR_01",
+                "item_name": "PM-KISAN and e-NAM Platform",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_AGR_AR_02",
+                "item_name": "Organic Farming and Precision Agriculture",
+                "suggested_flashcard_qty": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Public Finance",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Union Budget and Taxation",
+            "tracking_items": [
+              {
+                "item_id": "ECO_PF_UB_01",
+                "item_name": "Budget Making Process and Components",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_PF_UB_02",
+                "item_name": "Revenue and Capital Receipts/Expenditure",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_PF_UB_03",
+                "item_name": "Types of Deficits: Fiscal, Revenue, Primary",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "ECO_PF_UB_04",
+                "item_name": "FRBM Act: Fiscal Consolidation",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_PF_TAX_01",
+                "item_name": "Direct Taxes: Income Tax Structure",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_PF_TAX_02",
+                "item_name": "GST: Structure and Revenue Sharing",
+                "suggested_flashcard_qty": 14
+              },
+              {
+                "item_id": "ECO_PF_TAX_03",
+                "item_name": "Tax Buoyancy and Black Money",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Public Debt and Financial Stability",
+            "tracking_items": [
+              {
+                "item_id": "ECO_PF_PD_01",
+                "item_name": "Internal and External Debt",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_PF_PD_02",
+                "item_name": "Government Securities and Bonds",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_PF_PD_03",
+                "item_name": "Debt Sustainability Analysis",
+                "suggested_flashcard_qty": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "External Sector",
+        "sub_topics": [
+          {
+            "sub_topic_name": "International Trade and Finance",
+            "tracking_items": [
+              {
+                "item_id": "ECO_EXT_IT_01",
+                "item_name": "Balance of Trade and Balance of Payments",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "ECO_EXT_IT_02",
+                "item_name": "Current and Capital Accounts",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_EXT_IT_03",
+                "item_name": "Exchange Rate: Fixed vs Floating",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_EXT_IT_04",
+                "item_name": "Foreign Exchange Reserves",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_EXT_IT_05",
+                "item_name": "SEZ and Export Promotion",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Foreign Investment and International Relations",
+            "tracking_items": [
+              {
+                "item_id": "ECO_EXT_FI_01",
+                "item_name": "FDI Policy and Sectoral Caps",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_EXT_FI_02",
+                "item_name": "Make in India Initiative",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_EXT_FI_03",
+                "item_name": "Remittances and Diaspora Economy",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "ECO_EXT_IO_01",
+                "item_name": "WTO, IMF, World Bank Membership",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_EXT_IO_02",
+                "item_name": "BRICS and Regional Organizations",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Poverty, Employment and Recent Developments",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Poverty and Inclusive Growth",
+            "tracking_items": [
+              {
+                "item_id": "ECO_POU_POV_01",
+                "item_name": "Poverty Line: Measurement and Committees",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_POU_POV_02",
+                "item_name": "MGNREGA: Objectives and Impact",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_POU_POV_03",
+                "item_name": "Direct Benefit Transfer (DBT)",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_POU_UNEM_01",
+                "item_name": "Unemployment: Types and Issues",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_POU_UNEM_02",
+                "item_name": "Skill India and Labour Reforms",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Digital Economy and Infrastructure",
+            "tracking_items": [
+              {
+                "item_id": "ECO_RED_DE_01",
+                "item_name": "Digital India Initiative",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_RED_DE_02",
+                "item_name": "Demonetization: Impact and Outcomes",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_RED_DE_03",
+                "item_name": "UPI and Digital Payments Revolution",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_RED_INF_01",
+                "item_name": "National Infrastructure Pipeline",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_RED_INF_02",
+                "item_name": "Bharatmala and Smart Cities",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ECO_RED_BR_01",
+                "item_name": "NPA Crisis and Resolution",
+                "suggested_flashcard_qty": 13
+              },
+              {
+                "item_id": "ECO_RED_BR_02",
+                "item_name": "Insolvency and Bankruptcy Code (IBC)",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ECO_RED_BR_03",
+                "item_name": "Jan Dhan and Mudra Yojana",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject": "Ethics, Integrity and Governance",
+    "gs_paper": "GS IV",
+    "units": [
+      {
+        "unit_name": "Ethics and Human Interface",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Basic Ethical Concepts",
+            "tracking_items": [
+              {
+                "item_id": "ETH_EHI_BC_01",
+                "item_name": "Ethics: Definition, Scope, and Importance",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_EHI_BC_02",
+                "item_name": "Morals vs Ethics vs Values",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "ETH_EHI_BC_03",
+                "item_name": "Determinants of Ethics: Individual and Social",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_EHI_BC_04",
+                "item_name": "Conscience and Ethical Decision Making",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "ETH_EHI_BC_05",
+                "item_name": "Virtues and Vices: Aristotelian Approach",
+                "suggested_flashcard_qty": 10
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Ethical Theories and Philosophies",
+            "tracking_items": [
+              {
+                "item_id": "ETH_EHI_ET_01",
+                "item_name": "Consequentialist Ethics: Utilitarianism",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ETH_EHI_ET_02",
+                "item_name": "Deontological Ethics: Kant's Categorical Imperative",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ETH_EHI_ET_03",
+                "item_name": "Virtue Ethics and Character Development",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_EHI_ET_04",
+                "item_name": "Rights-based Approach to Ethics",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_EHI_ET_05",
+                "item_name": "Ethics in Indian Philosophy: Dharma",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Emotional Intelligence and Human Relations",
+            "tracking_items": [
+              {
+                "item_id": "ETH_EHI_EI_01",
+                "item_name": "Emotional Intelligence: Definition and Components",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_EHI_EI_02",
+                "item_name": "EI in Professional and Personal Life",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "ETH_EHI_HR_01",
+                "item_name": "Human Relations: Communication and Empathy",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_EHI_HR_02",
+                "item_name": "Conflict Resolution and Negotiation",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Public Administration and Governance",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Governance Principles",
+            "tracking_items": [
+              {
+                "item_id": "ETH_GOV_GP_01",
+                "item_name": "Good Governance: Characteristics",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ETH_GOV_GP_02",
+                "item_name": "Public Service: Values and Ethics",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_GOV_GP_03",
+                "item_name": "Accountability and Transparency",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_GOV_GP_04",
+                "item_name": "Public Participation and Inclusivity",
+                "suggested_flashcard_qty": 10
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Civil Service and Professional Ethics",
+            "tracking_items": [
+              {
+                "item_id": "ETH_CS_PE_01",
+                "item_name": "UPSC Code of Conduct for Civil Servants",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ETH_CS_PE_02",
+                "item_name": "Integrity in Public Service",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_CS_PE_03",
+                "item_name": "Conflict of Interest: Definition and Management",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_CS_PE_04",
+                "item_name": "Whistleblowing and Protection",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_CS_PE_05",
+                "item_name": "Ethical Dilemmas in Public Service",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Corruption, Integrity and Transparency",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Corruption and Anti-Corruption",
+            "tracking_items": [
+              {
+                "item_id": "ETH_COR_AC_01",
+                "item_name": "Corruption: Types and Impact",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_COR_AC_02",
+                "item_name": "CVC, CBI, and Anti-Corruption Measures",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ETH_COR_AC_03",
+                "item_name": "RTI Act: Right to Information",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_COR_AC_04",
+                "item_name": "Lokpal and Lokayukta System",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ETH_COR_AC_05",
+                "item_name": "Black Money and Asset Declaration",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Rights and Duties of Citizens",
+            "tracking_items": [
+              {
+                "item_id": "ETH_RD_CD_01",
+                "item_name": "Citizen Rights: Fundamental and Constitutional",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_RD_CD_02",
+                "item_name": "Citizen Duties and Responsibilities",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_RD_CD_03",
+                "item_name": "Civil Liberties and Natural Rights",
+                "suggested_flashcard_qty": 10
+              },
+              {
+                "item_id": "ETH_RD_CD_04",
+                "item_name": "Justice: Procedural and Substantive",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_name": "Case Studies and Applied Ethics",
+        "sub_topics": [
+          {
+            "sub_topic_name": "Ethical Case Studies",
+            "tracking_items": [
+              {
+                "item_id": "ETH_CS_ECS_01",
+                "item_name": "Case Study: Conflict Between Duty and Loyalty",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_CS_ECS_02",
+                "item_name": "Case Study: Accountability and Transparency",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_CS_ECS_03",
+                "item_name": "Case Study: Ethical Leadership",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_CS_ECS_04",
+                "item_name": "Case Study: Whistleblowing Dilemma",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_CS_ECS_05",
+                "item_name": "Case Study: Public Interest vs Private Benefit",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          },
+          {
+            "sub_topic_name": "Aptitude and Decision Making",
+            "tracking_items": [
+              {
+                "item_id": "ETH_ADM_AI_01",
+                "item_name": "Analytical Reasoning in Ethics",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_ADM_AI_02",
+                "item_name": "Decision Making Framework: Rational and Ethical",
+                "suggested_flashcard_qty": 12
+              },
+              {
+                "item_id": "ETH_ADM_AI_03",
+                "item_name": "Critical Thinking and Problem Solving",
+                "suggested_flashcard_qty": 11
+              },
+              {
+                "item_id": "ETH_ADM_AI_04",
+                "item_name": "Interface with Society: Stakeholder Analysis",
+                "suggested_flashcard_qty": 11
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

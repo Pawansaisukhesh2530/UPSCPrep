@@ -1,46 +1,87 @@
 package com.example.upscprep.data.repository
 
+import android.content.Context
 import com.example.upscprep.data.model.Subject
 import com.example.upscprep.data.model.StudyStats
+import com.example.upscprep.data.model.SyllabusSubject
 import com.example.upscprep.ui.theme.*
+import com.example.upscprep.utils.JsonHelper
 
 /**
  * Repository for managing subjects and study statistics
+ * Now loads data dynamically from JSON file
  */
-class SubjectRepository {
+class SubjectRepository(private val context: Context) {
 
-    /**
-     * Get all UPSC subjects with sample data
-     */
-    fun getAllSubjects(): List<Subject> {
-        return listOf(
-            Subject("History", totalTopics = 45, completedTopics = 28, color = SubjectRed),
-            Subject("Geography", totalTopics = 38, completedTopics = 15, color = SubjectGreen),
-            Subject("Polity", totalTopics = 52, completedTopics = 42, color = SubjectBlue),
-            Subject("Economics", totalTopics = 40, completedTopics = 20, color = SubjectOrange),
-            Subject("Environment", totalTopics = 30, completedTopics = 18, color = SubjectTeal),
-            Subject("Science & Tech", totalTopics = 35, completedTopics = 10, color = SubjectPurple),
-            Subject("Current Affairs", totalTopics = 60, completedTopics = 35, color = SubjectCyan),
-            Subject("Ethics", totalTopics = 25, completedTopics = 20, color = SubjectPink),
-            Subject("Essay Writing", totalTopics = 15, completedTopics = 8, color = SubjectAmber),
-            Subject("Ancient India", totalTopics = 28, completedTopics = 22, color = SubjectIndigo),
-            Subject("Modern India", totalTopics = 32, completedTopics = 25, color = SubjectLime),
-            Subject("World History", totalTopics = 30, completedTopics = 12, color = SubjectYellow)
-        )
+    // Cache for syllabus data
+    private var syllabusSubjects: List<SyllabusSubject> = emptyList()
+
+    init {
+        loadSyllabusData()
     }
 
     /**
-     * Get study statistics
+     * Load syllabus data from JSON
+     */
+    private fun loadSyllabusData() {
+        syllabusSubjects = JsonHelper.loadSyllabusFromAssets(context)
+    }
+
+    /**
+     * Get all syllabus subjects (raw JSON data)
+     */
+    fun getSyllabusSubjects(): List<SyllabusSubject> {
+        if (syllabusSubjects.isEmpty()) {
+            loadSyllabusData()
+        }
+        return syllabusSubjects
+    }
+
+    /**
+     * Get all UPSC subjects for display (converted to UI model)
+     */
+    fun getAllSubjects(): List<Subject> {
+        if (syllabusSubjects.isEmpty()) {
+            loadSyllabusData()
+        }
+
+        val colors = listOf(
+            SubjectRed, SubjectGreen, SubjectBlue, SubjectOrange,
+            SubjectTeal, SubjectPurple, SubjectCyan, SubjectPink,
+            SubjectAmber, SubjectIndigo, SubjectLime, SubjectYellow
+        )
+
+        return syllabusSubjects.mapIndexed { index, syllabusSubject ->
+            val totalTopics = syllabusSubject.getTotalSubTopics()
+            // Simulate completion (you can track this in SharedPreferences or database)
+            val completedTopics = (totalTopics * 0.3).toInt() // 30% completed for demo
+
+            Subject(
+                name = syllabusSubject.subject,
+                totalTopics = totalTopics,
+                completedTopics = completedTopics,
+                color = colors[index % colors.size]
+            )
+        }
+    }
+
+    /**
+     * Get study statistics calculated from JSON data
      */
     fun getStudyStats(): StudyStats {
+        if (syllabusSubjects.isEmpty()) {
+            loadSyllabusData()
+        }
+
         val subjects = getAllSubjects()
         val totalCompleted = subjects.sumOf { it.completedTopics }
+        val totalFlashcards = syllabusSubjects.sumOf { it.getTotalFlashcards() }
 
         return StudyStats(
-            weeklyStudyMinutes = 1245,  // 20 hours 45 minutes
+            weeklyStudyMinutes = 1245,  // 20 hours 45 minutes (can be tracked)
             currentStreak = 12,
             completedTopics = totalCompleted,
-            totalSubjects = subjects.size,
+            totalSubjects = syllabusSubjects.size,
             todayStudySessions = 3,
             todayTopicsCovered = 8,
             todayPracticeQuestions = 45
@@ -53,5 +94,23 @@ class SubjectRepository {
     fun getSubjectByName(name: String): Subject? {
         return getAllSubjects().find { it.name == name }
     }
+
+    /**
+     * Get syllabus subject by name (full JSON data)
+     */
+    fun getSyllabusSubjectByName(name: String): SyllabusSubject? {
+        if (syllabusSubjects.isEmpty()) {
+            loadSyllabusData()
+        }
+        return syllabusSubjects.find { it.subject == name }
+    }
+
+    /**
+     * Refresh data from JSON
+     */
+    fun refresh() {
+        loadSyllabusData()
+    }
 }
+
 

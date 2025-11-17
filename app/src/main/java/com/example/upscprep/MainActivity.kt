@@ -17,17 +17,22 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.upscprep.data.model.SubTopic
+import com.example.upscprep.data.model.SyllabusSubject
+import com.example.upscprep.data.model.Unit as SyllabusUnit
 import com.example.upscprep.data.repository.AuthRepository
 import com.example.upscprep.ui.auth.LoginActivity
 import com.example.upscprep.ui.dashboard.DashboardScreen
 import com.example.upscprep.ui.dashboard.DashboardViewModel
 import com.example.upscprep.ui.subjects.SubjectsScreen
+import com.example.upscprep.ui.subtopics.SubTopicsScreen
 import com.example.upscprep.ui.theme.UPSCPrepTheme
-import com.example.upscprep.ui.topics.TopicsScreen
+import com.example.upscprep.ui.trackingitems.TrackingItemsScreen
+import com.example.upscprep.ui.units.UnitsScreen
 
 /**
  * Main Activity - Entry point for Compose-based screens
- * Handles navigation between Dashboard, Subjects, and Topics screens
+ * Handles navigation between Dashboard, Subjects, Units, SubTopics, and TrackingItems screens
  */
 class MainActivity : ComponentActivity() {
 
@@ -71,7 +76,7 @@ class MainActivity : ComponentActivity() {
 }
 
 /**
- * Main navigation composable
+ * Main navigation composable with complete navigation flow
  */
 @Composable
 fun MainNavigation(
@@ -82,6 +87,12 @@ fun MainNavigation(
     val navController = rememberNavController()
     val subjects by viewModel.subjects.collectAsState()
     val stats by viewModel.stats.collectAsState()
+    val repository = viewModel.getRepository()
+
+    // Store navigation data
+    var selectedSyllabusSubject: SyllabusSubject? = null
+    var selectedUnit: SyllabusUnit? = null
+    var selectedSubTopic: SubTopic? = null
 
     NavHost(
         navController = navController,
@@ -105,26 +116,85 @@ fun MainNavigation(
             SubjectsScreen(
                 subjects = subjects,
                 onSubjectClick = { subjectName ->
-                    navController.navigate("topics/$subjectName")
+                    // Load full syllabus subject data
+                    selectedSyllabusSubject = repository.getSyllabusSubjectByName(subjectName)
+                    navController.navigate("units/$subjectName")
                 },
                 onNavigateBack = {
                     navController.popBackStack()
                 }
             )
         }
+
+        // Units Screen (NEW)
         composable(
-            route = "topics/{subjectName}",
+            route = "units/{subjectName}",
             arguments = listOf(
                 navArgument("subjectName") { type = NavType.StringType }
             )
         ) { backStackEntry ->
             val subjectName = backStackEntry.arguments?.getString("subjectName") ?: ""
-            TopicsScreen(
-                subjectName = subjectName,
-                onNavigateBack = {
-                    navController.popBackStack()
-                }
+            val syllabusSubject = selectedSyllabusSubject
+                ?: repository.getSyllabusSubjectByName(subjectName)
+
+            if (syllabusSubject != null) {
+                UnitsScreen(
+                    syllabusSubject = syllabusSubject,
+                    onUnitClick = { unit ->
+                        selectedUnit = unit
+                        navController.navigate("subtopics/${subjectName}")
+                    },
+                    onNavigateBack = {
+                        navController.popBackStack()
+                    }
+                )
+            }
+        }
+
+        // SubTopics Screen (NEW)
+        composable(
+            route = "subtopics/{subjectName}",
+            arguments = listOf(
+                navArgument("subjectName") { type = NavType.StringType }
             )
+        ) { backStackEntry ->
+            val subjectName = backStackEntry.arguments?.getString("subjectName") ?: ""
+            val unit = selectedUnit
+
+            if (unit != null) {
+                SubTopicsScreen(
+                    unit = unit,
+                    subjectName = subjectName,
+                    onSubTopicClick = { subTopic ->
+                        selectedSubTopic = subTopic
+                        navController.navigate("trackingitems/${subjectName}")
+                    },
+                    onNavigateBack = {
+                        navController.popBackStack()
+                    }
+                )
+            }
+        }
+
+        // Tracking Items Screen (NEW - Leaf Level)
+        composable(
+            route = "trackingitems/{subjectName}",
+            arguments = listOf(
+                navArgument("subjectName") { type = NavType.StringType }
+            )
+        ) {
+            val subTopic = selectedSubTopic
+            val unit = selectedUnit
+
+            if (subTopic != null && unit != null) {
+                TrackingItemsScreen(
+                    subTopic = subTopic,
+                    unitName = unit.unit_name,
+                    onNavigateBack = {
+                        navController.popBackStack()
+                    }
+                )
+            }
         }
     }
 }

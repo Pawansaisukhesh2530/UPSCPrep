@@ -1,6 +1,7 @@
 package com.example.upscprep.ui.dashboard
 
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.upscprep.data.model.StudyStats
 import com.example.upscprep.data.model.Subject
@@ -13,9 +14,9 @@ import kotlinx.coroutines.launch
 /**
  * ViewModel for Dashboard Screen
  */
-class DashboardViewModel : ViewModel() {
+class DashboardViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val subjectRepository = SubjectRepository()
+    private val subjectRepository = SubjectRepository(application.applicationContext)
 
     private val _subjects = MutableStateFlow<List<Subject>>(emptyList())
     val subjects: StateFlow<List<Subject>> = _subjects.asStateFlow()
@@ -31,7 +32,7 @@ class DashboardViewModel : ViewModel() {
     }
 
     /**
-     * Load subjects and statistics
+     * Load subjects and statistics from JSON
      */
     private fun loadData() {
         viewModelScope.launch {
@@ -53,6 +54,13 @@ class DashboardViewModel : ViewModel() {
      */
     fun refresh() {
         loadData()
+    }
+
+    /**
+     * Get repository instance for other screens
+     */
+    fun getRepository(): SubjectRepository {
+        return subjectRepository
     }
 }
 
