@@ -3,6 +3,8 @@ package com.example.upscprep
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.OnBackPressedCallback
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
@@ -12,6 +14,7 @@ import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.example.upscprep.data.model.SubTopic
 import com.example.upscprep.data.model.SyllabusSubject
@@ -27,15 +30,23 @@ import com.example.upscprep.ui.theme.UPSCPrepTheme
 import com.example.upscprep.ui.trackingitems.TrackingItemsScreen
 import com.example.upscprep.ui.units.UnitsScreen
 import com.example.upscprep.utils.SecurePreferences
+import kotlinx.coroutines.delay
 
 /**
  * Main Activity - Entry point for Compose-based screens
  * Hosts a BottomNavigation with Dashboard, Subjects, and Assignments tabs
+ *
+ * Fixed Issues:
+ * - Proper back button handling with exit confirmation
+ * - Bottom navigation always responsive
+ * - Proper state management for deep navigation
+ * - Gesture handling throughout the app
  */
 class MainActivity : ComponentActivity() {
 
     private val dashboardViewModel: DashboardViewModel by viewModels()
     private val authRepository = AuthRepository()
+    private var backPressedTime: Long = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,10 +63,24 @@ class MainActivity : ComponentActivity() {
                     MainNavigation(
                         userName = userName,
                         viewModel = dashboardViewModel,
-                        onLogout = { handleLogout() }
+                        onLogout = { handleLogout() },
+                        onExit = { handleBackPressed() }
                     )
                 }
             }
+        }
+    }
+
+    private fun handleBackPressed() {
+        if (backPressedTime + 2000 > System.currentTimeMillis()) {
+            finish()
+        } else {
+            android.widget.Toast.makeText(
+                this,
+                "Press back again to exit",
+                android.widget.Toast.LENGTH_SHORT
+            ).show()
+            backPressedTime = System.currentTimeMillis()
         }
     }
 
@@ -80,58 +105,116 @@ class MainActivity : ComponentActivity() {
 /**
  * Bottom navigation tabs
  */
-private enum class BottomTab(val route: String, val label: String) {
-    DASHBOARD("dashboard", "Dashboard"),
-    SUBJECTS("subjects", "Subjects"),
-    ASSIGNMENTS("assignments", "Assignments")
+private enum class BottomTab(val label: String) {
+    DASHBOARD("Dashboard"),
+    SUBJECTS("Subjects"),
+    ASSIGNMENTS("Assignments")
 }
 
 /**
- * Main navigation composable using a BottomNavigation bar and simple tab state
+ * Navigation state to track deep navigation screens
+ */
+private sealed class NavigationState {
+    object MainTabs : NavigationState()
+    data class SubjectDetails(val subject: SyllabusSubject) : NavigationState()
+    data class UnitDetails(val subject: SyllabusSubject, val unit: SyllabusUnit) : NavigationState()
+    data class SubTopicDetails(
+        val subject: SyllabusSubject,
+        val unit: SyllabusUnit,
+        val subTopic: SubTopic
+    ) : NavigationState()
+}
+
+/**
+ * Main navigation composable with proper back handling and state management
  */
 @Composable
 fun MainNavigation(
     userName: String,
     viewModel: DashboardViewModel,
-    onLogout: () -> Unit
+    onLogout: () -> Unit,
+    onExit: () -> Unit
 ) {
     val subjects by viewModel.subjects.collectAsState()
     val stats by viewModel.stats.collectAsState()
     val repository = viewModel.getRepository()
 
-    // Keep selection state
+    // Bottom navigation tab state
     var selectedTab by remember { mutableStateOf(BottomTab.DASHBOARD) }
 
-    // Temporary holders for navigation to deep screens (Units/SubTopics/TrackingItems)
-    var selectedSyllabusSubject by remember { mutableStateOf<SyllabusSubject?>(null) }
-    var selectedUnit by remember { mutableStateOf<SyllabusUnit?>(null) }
-    var selectedSubTopic by remember { mutableStateOf<SubTopic?>(null) }
-    var showDeepScreen by remember { mutableStateOf(false) }
+    // Deep navigation state
+    var navigationState by remember { mutableStateOf<NavigationState>(NavigationState.MainTabs) }
+
+    // Handle back button based on navigation state
+    BackHandler(enabled = true) {
+        when (navigationState) {
+            is NavigationState.MainTabs -> {
+                // On main tabs, handle based on selected tab
+                when (selectedTab) {
+                    BottomTab.DASHBOARD -> onExit()
+                    else -> selectedTab = BottomTab.DASHBOARD
+                }
+            }
+            is NavigationState.SubTopicDetails -> {
+                // Go back to Unit details
+                val state = navigationState as NavigationState.SubTopicDetails
+                navigationState = NavigationState.UnitDetails(state.subject, state.unit)
+            }
+            is NavigationState.UnitDetails -> {
+                // Go back to Subject details
+                val state = navigationState as NavigationState.UnitDetails
+                navigationState = NavigationState.SubjectDetails(state.subject)
+            }
+            is NavigationState.SubjectDetails -> {
+                // Go back to main tabs
+                navigationState = NavigationState.MainTabs
+                selectedTab = BottomTab.SUBJECTS
+            }
+        }
+    }
 
     Scaffold(
         bottomBar = {
-            NavigationBar(
-                tonalElevation = 8.dp,
-                containerColor = MaterialTheme.colorScheme.surface
-            ) {
-                NavigationBarItem(
-                    selected = selectedTab == BottomTab.DASHBOARD,
-                    onClick = { selectedTab = BottomTab.DASHBOARD },
-                    icon = { Icon(Icons.Default.Home, contentDescription = "Dashboard") },
-                    label = { Text(BottomTab.DASHBOARD.label) }
-                )
-                NavigationBarItem(
-                    selected = selectedTab == BottomTab.SUBJECTS,
-                    onClick = { selectedTab = BottomTab.SUBJECTS },
-                    icon = { Icon(Icons.Default.Menu, contentDescription = "Subjects") },
-                    label = { Text(BottomTab.SUBJECTS.label) }
-                )
-                NavigationBarItem(
-                    selected = selectedTab == BottomTab.ASSIGNMENTS,
-                    onClick = { selectedTab = BottomTab.ASSIGNMENTS },
-                    icon = { Icon(Icons.Default.Star, contentDescription = "Assignments") },
-                    label = { Text(BottomTab.ASSIGNMENTS.label) }
-                )
+            // Only show bottom navigation on main tabs
+            if (navigationState is NavigationState.MainTabs) {
+                NavigationBar(
+                    tonalElevation = 8.dp,
+                    containerColor = MaterialTheme.colorScheme.surface
+                ) {
+                    NavigationBarItem(
+                        selected = selectedTab == BottomTab.DASHBOARD,
+                        onClick = {
+                            if (selectedTab != BottomTab.DASHBOARD) {
+                                selectedTab = BottomTab.DASHBOARD
+                                navigationState = NavigationState.MainTabs
+                            }
+                        },
+                        icon = { Icon(Icons.Default.Home, contentDescription = "Dashboard") },
+                        label = { Text(BottomTab.DASHBOARD.label) }
+                    )
+                    NavigationBarItem(
+                        selected = selectedTab == BottomTab.SUBJECTS,
+                        onClick = {
+                            if (selectedTab != BottomTab.SUBJECTS) {
+                                selectedTab = BottomTab.SUBJECTS
+                                navigationState = NavigationState.MainTabs
+                            }
+                        },
+                        icon = { Icon(Icons.Default.Menu, contentDescription = "Subjects") },
+                        label = { Text(BottomTab.SUBJECTS.label) }
+                    )
+                    NavigationBarItem(
+                        selected = selectedTab == BottomTab.ASSIGNMENTS,
+                        onClick = {
+                            if (selectedTab != BottomTab.ASSIGNMENTS) {
+                                selectedTab = BottomTab.ASSIGNMENTS
+                                navigationState = NavigationState.MainTabs
+                            }
+                        },
+                        icon = { Icon(Icons.Default.Star, contentDescription = "Assignments") },
+                        label = { Text(BottomTab.ASSIGNMENTS.label) }
+                    )
+                }
             }
         }
     ) { paddingValues ->
@@ -140,78 +223,78 @@ fun MainNavigation(
                 .fillMaxSize()
                 .padding(paddingValues)
         ) {
-            // Main content area — switch on selected tab
-            when (selectedTab) {
-                BottomTab.DASHBOARD -> {
-                    DashboardScreen(
-                        userName = userName,
-                        stats = stats,
-                        subjects = subjects,
-                        onLogout = onLogout
-                    )
-                }
-
-                BottomTab.SUBJECTS -> {
-                    SubjectsScreen(
-                        subjects = subjects,
-                        onSubjectClick = { subjectName ->
-                            selectedSyllabusSubject = repository.getSyllabusSubjectByName(subjectName)
-                            // Navigate to Units using the deep-screen state
-                            selectedUnit = null
-                            selectedSubTopic = null
-                            showDeepScreen = true
-                        },
-                        onNavigateBack = {
-                            // No-op for tab back — deselect tab and go to dashboard
-                            selectedTab = BottomTab.DASHBOARD
+            when (navigationState) {
+                is NavigationState.MainTabs -> {
+                    // Show main tab content
+                    when (selectedTab) {
+                        BottomTab.DASHBOARD -> {
+                            DashboardScreen(
+                                userName = userName,
+                                stats = stats,
+                                subjects = subjects,
+                                onLogout = onLogout
+                            )
                         }
-                    )
-                }
 
-                BottomTab.ASSIGNMENTS -> {
-                    // Assignments placeholder implemented as a Compose-only screen
-                    AssignmentsScreen()
-                }
-            }
+                        BottomTab.SUBJECTS -> {
+                            SubjectsScreen(
+                                subjects = subjects,
+                                onSubjectClick = { subjectName ->
+                                    repository.getSyllabusSubjectByName(subjectName)?.let { subject ->
+                                        navigationState = NavigationState.SubjectDetails(subject)
+                                    }
+                                },
+                                onNavigateBack = {
+                                    selectedTab = BottomTab.DASHBOARD
+                                }
+                            )
+                        }
 
-            // If a deep screen is requested (from Subjects -> Units -> SubTopics -> TrackingItems)
-            if (showDeepScreen && selectedSyllabusSubject != null) {
-                UnitsScreen(
-                    syllabusSubject = selectedSyllabusSubject!!,
-                    onUnitClick = { unit ->
-                        selectedUnit = unit
-                        selectedSubTopic = null
-                    },
-                    onNavigateBack = {
-                        // Close deep screens and stay on Subjects tab
-                        selectedSyllabusSubject = null
-                        selectedUnit = null
-                        selectedSubTopic = null
-                        showDeepScreen = false
+                        BottomTab.ASSIGNMENTS -> {
+                            AssignmentsScreen()
+                        }
                     }
-                )
+                }
 
-                // If a unit was selected, show SubTopics
-                if (selectedUnit != null) {
-                    SubTopicsScreen(
-                        unit = selectedUnit!!,
-                        subjectName = selectedSyllabusSubject!!.subject,
-                        onSubTopicClick = { subTopic ->
-                            selectedSubTopic = subTopic
+                is NavigationState.SubjectDetails -> {
+                    val state = navigationState as NavigationState.SubjectDetails
+                    UnitsScreen(
+                        syllabusSubject = state.subject,
+                        onUnitClick = { unit ->
+                            navigationState = NavigationState.UnitDetails(state.subject, unit)
                         },
                         onNavigateBack = {
-                            selectedUnit = null
+                            navigationState = NavigationState.MainTabs
+                            selectedTab = BottomTab.SUBJECTS
                         }
                     )
                 }
 
-                // If subtopic selected, show TrackingItems
-                if (selectedSubTopic != null && selectedUnit != null) {
-                    TrackingItemsScreen(
-                        subTopic = selectedSubTopic!!,
-                        unitName = selectedUnit!!.unit_name,
+                is NavigationState.UnitDetails -> {
+                    val state = navigationState as NavigationState.UnitDetails
+                    SubTopicsScreen(
+                        unit = state.unit,
+                        subjectName = state.subject.subject,
+                        onSubTopicClick = { subTopic ->
+                            navigationState = NavigationState.SubTopicDetails(
+                                state.subject,
+                                state.unit,
+                                subTopic
+                            )
+                        },
                         onNavigateBack = {
-                            selectedSubTopic = null
+                            navigationState = NavigationState.SubjectDetails(state.subject)
+                        }
+                    )
+                }
+
+                is NavigationState.SubTopicDetails -> {
+                    val state = navigationState as NavigationState.SubTopicDetails
+                    TrackingItemsScreen(
+                        subTopic = state.subTopic,
+                        unitName = state.unit.unit_name,
+                        onNavigateBack = {
+                            navigationState = NavigationState.UnitDetails(state.subject, state.unit)
                         }
                     )
                 }
