@@ -48,7 +48,7 @@ class ResultActivity : ComponentActivity() {
         val gsPaper = intent.getStringExtra("gs_paper")
 
         setContent {
-            UPSCPrepTheme(darkTheme = true) {
+            UPSCPrepTheme() {
                 ResultScreen(
                     questions = questions,
                     answers = answers,
@@ -552,4 +552,3 @@ private suspend fun saveTestAttempt(
     )
     database.testAttemptDao().insertAttempt(attempt)
 }
-

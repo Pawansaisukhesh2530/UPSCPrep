@@ -10,11 +10,13 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
+import com.example.upscprep.utils.ThemeHelper
 
 private val DarkColorScheme = darkColorScheme(
     primary = GradientStart,
@@ -46,17 +48,29 @@ private val LightColorScheme = lightColorScheme(
 
 @Composable
 fun UPSCPrepTheme(
+    // keep parameter for compatibility but actual theme is derived from saved pref
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = false, // Changed to false to use our custom theme
     content: @Composable () -> Unit
 ) {
+    val context = LocalContext.current
+
+    // Observe ThemeHelper's stateFlow so Compose recomposes when theme changes
+    val savedTheme by ThemeHelper.themeStateFlow().collectAsState(initial = ThemeHelper.getSavedTheme(context))
+    val darkThemeFinal = when (savedTheme) {
+        ThemeHelper.THEME_DARK -> true
+        ThemeHelper.THEME_LIGHT -> false
+        ThemeHelper.THEME_SYSTEM -> isSystemInDarkTheme()
+        else -> darkTheme // fallback to the provided parameter to avoid unused-parameter warning
+    }
+
     val colorScheme = when {
         dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-            val context = LocalContext.current
-            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
+            val ctx = LocalContext.current
+            if (darkThemeFinal) dynamicDarkColorScheme(ctx) else dynamicLightColorScheme(ctx)
         }
-        darkTheme -> DarkColorScheme
+        darkThemeFinal -> DarkColorScheme
         else -> LightColorScheme
     }
 
@@ -64,8 +78,8 @@ fun UPSCPrepTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
-            window.statusBarColor = colorScheme.background.toArgb()
-            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = !darkTheme
+            // Avoid direct assignment to statusBarColor (deprecated); only control icon appearance
+            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = !darkThemeFinal
         }
     }
 

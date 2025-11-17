@@ -40,7 +40,8 @@ class UnitSelectionActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            UPSCPrepTheme(darkTheme = true) {
+            // Respect saved app theme; don't force darkTheme here
+            UPSCPrepTheme() {
                 UnitSelectionScreen(
                     subject = subject,
                     onUnitSelected = { unitName ->
@@ -230,4 +231,3 @@ private fun loadUnits(context: android.content.Context, subject: String): List<U
         )
     }.filter { it.questionCount > 0 }
 }
-

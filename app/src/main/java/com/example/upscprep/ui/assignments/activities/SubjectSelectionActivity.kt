@@ -45,7 +45,7 @@ class SubjectSelectionActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            UPSCPrepTheme(darkTheme = true) {
+            UPSCPrepTheme() {
                 SubjectSelectionScreen(
                     mode = mode,
                     onSubjectSelected = { subjectName ->
@@ -260,4 +260,3 @@ private fun loadSubjects(context: android.content.Context): List<SubjectInfo> {
 
     return subjects.filter { it.questionCount > 0 }
 }
-

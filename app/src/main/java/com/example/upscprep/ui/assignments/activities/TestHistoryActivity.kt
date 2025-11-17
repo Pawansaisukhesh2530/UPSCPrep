@@ -35,13 +35,10 @@ class TestHistoryActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            UPSCPrepTheme(darkTheme = true) {
+            UPSCPrepTheme() {
                 TestHistoryScreen(
                     onBack = { finish() },
-                    onViewDetails = { attempt ->
-                        // Can navigate to a detailed view if needed
-                        // For now, we'll just show a summary
-                    }
+                    onViewDetails = { /* no-op, Activity will handle details via other navigation */ }
                 )
             }
         }
@@ -52,7 +49,7 @@ class TestHistoryActivity : ComponentActivity() {
 @Composable
 fun TestHistoryScreen(
     onBack: () -> Unit,
-    onViewDetails: (TestAttempt) -> Unit
+    onViewDetails: (TestAttempt) -> Unit = {}
 ) {
     val context = androidx.compose.ui.platform.LocalContext.current
     val scope = rememberCoroutineScope()
@@ -400,4 +397,3 @@ private fun formatTime(seconds: Int): String {
     val secs = seconds % 60
     return String.format("%dm %ds", minutes, secs)
 }
-

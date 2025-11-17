@@ -41,7 +41,7 @@ class SolutionReviewActivity : ComponentActivity() {
         )
 
         setContent {
-            UPSCPrepTheme(darkTheme = true) {
+            UPSCPrepTheme() {
                 SolutionReviewScreen(
                     questions = questions,
                     answers = answers,
@@ -397,4 +397,3 @@ fun SolutionCard(
         }
     }
 }
-

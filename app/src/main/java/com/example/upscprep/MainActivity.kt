@@ -16,6 +16,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import android.content.SharedPreferences
 import com.example.upscprep.data.model.SubTopic
 import com.example.upscprep.data.model.SyllabusSubject
 import com.example.upscprep.data.model.Unit as SyllabusUnit
@@ -51,17 +52,35 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Get user name from intent
-        val userName = intent.getStringExtra("USER_NAME") ?: "Aspirant"
+        // Apply saved theme before setting content
+        com.example.upscprep.utils.ThemeHelper.applySavedTheme(this)
+
+        // Read username from SharedPreferences and observe changes so Settings updates reflect immediately
+        val prefs = getSharedPreferences("upsc_settings", MODE_PRIVATE)
+        val initialUserName = prefs.getString("username", null)
+            ?: com.example.upscprep.utils.SecurePreferences.getSavedEmail(this)?.substringBefore("@")
+            ?: intent.getStringExtra("USER_NAME") ?: "Aspirant"
+
+        // Backing state observed by Compose
+        var userNameState by mutableStateOf(initialUserName)
+
+        // Listen for preference changes to update username in UI immediately
+        val listener = SharedPreferences.OnSharedPreferenceChangeListener { sharedPreferences, key ->
+            if (key == "username") {
+                userNameState = sharedPreferences.getString(key, "Aspirant") ?: "Aspirant"
+            }
+        }
+        prefs.registerOnSharedPreferenceChangeListener(listener)
 
         setContent {
-            UPSCPrepTheme(darkTheme = true) {
+            // Use UPSCPrepTheme without forcing darkTheme so ThemeHelper controls appearance
+            UPSCPrepTheme() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
                     MainNavigation(
-                        userName = userName,
+                        userName = userNameState,
                         viewModel = dashboardViewModel,
                         onLogout = { handleLogout() },
                         onExit = { handleBackPressed() }
@@ -69,6 +88,13 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+        // Ensure listener is unregistered when activity is destroyed
+        lifecycle.addObserver(object : androidx.lifecycle.DefaultLifecycleObserver {
+            override fun onDestroy(owner: androidx.lifecycle.LifecycleOwner) {
+                try { prefs.unregisterOnSharedPreferenceChangeListener(listener) } catch (e: Exception) { /* ignore */ }
+            }
+        })
     }
 
     private fun handleBackPressed() {
@@ -108,7 +134,8 @@ class MainActivity : ComponentActivity() {
 private enum class BottomTab(val label: String) {
     DASHBOARD("Dashboard"),
     SUBJECTS("Subjects"),
-    ASSIGNMENTS("Assignments")
+    ASSIGNMENTS("Assignments"),
+    SETTINGS("Settings")
 }
 
 /**
@@ -214,6 +241,17 @@ fun MainNavigation(
                         icon = { Icon(Icons.Default.Star, contentDescription = "Assignments") },
                         label = { Text(BottomTab.ASSIGNMENTS.label) }
                     )
+                    NavigationBarItem(
+                        selected = selectedTab == BottomTab.SETTINGS,
+                        onClick = {
+                            if (selectedTab != BottomTab.SETTINGS) {
+                                selectedTab = BottomTab.SETTINGS
+                                navigationState = NavigationState.MainTabs
+                            }
+                        },
+                        icon = { Icon(Icons.Default.Settings, contentDescription = "Settings") },
+                        label = { Text(BottomTab.SETTINGS.label) }
+                    )
                 }
             }
         }
@@ -253,6 +291,10 @@ fun MainNavigation(
 
                         BottomTab.ASSIGNMENTS -> {
                             AssignmentsScreen()
+                        }
+
+                        BottomTab.SETTINGS -> {
+                            com.example.upscprep.ui.settings.SettingsScreen()
                         }
                     }
                 }

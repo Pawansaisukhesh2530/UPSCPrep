@@ -41,16 +41,13 @@ class GSPaperSelectionActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            UPSCPrepTheme(darkTheme = true) {
-                GSPaperSelectionScreen(
-                    onPaperSelected = { paper ->
-                        val intent = Intent(this, QuizActivity::class.java)
-                        intent.putExtra("gs_paper", paper)
-                        intent.putExtra("mode", "gs_paper")
-                        startActivity(intent)
-                    },
-                    onBack = { finish() }
-                )
+            UPSCPrepTheme() {
+                GSPaperSelectionScreen(onPaperSelected = { paper ->
+                    val intent = Intent(this, SubjectSelectionActivity::class.java)
+                    // 'paper' here is a String (e.g. "GS I"); pass it directly
+                    intent.putExtra("paper", paper)
+                    startActivity(intent)
+                }, onBack = { finish() })
             }
         }
     }
@@ -249,4 +246,3 @@ private fun loadGSPapers(context: android.content.Context): List<GSPaperInfo> {
         )
     )
 }
-

@@ -26,6 +26,10 @@ class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Apply saved theme before showing splash
+        com.example.upscprep.utils.ThemeHelper.applySavedTheme(this)
+
         setContentView(R.layout.activity_splash)
 
         // Delay splash screen and check auto-login

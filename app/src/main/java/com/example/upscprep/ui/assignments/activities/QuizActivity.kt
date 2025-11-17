@@ -47,7 +47,7 @@ class QuizActivity : ComponentActivity() {
         val gsPaper = intent.getStringExtra("gs_paper")
 
         setContent {
-            UPSCPrepTheme(darkTheme = true) {
+            UPSCPrepTheme() {
                 QuizScreen(
                     mode = mode,
                     subject = subject,
@@ -761,4 +761,3 @@ private fun loadQuestions(
     // Return exactly 15 random questions
     return QuestionLoaderHelper.getRandomQuestions(allQuestions, 15)
 }
-
