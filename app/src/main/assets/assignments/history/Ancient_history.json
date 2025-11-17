@@ -1,0 +1,902 @@
+{
+  "test_metadata": {
+    "test_id": "HIST_ANC_MCQT1",
+    "test_title": "Ancient Indian History - Practice MCQ Test",
+    "subject": "Indian Heritage, Culture, History & Society",
+    "gs_paper": "GS I",
+    "unit": "History of India and World",
+    "sub_topic": "Ancient India",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": ["Ancient History", "Indus Valley", "Mauryan", "Vedic", "Buddhism", "Jainism"],
+    "created_date": "2025-11-17",
+    "description": "Handpicked ancient history MCQs for UPSC practice."
+  },
+  "questions": [
+    {
+      "q_id": "HIST_ANC_Q001",
+      "question_number": 1,
+      "question_text": "Who founded the Maurya Empire?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bindusara"},
+        {"option_id": "B", "option_text": "Ashoka"},
+        {"option_id": "C", "option_text": "Chandragupta Maurya"},
+        {"option_id": "D", "option_text": "Bimbisara"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mauryan Empire"
+    },
+    {
+      "q_id": "HIST_ANC_Q002",
+      "question_number": 2,
+      "question_text": "Which Indus Valley site is known for the Great Bath?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Harappa"},
+        {"option_id": "B", "option_text": "Mohenjodaro"},
+        {"option_id": "C", "option_text": "Lothal"},
+        {"option_id": "D", "option_text": "Dholavira"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Indus Valley"
+    },
+    {
+      "q_id": "HIST_ANC_Q003",
+      "question_number": 3,
+      "question_text": "Arthashastra was written by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Panini"},
+        {"option_id": "B", "option_text": "Kautilya"},
+        {"option_id": "C", "option_text": "Patanjali"},
+        {"option_id": "D", "option_text": "Vishakhadatta"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mauryan Administration"
+    },
+    {
+      "q_id": "HIST_ANC_Q004",
+      "question_number": 4,
+      "question_text": "Gayatri Mantra appears in which Veda?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sama Veda"},
+        {"option_id": "B", "option_text": "Yajur Veda"},
+        {"option_id": "C", "option_text": "Rig Veda"},
+        {"option_id": "D", "option_text": "Atharva Veda"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vedic Literature"
+    },
+    {
+      "q_id": "HIST_ANC_Q005",
+      "question_number": 5,
+      "question_text": "Lothal is famous for which structure?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Granary"},
+        {"option_id": "B", "option_text": "Dockyard"},
+        {"option_id": "C", "option_text": "Citadel"},
+        {"option_id": "D", "option_text": "Great Bath"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Indus Valley"
+    },
+    {
+      "q_id": "HIST_ANC_Q006",
+      "question_number": 6,
+      "question_text": "Mahavira was the ______ Tirthankara.",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "20th"},
+        {"option_id": "B", "option_text": "21st"},
+        {"option_id": "C", "option_text": "23rd"},
+        {"option_id": "D", "option_text": "24th"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Jainism"
+    },
+    {
+      "q_id": "HIST_ANC_Q007",
+      "question_number": 7,
+      "question_text": "Lord Buddha was born at:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sarnath"},
+        {"option_id": "B", "option_text": "Lumbini"},
+        {"option_id": "C", "option_text": "Bodh Gaya"},
+        {"option_id": "D", "option_text": "Kapilvastu"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Buddhism"
+    },
+    {
+      "q_id": "HIST_ANC_Q008",
+      "question_number": 8,
+      "question_text": "Who was the last ruler of the Mauryan dynasty?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bindusara"},
+        {"option_id": "B", "option_text": "Ashoka"},
+        {"option_id": "C", "option_text": "Pushyamitra"},
+        {"option_id": "D", "option_text": "Brihadratha"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mauryan Empire"
+    },
+    {
+      "q_id": "HIST_ANC_Q009",
+      "question_number": 9,
+      "question_text": "The cave paintings of Bhimbetka belong to which age?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bronze Age"},
+        {"option_id": "B", "option_text": "Iron Age"},
+        {"option_id": "C", "option_text": "Stone Age"},
+        {"option_id": "D", "option_text": "Vedic Age"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Prehistoric India"
+    },
+    {
+      "q_id": "HIST_ANC_Q010",
+      "question_number": 10,
+      "question_text": "The Rig Veda mainly contains:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ritual formulas"},
+        {"option_id": "B", "option_text": "Magic spells"},
+        {"option_id": "C", "option_text": "Hymns"},
+        {"option_id": "D", "option_text": "Upanishadic teachings"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vedic Literature"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q011",
+      "question_number": 11,
+      "question_text": "Which river is most associated with Rig Vedic culture?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ganga"},
+        {"option_id": "B", "option_text": "Yamuna"},
+        {"option_id": "C", "option_text": "Saraswati"},
+        {"option_id": "D", "option_text": "Godavari"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vedic Age"
+    },
+    {
+      "q_id": "HIST_ANC_Q012",
+      "question_number": 12,
+      "question_text": "The capital of Magadha under Bimbisara was:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Patliputra"},
+        {"option_id": "B", "option_text": "Rajgir"},
+        {"option_id": "C", "option_text": "Vaishali"},
+        {"option_id": "D", "option_text": "Taxila"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Magadha"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q013",
+      "question_number": 13,
+      "question_text": "Who embraced Buddhism after the Kalinga War?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bindusara"},
+        {"option_id": "B", "option_text": "Ashoka"},
+        {"option_id": "C", "option_text": "Chandragupta"},
+        {"option_id": "D", "option_text": "Kanishka"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mauryan Empire"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q014",
+      "question_number": 14,
+      "question_text": "The Indus Valley people mainly practiced:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Nomadism"},
+        {"option_id": "B", "option_text": "Hunting"},
+        {"option_id": "C", "option_text": "Agriculture"},
+        {"option_id": "D", "option_text": "Metallic trade"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Indus Valley"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q015",
+      "question_number": 15,
+      "question_text": "The term 'Dhamma' is associated with which emperor?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Harsha"},
+        {"option_id": "B", "option_text": "Ashoka"},
+        {"option_id": "C", "option_text": "Kanishka"},
+        {"option_id": "D", "option_text": "Bindusara"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mauryan Administration"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q016",
+      "question_number": 16,
+      "question_text": "Who founded the Satavahana dynasty?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Gautamiputra Satakarni"},
+        {"option_id": "B", "option_text": "Simuka"},
+        {"option_id": "C", "option_text": "Pulomavi"},
+        {"option_id": "D", "option_text": "Kanha"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Satavahana"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q017",
+      "question_number": 17,
+      "question_text": "Who is known as the ‘Napoleon of India’?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Chandragupta I"},
+        {"option_id": "B", "option_text": "Samudragupta"},
+        {"option_id": "C", "option_text": "Skandagupta"},
+        {"option_id": "D", "option_text": "Harsha"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Gupta Age"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q018",
+      "question_number": 18,
+      "question_text": "The Allahabad Prashasti was composed by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Kalidasa"},
+        {"option_id": "B", "option_text": "Amarasimha"},
+        {"option_id": "C", "option_text": "Harisena"},
+        {"option_id": "D", "option_text": "Banabhatta"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Gupta Empire"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q019",
+      "question_number": 19,
+      "question_text": "Nalanda University was founded during the rule of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mauryas"},
+        {"option_id": "B", "option_text": "Guptas"},
+        {"option_id": "C", "option_text": "Kushanas"},
+        {"option_id": "D", "option_text": "Satavahanas"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Education"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q020",
+      "question_number": 20,
+      "question_text": "Which metal was not known to the Harappans?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Copper"},
+        {"option_id": "B", "option_text": "Gold"},
+        {"option_id": "C", "option_text": "Bronze"},
+        {"option_id": "D", "option_text": "Iron"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Indus Valley"
+    },
+        {
+      "q_id": "HIST_ANC_Q021",
+      "question_number": 21,
+      "question_text": "Silappadikaram was composed by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Tiruvalluvar"},
+        {"option_id": "B", "option_text": "Ilango Adigal"},
+        {"option_id": "C", "option_text": "Kamban"},
+        {"option_id": "D", "option_text": "Sekkilar"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Sangam Literature"
+    },
+    {
+      "q_id": "HIST_ANC_Q022",
+      "question_number": 22,
+      "question_text": "The First Buddhist Council was held at:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Vaishali"},
+        {"option_id": "B", "option_text": "Pataliputra"},
+        {"option_id": "C", "option_text": "Rajgir"},
+        {"option_id": "D", "option_text": "Kashmir"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Buddhism"
+    },
+    {
+      "q_id": "HIST_ANC_Q023",
+      "question_number": 23,
+      "question_text": "Ashokan inscriptions were written in which scripts?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Devanagari"},
+        {"option_id": "B", "option_text": "Kharosthi and Brahmi"},
+        {"option_id": "C", "option_text": "Sharada"},
+        {"option_id": "D", "option_text": "Gupta script"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mauryan Empire"
+    },
+    {
+      "q_id": "HIST_ANC_Q024",
+      "question_number": 24,
+      "question_text": "Who founded the Haryanka dynasty?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ajatashatru"},
+        {"option_id": "B", "option_text": "Bimbisara"},
+        {"option_id": "C", "option_text": "Harshavardhana"},
+        {"option_id": "D", "option_text": "Mahapadma Nanda"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Magadha"
+    },
+    {
+      "q_id": "HIST_ANC_Q025",
+      "question_number": 25,
+      "question_text": "The first to issue portrait coins in India were:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mauryas"},
+        {"option_id": "B", "option_text": "Guptas"},
+        {"option_id": "C", "option_text": "Indo-Greeks"},
+        {"option_id": "D", "option_text": "Satavahanas"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Indo-Greeks"
+    },
+    {
+      "q_id": "HIST_ANC_Q026",
+      "question_number": 26,
+      "question_text": "Chandragupta Maurya was guided by whom?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Panini"},
+        {"option_id": "B", "option_text": "Kautilya"},
+        {"option_id": "C", "option_text": "Charaka"},
+        {"option_id": "D", "option_text": "Patanjali"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mauryan Empire"
+    },
+    {
+      "q_id": "HIST_ANC_Q027",
+      "question_number": 27,
+      "question_text": "The Fourth Buddhist Council was held under whose patronage?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ashoka"},
+        {"option_id": "B", "option_text": "Harshavardhana"},
+        {"option_id": "C", "option_text": "Kanishka"},
+        {"option_id": "D", "option_text": "Bimbisara"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Buddhism"
+    },
+    {
+      "q_id": "HIST_ANC_Q028",
+      "question_number": 28,
+      "question_text": "Kalibangan, a Harappan site, is located in which present-day state?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Punjab"},
+        {"option_id": "B", "option_text": "Sindh"},
+        {"option_id": "C", "option_text": "Rajasthan"},
+        {"option_id": "D", "option_text": "Gujarat"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Indus Valley"
+    },
+    {
+      "q_id": "HIST_ANC_Q029",
+      "question_number": 29,
+      "question_text": "The Saptanga Theory of State appears in which ancient text?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Manusmriti"},
+        {"option_id": "B", "option_text": "Arthashastra"},
+        {"option_id": "C", "option_text": "Rig Veda"},
+        {"option_id": "D", "option_text": "Mahabharata"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mauryan Administration"
+    },
+    {
+      "q_id": "HIST_ANC_Q030",
+      "question_number": 30,
+      "question_text": "Pataliputra was earlier known as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Kusinagara"},
+        {"option_id": "B", "option_text": "Pataligrama"},
+        {"option_id": "C", "option_text": "Ujjain"},
+        {"option_id": "D", "option_text": "Vaishali"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ancient Geography"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q031",
+      "question_number": 31,
+      "question_text": "Which is the oldest of the four Vedas?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Yajur Veda"},
+        {"option_id": "B", "option_text": "Sama Veda"},
+        {"option_id": "C", "option_text": "Rig Veda"},
+        {"option_id": "D", "option_text": "Atharva Veda"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vedic Literature"
+    },
+    {
+      "q_id": "HIST_ANC_Q032",
+      "question_number": 32,
+      "question_text": "Who was the main deity praised in the Rig Veda?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Agni"},
+        {"option_id": "B", "option_text": "Varuna"},
+        {"option_id": "C", "option_text": "Indra"},
+        {"option_id": "D", "option_text": "Surya"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vedic Age"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q033",
+      "question_number": 33,
+      "question_text": "‘Devanampiya Piyadasi’ refers to which king?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Chandragupta"},
+        {"option_id": "B", "option_text": "Bindusara"},
+        {"option_id": "C", "option_text": "Ashoka"},
+        {"option_id": "D", "option_text": "Harshavardhana"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mauryan Empire"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q034",
+      "question_number": 34,
+      "question_text": "The Indica was written by which foreign traveler?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Pliny"},
+        {"option_id": "B", "option_text": "Strabo"},
+        {"option_id": "C", "option_text": "Megasthenes"},
+        {"option_id": "D", "option_text": "Fa-Hien"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Foreign Travelers"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q035",
+      "question_number": 35,
+      "question_text": "Which was NOT a feature of Harappan towns?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Grid pattern"},
+        {"option_id": "B", "option_text": "Underground drainage"},
+        {"option_id": "C", "option_text": "Iron tools"},
+        {"option_id": "D", "option_text": "Planned streets"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Indus Valley"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q036",
+      "question_number": 36,
+      "question_text": "Ajatashatru belonged to which kingdom?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Kosala"},
+        {"option_id": "B", "option_text": "Magadha"},
+        {"option_id": "C", "option_text": "Avanti"},
+        {"option_id": "D", "option_text": "Vatsa"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Magadha"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q037",
+      "question_number": 37,
+      "question_text": "Who was the last ruler of the Gupta dynasty?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Skandagupta"},
+        {"option_id": "B", "option_text": "Vishnugupta"},
+        {"option_id": "C", "option_text": "Kumaragupta"},
+        {"option_id": "D", "option_text": "Chandragupta II"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Gupta Empire"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q038",
+      "question_number": 38,
+      "question_text": "Sangam literature is associated with which region?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "North India"},
+        {"option_id": "B", "option_text": "South India"},
+        {"option_id": "C", "option_text": "East India"},
+        {"option_id": "D", "option_text": "West India"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Sangam Age"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q039",
+      "question_number": 39,
+      "question_text": "The Jataka tales are related to the previous births of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Vishnu"},
+        {"option_id": "B", "option_text": "Shiva"},
+        {"option_id": "C", "option_text": "Buddha"},
+        {"option_id": "D", "option_text": "Mahavira"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Buddhism"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q040",
+      "question_number": 40,
+      "question_text": "The earliest cave paintings in India are found at:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ajanta"},
+        {"option_id": "B", "option_text": "Bhimbetka"},
+        {"option_id": "C", "option_text": "Ellora"},
+        {"option_id": "D", "option_text": "Badami"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Prehistoric India"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q041",
+      "question_number": 41,
+      "question_text": "The term ‘Muvendar’ refers to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Three Tamil Kingdoms"},
+        {"option_id": "B", "option_text": "Three Vedas"},
+        {"option_id": "C", "option_text": "Three Upanishads"},
+        {"option_id": "D", "option_text": "Three Buddhist Councils"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Sangam Age"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q042",
+      "question_number": 42,
+      "question_text": "The earliest coins used in India were:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Roman coins"},
+        {"option_id": "B", "option_text": "Punch-marked coins"},
+        {"option_id": "C", "option_text": "Gupta coins"},
+        {"option_id": "D", "option_text": "Greek coins"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Numismatics"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q043",
+      "question_number": 43,
+      "question_text": "The founder of the Kushana dynasty was:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Kanishka"},
+        {"option_id": "B", "option_text": "Huvishka"},
+        {"option_id": "C", "option_text": "Kujula Kadphises"},
+        {"option_id": "D", "option_text": "Vasudeva"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Kushana Empire"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q044",
+      "question_number": 44,
+      "question_text": "Ashoka’s major rock edicts were written in which language?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Pali"},
+        {"option_id": "B", "option_text": "Sanskrit"},
+        {"option_id": "C", "option_text": "Prakrit"},
+        {"option_id": "D", "option_text": "Tamil"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mauryan Empire"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q045",
+      "question_number": 45,
+      "question_text": "Where was the First Jain Council held?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Pataliputra"},
+        {"option_id": "B", "option_text": "Valabhi"},
+        {"option_id": "C", "option_text": "Mathura"},
+        {"option_id": "D", "option_text": "Ujjain"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Jainism"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q046",
+      "question_number": 46,
+      "question_text": "The 'Three Jewels' (Triratna) belong to which religion?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Jainism"},
+        {"option_id": "B", "option_text": "Buddhism"},
+        {"option_id": "C", "option_text": "Vaishnavism"},
+        {"option_id": "D", "option_text": "Shaivism"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Buddhism"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q047",
+      "question_number": 47,
+      "question_text": "Iron first appeared in India during which age?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bronze Age"},
+        {"option_id": "B", "option_text": "Vedic Age"},
+        {"option_id": "C", "option_text": "Maurya Age"},
+        {"option_id": "D", "option_text": "Gupta Age"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vedic Age"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q048",
+      "question_number": 48,
+      "question_text": "The term 'Sangam' literally means:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Assembly"},
+        {"option_id": "B", "option_text": "Battle"},
+        {"option_id": "C", "option_text": "Temple"},
+        {"option_id": "D", "option_text": "Justice"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Sangam Age"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q049",
+      "question_number": 49,
+      "question_text": "Harappan seals were made primarily of which material?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bronze"},
+        {"option_id": "B", "option_text": "Ivory"},
+        {"option_id": "C", "option_text": "Steatite"},
+        {"option_id": "D", "option_text": "Stone"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Indus Valley"
+    },
+
+    {
+      "q_id": "HIST_ANC_Q050",
+      "question_number": 50,
+      "question_text": "Which Indus Valley site is known for its dockyard?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Harappa"},
+        {"option_id": "B", "option_text": "Mohenjodaro"},
+        {"option_id": "C", "option_text": "Lothal"},
+        {"option_id": "D", "option_text": "Kalibangan"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Indus Valley"
+    }
+
+  ]
+}

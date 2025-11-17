@@ -1,0 +1,880 @@
+{
+  "test_metadata": {
+    "test_id": "ECO_MACRO_MCQT1",
+    "test_title": "Macroeconomics and Monetary Policy - Practice MCQ Test",
+    "subject": "Indian Economy",
+    "gs_paper": "GS III",
+    "unit": "Macroeconomy",
+    "sub_topic": "Macroeconomics and Monetary Policy",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "Macroeconomics",
+      "GDP",
+      "Inflation",
+      "Monetary Policy",
+      "RBI",
+      "Interest Rates"
+    ],
+    "created_date": "2025-11-17",
+    "description": "UPSC-style MCQs on basic macro concepts, GDP, inflation, business cycles, and RBI's monetary policy framework."
+  },
+  "questions": [
+    {
+      "q_id": "ECO_MACRO_Q001",
+      "question_number": 1,
+      "question_text": "Which of the following is NOT a macroeconomic variable?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Gross Domestic Product (GDP)"},
+        {"option_id": "B", "option_text": "General price level"},
+        {"option_id": "C", "option_text": "Unemployment rate"},
+        {"option_id": "D", "option_text": "Individual firm's profit"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Basics of Macroeconomics"
+    },
+    {
+      "q_id": "ECO_MACRO_Q002",
+      "question_number": 2,
+      "question_text": "GDP at market prices is equal to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "GDP at factor cost + indirect taxes - subsidies"},
+        {"option_id": "B", "option_text": "GDP at factor cost - indirect taxes + subsidies"},
+        {"option_id": "C", "option_text": "GNP at factor cost + net exports"},
+        {"option_id": "D", "option_text": "NNP at market price - depreciation"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "National Income"
+    },
+    {
+      "q_id": "ECO_MACRO_Q003",
+      "question_number": 3,
+      "question_text": "Net National Product (NNP) at factor cost is also known as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "National income"},
+        {"option_id": "B", "option_text": "Personal income"},
+        {"option_id": "C", "option_text": "Disposable income"},
+        {"option_id": "D", "option_text": "Gross domestic income"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "National Income"
+    },
+    {
+      "q_id": "ECO_MACRO_Q004",
+      "question_number": 4,
+      "question_text": "Which of the following items is included while calculating GDP by expenditure method?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Transfer payments"},
+        {"option_id": "B", "option_text": "Old age pension"},
+        {"option_id": "C", "option_text": "Government final consumption expenditure"},
+        {"option_id": "D", "option_text": "Gifts received from abroad"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "GDP Measurement"
+    },
+    {
+      "q_id": "ECO_MACRO_Q005",
+      "question_number": 5,
+      "question_text": "Real GDP is different from nominal GDP because real GDP:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Includes only goods"},
+        {"option_id": "B", "option_text": "Is adjusted for changes in price level"},
+        {"option_id": "C", "option_text": "Excludes services"},
+        {"option_id": "D", "option_text": "Excludes indirect taxes"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Real vs Nominal GDP"
+    },
+    {
+      "q_id": "ECO_MACRO_Q006",
+      "question_number": 6,
+      "question_text": "GDP deflator is defined as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "(Real GDP / Nominal GDP) × 100"},
+        {"option_id": "B", "option_text": "(Nominal GDP / Real GDP) × 100"},
+        {"option_id": "C", "option_text": "Nominal GDP - Real GDP"},
+        {"option_id": "D", "option_text": "Real GDP - Nominal GDP"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "GDP Deflator"
+    },
+    {
+      "q_id": "ECO_MACRO_Q007",
+      "question_number": 7,
+      "question_text": "Which of the following best describes ‘business cycle’ in macroeconomics?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Long-run trend growth"},
+        {"option_id": "B", "option_text": "Short-run fluctuations around the long-term growth trend"},
+        {"option_id": "C", "option_text": "Increase in GDP every year"},
+        {"option_id": "D", "option_text": "Continuous fall in prices"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Business Cycles"
+    },
+    {
+      "q_id": "ECO_MACRO_Q008",
+      "question_number": 8,
+      "question_text": "Stagflation refers to a situation of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High growth with high inflation"},
+        {"option_id": "B", "option_text": "Low growth with low inflation"},
+        {"option_id": "C", "option_text": "Low growth with high inflation"},
+        {"option_id": "D", "option_text": "High growth with falling prices"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Inflation"
+    },
+    {
+      "q_id": "ECO_MACRO_Q009",
+      "question_number": 9,
+      "question_text": "Demand-pull inflation is primarily caused by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Increase in production cost"},
+        {"option_id": "B", "option_text": "Increase in aggregate demand"},
+        {"option_id": "C", "option_text": "Decrease in money supply"},
+        {"option_id": "D", "option_text": "Decrease in wages"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Inflation Types"
+    },
+    {
+      "q_id": "ECO_MACRO_Q010",
+      "question_number": 10,
+      "question_text": "Cost-push inflation is most likely to occur due to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Increase in productivity"},
+        {"option_id": "B", "option_text": "Increase in wages and raw material prices"},
+        {"option_id": "C", "option_text": "Reduction in tax rates"},
+        {"option_id": "D", "option_text": "Increase in competition"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Inflation Types"
+    },
+    {
+      "q_id": "ECO_MACRO_Q011",
+      "question_number": 11,
+      "question_text": "In India, the official inflation target is based on which index currently (monetary policy framework)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Wholesale Price Index (WPI)"},
+        {"option_id": "B", "option_text": "Consumer Price Index (CPI) combined"},
+        {"option_id": "C", "option_text": "GDP deflator"},
+        {"option_id": "D", "option_text": "Index of Industrial Production (IIP)"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Inflation Targeting"
+    },
+    {
+      "q_id": "ECO_MACRO_Q012",
+      "question_number": 12,
+      "question_text": "Which institution is primarily responsible for formulating and implementing monetary policy in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ministry of Finance"},
+        {"option_id": "B", "option_text": "Reserve Bank of India (RBI)"},
+        {"option_id": "C", "option_text": "NITI Aayog"},
+        {"option_id": "D", "option_text": "Securities and Exchange Board of India (SEBI)"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Monetary Policy"
+    },
+    {
+      "q_id": "ECO_MACRO_Q013",
+      "question_number": 13,
+      "question_text": "Which of the following correctly states the main objective of monetary policy under the flexible inflation targeting framework in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Price stability while keeping in mind the objective of growth"},
+        {"option_id": "B", "option_text": "Maximizing exports"},
+        {"option_id": "C", "option_text": "Minimizing fiscal deficit"},
+        {"option_id": "D", "option_text": "Ensuring full employment only"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Monetary Policy Objective"
+    },
+    {
+      "q_id": "ECO_MACRO_Q014",
+      "question_number": 14,
+      "question_text": "Which of the following is a quantitative instrument of monetary policy used by RBI?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Margin requirements"},
+        {"option_id": "B", "option_text": "Open Market Operations (OMO)"},
+        {"option_id": "C", "option_text": "Moral suasion"},
+        {"option_id": "D", "option_text": "Credit rationing"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Monetary Policy Instruments"
+    },
+    {
+      "q_id": "ECO_MACRO_Q015",
+      "question_number": 15,
+      "question_text": "CRR (Cash Reserve Ratio) is best described as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Percentage of deposits banks must keep as cash with themselves"},
+        {"option_id": "B", "option_text": "Percentage of deposits banks must keep with RBI in cash form"},
+        {"option_id": "C", "option_text": "Percentage of deposits invested in government securities"},
+        {"option_id": "D", "option_text": "Statutory liquidity required with RBI in gold form only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "CRR"
+    },
+    {
+      "q_id": "ECO_MACRO_Q016",
+      "question_number": 16,
+      "question_text": "Statutory Liquidity Ratio (SLR) is maintained by banks in the form of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Cash only"},
+        {"option_id": "B", "option_text": "Gold only"},
+        {"option_id": "C", "option_text": "Gold, cash, and approved securities"},
+        {"option_id": "D", "option_text": "Foreign currency only"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "SLR"
+    },
+    {
+      "q_id": "ECO_MACRO_Q017",
+      "question_number": 17,
+      "question_text": "An increase in CRR by RBI generally leads to which of the following immediate effects?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Increase in liquidity in the banking system"},
+        {"option_id": "B", "option_text": "Decrease in liquidity in the banking system"},
+        {"option_id": "C", "option_text": "No impact on liquidity"},
+        {"option_id": "D", "option_text": "Decrease in government expenditure"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Liquidity Management"
+    },
+    {
+      "q_id": "ECO_MACRO_Q018",
+      "question_number": 18,
+      "question_text": "Which of the following is the policy rate at which RBI lends short-term funds to commercial banks against government securities?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Reverse Repo Rate"},
+        {"option_id": "B", "option_text": "Bank Rate"},
+        {"option_id": "C", "option_text": "Repo Rate"},
+        {"option_id": "D", "option_text": "Marginal Standing Facility Rate"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Repo Rate"
+    },
+    {
+      "q_id": "ECO_MACRO_Q019",
+      "question_number": 19,
+      "question_text": "Reverse Repo Rate is the rate at which:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "RBI lends to commercial banks"},
+        {"option_id": "B", "option_text": "Commercial banks lend to RBI"},
+        {"option_id": "C", "option_text": "Banks lend to each other in call money market"},
+        {"option_id": "D", "option_text": "RBI lends to government only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Reverse Repo"
+    },
+    {
+      "q_id": "ECO_MACRO_Q020",
+      "question_number": 20,
+      "question_text": "Open Market Operations (OMO) refer to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Buying and selling of foreign currency by RBI"},
+        {"option_id": "B", "option_text": "Buying and selling of government securities by RBI"},
+        {"option_id": "C", "option_text": "Buying and selling of shares by RBI"},
+        {"option_id": "D", "option_text": "Government’s open market borrowing from public"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Open Market Operations"
+    },
+    {
+      "q_id": "ECO_MACRO_Q021",
+      "question_number": 21,
+      "question_text": "If RBI wants to control high inflation, which combination of actions is most appropriate?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Decrease CRR and decrease Repo Rate"},
+        {"option_id": "B", "option_text": "Increase CRR and increase Repo Rate"},
+        {"option_id": "C", "option_text": "Decrease SLR and buy government securities"},
+        {"option_id": "D", "option_text": "Increase government capital expenditure"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Anti-Inflation Policy"
+    },
+    {
+      "q_id": "ECO_MACRO_Q022",
+      "question_number": 22,
+      "question_text": "Which of the following is NOT a function of RBI as a central bank?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Banker to the Government"},
+        {"option_id": "B", "option_text": "Banker’s bank"},
+        {"option_id": "C", "option_text": "Issuer of currency"},
+        {"option_id": "D", "option_text": "Formulating fiscal policy"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Functions of RBI"
+    },
+    {
+      "q_id": "ECO_MACRO_Q023",
+      "question_number": 23,
+      "question_text": "The Phillips Curve shows the relationship between which two macroeconomic variables in the short run?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Inflation and unemployment"},
+        {"option_id": "B", "option_text": "GDP and money supply"},
+        {"option_id": "C", "option_text": "Interest rate and investment"},
+        {"option_id": "D", "option_text": "Fiscal deficit and GDP growth"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Phillips Curve"
+    },
+    {
+      "q_id": "ECO_MACRO_Q024",
+      "question_number": 24,
+      "question_text": "According to Keynesian economics, unemployment in the economy is largely due to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Excess money supply"},
+        {"option_id": "B", "option_text": "Insufficient aggregate demand"},
+        {"option_id": "C", "option_text": "Too high wages due to trade unions alone"},
+        {"option_id": "D", "option_text": "Only supply-side rigidities"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Keynesian Theory"
+    },
+    {
+      "q_id": "ECO_MACRO_Q025",
+      "question_number": 25,
+      "question_text": "In the IS-LM framework, expansionary monetary policy is represented by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rightward shift of IS curve"},
+        {"option_id": "B", "option_text": "Leftward shift of IS curve"},
+        {"option_id": "C", "option_text": "Rightward shift of LM curve"},
+        {"option_id": "D", "option_text": "Leftward shift of LM curve"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "IS-LM"
+    },
+    {
+      "q_id": "ECO_MACRO_Q026",
+      "question_number": 26,
+      "question_text": "Which of the following is generally considered a contractionary monetary policy stance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Reducing CRR"},
+        {"option_id": "B", "option_text": "Purchasing government securities in OMO"},
+        {"option_id": "C", "option_text": "Increasing Repo Rate"},
+        {"option_id": "D", "option_text": "Reducing SLR"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Contractionary Policy"
+    },
+    {
+      "q_id": "ECO_MACRO_Q027",
+      "question_number": 27,
+      "question_text": "Base money (high-powered money) in an economy primarily consists of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Currency with public only"},
+        {"option_id": "B", "option_text": "Currency with banks only"},
+        {"option_id": "C", "option_text": "Currency with public + bankers’ deposits with central bank"},
+        {"option_id": "D", "option_text": "Time deposits in commercial banks"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "High Powered Money"
+    },
+    {
+      "q_id": "ECO_MACRO_Q028",
+      "question_number": 28,
+      "question_text": "Money multiplier mainly depends on which of the following ratios in the banking system?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Cash reserve ratio and currency-deposit ratio"},
+        {"option_id": "B", "option_text": "Fiscal deficit to GDP ratio"},
+        {"option_id": "C", "option_text": "Export-import ratio"},
+        {"option_id": "D", "option_text": "Tax-GDP ratio"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Money Multiplier"
+    },
+    {
+      "q_id": "ECO_MACRO_Q029",
+      "question_number": 29,
+      "question_text": "Which of the following is a qualitative (selective) credit control measure used by RBI?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "CRR"},
+        {"option_id": "B", "option_text": "SLR"},
+        {"option_id": "C", "option_text": "Open Market Operations"},
+        {"option_id": "D", "option_text": "Moral suasion"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Qualitative Controls"
+    },
+    {
+      "q_id": "ECO_MACRO_Q030",
+      "question_number": 30,
+      "question_text": "‘Accommodation’ by central bank in monetary policy context refers to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "RBI refusing to lend to any bank"},
+        {"option_id": "B", "option_text": "RBI providing liquidity as lender of last resort"},
+        {"option_id": "C", "option_text": "Government accommodating RBI’s losses"},
+        {"option_id": "D", "option_text": "Commercial banks always lending to each other"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Lender of Last Resort"
+    },
+    {
+      "q_id": "ECO_MACRO_Q031",
+      "question_number": 31,
+      "question_text": "In a recessionary phase of business cycle, which fiscal-monetary mix is generally recommended by Keynesian view?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Contractionary fiscal and contractionary monetary policy"},
+        {"option_id": "B", "option_text": "Expansionary fiscal and expansionary monetary policy"},
+        {"option_id": "C", "option_text": "Expansionary fiscal and contractionary monetary policy"},
+        {"option_id": "D", "option_text": "Contractionary fiscal and expansionary monetary policy"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Counter-Cyclical Policy"
+    },
+    {
+      "q_id": "ECO_MACRO_Q032",
+      "question_number": 32,
+      "question_text": "Which of the following statements about ‘headline inflation’ is correct in Indian context?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "It excludes food and fuel prices"},
+        {"option_id": "B", "option_text": "It is overall inflation including all items in CPI"},
+        {"option_id": "C", "option_text": "It is measured only using WPI"},
+        {"option_id": "D", "option_text": "It tracks only core industries inflation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Headline Inflation"
+    },
+    {
+      "q_id": "ECO_MACRO_Q033",
+      "question_number": 33,
+      "question_text": "Core inflation typically excludes which of the following from CPI basket for analysis?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Food and fuel"},
+        {"option_id": "B", "option_text": "Only services"},
+        {"option_id": "C", "option_text": "All manufactured products"},
+        {"option_id": "D", "option_text": "All items related to housing"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Core Inflation"
+    },
+    {
+      "q_id": "ECO_MACRO_Q034",
+      "question_number": 34,
+      "question_text": "Neutral monetary policy stance generally implies that RBI is aiming to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Aggressively cut interest rates"},
+        {"option_id": "B", "option_text": "Aggressively raise interest rates"},
+        {"option_id": "C", "option_text": "Neither significantly tighten nor ease liquidity, keeping stance balanced"},
+        {"option_id": "D", "option_text": "Target only exchange rate stability"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Policy Stance"
+    },
+    {
+      "q_id": "ECO_MACRO_Q035",
+      "question_number": 35,
+      "question_text": "Accommodative monetary policy stance usually indicates that RBI will most likely:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Raise policy rates if inflation rises"},
+        {"option_id": "B", "option_text": "Cut policy rates to support growth if needed"},
+        {"option_id": "C", "option_text": "Completely stop OMO operations"},
+        {"option_id": "D", "option_text": "Only target fiscal deficit management"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Policy Stance"
+    },
+    {
+      "q_id": "ECO_MACRO_Q036",
+      "question_number": 36,
+      "question_text": "Liquidity Adjustment Facility (LAF) of RBI primarily operates through which instruments?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "CRR and SLR only"},
+        {"option_id": "B", "option_text": "Repo and Reverse Repo operations"},
+        {"option_id": "C", "option_text": "Bank Rate only"},
+        {"option_id": "D", "option_text": "Only open market outright purchases"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "LAF"
+    },
+    {
+      "q_id": "ECO_MACRO_Q037",
+      "question_number": 37,
+      "question_text": "Which of the following monetary aggregates is the broadest definition of money supply in India (as per traditional classification)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "M0"},
+        {"option_id": "B", "option_text": "M1"},
+        {"option_id": "C", "option_text": "M2"},
+        {"option_id": "D", "option_text": "M3"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Money Supply"
+    },
+    {
+      "q_id": "ECO_MACRO_Q038",
+      "question_number": 38,
+      "question_text": "Which of the following is typically included in M1 measure of money supply in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Currency with public + demand deposits with banks + other deposits with RBI"},
+        {"option_id": "B", "option_text": "Currency with public only"},
+        {"option_id": "C", "option_text": "Currency with banks only"},
+        {"option_id": "D", "option_text": "Time deposits only"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Money Supply"
+    },
+    {
+      "q_id": "ECO_MACRO_Q039",
+      "question_number": 39,
+      "question_text": "Which of the following is most directly affected by changes in RBI’s policy Repo Rate in the short run?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Long-term trend growth rate"},
+        {"option_id": "B", "option_text": "Short-term interest rates and liquidity conditions"},
+        {"option_id": "C", "option_text": "Population growth"},
+        {"option_id": "D", "option_text": "Natural rate of unemployment"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Interest Rates"
+    },
+    {
+      "q_id": "ECO_MACRO_Q040",
+      "question_number": 40,
+      "question_text": "‘Crowding out’ in macroeconomics refers to a situation where:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Private investment decreases due to high government borrowing"},
+        {"option_id": "B", "option_text": "Government expenditure is crowded out by private expenditure"},
+        {"option_id": "C", "option_text": "Exports crowd out imports"},
+        {"option_id": "D", "option_text": "Increase in money supply crowds out inflation"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Crowding Out"
+    },
+    {
+      "q_id": "ECO_MACRO_Q041",
+      "question_number": 41,
+      "question_text": "‘Output gap’ in macroeconomic analysis refers to the difference between:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Nominal GDP and Real GDP"},
+        {"option_id": "B", "option_text": "Potential output and actual output"},
+        {"option_id": "C", "option_text": "Exports and imports"},
+        {"option_id": "D", "option_text": "Government revenue and expenditure"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Output Gap"
+    },
+    {
+      "q_id": "ECO_MACRO_Q042",
+      "question_number": 42,
+      "question_text": "Which of the following is NOT normally a goal of macroeconomic policy in a developing country like India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High and sustainable growth"},
+        {"option_id": "B", "option_text": "Low and stable inflation"},
+        {"option_id": "C", "option_text": "Low unemployment"},
+        {"option_id": "D", "option_text": "Permanent current account deficit with no correction"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Macro Objectives"
+    },
+    {
+      "q_id": "ECO_MACRO_Q043",
+      "question_number": 43,
+      "question_text": "Which one of the following is an example of ‘automatic stabilizer’ in macroeconomics?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Discretionary tax cuts"},
+        {"option_id": "B", "option_text": "Unemployment benefits linked to income loss"},
+        {"option_id": "C", "option_text": "One-time stimulus package"},
+        {"option_id": "D", "option_text": "Special investment promotion scheme"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Automatic Stabilizers"
+    },
+    {
+      "q_id": "ECO_MACRO_Q044",
+      "question_number": 44,
+      "question_text": "In the context of macroeconomic policy, ‘time inconsistency problem’ is associated more with:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Microeconomic demand theory"},
+        {"option_id": "B", "option_text": "Dynamic inconsistency in policy commitments over time"},
+        {"option_id": "C", "option_text": "Measurement of GDP at different prices"},
+        {"option_id": "D", "option_text": "Seasonal unemployment only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Policy Credibility"
+    },
+    {
+      "q_id": "ECO_MACRO_Q045",
+      "question_number": 45,
+      "question_text": "‘Quantitative Easing (QE)’ generally refers to which type of policy by a central bank?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Large-scale purchase of financial assets to inject liquidity"},
+        {"option_id": "B", "option_text": "Large-scale sale of government securities to absorb liquidity"},
+        {"option_id": "C", "option_text": "Sharp increase in tax rates"},
+        {"option_id": "D", "option_text": "Sharp reduction in government expenditure"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Unconventional Policy"
+    },
+    {
+      "q_id": "ECO_MACRO_Q046",
+      "question_number": 46,
+      "question_text": "In a liquidity trap situation, traditional monetary policy loses effectiveness mainly because:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Interest rates are already near zero and people hoard cash"},
+        {"option_id": "B", "option_text": "Government stops borrowing"},
+        {"option_id": "C", "option_text": "Banks refuse to accept deposits"},
+        {"option_id": "D", "option_text": "Inflation is extremely high"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Liquidity Trap"
+    },
+    {
+      "q_id": "ECO_MACRO_Q047",
+      "question_number": 47,
+      "question_text": "Which of the following would generally reduce inflationary pressures in an economy, ceteris paribus?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Increase in indirect taxes"},
+        {"option_id": "B", "option_text": "Increase in productivity and output"},
+        {"option_id": "C", "option_text": "Sharp increase in money supply"},
+        {"option_id": "D", "option_text": "Sharp increase in administered prices"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Inflation Control"
+    },
+    {
+      "q_id": "ECO_MACRO_Q048",
+      "question_number": 48,
+      "question_text": "Disinflation refers to which of the following situations?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Negative inflation rate"},
+        {"option_id": "B", "option_text": "Fall in inflation rate over time, but inflation still positive"},
+        {"option_id": "C", "option_text": "Increase in inflation rate over time"},
+        {"option_id": "D", "option_text": "Complete elimination of money from economy"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Disinflation"
+    },
+    {
+      "q_id": "ECO_MACRO_Q049",
+      "question_number": 49,
+      "question_text": "Deflation in macroeconomics is best defined as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Persistent fall in general price level (negative inflation)"},
+        {"option_id": "B", "option_text": "Single-time fall in fuel prices only"},
+        {"option_id": "C", "option_text": "Only fall in asset prices"},
+        {"option_id": "D", "option_text": "Government reducing fiscal deficit"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Deflation"
+    },
+    {
+      "q_id": "ECO_MACRO_Q050",
+      "question_number": 50,
+      "question_text": "In the context of India’s macroeconomic policy framework, which of the following combinations is correct?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Monetary policy – RBI; Fiscal policy – Parliament/Government"},
+        {"option_id": "B", "option_text": "Monetary policy – NITI Aayog; Fiscal policy – RBI"},
+        {"option_id": "C", "option_text": "Monetary policy – Finance Commission; Fiscal policy – SEBI"},
+        {"option_id": "D", "option_text": "Monetary policy – President; Fiscal policy – Supreme Court"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Policy Makers"
+    }
+  ]
+}

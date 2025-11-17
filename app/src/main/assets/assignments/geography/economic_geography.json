@@ -1,0 +1,880 @@
+{
+  "test_metadata": {
+    "test_id": "GEO_ECORES_MCQT1",
+    "test_title": "Economic Geography & Resources - Practice MCQ Test",
+    "subject": "Geography of India and World",
+    "gs_paper": "GS I",
+    "unit": "Economic Geography",
+    "sub_topic": "Agriculture, Resources, Industries, Trade",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "Economic Geography",
+      "Agriculture",
+      "Mineral Resources",
+      "Industries",
+      "Trade",
+      "Transport"
+    ],
+    "created_date": "2025-11-17",
+    "description": "Economic geography MCQs covering agriculture, minerals, industries, transport and trade for UPSC practice."
+  },
+  "questions": [
+    {
+      "q_id": "GEO_ECORES_Q001",
+      "question_number": 1,
+      "question_text": "Which of the following is a rabi crop in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rice"},
+        {"option_id": "B", "option_text": "Cotton"},
+        {"option_id": "C", "option_text": "Wheat"},
+        {"option_id": "D", "option_text": "Jute"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Agriculture"
+    },
+    {
+      "q_id": "GEO_ECORES_Q002",
+      "question_number": 2,
+      "question_text": "Which crop is also known as a 'golden fibre' crop in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Cotton"},
+        {"option_id": "B", "option_text": "Jute"},
+        {"option_id": "C", "option_text": "Sugarcane"},
+        {"option_id": "D", "option_text": "Groundnut"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Commercial Crops"
+    },
+    {
+      "q_id": "GEO_ECORES_Q003",
+      "question_number": 3,
+      "question_text": "Which state is the largest producer of rice in India (long-term trend, not a single year anomaly)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Punjab"},
+        {"option_id": "B", "option_text": "Uttar Pradesh"},
+        {"option_id": "C", "option_text": "West Bengal"},
+        {"option_id": "D", "option_text": "Andhra Pradesh"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Agriculture"
+    },
+    {
+      "q_id": "GEO_ECORES_Q004",
+      "question_number": 4,
+      "question_text": "Which of the following regions is known as the 'Rice Bowl of India'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Indo-Gangetic Plain"},
+        {"option_id": "B", "option_text": "Krishna-Godavari Delta"},
+        {"option_id": "C", "option_text": "Malwa Plateau"},
+        {"option_id": "D", "option_text": "Deccan Trap region"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Agricultural Regions"
+    },
+    {
+      "q_id": "GEO_ECORES_Q005",
+      "question_number": 5,
+      "question_text": "Shifting cultivation is also known as 'Jhum' in which region of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Western Ghats"},
+        {"option_id": "B", "option_text": "Central India"},
+        {"option_id": "C", "option_text": "Northeastern India"},
+        {"option_id": "D", "option_text": "Indo-Gangetic Plain"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Agricultural Practices"
+    },
+    {
+      "q_id": "GEO_ECORES_Q006",
+      "question_number": 6,
+      "question_text": "Plantation agriculture in India is most closely associated with which of the following crops?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Wheat and rice"},
+        {"option_id": "B", "option_text": "Tea and coffee"},
+        {"option_id": "C", "option_text": "Pulses and oilseeds"},
+        {"option_id": "D", "option_text": "Millets and maize"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Agricultural Systems"
+    },
+    {
+      "q_id": "GEO_ECORES_Q007",
+      "question_number": 7,
+      "question_text": "Which is the most widespread soil type in the Indo-Gangetic plains of India, supporting intensive agriculture?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Black soil"},
+        {"option_id": "B", "option_text": "Laterite soil"},
+        {"option_id": "C", "option_text": "Alluvial soil"},
+        {"option_id": "D", "option_text": "Red soil"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Soils and Agriculture"
+    },
+    {
+      "q_id": "GEO_ECORES_Q008",
+      "question_number": 8,
+      "question_text": "Which of the following is a major producer of cotton in India (by long-term share)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Gujarat"},
+        {"option_id": "B", "option_text": "Bihar"},
+        {"option_id": "C", "option_text": "Kerala"},
+        {"option_id": "D", "option_text": "Assam"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Commercial Crops"
+    },
+    {
+      "q_id": "GEO_ECORES_Q009",
+      "question_number": 9,
+      "question_text": "Which state is the leading producer of tea in India by volume?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Tamil Nadu"},
+        {"option_id": "B", "option_text": "Assam"},
+        {"option_id": "C", "option_text": "Kerala"},
+        {"option_id": "D", "option_text": "Himachal Pradesh"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Plantation Crops"
+    },
+    {
+      "q_id": "GEO_ECORES_Q010",
+      "question_number": 10,
+      "question_text": "Which of the following Indian states is a major producer of coffee?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Punjab"},
+        {"option_id": "B", "option_text": "Karnataka"},
+        {"option_id": "C", "option_text": "Haryana"},
+        {"option_id": "D", "option_text": "Uttar Pradesh"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Plantation Crops"
+    },
+    {
+      "q_id": "GEO_ECORES_Q011",
+      "question_number": 11,
+      "question_text": "Which of the following minerals is primarily obtained from the 'Bauxite' ore?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Iron"},
+        {"option_id": "B", "option_text": "Copper"},
+        {"option_id": "C", "option_text": "Aluminium"},
+        {"option_id": "D", "option_text": "Manganese"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Mineral Resources"
+    },
+    {
+      "q_id": "GEO_ECORES_Q012",
+      "question_number": 12,
+      "question_text": "Which region in India is famous for its rich iron ore deposits (including mines like Kiriburu and Noamundi)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Western Ghats"},
+        {"option_id": "B", "option_text": "Chotanagpur Plateau"},
+        {"option_id": "C", "option_text": "Indo-Gangetic Plain"},
+        {"option_id": "D", "option_text": "Thar Desert"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mineral Resources"
+    },
+    {
+      "q_id": "GEO_ECORES_Q013",
+      "question_number": 13,
+      "question_text": "The famous 'Singhbhum' belt of India is associated with which mineral resource?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Coal"},
+        {"option_id": "B", "option_text": "Iron ore"},
+        {"option_id": "C", "option_text": "Mica"},
+        {"option_id": "D", "option_text": "Limestone"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mineral Belts"
+    },
+    {
+      "q_id": "GEO_ECORES_Q014",
+      "question_number": 14,
+      "question_text": "India's largest coal reserves are found in which geological formation/type?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Gondwana coalfields"},
+        {"option_id": "B", "option_text": "Tertiary coalfields"},
+        {"option_id": "C", "option_text": "Cretaceous coalfields"},
+        {"option_id": "D", "option_text": "Precambrian coalfields"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Energy Resources"
+    },
+    {
+      "q_id": "GEO_ECORES_Q015",
+      "question_number": 15,
+      "question_text": "Which of the following is NOT a non-renewable energy resource?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Coal"},
+        {"option_id": "B", "option_text": "Petroleum"},
+        {"option_id": "C", "option_text": "Natural gas"},
+        {"option_id": "D", "option_text": "Solar energy"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Energy Resources"
+    },
+    {
+      "q_id": "GEO_ECORES_Q016",
+      "question_number": 16,
+      "question_text": "Which state in India has the largest installed capacity of wind power (long-term pattern, not a single year spike)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Gujarat"},
+        {"option_id": "B", "option_text": "Tamil Nadu"},
+        {"option_id": "C", "option_text": "Maharashtra"},
+        {"option_id": "D", "option_text": "Rajasthan"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Renewable Energy"
+    },
+    {
+      "q_id": "GEO_ECORES_Q017",
+      "question_number": 17,
+      "question_text": "Which of the following regions is most suitable for geothermal energy utilization globally?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Stable shield areas"},
+        {"option_id": "B", "option_text": "Mid-ocean ridges"},
+        {"option_id": "C", "option_text": "Active volcanic regions"},
+        {"option_id": "D", "option_text": "Hot deserts"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Renewable Energy"
+    },
+    {
+      "q_id": "GEO_ECORES_Q018",
+      "question_number": 18,
+      "question_text": "Which of the following is a characteristic of subsistence agriculture?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Highly mechanized"},
+        {"option_id": "B", "option_text": "High use of chemical fertilizers"},
+        {"option_id": "C", "option_text": "Production mainly for local consumption"},
+        {"option_id": "D", "option_text": "Large farm size with export orientation"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Agricultural Systems"
+    },
+    {
+      "q_id": "GEO_ECORES_Q019",
+      "question_number": 19,
+      "question_text": "Which of the following pairs is correctly matched? 'Country – Major Wheat Producer'",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "China – Leading global producer"},
+        {"option_id": "B", "option_text": "Brazil – Leading global producer"},
+        {"option_id": "C", "option_text": "Nigeria – Leading global producer"},
+        {"option_id": "D", "option_text": "South Africa – Leading global producer"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "World Agriculture"
+    },
+    {
+      "q_id": "GEO_ECORES_Q020",
+      "question_number": 20,
+      "question_text": "Which of the following countries is known as a major exporter of dairy products globally (long-standing pattern)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "New Zealand"},
+        {"option_id": "B", "option_text": "Saudi Arabia"},
+        {"option_id": "C", "option_text": "Japan"},
+        {"option_id": "D", "option_text": "Egypt"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "World Agriculture"
+    },
+    {
+      "q_id": "GEO_ECORES_Q021",
+      "question_number": 21,
+      "question_text": "Silicon Valley in the USA is famous for which type of industry?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Textile industry"},
+        {"option_id": "B", "option_text": "Iron and steel industry"},
+        {"option_id": "C", "option_text": "Information technology and electronics"},
+        {"option_id": "D", "option_text": "Shipbuilding industry"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Industrial Geography"
+    },
+    {
+      "q_id": "GEO_ECORES_Q022",
+      "question_number": 22,
+      "question_text": "The 'Ruhr' region in Germany is well known for which type of industry historically?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Shipbuilding"},
+        {"option_id": "B", "option_text": "Iron and steel"},
+        {"option_id": "C", "option_text": "Cotton textiles"},
+        {"option_id": "D", "option_text": "Electronics"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Industrial Regions"
+    },
+    {
+      "q_id": "GEO_ECORES_Q023",
+      "question_number": 23,
+      "question_text": "The major factors influencing the location of iron and steel industries are primarily:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Proximity to market alone"},
+        {"option_id": "B", "option_text": "Availability of raw materials, power and transport"},
+        {"option_id": "C", "option_text": "Availability of skilled labour only"},
+        {"option_id": "D", "option_text": "Climate and soil type"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Industrial Location"
+    },
+    {
+      "q_id": "GEO_ECORES_Q024",
+      "question_number": 24,
+      "question_text": "Which city is known as the 'Manchester of India' due to its cotton textile industry?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mumbai"},
+        {"option_id": "B", "option_text": "Surat"},
+        {"option_id": "C", "option_text": "Ahmedabad"},
+        {"option_id": "D", "option_text": "Kanpur"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Industrial Towns"
+    },
+    {
+      "q_id": "GEO_ECORES_Q025",
+      "question_number": 25,
+      "question_text": "The IT corridor of India, 'Electronic City', is mainly located near which Indian city?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Hyderabad"},
+        {"option_id": "B", "option_text": "Chennai"},
+        {"option_id": "C", "option_text": "Bengaluru"},
+        {"option_id": "D", "option_text": "Pune"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "IT Industry"
+    },
+    {
+      "q_id": "GEO_ECORES_Q026",
+      "question_number": 26,
+      "question_text": "Which one of the following ports is a major iron ore exporting port on the western coast of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Kochi"},
+        {"option_id": "B", "option_text": "Mormugao"},
+        {"option_id": "C", "option_text": "Mumbai"},
+        {"option_id": "D", "option_text": "Kandla"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ports and Trade"
+    },
+    {
+      "q_id": "GEO_ECORES_Q027",
+      "question_number": 27,
+      "question_text": "Kandla Port in Gujarat was developed mainly to handle trade of which type after India's Partition?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Petroleum exports"},
+        {"option_id": "B", "option_text": "Textile imports"},
+        {"option_id": "C", "option_text": "Trade previously handled by Karachi"},
+        {"option_id": "D", "option_text": "Fishery exports"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ports and Trade"
+    },
+    {
+      "q_id": "GEO_ECORES_Q028",
+      "question_number": 28,
+      "question_text": "Golden Quadrilateral in India primarily connects which of the following?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Four major ports"},
+        {"option_id": "B", "option_text": "Four major metros by road network"},
+        {"option_id": "C", "option_text": "Four major airports by airways"},
+        {"option_id": "D", "option_text": "Four major rivers by canal system"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Transport"
+    },
+    {
+      "q_id": "GEO_ECORES_Q029",
+      "question_number": 29,
+      "question_text": "Which of the following is a major factor behind the development of IT industries in Bengaluru?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Abundant mineral resources"},
+        {"option_id": "B", "option_text": "Proximity to coal fields"},
+        {"option_id": "C", "option_text": "Pleasant climate and skilled manpower"},
+        {"option_id": "D", "option_text": "Deep natural harbour"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Industrial Location"
+    },
+    {
+      "q_id": "GEO_ECORES_Q030",
+      "question_number": 30,
+      "question_text": "Which of the following is the largest trading partner of India in merchandise trade in recent decades (broad trend)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Japan"},
+        {"option_id": "B", "option_text": "United States of America"},
+        {"option_id": "C", "option_text": "United Kingdom"},
+        {"option_id": "D", "option_text": "South Africa"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "International Trade"
+    },
+    {
+      "q_id": "GEO_ECORES_Q031",
+      "question_number": 31,
+      "question_text": "Which one of the following is an example of a primary economic activity?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Banking"},
+        {"option_id": "B", "option_text": "Manufacturing of cars"},
+        {"option_id": "C", "option_text": "Fishing"},
+        {"option_id": "D", "option_text": "Transport services"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Economic Activities"
+    },
+    {
+      "q_id": "GEO_ECORES_Q032",
+      "question_number": 32,
+      "question_text": "Which among the following is considered a 'footloose' industry due to its low dependence on location-bound factors?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Iron and steel"},
+        {"option_id": "B", "option_text": "Cement"},
+        {"option_id": "C", "option_text": "Information technology"},
+        {"option_id": "D", "option_text": "Aluminium smelting"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Industrial Geography"
+    },
+    {
+      "q_id": "GEO_ECORES_Q033",
+      "question_number": 33,
+      "question_text": "Which of the following best describes 'Green Revolution' in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rapid increase in milk production"},
+        {"option_id": "B", "option_text": "Rapid increase in food grain production using HYVs"},
+        {"option_id": "C", "option_text": "Rapid increase in cotton production"},
+        {"option_id": "D", "option_text": "Rapid growth in forest cover"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Agricultural Development"
+    },
+    {
+      "q_id": "GEO_ECORES_Q034",
+      "question_number": 34,
+      "question_text": "The White Revolution in India is associated with a significant increase in the production of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rice"},
+        {"option_id": "B", "option_text": "Milk"},
+        {"option_id": "C", "option_text": "Wool"},
+        {"option_id": "D", "option_text": "Cotton"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Agricultural Development"
+    },
+    {
+      "q_id": "GEO_ECORES_Q035",
+      "question_number": 35,
+      "question_text": "Which Indian river valley is known for a high concentration of thermal power plants due to coal availability?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Narmada valley"},
+        {"option_id": "B", "option_text": "Mahanadi valley"},
+        {"option_id": "C", "option_text": "Damodar valley"},
+        {"option_id": "D", "option_text": "Krishna valley"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Energy Resources"
+    },
+    {
+      "q_id": "GEO_ECORES_Q036",
+      "question_number": 36,
+      "question_text": "Which one of the following factors has been most important in the location of cotton textile industries in Maharashtra and Gujarat historically?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Hydel power"},
+        {"option_id": "B", "option_text": "Availability of coal"},
+        {"option_id": "C", "option_text": "Humid climate and coastal location"},
+        {"option_id": "D", "option_text": "Forest resources"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Industrial Location"
+    },
+    {
+      "q_id": "GEO_ECORES_Q037",
+      "question_number": 37,
+      "question_text": "Which type of irrigation is most suitable for water-scarce regions and high-value crops like fruits and vegetables?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Flood irrigation"},
+        {"option_id": "B", "option_text": "Furrow irrigation"},
+        {"option_id": "C", "option_text": "Sprinkler irrigation"},
+        {"option_id": "D", "option_text": "Drip irrigation"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Irrigation"
+    },
+    {
+      "q_id": "GEO_ECORES_Q038",
+      "question_number": 38,
+      "question_text": "In India, which sector employs the largest proportion of the workforce (long-term trend)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Primary sector"},
+        {"option_id": "B", "option_text": "Secondary sector"},
+        {"option_id": "C", "option_text": "Tertiary sector"},
+        {"option_id": "D", "option_text": "Quaternary sector"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Economic Sectors"
+    },
+    {
+      "q_id": "GEO_ECORES_Q039",
+      "question_number": 39,
+      "question_text": "Which of the following best describes 'occupational structure' of a country?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Pattern of distribution of population by sex"},
+        {"option_id": "B", "option_text": "Pattern of distribution of population by literacy"},
+        {"option_id": "C", "option_text": "Pattern of distribution of population by economic activities"},
+        {"option_id": "D", "option_text": "Pattern of distribution of population by age"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Population and Economy"
+    },
+    {
+      "q_id": "GEO_ECORES_Q040",
+      "question_number": 40,
+      "question_text": "Which of the following is a major characteristic of subsistence farming in densely populated regions of Asia?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Extensive use of machinery"},
+        {"option_id": "B", "option_text": "Small holdings and intensive labour use"},
+        {"option_id": "C", "option_text": "Large farm size with monocropping"},
+        {"option_id": "D", "option_text": "High level of mechanization and export focus"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Agricultural Systems"
+    },
+    {
+      "q_id": "GEO_ECORES_Q041",
+      "question_number": 41,
+      "question_text": "Which among the following is a major fishing ground of the world due to mixing of warm and cold currents?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Grand Banks (off Newfoundland)"},
+        {"option_id": "B", "option_text": "Black Sea"},
+        {"option_id": "C", "option_text": "Aral Sea"},
+        {"option_id": "D", "option_text": "Dead Sea"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Fisheries"
+    },
+    {
+      "q_id": "GEO_ECORES_Q042",
+      "question_number": 42,
+      "question_text": "Which of the following regions is famous for viticulture (grape cultivation) as a major agricultural activity?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mediterranean region"},
+        {"option_id": "B", "option_text": "Equatorial rainforest region"},
+        {"option_id": "C", "option_text": "Tundra region"},
+        {"option_id": "D", "option_text": "Monsoon Asia"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "World Agriculture"
+    },
+    {
+      "q_id": "GEO_ECORES_Q043",
+      "question_number": 43,
+      "question_text": "Which among the following best describes a 'resource' in geography?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Any naturally occurring material"},
+        {"option_id": "B", "option_text": "Any material that has utility, value and can be used by humans"},
+        {"option_id": "C", "option_text": "Only minerals and fossil fuels"},
+        {"option_id": "D", "option_text": "Only renewable natural products"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Resources"
+    },
+    {
+      "q_id": "GEO_ECORES_Q044",
+      "question_number": 44,
+      "question_text": "Which of the following is a characteristic of 'resource planning' at the national level?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Random exploitation of resources"},
+        {"option_id": "B", "option_text": "Mapping of resources, assessing availability and designing a structure for development"},
+        {"option_id": "C", "option_text": "Focus only on mineral resources"},
+        {"option_id": "D", "option_text": "Ignoring environmental impact in planning"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Resource Planning"
+    },
+    {
+      "q_id": "GEO_ECORES_Q045",
+      "question_number": 45,
+      "question_text": "Which one of the following is a major factor driving globalization of economic activities?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Decline in telecommunications and transport costs"},
+        {"option_id": "B", "option_text": "Complete self-sufficiency of nations"},
+        {"option_id": "C", "option_text": "Absence of multinational corporations"},
+        {"option_id": "D", "option_text": "Strict trade barriers everywhere"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Globalization"
+    },
+    {
+      "q_id": "GEO_ECORES_Q046",
+      "question_number": 46,
+      "question_text": "Which of the following is an example of a tertiary sector activity in economic geography?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mining of coal"},
+        {"option_id": "B", "option_text": "Manufacturing of steel"},
+        {"option_id": "C", "option_text": "Banking and insurance"},
+        {"option_id": "D", "option_text": "Cultivation of wheat"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Economic Sectors"
+    },
+    {
+      "q_id": "GEO_ECORES_Q047",
+      "question_number": 47,
+      "question_text": "Which one of the following is a correct statement regarding Special Economic Zones (SEZs) in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "They are only meant for agriculture."},
+        {"option_id": "B", "option_text": "They provide duty-free and tax incentives for export-oriented industries."},
+        {"option_id": "C", "option_text": "They restrict foreign investment completely."},
+        {"option_id": "D", "option_text": "They are only located in landlocked states."}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Industrial Policy"
+    },
+    {
+      "q_id": "GEO_ECORES_Q048",
+      "question_number": 48,
+      "question_text": "Which of the following regions is famous for 'market gardening' and 'truck farming' due to high urban demand?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Remote mountain regions"},
+        {"option_id": "B", "option_text": "Near large urban centres"},
+        {"option_id": "C", "option_text": "Interior desert regions"},
+        {"option_id": "D", "option_text": "Tundra regions"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Agricultural Systems"
+    },
+    {
+      "q_id": "GEO_ECORES_Q049",
+      "question_number": 49,
+      "question_text": "Which one of the following terms describes the movement of people from rural areas to urban areas in search of livelihood?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Urbanization"},
+        {"option_id": "B", "option_text": "Counter-urbanization"},
+        {"option_id": "C", "option_text": "Rural depopulation"},
+        {"option_id": "D", "option_text": "Rural-urban migration"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Population and Economy"
+    },
+    {
+      "q_id": "GEO_ECORES_Q050",
+      "question_number": 50,
+      "question_text": "Which of the following best describes the concept of 'sustainable development' in the context of resources?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Using resources as fast as possible for growth"},
+        {"option_id": "B", "option_text": "Meeting present needs without compromising the ability of future generations to meet their own needs"},
+        {"option_id": "C", "option_text": "Using only non-renewable resources"},
+        {"option_id": "D", "option_text": "Maximizing profit, ignoring environmental concerns"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Sustainable Development"
+    }
+  ]
+}

@@ -1,0 +1,882 @@
+{
+  "test_metadata": {
+    "test_id": "ECO_POV_EMP_MCQT1",
+    "test_title": "Poverty, Employment and Recent Development - Practice MCQ Test",
+    "subject": "Indian Economy",
+    "gs_paper": "GS III",
+    "unit": "Poverty, Employment and Development",
+    "sub_topic": "Poverty, Unemployment, Human Development, Inclusive Growth",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "Poverty",
+      "Unemployment",
+      "Employment",
+      "Human Development",
+      "Inequality",
+      "Inclusive Growth",
+      "Social Sector"
+    ],
+    "created_date": "2025-11-17",
+    "description": "Conceptual and application-based MCQs on poverty, employment, inequality, human development and inclusive growth in the Indian context."
+  },
+  "questions": [
+    {
+      "q_id": "ECO_POV_EMP_Q001",
+      "question_number": 1,
+      "question_text": "Poverty line in most official approaches is primarily defined in terms of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Level of education attained"},
+        {"option_id": "B", "option_text": "Minimum income or consumption required to meet basic needs"},
+        {"option_id": "C", "option_text": "Ownership of luxury goods"},
+        {"option_id": "D", "option_text": "Access to internet connectivity"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Poverty Line"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q002",
+      "question_number": 2,
+      "question_text": "Head Count Ratio (HCR) as a poverty measure refers to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Number of poor per 1,000 population"},
+        {"option_id": "B", "option_text": "Percentage of population below the poverty line"},
+        {"option_id": "C", "option_text": "Average income of the poor"},
+        {"option_id": "D", "option_text": "Gap between richest and poorest decile"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Poverty Measures"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q003",
+      "question_number": 3,
+      "question_text": "Which one of the following is a limitation of Head Count Ratio as a poverty measure?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "It cannot be calculated from survey data"},
+        {"option_id": "B", "option_text": "It ignores how far below the poverty line the poor are"},
+        {"option_id": "C", "option_text": "It includes the non-poor in calculation"},
+        {"option_id": "D", "option_text": "It cannot be compared over time"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Poverty Measures"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q004",
+      "question_number": 4,
+      "question_text": "The concept of 'absolute poverty' primarily focuses on:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Inequality between rich and poor"},
+        {"option_id": "B", "option_text": "Inability to meet minimum basic consumption needs"},
+        {"option_id": "C", "option_text": "Relative position of income in society"},
+        {"option_id": "D", "option_text": "Ownership of land only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Absolute Poverty"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q005",
+      "question_number": 5,
+      "question_text": "Relative poverty is best illustrated by which of the following situations?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Household cannot buy enough food for one meal"},
+        {"option_id": "B", "option_text": "Household income is below a fixed minimum consumption requirement"},
+        {"option_id": "C", "option_text": "Household income is significantly lower than median income of society"},
+        {"option_id": "D", "option_text": "Household owns no land at all"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Relative Poverty"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q006",
+      "question_number": 6,
+      "question_text": "Multidimensional Poverty Index (MPI) typically includes indicators related to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only income and consumption"},
+        {"option_id": "B", "option_text": "Health, education and living standards"},
+        {"option_id": "C", "option_text": "Only wealth and assets"},
+        {"option_id": "D", "option_text": "Only unemployment rate"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "MPI"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q007",
+      "question_number": 7,
+      "question_text": "In India, large sections of the poor are typically concentrated among which groups?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Urban salaried middle class"},
+        {"option_id": "B", "option_text": "Large industrialists"},
+        {"option_id": "C", "option_text": "Landless agricultural labourers and casual workers"},
+        {"option_id": "D", "option_text": "Top income decile only"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Profile of Poverty"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q008",
+      "question_number": 8,
+      "question_text": "The term 'vicious circle of poverty' refers to a situation where:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High income leads to high savings and growth"},
+        {"option_id": "B", "option_text": "Low income leads to low saving, low investment and hence low income again"},
+        {"option_id": "C", "option_text": "High taxation leads to poverty directly"},
+        {"option_id": "D", "option_text": "Only external debt causes poverty"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vicious Circle"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q009",
+      "question_number": 9,
+      "question_text": "In the context of employment statistics, 'labour force' includes:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "All persons in the working-age group"},
+        {"option_id": "B", "option_text": "Only those who are employed"},
+        {"option_id": "C", "option_text": "Those who are either employed or actively seeking work"},
+        {"option_id": "D", "option_text": "Only those who are unemployed"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Labour Force"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q010",
+      "question_number": 10,
+      "question_text": "Which of the following best defines 'open unemployment'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "People working below their skill level"},
+        {"option_id": "B", "option_text": "People who are willing and able to work but cannot find work at prevailing wage rates"},
+        {"option_id": "C", "option_text": "People not willing to work"},
+        {"option_id": "D", "option_text": "People working part-time by choice"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Unemployment Types"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q011",
+      "question_number": 11,
+      "question_text": "Disguised unemployment is generally associated with which of the following situations in Indian context?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Highly mechanised factories"},
+        {"option_id": "B", "option_text": "Service sector offices"},
+        {"option_id": "C", "option_text": "Overcrowded agriculture where marginal productivity of some workers is near zero"},
+        {"option_id": "D", "option_text": "High-tech IT companies"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Disguised Unemployment"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q012",
+      "question_number": 12,
+      "question_text": "Which one of the following is NOT a type of unemployment discussed in development economics?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Cyclical unemployment"},
+        {"option_id": "B", "option_text": "Frictional unemployment"},
+        {"option_id": "C", "option_text": "Structural unemployment"},
+        {"option_id": "D", "option_text": "Absolute unemployment of machines only"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Unemployment Types"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q013",
+      "question_number": 13,
+      "question_text": "The informal (unorganised) sector in India is typically characterised by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Written contracts and social security benefits"},
+        {"option_id": "B", "option_text": "High regulation and strong unionisation"},
+        {"option_id": "C", "option_text": "Absence of formal contracts, low wages and lack of social security"},
+        {"option_id": "D", "option_text": "Exclusively public sector jobs"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Informal Sector"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q014",
+      "question_number": 14,
+      "question_text": "Which of the following bodies conducts employment and unemployment surveys like the Periodic Labour Force Survey in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Reserve Bank of India"},
+        {"option_id": "B", "option_text": "National Statistical Office (NSO)"},
+        {"option_id": "C", "option_text": "NITI Aayog"},
+        {"option_id": "D", "option_text": "Finance Commission"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Employment Data"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q015",
+      "question_number": 15,
+      "question_text": "Which of the following indicators measures the proportion of working-age population that is either employed or actively seeking work?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Unemployment rate"},
+        {"option_id": "B", "option_text": "Labour Force Participation Rate (LFPR)"},
+        {"option_id": "C", "option_text": "Work Participation Rate"},
+        {"option_id": "D", "option_text": "Dependency ratio"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "LFPR"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q016",
+      "question_number": 16,
+      "question_text": "Underemployment is best described by which of the following cases?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "A person working full-time at high wages"},
+        {"option_id": "B", "option_text": "A person working part-time involuntarily when full-time work is desired"},
+        {"option_id": "C", "option_text": "A retired person not looking for work"},
+        {"option_id": "D", "option_text": "A student studying full-time"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Underemployment"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q017",
+      "question_number": 17,
+      "question_text": "Which of the following policy measures can directly help in reducing structural unemployment over the long run?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Across-the-board wage cut in all sectors"},
+        {"option_id": "B", "option_text": "Skill development, education and sectoral diversification"},
+        {"option_id": "C", "option_text": "Closing all training institutions"},
+        {"option_id": "D", "option_text": "Only raising interest rates frequently"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Structural Unemployment"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q018",
+      "question_number": 18,
+      "question_text": "Demographic dividend refers to a situation where an economy has:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High proportion of elderly population"},
+        {"option_id": "B", "option_text": "High proportion of working-age population relative to dependents"},
+        {"option_id": "C", "option_text": "Very low birth rate only"},
+        {"option_id": "D", "option_text": "Only high migration inflows"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Demographic Dividend"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q019",
+      "question_number": 19,
+      "question_text": "Which of the following best captures the idea of 'inclusive growth' in Indian planning discourse?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High GDP growth regardless of distribution"},
+        {"option_id": "B", "option_text": "Growth that is broad-based across sectors and includes vulnerable groups in its benefits"},
+        {"option_id": "C", "option_text": "Growth confined only to urban regions"},
+        {"option_id": "D", "option_text": "Growth driven only by stock market performance"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Inclusive Growth"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q020",
+      "question_number": 20,
+      "question_text": "Human Development Index (HDI) is a composite measure of which of the following dimensions?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Income, environment and technology"},
+        {"option_id": "B", "option_text": "Health, education and standard of living"},
+        {"option_id": "C", "option_text": "Agriculture, industry and services"},
+        {"option_id": "D", "option_text": "Population growth, literacy and inflation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "HDI"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q021",
+      "question_number": 21,
+      "question_text": "Which of the following is a valid criticism of GDP as a measure of development?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "It ignores market transactions entirely"},
+        {"option_id": "B", "option_text": "It does not capture distribution of income and quality of life directly"},
+        {"option_id": "C", "option_text": "It is calculated only every 10 years"},
+        {"option_id": "D", "option_text": "It includes unpaid household work fully"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "GDP vs Development"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q022",
+      "question_number": 22,
+      "question_text": "Gini coefficient is used as a measure of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Poverty depth"},
+        {"option_id": "B", "option_text": "Income or wealth inequality"},
+        {"option_id": "C", "option_text": "Employment rate"},
+        {"option_id": "D", "option_text": "Human development level"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Inequality"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q023",
+      "question_number": 23,
+      "question_text": "Which of the following public programmes is primarily aimed at providing legal guarantee of wage employment in rural areas of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "PMGSY"},
+        {"option_id": "B", "option_text": "MGNREGA"},
+        {"option_id": "C", "option_text": "PM-KISAN"},
+        {"option_id": "D", "option_text": "PMJDY"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Employment Scheme"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q024",
+      "question_number": 24,
+      "question_text": "Which of the following schemes is directly related to financial inclusion in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "PMJDY"},
+        {"option_id": "B", "option_text": "PMFBY"},
+        {"option_id": "C", "option_text": "PMGSY"},
+        {"option_id": "D", "option_text": "PMAY-G"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Financial Inclusion"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q025",
+      "question_number": 25,
+      "question_text": "Public Distribution System (PDS) in India primarily aims at:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Subsidised supply of food grains to vulnerable sections"},
+        {"option_id": "B", "option_text": "Supply of luxury goods to rich households"},
+        {"option_id": "C", "option_text": "Export promotion of food grains"},
+        {"option_id": "D", "option_text": "Subsidised credit to industries"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "PDS"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q026",
+      "question_number": 26,
+      "question_text": "Leakages in social welfare schemes often refer to which of the following problems?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Excessive coverage of all poor households"},
+        {"option_id": "B", "option_text": "Benefits not reaching intended beneficiaries due to corruption, diversion or inefficiency"},
+        {"option_id": "C", "option_text": "Over-reporting of poverty only"},
+        {"option_id": "D", "option_text": "Reduction in administrative costs"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Leakages"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q027",
+      "question_number": 27,
+      "question_text": "Direct Benefit Transfer (DBT) in India primarily aims to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Provide benefits in-kind only through PDS shops"},
+        {"option_id": "B", "option_text": "Transfer subsidies and benefits directly into bank accounts of beneficiaries"},
+        {"option_id": "C", "option_text": "Eliminate all subsidies"},
+        {"option_id": "D", "option_text": "Provide only employment in rural areas"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "DBT"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q028",
+      "question_number": 28,
+      "question_text": "Which of the following is a likely effect of high and persistent unemployment in an economy?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Higher tax revenue automatically"},
+        {"option_id": "B", "option_text": "Higher poverty and social tensions"},
+        {"option_id": "C", "option_text": "Guaranteed higher GDP growth"},
+        {"option_id": "D", "option_text": "Lower dependency ratio"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Unemployment Effects"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q029",
+      "question_number": 29,
+      "question_text": "Which of the following indicates 'working poor' in labour economics?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Persons not in labour force but rich"},
+        {"option_id": "B", "option_text": "Persons who are employed but still live below the poverty line"},
+        {"option_id": "C", "option_text": "Persons who are unemployed but wealthy"},
+        {"option_id": "D", "option_text": "Persons working in government sector only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Working Poor"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q030",
+      "question_number": 30,
+      "question_text": "Which of the following policy interventions is MOST likely to reduce poverty in the long run in a sustainable way?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only temporary loan waivers without productivity gains"},
+        {"option_id": "B", "option_text": "Improved education, health, skills and productive employment opportunities"},
+        {"option_id": "C", "option_text": "Unlimited consumption subsidies with no targeting"},
+        {"option_id": "D", "option_text": "Perpetual dependence on informal moneylenders"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Poverty Reduction"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q031",
+      "question_number": 31,
+      "question_text": "The concept of 'social protection' in development economics refers to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Policies that only protect industries from imports"},
+        {"option_id": "B", "option_text": "Policies and programmes to reduce vulnerability, poverty and risk (like pensions, insurance, safety nets)"},
+        {"option_id": "C", "option_text": "Only protection of environment"},
+        {"option_id": "D", "option_text": "Only legal protection of property rights"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Social Protection"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q032",
+      "question_number": 32,
+      "question_text": "Which of the following best explains 'capability approach' to development put forward by Amartya Sen?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Focusing only on GDP as indicator of welfare"},
+        {"option_id": "B", "option_text": "Emphasising income alone as measure of capability"},
+        {"option_id": "C", "option_text": "Viewing development as enhancement of people’s capabilities and freedoms to lead lives they value"},
+        {"option_id": "D", "option_text": "Considering only physical infrastructure as development"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Capability Approach"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q033",
+      "question_number": 33,
+      "question_text": "Urban poverty in India is often characterised by which of the following features?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sprawling slums with poor housing, sanitation and informal employment"},
+        {"option_id": "B", "option_text": "High agricultural productivity"},
+        {"option_id": "C", "option_text": "Complete absence of informal sector"},
+        {"option_id": "D", "option_text": "Universal access to social security and housing"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Urban Poverty"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q034",
+      "question_number": 34,
+      "question_text": "Which of the following is a plausible consequence of high regional disparities in development within a country?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Perfectly uniform migration"},
+        {"option_id": "B", "option_text": "Increased internal migration, social tensions and unequal opportunities"},
+        {"option_id": "C", "option_text": "Guaranteed political stability everywhere"},
+        {"option_id": "D", "option_text": "Only higher tax revenues for poorer regions"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Regional Disparities"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q035",
+      "question_number": 35,
+      "question_text": "Which of the following is an example of a 'self-employment' programme aimed at poverty alleviation and livelihood promotion in rural areas?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Schemes for high-end stock trading"},
+        {"option_id": "B", "option_text": "Programmes that organise rural poor into SHGs and promote micro-enterprises"},
+        {"option_id": "C", "option_text": "Only cash transfer to rich households"},
+        {"option_id": "D", "option_text": "Only free higher education for elites"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Self-Employment"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q036",
+      "question_number": 36,
+      "question_text": "Skill development initiatives are MOST directly linked with which of the following development goals?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Increasing only capital gains tax"},
+        {"option_id": "B", "option_text": "Enhancing employability, productivity and wages of workers"},
+        {"option_id": "C", "option_text": "Reducing human capital"},
+        {"option_id": "D", "option_text": "Decreasing labour force participation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Skill Development"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q037",
+      "question_number": 37,
+      "question_text": "Which statement best reflects the relationship between economic growth and poverty reduction in development experience?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Growth automatically reduces poverty irrespective of distribution"},
+        {"option_id": "B", "option_text": "Growth has no relation with poverty at all"},
+        {"option_id": "C", "option_text": "Growth combined with targeted social policies is more effective in reducing poverty"},
+        {"option_id": "D", "option_text": "Only redistribution without growth is sufficient forever"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Growth and Poverty"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q038",
+      "question_number": 38,
+      "question_text": "Persistent 'jobless growth' in an economy refers to a situation where:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "GDP grows with commensurate growth in employment"},
+        {"option_id": "B", "option_text": "GDP grows but employment growth remains stagnant or very low"},
+        {"option_id": "C", "option_text": "Employment grows but GDP falls"},
+        {"option_id": "D", "option_text": "Neither GDP nor employment grows"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Jobless Growth"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q039",
+      "question_number": 39,
+      "question_text": "Which of the following can be considered an indicator of 'quality of employment' rather than mere quantity?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Number of hours worked only"},
+        {"option_id": "B", "option_text": "Presence of social security, decent wages and safe working conditions"},
+        {"option_id": "C", "option_text": "Only sectoral distribution of employment"},
+        {"option_id": "D", "option_text": "Only number of formal sector jobs"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Quality of Employment"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q040",
+      "question_number": 40,
+      "question_text": "Gender gap in labour force participation in India implies that:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Men and women participate equally everywhere"},
+        {"option_id": "B", "option_text": "Women’s participation in labour market is significantly lower than men’s"},
+        {"option_id": "C", "option_text": "Women’s participation is always higher than men’s"},
+        {"option_id": "D", "option_text": "Gender has no relation with labour statistics"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Gender and Employment"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q041",
+      "question_number": 41,
+      "question_text": "Which of the following policies would MOST LIKELY support both employment generation and environmental sustainability?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Promoting only resource-intensive industries ignoring pollution"},
+        {"option_id": "B", "option_text": "Large-scale afforestation, renewable energy and eco-tourism projects"},
+        {"option_id": "C", "option_text": "Banning all industrial activities"},
+        {"option_id": "D", "option_text": "Subsidising fossil fuels indefinitely"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Green Jobs"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q042",
+      "question_number": 42,
+      "question_text": "Which among the following is a typical feature of rural–urban migration in developing economies like India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Movement of population from urban to rural areas for agriculture"},
+        {"option_id": "B", "option_text": "Migration from rural areas to urban centres in search of better employment opportunities"},
+        {"option_id": "C", "option_text": "Zero migration between regions"},
+        {"option_id": "D", "option_text": "Movement only of elderly population to cities"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Migration"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q043",
+      "question_number": 43,
+      "question_text": "Which of the following reflects under-nutrition as a dimension of poverty and development?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High consumption of luxury foods"},
+        {"option_id": "B", "option_text": "Calorie and protein intake below minimum recommended levels"},
+        {"option_id": "C", "option_text": "Exclusive dependence on imported food"},
+        {"option_id": "D", "option_text": "Only high body mass index (BMI)"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Nutrition and Poverty"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q044",
+      "question_number": 44,
+      "question_text": "Which of the following development approaches is most consistent with Sustainable Development Goals (SDGs)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Exclusive focus on economic growth with no concern for environment or equity"},
+        {"option_id": "B", "option_text": "Balancing economic growth with social inclusion and environmental protection"},
+        {"option_id": "C", "option_text": "Ignoring social indicators entirely"},
+        {"option_id": "D", "option_text": "Stopping all industrial development"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Sustainable Development"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q045",
+      "question_number": 45,
+      "question_text": "Which of the following best exemplifies inter-generational transmission of poverty?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Each generation independently determining its income"},
+        {"option_id": "B", "option_text": "Children of poor households facing limited access to health, education and thus remaining poor as adults"},
+        {"option_id": "C", "option_text": "Sudden wealth gains due to lottery"},
+        {"option_id": "D", "option_text": "High social mobility in education and jobs"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Inter-generational Poverty"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q046",
+      "question_number": 46,
+      "question_text": "Which of the following is a direct indicator of human capital formation relevant for development analysis?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Number of luxury cars sold"},
+        {"option_id": "B", "option_text": "Expenditure on education and health"},
+        {"option_id": "C", "option_text": "Amount of gold imported"},
+        {"option_id": "D", "option_text": "Volume of speculative stock trade"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Human Capital"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q047",
+      "question_number": 47,
+      "question_text": "Which factor can exacerbate both poverty and vulnerability among informal workers during economic shocks?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Comprehensive social insurance coverage"},
+        {"option_id": "B", "option_text": "Lack of job security, savings and social protection"},
+        {"option_id": "C", "option_text": "Long-term employment contracts with benefits"},
+        {"option_id": "D", "option_text": "Stable and diversified sources of income"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Vulnerability"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q048",
+      "question_number": 48,
+      "question_text": "Which of the following can be considered a 'pull factor' for rural–urban migration in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Crop failure and drought in rural areas"},
+        {"option_id": "B", "option_text": "Better job opportunities, education and services in urban areas"},
+        {"option_id": "C", "option_text": "Landlessness and agrarian distress in villages"},
+        {"option_id": "D", "option_text": "Natural disasters in rural regions"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Pull Factors"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q049",
+      "question_number": 49,
+      "question_text": "Which of the following combinations would BEST support 'pro-poor growth' in an economy?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High growth with rising inequality and stagnant employment"},
+        {"option_id": "B", "option_text": "Moderate to high growth, rising productive employment and targeted social programmes"},
+        {"option_id": "C", "option_text": "Low growth with no redistribution"},
+        {"option_id": "D", "option_text": "Only high redistribution without any growth or employment creation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Pro-Poor Growth"
+    },
+    {
+      "q_id": "ECO_POV_EMP_Q050",
+      "question_number": 50,
+      "question_text": "In the context of Indian economy, 'recent development' perspective in poverty and employment would MOST appropriately focus on:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only historical data without current trends"},
+        {"option_id": "B", "option_text": "Interactions between growth, structural change, technology, informality and social protection"},
+        {"option_id": "C", "option_text": "Only agriculture and no other sector"},
+        {"option_id": "D", "option_text": "Ignoring employment quality and focusing only on GDP numbers"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Recent Development Perspective"
+    }
+  ]
+}

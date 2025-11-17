@@ -1,0 +1,881 @@
+{
+  "test_metadata": {
+    "test_id": "ECO_AGR_RURAL_MCQT1",
+    "test_title": "Agriculture and Rural Economy - Practice MCQ Test",
+    "subject": "Indian Economy",
+    "gs_paper": "GS III",
+    "unit": "Agriculture and Rural Development",
+    "sub_topic": "Agriculture and Rural Economy",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "Agriculture",
+      "Rural Economy",
+      "MSP",
+      "NABARD",
+      "Rural Credit",
+      "MGNREGA",
+      "Land Reforms"
+    ],
+    "created_date": "2025-11-17",
+    "description": "UPSC-style MCQs on Indian agriculture, land reforms, rural credit, MSP, institutions and rural development programmes."
+  },
+  "questions": [
+    {
+      "q_id": "ECO_AGR_Q001",
+      "question_number": 1,
+      "question_text": "In India, agriculture is best described as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Fully mechanised and capitalist"},
+        {"option_id": "B", "option_text": "Subsistence and rain-fed with growing commercialization"},
+        {"option_id": "C", "option_text": "Purely commercial and export oriented"},
+        {"option_id": "D", "option_text": "Completely state-owned"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Nature of Indian Agriculture"
+    },
+    {
+      "q_id": "ECO_AGR_Q002",
+      "question_number": 2,
+      "question_text": "Which of the following is NOT a basic objective of land reforms in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Abolition of intermediaries"},
+        {"option_id": "B", "option_text": "Tenancy reforms and security of tenure"},
+        {"option_id": "C", "option_text": "Ceiling on land holdings and redistribution"},
+        {"option_id": "D", "option_text": "Promoting absentee landlordism"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Land Reforms"
+    },
+    {
+      "q_id": "ECO_AGR_Q003",
+      "question_number": 3,
+      "question_text": "Which of the following was the first important step in land reforms after Independence?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ceiling on land holdings"},
+        {"option_id": "B", "option_text": "Abolition of Zamindari system"},
+        {"option_id": "C", "option_text": "Consolidation of holdings"},
+        {"option_id": "D", "option_text": "Cooperative farming"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Land Reforms"
+    },
+    {
+      "q_id": "ECO_AGR_Q004",
+      "question_number": 4,
+      "question_text": "Consolidation of land holdings aims mainly at solving the problem of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Absentee landlordism"},
+        {"option_id": "B", "option_text": "Fragmentation of land"},
+        {"option_id": "C", "option_text": "Ceiling on land"},
+        {"option_id": "D", "option_text": "Soil degradation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Land Fragmentation"
+    },
+    {
+      "q_id": "ECO_AGR_Q005",
+      "question_number": 5,
+      "question_text": "Green Revolution in India was initially confined mainly to which crops?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rice and wheat"},
+        {"option_id": "B", "option_text": "Pulses only"},
+        {"option_id": "C", "option_text": "Oilseeds only"},
+        {"option_id": "D", "option_text": "Cotton and jute"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Green Revolution"
+    },
+    {
+      "q_id": "ECO_AGR_Q006",
+      "question_number": 6,
+      "question_text": "Which of the following is NOT a component of the Green Revolution package?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High yielding varieties (HYV) seeds"},
+        {"option_id": "B", "option_text": "Chemical fertilizers"},
+        {"option_id": "C", "option_text": "Assured irrigation"},
+        {"option_id": "D", "option_text": "Withdrawal of institutional credit"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Green Revolution"
+    },
+    {
+      "q_id": "ECO_AGR_Q007",
+      "question_number": 7,
+      "question_text": "Which of the following institutions is known as the apex refinancing agency for agriculture and rural development in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "SIDBI"},
+        {"option_id": "B", "option_text": "NABARD"},
+        {"option_id": "C", "option_text": "EXIM Bank"},
+        {"option_id": "D", "option_text": "SEBI"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "NABARD"
+    },
+    {
+      "q_id": "ECO_AGR_Q008",
+      "question_number": 8,
+      "question_text": "NABARD was established in which year to promote agriculture and rural development credit?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1969"},
+        {"option_id": "B", "option_text": "1975"},
+        {"option_id": "C", "option_text": "1982"},
+        {"option_id": "D", "option_text": "1991"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "NABARD"
+    },
+    {
+      "q_id": "ECO_AGR_Q009",
+      "question_number": 9,
+      "question_text": "Kisan Credit Card (KCC) scheme primarily aims to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Provide long-term industrial credit"},
+        {"option_id": "B", "option_text": "Provide timely and adequate short-term credit to farmers"},
+        {"option_id": "C", "option_text": "Provide pensions to farmers"},
+        {"option_id": "D", "option_text": "Provide health insurance to rural households"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Rural Credit"
+    },
+    {
+      "q_id": "ECO_AGR_Q010",
+      "question_number": 10,
+      "question_text": "Which of the following is considered an institutional source of rural credit in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Moneylenders"},
+        {"option_id": "B", "option_text": "Commercial banks"},
+        {"option_id": "C", "option_text": "Traders and commission agents"},
+        {"option_id": "D", "option_text": "Friends and relatives"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Rural Credit"
+    },
+    {
+      "q_id": "ECO_AGR_Q011",
+      "question_number": 11,
+      "question_text": "Which one of the following is NOT an objective of Minimum Support Price (MSP) policy in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "To protect farmers from sharp fall in prices"},
+        {"option_id": "B", "option_text": "To ensure remunerative prices to farmers"},
+        {"option_id": "C", "option_text": "To provide subsidy directly to consumers"},
+        {"option_id": "D", "option_text": "To encourage production of certain crops"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "MSP"
+    },
+    {
+      "q_id": "ECO_AGR_Q012",
+      "question_number": 12,
+      "question_text": "Who recommends the Minimum Support Prices (MSP) for crops to the Government of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "NITI Aayog"},
+        {"option_id": "B", "option_text": "NABARD"},
+        {"option_id": "C", "option_text": "Commission for Agricultural Costs and Prices (CACP)"},
+        {"option_id": "D", "option_text": "Agricultural and Processed Food Products Export Development Authority (APEDA)"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "MSP and CACP"
+    },
+    {
+      "q_id": "ECO_AGR_Q013",
+      "question_number": 13,
+      "question_text": "Which of the following crops is NOT part of the traditional 'foodgrain' category in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rice"},
+        {"option_id": "B", "option_text": "Wheat"},
+        {"option_id": "C", "option_text": "Pulses"},
+        {"option_id": "D", "option_text": "Cotton"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Crop Classification"
+    },
+    {
+      "q_id": "ECO_AGR_Q014",
+      "question_number": 14,
+      "question_text": "Contract farming typically involves which of the following features?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Farmer leases land from government"},
+        {"option_id": "B", "option_text": "Pre-agreed production and marketing arrangement between farmer and buyer"},
+        {"option_id": "C", "option_text": "Only subsistence production"},
+        {"option_id": "D", "option_text": "Complete absence of price agreements"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Market Reforms"
+    },
+    {
+      "q_id": "ECO_AGR_Q015",
+      "question_number": 15,
+      "question_text": "The term 'Rythu Bazaar' or 'Apni Mandi' generally refers to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Government wholesale procurement centers"},
+        {"option_id": "B", "option_text": "Direct farmer-consumer markets"},
+        {"option_id": "C", "option_text": "Retail supermarket chains"},
+        {"option_id": "D", "option_text": "Export-oriented special economic zones"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Agricultural Marketing"
+    },
+    {
+      "q_id": "ECO_AGR_Q016",
+      "question_number": 16,
+      "question_text": "Which institution is primarily responsible for warehousing and scientific storage for agricultural commodities in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "FCI"},
+        {"option_id": "B", "option_text": "CWC"},
+        {"option_id": "C", "option_text": "NABARD"},
+        {"option_id": "D", "option_text": "APEDA"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Warehousing"
+    },
+    {
+      "q_id": "ECO_AGR_Q017",
+      "question_number": 17,
+      "question_text": "MSP is most closely connected with which of the following government operations?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Open market sale scheme"},
+        {"option_id": "B", "option_text": "Public procurement for buffer stocks and PDS"},
+        {"option_id": "C", "option_text": "Interest subvention for farm loans"},
+        {"option_id": "D", "option_text": "Subsidized fertilizer import"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "MSP and Procurement"
+    },
+    {
+      "q_id": "ECO_AGR_Q018",
+      "question_number": 18,
+      "question_text": "Which scheme is primarily aimed at providing crop insurance to farmers against yield losses?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "PMFBY"},
+        {"option_id": "B", "option_text": "PM-KISAN"},
+        {"option_id": "C", "option_text": "PMJDY"},
+        {"option_id": "D", "option_text": "PMGSY"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Crop Insurance"
+    },
+    {
+      "q_id": "ECO_AGR_Q019",
+      "question_number": 19,
+      "question_text": "PM-KISAN scheme provides which of the following benefits to eligible farmers?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Interest-free crop loans"},
+        {"option_id": "B", "option_text": "Income support through direct cash transfers"},
+        {"option_id": "C", "option_text": "Free fertilizers"},
+        {"option_id": "D", "option_text": "Subsidized machinery"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Income Support"
+    },
+    {
+      "q_id": "ECO_AGR_Q020",
+      "question_number": 20,
+      "question_text": "Which programme guarantees at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "PMGSY"},
+        {"option_id": "B", "option_text": "MGNREGA"},
+        {"option_id": "C", "option_text": "SGSY"},
+        {"option_id": "D", "option_text": "NRLM"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "MGNREGA"
+    },
+    {
+      "q_id": "ECO_AGR_Q021",
+      "question_number": 21,
+      "question_text": "MGNREGA is aimed primarily at which of the following rural economy objectives?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rural wage employment and asset creation"},
+        {"option_id": "B", "option_text": "Crop diversification"},
+        {"option_id": "C", "option_text": "Agricultural export promotion"},
+        {"option_id": "D", "option_text": "Subsidizing fertilizer imports"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Rural Employment"
+    },
+    {
+      "q_id": "ECO_AGR_Q022",
+      "question_number": 22,
+      "question_text": "Self-Help Groups (SHGs) in rural areas primarily promote which of the following?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Large-scale corporate farming"},
+        {"option_id": "B", "option_text": "Collective thrift and credit among members"},
+        {"option_id": "C", "option_text": "Only government-funded enterprises"},
+        {"option_id": "D", "option_text": "Exclusive export of agricultural products"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "SHGs and Microfinance"
+    },
+    {
+      "q_id": "ECO_AGR_Q023",
+      "question_number": 23,
+      "question_text": "Which programme is specifically designed for promoting self-employment and organizing the rural poor into SHGs?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "PMGSY"},
+        {"option_id": "B", "option_text": "NRLM"},
+        {"option_id": "C", "option_text": "PM-KISAN"},
+        {"option_id": "D", "option_text": "PMFBY"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "NRLM"
+    },
+    {
+      "q_id": "ECO_AGR_Q024",
+      "question_number": 24,
+      "question_text": "The term 'Agricultural marketing' includes which of the following activities?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only production of crops"},
+        {"option_id": "B", "option_text": "Post-harvest handling, storage, transport, processing and sale"},
+        {"option_id": "C", "option_text": "Only export of crops"},
+        {"option_id": "D", "option_text": "Only government procurement"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Agricultural Marketing"
+    },
+    {
+      "q_id": "ECO_AGR_Q025",
+      "question_number": 25,
+      "question_text": "APMC Acts of States primarily regulate which of the following in the rural economy?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Land ceiling laws"},
+        {"option_id": "B", "option_text": "Marketing of notified agricultural commodities in designated mandis"},
+        {"option_id": "C", "option_text": "Rural labour contracts"},
+        {"option_id": "D", "option_text": "Fertilizer pricing"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "APMC"
+    },
+    {
+      "q_id": "ECO_AGR_Q026",
+      "question_number": 26,
+      "question_text": "Which crop is considered a 'cash crop' in the Indian context?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Wheat"},
+        {"option_id": "B", "option_text": "Pulses"},
+        {"option_id": "C", "option_text": "Cotton"},
+        {"option_id": "D", "option_text": "Rice"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Crop Types"
+    },
+    {
+      "q_id": "ECO_AGR_Q027",
+      "question_number": 27,
+      "question_text": "Which of the following is an example of a 'kharif' crop in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Wheat"},
+        {"option_id": "B", "option_text": "Rice in most regions"},
+        {"option_id": "C", "option_text": "Mustard"},
+        {"option_id": "D", "option_text": "Gram"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Cropping Seasons"
+    },
+    {
+      "q_id": "ECO_AGR_Q028",
+      "question_number": 28,
+      "question_text": "Which factor has contributed significantly to the instability of agricultural incomes in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Stable monsoon patterns"},
+        {"option_id": "B", "option_text": "Dependence on monsoon and price volatility"},
+        {"option_id": "C", "option_text": "Complete insulation from market forces"},
+        {"option_id": "D", "option_text": "Absence of any risk"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Agricultural Risk"
+    },
+    {
+      "q_id": "ECO_AGR_Q029",
+      "question_number": 29,
+      "question_text": "Which of the following is the major source of irrigation in Indian agriculture today (by share of irrigated area)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Canals"},
+        {"option_id": "B", "option_text": "Tanks"},
+        {"option_id": "C", "option_text": "Groundwater (wells and tube wells)"},
+        {"option_id": "D", "option_text": "Traditional rainwater harvesting only"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Irrigation"
+    },
+    {
+      "q_id": "ECO_AGR_Q030",
+      "question_number": 30,
+      "question_text": "Which of the following best describes 'crop diversification' in Indian agriculture?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Concentrating on only one staple crop"},
+        {"option_id": "B", "option_text": "Shifting from low-value to high-value crops and multiple cropping"},
+        {"option_id": "C", "option_text": "Increasing only exports of food grains"},
+        {"option_id": "D", "option_text": "Focusing on mono-cropping everywhere"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Crop Diversification"
+    },
+    {
+      "q_id": "ECO_AGR_Q031",
+      "question_number": 31,
+      "question_text": "Which of the following is a centrally sponsored scheme to promote micro-irrigation (drip and sprinkler) in India as part of 'more crop per drop' approach?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "PMKSY"},
+        {"option_id": "B", "option_text": "PMGSY"},
+        {"option_id": "C", "option_text": "PMFBY"},
+        {"option_id": "D", "option_text": "PMJDY"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Irrigation Schemes"
+    },
+    {
+      "q_id": "ECO_AGR_Q032",
+      "question_number": 32,
+      "question_text": "Which of the following is a major problem of rural credit in India even today?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Complete absence of institutional credit"},
+        {"option_id": "B", "option_text": "Over-dependence on informal sources for small and marginal farmers"},
+        {"option_id": "C", "option_text": "No interest subvention schemes at all"},
+        {"option_id": "D", "option_text": "Surplus credit availability in all villages"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Rural Credit Issues"
+    },
+    {
+      "q_id": "ECO_AGR_Q033",
+      "question_number": 33,
+      "question_text": "Which of the following programmes aims at providing all-weather road connectivity to rural habitations?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "PMGSY"},
+        {"option_id": "B", "option_text": "MGNREGA"},
+        {"option_id": "C", "option_text": "PMAY-G"},
+        {"option_id": "D", "option_text": "NRLM"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Rural Infrastructure"
+    },
+    {
+      "q_id": "ECO_AGR_Q034",
+      "question_number": 34,
+      "question_text": "Rural poverty in India is closely linked to which of the following factors?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High industrial wages"},
+        {"option_id": "B", "option_text": "Low agricultural productivity and landlessness"},
+        {"option_id": "C", "option_text": "Only urban unemployment"},
+        {"option_id": "D", "option_text": "High technology penetration in villages"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Rural Poverty"
+    },
+    {
+      "q_id": "ECO_AGR_Q035",
+      "question_number": 35,
+      "question_text": "Which of the following is a key feature of 'subsistence agriculture' still prevalent in many parts of rural India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Production mainly for local consumption with low surplus"},
+        {"option_id": "B", "option_text": "High degree of mechanisation"},
+        {"option_id": "C", "option_text": "Large-scale commercial exports"},
+        {"option_id": "D", "option_text": "Contract farming with MNCs everywhere"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Subsistence Farming"
+    },
+    {
+      "q_id": "ECO_AGR_Q036",
+      "question_number": 36,
+      "question_text": "Which of the following is an example of a 'rain-fed' crop that is important for dryland agriculture in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Paddy in irrigated areas"},
+        {"option_id": "B", "option_text": "Jowar and Bajra"},
+        {"option_id": "C", "option_text": "Sugarcane"},
+        {"option_id": "D", "option_text": "Tea"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Dryland Agriculture"
+    },
+    {
+      "q_id": "ECO_AGR_Q037",
+      "question_number": 37,
+      "question_text": "Which of the following describes 'Doubling Farmers’ Income' strategy better than traditional growth in production alone?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only increasing MSP for all crops"},
+        {"option_id": "B", "option_text": "Focusing on income diversification, cost reduction, value addition and market reforms"},
+        {"option_id": "C", "option_text": "Only providing loan waivers"},
+        {"option_id": "D", "option_text": "Only expanding PDS coverage"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Farmers’ Income"
+    },
+    {
+      "q_id": "ECO_AGR_Q038",
+      "question_number": 38,
+      "question_text": "Which measure can help reduce rural-urban migration pressure over the long term in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Depressing rural wages"},
+        {"option_id": "B", "option_text": "Improving rural infrastructure, non-farm employment and services"},
+        {"option_id": "C", "option_text": "Closing rural schools and hospitals"},
+        {"option_id": "D", "option_text": "Restricting movement of rural people to cities legally"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Rural Development"
+    },
+    {
+      "q_id": "ECO_AGR_Q039",
+      "question_number": 39,
+      "question_text": "Which of the following is a major challenge of Indian agricultural marketing that results in low price realization for farmers?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Too many direct farmer-consumer markets"},
+        {"option_id": "B", "option_text": "Long chain of intermediaries and inadequate storage"},
+        {"option_id": "C", "option_text": "Absence of MSP for any crop"},
+        {"option_id": "D", "option_text": "Complete dominance of e-NAM"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Marketing Constraints"
+    },
+    {
+      "q_id": "ECO_AGR_Q040",
+      "question_number": 40,
+      "question_text": "Which of the following has contributed to feminization of agriculture in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Massive male migration to non-farm sectors"},
+        {"option_id": "B", "option_text": "Exclusive male ownership of land"},
+        {"option_id": "C", "option_text": "Withdrawal of women from labour force"},
+        {"option_id": "D", "option_text": "Legal restrictions on women working in fields"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Rural Labour"
+    },
+    {
+      "q_id": "ECO_AGR_Q041",
+      "question_number": 41,
+      "question_text": "Which of the following schemes focuses on creating durable assets in rural areas while generating wage employment (e.g., water conservation, land development)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "MGNREGA"},
+        {"option_id": "B", "option_text": "PMJDY"},
+        {"option_id": "C", "option_text": "PMFBY"},
+        {"option_id": "D", "option_text": "PM-KISAN"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Rural Assets"
+    },
+    {
+      "q_id": "ECO_AGR_Q042",
+      "question_number": 42,
+      "question_text": "Which of the following is NOT a commonly cited constraint of small and marginal farmers in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Small landholdings"},
+        {"option_id": "B", "option_text": "Limited access to credit and technology"},
+        {"option_id": "C", "option_text": "High transaction costs in marketing"},
+        {"option_id": "D", "option_text": "Complete absence of any government schemes"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Small Farmers"
+    },
+    {
+      "q_id": "ECO_AGR_Q043",
+      "question_number": 43,
+      "question_text": "Which measure can help reduce post-harvest losses in agriculture significantly?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Reducing MSP for all crops"},
+        {"option_id": "B", "option_text": "Improving cold chains, warehouses and processing facilities"},
+        {"option_id": "C", "option_text": "Banning storage of crops by farmers"},
+        {"option_id": "D", "option_text": "Encouraging only rain-fed farming"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Post-Harvest Management"
+    },
+    {
+      "q_id": "ECO_AGR_Q044",
+      "question_number": 44,
+      "question_text": "Which of the following is a characteristic of 'Rural Non-Farm Sector' (RNFS) in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "It includes only large factories in metro cities"},
+        {"option_id": "B", "option_text": "It includes activities like rural trade, services, processing and small manufacturing"},
+        {"option_id": "C", "option_text": "It excludes all services in rural areas"},
+        {"option_id": "D", "option_text": "It is unrelated to agriculture in any way"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Rural Non-Farm Sector"
+    },
+    {
+      "q_id": "ECO_AGR_Q045",
+      "question_number": 45,
+      "question_text": "Which of the following policies can best promote sustainable agriculture in India in the long run?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Overuse of chemical fertilizers and groundwater"},
+        {"option_id": "B", "option_text": "Promotion of integrated farming, soil health, water conservation and organic practices where viable"},
+        {"option_id": "C", "option_text": "Ignoring climate-resilient crops"},
+        {"option_id": "D", "option_text": "Encouraging only mono-cropping everywhere"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Sustainable Agriculture"
+    },
+    {
+      "q_id": "ECO_AGR_Q046",
+      "question_number": 46,
+      "question_text": "Which of the following best explains 'Rural Infrastructure' in the context of rural economy development?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only roads"},
+        {"option_id": "B", "option_text": "Roads, irrigation, electricity, storage, markets, schools and health facilities"},
+        {"option_id": "C", "option_text": "Only irrigation canals"},
+        {"option_id": "D", "option_text": "Only grain godowns"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Rural Infrastructure"
+    },
+    {
+      "q_id": "ECO_AGR_Q047",
+      "question_number": 47,
+      "question_text": "Which type of tenancy reform aims at conferring ownership rights to actual cultivators?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rent control only"},
+        {"option_id": "B", "option_text": "Regulation of rent and security of tenure"},
+        {"option_id": "C", "option_text": "Conferment of ownership on tenants subject to conditions"},
+        {"option_id": "D", "option_text": "Encouraging absentee landlordism"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Tenancy Reforms"
+    },
+    {
+      "q_id": "ECO_AGR_Q048",
+      "question_number": 48,
+      "question_text": "Which of the following correctly captures the role of Panchayati Raj Institutions (PRIs) in rural economy?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "They handle only foreign trade issues"},
+        {"option_id": "B", "option_text": "They play a role in local planning, implementation of schemes and delivery of basic services"},
+        {"option_id": "C", "option_text": "They are only ceremonial bodies with no role in development"},
+        {"option_id": "D", "option_text": "They only conduct elections in villages"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "PRIs and Rural Development"
+    },
+    {
+      "q_id": "ECO_AGR_Q049",
+      "question_number": 49,
+      "question_text": "Which of the following indicators would best reflect an improvement in rural economy quality of life over time?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only increase in crop output"},
+        {"option_id": "B", "option_text": "Increase in rural incomes, better access to health, education, sanitation and infrastructure"},
+        {"option_id": "C", "option_text": "Increase in moneylender activity"},
+        {"option_id": "D", "option_text": "Rise in landlessness without any non-farm jobs"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Rural Quality of Life"
+    },
+    {
+      "q_id": "ECO_AGR_Q050",
+      "question_number": 50,
+      "question_text": "In the context of Indian agriculture and rural economy, 'inclusive growth' would MOST appropriately mean:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Growth limited only to large farmers and agribusiness"},
+        {"option_id": "B", "option_text": "Broad-based improvement in incomes, opportunities and services for small and marginal farmers and rural poor"},
+        {"option_id": "C", "option_text": "Growth concentrated in few urban regions only"},
+        {"option_id": "D", "option_text": "Only increase in GDP without any concern for distribution"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Inclusive Rural Growth"
+    }
+  ]
+}

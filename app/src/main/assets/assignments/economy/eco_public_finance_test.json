@@ -1,0 +1,881 @@
+{
+  "test_metadata": {
+    "test_id": "ECO_PUBFIN_MCQT1",
+    "test_title": "Public Finance and Fiscal Policy - Practice MCQ Test",
+    "subject": "Indian Economy",
+    "gs_paper": "GS III",
+    "unit": "Public Finance",
+    "sub_topic": "Budget, Deficits, FRBM, Taxation, Public Debt",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "Public Finance",
+      "Budget",
+      "FRBM",
+      "Taxation",
+      "Subsidies",
+      "Public Debt",
+      "Fiscal Policy"
+    ],
+    "created_date": "2025-11-17",
+    "description": "UPSC-style MCQs on Union Budget, deficits, FRBM, taxation, subsidies and public debt in India."
+  },
+  "questions": [
+    {
+      "q_id": "ECO_PUBF_Q001",
+      "question_number": 1,
+      "question_text": "Which of the following best defines 'public finance'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Study of money and banking in private sector"},
+        {"option_id": "B", "option_text": "Study of government revenue, expenditure and debt"},
+        {"option_id": "C", "option_text": "Study of only public debt"},
+        {"option_id": "D", "option_text": "Study of stock market behaviour"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Public Finance Basics"
+    },
+    {
+      "q_id": "ECO_PUBF_Q002",
+      "question_number": 2,
+      "question_text": "The difference between total revenue and total expenditure of the government, excluding borrowings, is called:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Fiscal deficit"},
+        {"option_id": "B", "option_text": "Revenue deficit"},
+        {"option_id": "C", "option_text": "Primary deficit"},
+        {"option_id": "D", "option_text": "Budgetary balance"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Deficits"
+    },
+    {
+      "q_id": "ECO_PUBF_Q003",
+      "question_number": 3,
+      "question_text": "Revenue deficit is defined as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Total expenditure - total revenue"},
+        {"option_id": "B", "option_text": "Revenue expenditure - revenue receipts"},
+        {"option_id": "C", "option_text": "Capital expenditure - capital receipts"},
+        {"option_id": "D", "option_text": "Fiscal deficit - interest payments"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Deficits"
+    },
+    {
+      "q_id": "ECO_PUBF_Q004",
+      "question_number": 4,
+      "question_text": "Primary deficit is equal to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Fiscal deficit + interest payments"},
+        {"option_id": "B", "option_text": "Fiscal deficit - interest payments"},
+        {"option_id": "C", "option_text": "Revenue deficit + capital deficit"},
+        {"option_id": "D", "option_text": "Budget deficit - capital receipts"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Deficits"
+    },
+    {
+      "q_id": "ECO_PUBF_Q005",
+      "question_number": 5,
+      "question_text": "Which of the following is a revenue receipt for the Government of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Disinvestment proceeds"},
+        {"option_id": "B", "option_text": "Recovery of loans"},
+        {"option_id": "C", "option_text": "Corporation tax"},
+        {"option_id": "D", "option_text": "Market borrowing"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Revenue vs Capital"
+    },
+    {
+      "q_id": "ECO_PUBF_Q006",
+      "question_number": 6,
+      "question_text": "Which of the following is a capital receipt in the Union Budget?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Income tax"},
+        {"option_id": "B", "option_text": "Goods and Services Tax (GST)"},
+        {"option_id": "C", "option_text": "Disinvestment of PSUs"},
+        {"option_id": "D", "option_text": "Interest receipts on loans"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Revenue vs Capital"
+    },
+    {
+      "q_id": "ECO_PUBF_Q007",
+      "question_number": 7,
+      "question_text": "Which of the following would be classified as revenue expenditure for Government of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Construction of a highway"},
+        {"option_id": "B", "option_text": "Salaries of government employees"},
+        {"option_id": "C", "option_text": "Loans to public sector enterprises"},
+        {"option_id": "D", "option_text": "Acquisition of defence equipment"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Revenue Expenditure"
+    },
+    {
+      "q_id": "ECO_PUBF_Q008",
+      "question_number": 8,
+      "question_text": "Capital expenditure of the government generally results in:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Creation of assets or reduction of liabilities"},
+        {"option_id": "B", "option_text": "Only payment of salaries"},
+        {"option_id": "C", "option_text": "Only payment of subsidies"},
+        {"option_id": "D", "option_text": "Increase in current consumption only"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Capital Expenditure"
+    },
+    {
+      "q_id": "ECO_PUBF_Q009",
+      "question_number": 9,
+      "question_text": "Which of the following best describes a 'progressive tax'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Same rate of tax for all income levels"},
+        {"option_id": "B", "option_text": "Higher tax rate on higher income groups"},
+        {"option_id": "C", "option_text": "Higher tax rate on lower income groups"},
+        {"option_id": "D", "option_text": "Tax that is fixed in absolute amount"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Tax Types"
+    },
+    {
+      "q_id": "ECO_PUBF_Q010",
+      "question_number": 10,
+      "question_text": "Indirect taxes are those which are:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Paid and borne by the same person"},
+        {"option_id": "B", "option_text": "Imposed on income of individuals"},
+        {"option_id": "C", "option_text": "Levied on goods and services and can be shifted to others"},
+        {"option_id": "D", "option_text": "Paid only by corporate entities"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Indirect Taxes"
+    },
+    {
+      "q_id": "ECO_PUBF_Q011",
+      "question_number": 11,
+      "question_text": "In India, which tax was subsumed under GST?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Basic Customs Duty"},
+        {"option_id": "B", "option_text": "Excise duty on petrol and diesel"},
+        {"option_id": "C", "option_text": "Value Added Tax (VAT) on goods"},
+        {"option_id": "D", "option_text": "Stamp duty on property"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "GST"
+    },
+    {
+      "q_id": "ECO_PUBF_Q012",
+      "question_number": 12,
+      "question_text": "Which of the following duties is still outside the ambit of GST in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Excise duty on liquor for human consumption"},
+        {"option_id": "B", "option_text": "Central GST"},
+        {"option_id": "C", "option_text": "State GST"},
+        {"option_id": "D", "option_text": "Integrated GST"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "GST Exclusions"
+    },
+    {
+      "q_id": "ECO_PUBF_Q013",
+      "question_number": 13,
+      "question_text": "The main objective of the FRBM Act in India is to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Control inflation through monetary policy"},
+        {"option_id": "B", "option_text": "Impose restrictions on foreign trade"},
+        {"option_id": "C", "option_text": "Ensure fiscal discipline by reducing deficits"},
+        {"option_id": "D", "option_text": "Regulate corporate governance"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "FRBM"
+    },
+    {
+      "q_id": "ECO_PUBF_Q014",
+      "question_number": 14,
+      "question_text": "Which of the following is NOT typically considered a tool of fiscal policy?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Government expenditure"},
+        {"option_id": "B", "option_text": "Taxation"},
+        {"option_id": "C", "option_text": "Open Market Operations by RBI"},
+        {"option_id": "D", "option_text": "Subsidies and transfers"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Fiscal vs Monetary"
+    },
+    {
+      "q_id": "ECO_PUBF_Q015",
+      "question_number": 15,
+      "question_text": "Which of the following could be an expansionary fiscal policy measure?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Increase in tax rates and reduction in expenditure"},
+        {"option_id": "B", "option_text": "Reduction in tax rates and increase in government spending"},
+        {"option_id": "C", "option_text": "Reduction in both tax rates and spending"},
+        {"option_id": "D", "option_text": "Increase in tax rates and increase in spending equally"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Expansionary Fiscal Policy"
+    },
+    {
+      "q_id": "ECO_PUBF_Q016",
+      "question_number": 16,
+      "question_text": "Which document is referred to as the 'Annual Financial Statement' under Article 112 of the Constitution?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Economic Survey"},
+        {"option_id": "B", "option_text": "Union Budget"},
+        {"option_id": "C", "option_text": "FRBM Statement"},
+        {"option_id": "D", "option_text": "Finance Commission Report"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Budget"
+    },
+    {
+      "q_id": "ECO_PUBF_Q017",
+      "question_number": 17,
+      "question_text": "Which of the following components is NOT correctly matched? 'Part of Budget - Meaning'",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Revenue Budget – Revenue receipts and revenue expenditure"},
+        {"option_id": "B", "option_text": "Capital Budget – Capital receipts and capital expenditure"},
+        {"option_id": "C", "option_text": "Consolidated Fund – All government borrowings only"},
+        {"option_id": "D", "option_text": "Contingency Fund – Emergency expenditure of government"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Budget Structure"
+    },
+    {
+      "q_id": "ECO_PUBF_Q018",
+      "question_number": 18,
+      "question_text": "Which of the following is NOT a part of the Consolidated Fund of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Tax revenues"},
+        {"option_id": "B", "option_text": "Non-tax revenues"},
+        {"option_id": "C", "option_text": "Market borrowings"},
+        {"option_id": "D", "option_text": "Grants received from foreign governments kept separately by ministries"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Consolidated Fund"
+    },
+    {
+      "q_id": "ECO_PUBF_Q019",
+      "question_number": 19,
+      "question_text": "The Contingency Fund of India is at the disposal of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Minister"},
+        {"option_id": "B", "option_text": "Finance Minister"},
+        {"option_id": "C", "option_text": "President"},
+        {"option_id": "D", "option_text": "Comptroller and Auditor General"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Contingency Fund"
+    },
+    {
+      "q_id": "ECO_PUBF_Q020",
+      "question_number": 20,
+      "question_text": "Which one of the following is a direct tax in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Goods and Services Tax (GST)"},
+        {"option_id": "B", "option_text": "Customs duty"},
+        {"option_id": "C", "option_text": "Excise duty (pre-GST)"},
+        {"option_id": "D", "option_text": "Personal income tax"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Direct Tax"
+    },
+    {
+      "q_id": "ECO_PUBF_Q021",
+      "question_number": 21,
+      "question_text": "Which body is responsible for giving recommendations on the distribution of tax revenues between Centre and States in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "NITI Aayog"},
+        {"option_id": "B", "option_text": "Finance Commission"},
+        {"option_id": "C", "option_text": "Reserve Bank of India"},
+        {"option_id": "D", "option_text": "Planning Commission (abolished)"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Finance Commission"
+    },
+    {
+      "q_id": "ECO_PUBF_Q022",
+      "question_number": 22,
+      "question_text": "Which of the following is an example of a 'public good' in economics, justifying government provision?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Private coaching classes"},
+        {"option_id": "B", "option_text": "National defence"},
+        {"option_id": "C", "option_text": "Restaurant services"},
+        {"option_id": "D", "option_text": "Luxury car manufacturing"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Public Goods"
+    },
+    {
+      "q_id": "ECO_PUBF_Q023",
+      "question_number": 23,
+      "question_text": "A public good is characterized by which two main features?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Excludability and rivalry"},
+        {"option_id": "B", "option_text": "Non-excludability and non-rivalry"},
+        {"option_id": "C", "option_text": "Excludability and non-rivalry"},
+        {"option_id": "D", "option_text": "Non-excludability and rivalry"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Public Goods"
+    },
+    {
+      "q_id": "ECO_PUBF_Q024",
+      "question_number": 24,
+      "question_text": "Subsidies given by the government on fertilizers, food, etc. are classified in the budget as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Capital expenditure"},
+        {"option_id": "B", "option_text": "Revenue expenditure"},
+        {"option_id": "C", "option_text": "Capital receipts"},
+        {"option_id": "D", "option_text": "Revenue receipts"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Subsidies"
+    },
+    {
+      "q_id": "ECO_PUBF_Q025",
+      "question_number": 25,
+      "question_text": "Which among the following is a merit good where government intervention is often justified despite market presence?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Gambling services"},
+        {"option_id": "B", "option_text": "Primary education"},
+        {"option_id": "C", "option_text": "Luxury jewellery"},
+        {"option_id": "D", "option_text": "Cigarettes"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Merit Goods"
+    },
+    {
+      "q_id": "ECO_PUBF_Q026",
+      "question_number": 26,
+      "question_text": "Which of the following situations indicates 'crowding out' in public finance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Private investment rises due to government spending"},
+        {"option_id": "B", "option_text": "Government borrowing leads to reduction in private investment"},
+        {"option_id": "C", "option_text": "Foreign investment replaces domestic investment"},
+        {"option_id": "D", "option_text": "Exports crowd out imports"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Crowding Out"
+    },
+    {
+      "q_id": "ECO_PUBF_Q027",
+      "question_number": 27,
+      "question_text": "Which of the following is an example of non-tax revenue for the Government of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "GST collection"},
+        {"option_id": "B", "option_text": "Dividends from PSUs"},
+        {"option_id": "C", "option_text": "Income tax"},
+        {"option_id": "D", "option_text": "Customs duty"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Non-Tax Revenue"
+    },
+    {
+      "q_id": "ECO_PUBF_Q028",
+      "question_number": 28,
+      "question_text": "Which statement best describes 'tax buoyancy'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ability of tax to rise more than proportionately with income"},
+        {"option_id": "B", "option_text": "Ratio of direct to indirect tax"},
+        {"option_id": "C", "option_text": "Share of tax revenue in GDP"},
+        {"option_id": "D", "option_text": "Progressive nature of taxation"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Tax Buoyancy"
+    },
+    {
+      "q_id": "ECO_PUBF_Q029",
+      "question_number": 29,
+      "question_text": "Which of the following is a 'regressive tax' in nature, in general practice?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Personal income tax"},
+        {"option_id": "B", "option_text": "Luxury tax"},
+        {"option_id": "C", "option_text": "General sales tax/consumption tax (flat rate)"},
+        {"option_id": "D", "option_text": "Corporate tax with rising slabs"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Tax Types"
+    },
+    {
+      "q_id": "ECO_PUBF_Q030",
+      "question_number": 30,
+      "question_text": "Which of the following is a valid argument in favour of fiscal consolidation in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Unlimited growth in public debt is sustainable"},
+        {"option_id": "B", "option_text": "High fiscal deficit may lead to inflation and crowding out of private investment"},
+        {"option_id": "C", "option_text": "Fiscal consolidation always reduces growth"},
+        {"option_id": "D", "option_text": "External borrowing is never a concern"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Fiscal Consolidation"
+    },
+    {
+      "q_id": "ECO_PUBF_Q031",
+      "question_number": 31,
+      "question_text": "Which one of the following pairs is correctly matched? 'Deficit – Meaning'",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Fiscal deficit – Revenue receipts minus revenue expenditure"},
+        {"option_id": "B", "option_text": "Revenue deficit – Capital expenditure minus capital receipts"},
+        {"option_id": "C", "option_text": "Budget deficit – Total expenditure minus total receipts (including borrowings)"},
+        {"option_id": "D", "option_text": "Fiscal deficit – Total expenditure minus total non-borrowed receipts"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Deficit Types"
+    },
+    {
+      "q_id": "ECO_PUBF_Q032",
+      "question_number": 32,
+      "question_text": "Which of the following represents 'tax-to-GDP ratio' conceptually?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Total tax revenue divided by total GDP"},
+        {"option_id": "B", "option_text": "Total non-tax revenue divided by total GDP"},
+        {"option_id": "C", "option_text": "Total expenditure divided by tax revenue"},
+        {"option_id": "D", "option_text": "Total GDP divided by total tax revenue"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Tax-GDP Ratio"
+    },
+    {
+      "q_id": "ECO_PUBF_Q033",
+      "question_number": 33,
+      "question_text": "Which of the following can be classified as 'capital expenditure' in the Union Budget?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Pension payments"},
+        {"option_id": "B", "option_text": "Interest payments on debt"},
+        {"option_id": "C", "option_text": "Grants to states for creation of capital assets"},
+        {"option_id": "D", "option_text": "Subsidy on food grains"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Capital Expenditure"
+    },
+    {
+      "q_id": "ECO_PUBF_Q034",
+      "question_number": 34,
+      "question_text": "Public debt sustainability primarily depends on which of the following conditions over the long run?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Interest rate on debt lower than GDP growth rate"},
+        {"option_id": "B", "option_text": "Interest rate on debt always higher than growth rate"},
+        {"option_id": "C", "option_text": "Fiscal deficits increasing indefinitely"},
+        {"option_id": "D", "option_text": "No primary surplus ever"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Debt Sustainability"
+    },
+    {
+      "q_id": "ECO_PUBF_Q035",
+      "question_number": 35,
+      "question_text": "Which among the following is a 'transfer payment' in public finance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Payment of salaries"},
+        {"option_id": "B", "option_text": "Interest paid on public debt"},
+        {"option_id": "C", "option_text": "Old-age pension paid by government"},
+        {"option_id": "D", "option_text": "Government investment in infrastructure"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Transfer Payments"
+    },
+    {
+      "q_id": "ECO_PUBF_Q036",
+      "question_number": 36,
+      "question_text": "Which statement regarding 'fiscal federalism' in India is correct from a public finance perspective?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only Union Government can levy any tax"},
+        {"option_id": "B", "option_text": "States have clearly assigned taxation powers and receive tax devolution and grants"},
+        {"option_id": "C", "option_text": "Local bodies finance themselves without any transfers"},
+        {"option_id": "D", "option_text": "Centre has no role in sharing taxes with States"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Fiscal Federalism"
+    },
+    {
+      "q_id": "ECO_PUBF_Q037",
+      "question_number": 37,
+      "question_text": "Which of the following is a likely effect of a large and persistent revenue deficit?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Government borrowing is used mainly for productive asset creation"},
+        {"option_id": "B", "option_text": "Government borrowing is used partly to finance current consumption"},
+        {"option_id": "C", "option_text": "It reduces need for public debt"},
+        {"option_id": "D", "option_text": "It automatically balances capital budget"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Revenue Deficit Implications"
+    },
+    {
+      "q_id": "ECO_PUBF_Q038",
+      "question_number": 38,
+      "question_text": "Which of the following taxes is levied and collected by the Union but is shared with the States as per recommendations of the Finance Commission (conceptually after relevant amendments)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Corporate income tax"},
+        {"option_id": "B", "option_text": "Agricultural income tax"},
+        {"option_id": "C", "option_text": "Stamp duty on property transfer"},
+        {"option_id": "D", "option_text": "State excise on alcohol"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Tax Devolution"
+    },
+    {
+      "q_id": "ECO_PUBF_Q039",
+      "question_number": 39,
+      "question_text": "Which of the following is a 'non-plan' (now just normal) revenue expenditure in the earlier classification sense, before plan–non-plan merger?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Major irrigation projects"},
+        {"option_id": "B", "option_text": "Salaries of existing staff"},
+        {"option_id": "C", "option_text": "Creation of new capital assets"},
+        {"option_id": "D", "option_text": "Loans to PSUs"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Expenditure Types"
+    },
+    {
+      "q_id": "ECO_PUBF_Q040",
+      "question_number": 40,
+      "question_text": "Which of the following statements is correct regarding 'gender budgeting' in public finance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Separate budget is prepared for women alone"},
+        {"option_id": "B", "option_text": "Government expenditure is analysed for its impact on gender equity and women’s empowerment"},
+        {"option_id": "C", "option_text": "Only women collect taxes"},
+        {"option_id": "D", "option_text": "It is a budget for NGOs working for women"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Gender Budgeting"
+    },
+    {
+      "q_id": "ECO_PUBF_Q041",
+      "question_number": 41,
+      "question_text": "Which among the following is NOT a function of the Union Budget from a macroeconomic perspective?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Resource allocation"},
+        {"option_id": "B", "option_text": "Distribution and redistribution of income"},
+        {"option_id": "C", "option_text": "Stabilisation of economy"},
+        {"option_id": "D", "option_text": "Fixing interest rates under monetary policy"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Budget Functions"
+    },
+    {
+      "q_id": "ECO_PUBF_Q042",
+      "question_number": 42,
+      "question_text": "Which of the following statements about 'zero-based budgeting' is correct?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Budget is prepared assuming previous year’s expenditure as base"},
+        {"option_id": "B", "option_text": "Every new budget cycle starts from a zero base and all expenditures must be justified afresh"},
+        {"option_id": "C", "option_text": "Budget is always balanced with zero deficit"},
+        {"option_id": "D", "option_text": "Only capital expenditure is allowed to be zero"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Budget Methods"
+    },
+    {
+      "q_id": "ECO_PUBF_Q043",
+      "question_number": 43,
+      "question_text": "Which of the following is true about 'fiscal stimulus' packages often used during recessions?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "They always reduce fiscal deficit"},
+        {"option_id": "B", "option_text": "They generally involve higher government spending and/or tax cuts to boost aggregate demand"},
+        {"option_id": "C", "option_text": "They are used only to fight inflation"},
+        {"option_id": "D", "option_text": "They involve only monetary policy actions"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Fiscal Stimulus"
+    },
+    {
+      "q_id": "ECO_PUBF_Q044",
+      "question_number": 44,
+      "question_text": "Which one of the following is NOT a likely outcome of persistent high fiscal deficits financed mostly by borrowing?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rising interest payments burden"},
+        {"option_id": "B", "option_text": "Possible crowding out of private investment"},
+        {"option_id": "C", "option_text": "Increase in public debt-GDP ratio"},
+        {"option_id": "D", "option_text": "Automatic elimination of revenue deficit"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "High Deficit Effects"
+    },
+    {
+      "q_id": "ECO_PUBF_Q045",
+      "question_number": 45,
+      "question_text": "Which of the following best describes 'outcome budgeting' in public finance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Budget classification only by inputs"},
+        {"option_id": "B", "option_text": "Linking budgetary outlays to measurable outcomes and performance"},
+        {"option_id": "C", "option_text": "Preparing separate budgets for each outcome"},
+        {"option_id": "D", "option_text": "Using zero expenditure as outcome"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Outcome Budgeting"
+    },
+    {
+      "q_id": "ECO_PUBF_Q046",
+      "question_number": 46,
+      "question_text": "A proportional tax is one where:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Tax rate falls as income rises"},
+        {"option_id": "B", "option_text": "Tax rate rises as income rises"},
+        {"option_id": "C", "option_text": "Tax rate remains constant at all income levels"},
+        {"option_id": "D", "option_text": "Tax base changes every year"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Tax Structure"
+    },
+    {
+      "q_id": "ECO_PUBF_Q047",
+      "question_number": 47,
+      "question_text": "Which of the following is a correct statement regarding 'surcharge' on income tax in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "It is levied as a percentage on the amount of tax, not on income directly"},
+        {"option_id": "B", "option_text": "It is a fixed rupee amount irrespective of tax"},
+        {"option_id": "C", "option_text": "It is levied on agricultural income only"},
+        {"option_id": "D", "option_text": "It is collected by States only"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Surcharge"
+    },
+    {
+      "q_id": "ECO_PUBF_Q048",
+      "question_number": 48,
+      "question_text": "Which statement is correct regarding 'cess' in public finance of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "It is a tax for general purposes always shared with States"},
+        {"option_id": "B", "option_text": "It is a tax earmarked for a specific purpose and generally not shared with States"},
+        {"option_id": "C", "option_text": "It is same as surcharge with no specific purpose"},
+        {"option_id": "D", "option_text": "It is only imposed on imports"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Cess"
+    },
+    {
+      "q_id": "ECO_PUBF_Q049",
+      "question_number": 49,
+      "question_text": "From the point of view of intergenerational equity in public finance, which of the following is more desirable when using borrowing?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Borrow mainly to finance current consumption expenditure"},
+        {"option_id": "B", "option_text": "Borrow mainly to finance productive capital assets that benefit future generations too"},
+        {"option_id": "C", "option_text": "Borrow without any consideration of future repayment"},
+        {"option_id": "D", "option_text": "Never use borrowing under any circumstance"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Intergenerational Equity"
+    },
+    {
+      "q_id": "ECO_PUBF_Q050",
+      "question_number": 50,
+      "question_text": "Which of the following statements about public finance and welfare is MOST appropriate in the context of a developing country like India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Public finance concerns only raising revenue, not how it is spent"},
+        {"option_id": "B", "option_text": "Well-designed taxation and expenditure policies can promote growth, reduce poverty and improve equity"},
+        {"option_id": "C", "option_text": "Public expenditure is always wasteful for growth"},
+        {"option_id": "D", "option_text": "Redistribution has no role in public finance"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Public Finance & Welfare"
+    }
+  ]
+}

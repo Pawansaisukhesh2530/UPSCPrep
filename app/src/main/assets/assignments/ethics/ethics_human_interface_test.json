@@ -1,0 +1,880 @@
+{
+  "test_metadata": {
+    "test_id": "ETH_HI_MCQT1",
+    "test_title": "Ethics and Human Interface - Practice MCQ Test",
+    "subject": "Ethics, Integrity and Aptitude",
+    "gs_paper": "GS IV",
+    "unit": "Ethics and Human Interface",
+    "sub_topic": "Ethics, Values, Human Interface, Moral Philosophy",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 75,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "Ethics",
+      "Morality",
+      "Values",
+      "Human Interface",
+      "Moral Philosophy",
+      "Attitudes"
+    ],
+    "created_date": "2025-11-17",
+    "description": "Conceptual and application-oriented MCQs on ethics, human values and the interface between individual, society and state for GS IV."
+  },
+  "questions": [
+    {
+      "q_id": "ETH_HI_Q001",
+      "question_number": 1,
+      "question_text": "In the context of public life, 'ethics' can be best understood as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "A set of legally enforceable rules only"},
+        {"option_id": "B", "option_text": "A personal hobby unrelated to professional conduct"},
+        {"option_id": "C", "option_text": "Standards of right and wrong that guide behaviour of individuals and institutions"},
+        {"option_id": "D", "option_text": "A branch of economics dealing with resource allocation"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Definition of Ethics"
+    },
+    {
+      "q_id": "ETH_HI_Q002",
+      "question_number": 2,
+      "question_text": "Which of the following statements best distinguishes 'ethics' from 'law'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ethics is always written, law is always unwritten"},
+        {"option_id": "B", "option_text": "Ethics is enforced by internal conscience whereas law is enforced by the state"},
+        {"option_id": "C", "option_text": "Ethics and law are exactly identical in all respects"},
+        {"option_id": "D", "option_text": "Law deals only with intentions, ethics only with actions"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ethics vs Law"
+    },
+    {
+      "q_id": "ETH_HI_Q003",
+      "question_number": 3,
+      "question_text": "Which of the following is the most appropriate description of 'morality'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Study of economic incentives"},
+        {"option_id": "B", "option_text": "Concrete norms, customs and beliefs about right and wrong that prevail in a society"},
+        {"option_id": "C", "option_text": "Only the personal preferences of a public official"},
+        {"option_id": "D", "option_text": "Body of legally binding judgments of courts"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Morality"
+    },
+    {
+      "q_id": "ETH_HI_Q004",
+      "question_number": 4,
+      "question_text": "Which one of the following pairs is correctly matched? 'Term – Description'",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ethics – Study of beauty and art"},
+        {"option_id": "B", "option_text": "Aesthetics – Study of duty and obligation"},
+        {"option_id": "C", "option_text": "Deontology – Duty-based ethical theory"},
+        {"option_id": "D", "option_text": "Utilitarianism – Virtue-based approach to character"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ethical Theories"
+    },
+    {
+      "q_id": "ETH_HI_Q005",
+      "question_number": 5,
+      "question_text": "According to utilitarian ethics, an action is morally right if it:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Is in accordance with religious scripture"},
+        {"option_id": "B", "option_text": "Is based solely on personal loyalty"},
+        {"option_id": "C", "option_text": "Maximises overall happiness or utility for the greatest number"},
+        {"option_id": "D", "option_text": "Always benefits the decision-maker alone"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Utilitarianism"
+    },
+    {
+      "q_id": "ETH_HI_Q006",
+      "question_number": 6,
+      "question_text": "Which of the following is a key feature of virtue ethics in contrast to rule-based ethics?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Focus on outcomes alone"},
+        {"option_id": "B", "option_text": "Focus on developing good character traits in the moral agent"},
+        {"option_id": "C", "option_text": "Exclusive focus on legal compliance"},
+        {"option_id": "D", "option_text": "Exclusive focus on material rewards for behaviour"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Virtue Ethics"
+    },
+    {
+      "q_id": "ETH_HI_Q007",
+      "question_number": 7,
+      "question_text": "Human values can be best described as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Quantitative measures of income"},
+        {"option_id": "B", "option_text": "Enduring beliefs about what is desirable or preferable that guide behaviour"},
+        {"option_id": "C", "option_text": "Temporary moods of an individual"},
+        {"option_id": "D", "option_text": "Only legally enforceable rights"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Human Values"
+    },
+    {
+      "q_id": "ETH_HI_Q008",
+      "question_number": 8,
+      "question_text": "Which of the following is NOT generally considered a core human value in public life?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Integrity"},
+        {"option_id": "B", "option_text": "Compassion"},
+        {"option_id": "C", "option_text": "Objectivity"},
+        {"option_id": "D", "option_text": "Favouritism towards family in official decisions"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Core Values"
+    },
+    {
+      "q_id": "ETH_HI_Q009",
+      "question_number": 9,
+      "question_text": "The term 'integrity' in ethical discourse denotes primarily:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ability to work long hours"},
+        {"option_id": "B", "option_text": "Consistency between one’s values, words and actions"},
+        {"option_id": "C", "option_text": "Ability to obey superiors without question"},
+        {"option_id": "D", "option_text": "Capacity to maintain secrecy in all matters"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Integrity"
+    },
+    {
+      "q_id": "ETH_HI_Q010",
+      "question_number": 10,
+      "question_text": "Which of the following best illustrates 'conflict of interest' in public life?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "An officer following the rules strictly"},
+        {"option_id": "B", "option_text": "An officer deciding on a contract in which a close relative is a bidder"},
+        {"option_id": "C", "option_text": "An officer implementing court orders"},
+        {"option_id": "D", "option_text": "An officer undergoing training in ethics"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Conflict of Interest"
+    },
+    {
+      "q_id": "ETH_HI_Q011",
+      "question_number": 11,
+      "question_text": "Which of the following determinants plays a major role in early formation of human values?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Stock market fluctuations"},
+        {"option_id": "B", "option_text": "Family environment and upbringing"},
+        {"option_id": "C", "option_text": "Foreign trade policies"},
+        {"option_id": "D", "option_text": "Climate of a region"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Determinants of Values"
+    },
+    {
+      "q_id": "ETH_HI_Q012",
+      "question_number": 12,
+      "question_text": "In the 'ethics and human interface', which of the following institutions primarily shape ethical behaviour after family in a typical life-course?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Educational institutions and peer groups"},
+        {"option_id": "B", "option_text": "Stock exchanges"},
+        {"option_id": "C", "option_text": "Meteorological departments"},
+        {"option_id": "D", "option_text": "Foreign embassies"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Human Interface"
+    },
+    {
+      "q_id": "ETH_HI_Q013",
+      "question_number": 13,
+      "question_text": "Which of the following best captures the 'human interface' in ethics?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Interaction between humans and computer systems"},
+        {"option_id": "B", "option_text": "Interaction of individual values with societal norms, institutions and public systems"},
+        {"option_id": "C", "option_text": "Only interface between citizen and technology"},
+        {"option_id": "D", "option_text": "Interface between two computer programs"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Ethics and Human Interface"
+    },
+    {
+      "q_id": "ETH_HI_Q014",
+      "question_number": 14,
+      "question_text": "Which of the following is an example of an 'intrinsic value'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Money as a medium of exchange"},
+        {"option_id": "B", "option_text": "Truthfulness valued for its own sake"},
+        {"option_id": "C", "option_text": "A tool used to achieve power"},
+        {"option_id": "D", "option_text": "A vehicle used for commuting"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Intrinsic vs Instrumental Values"
+    },
+    {
+      "q_id": "ETH_HI_Q015",
+      "question_number": 15,
+      "question_text": "Instrumental values are those which:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Are ends in themselves"},
+        {"option_id": "B", "option_text": "Serve as means to achieve other ends or values"},
+        {"option_id": "C", "option_text": "Have no role in decision-making"},
+        {"option_id": "D", "option_text": "Are purely legal directives"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Instrumental Values"
+    },
+    {
+      "q_id": "ETH_HI_Q016",
+      "question_number": 16,
+      "question_text": "Which of the following situations BEST represents a value conflict for a public servant?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Choosing between efficiency and empathy in decision-making"},
+        {"option_id": "B", "option_text": "Choosing between two equally profitable investments"},
+        {"option_id": "C", "option_text": "Choosing between two holiday destinations"},
+        {"option_id": "D", "option_text": "Choosing which sport to play in leisure time"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Value Conflict"
+    },
+    {
+      "q_id": "ETH_HI_Q017",
+      "question_number": 17,
+      "question_text": "Moral relativism holds that:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Moral principles are absolute and universal"},
+        {"option_id": "B", "option_text": "Moral judgments depend on cultural, social or individual perspectives"},
+        {"option_id": "C", "option_text": "Only religious authorities can decide morality"},
+        {"option_id": "D", "option_text": "Morality has no connection with culture or society"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Moral Relativism"
+    },
+    {
+      "q_id": "ETH_HI_Q018",
+      "question_number": 18,
+      "question_text": "Kantian deontological ethics emphasises that actions are right if they:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Maximise pleasure irrespective of means"},
+        {"option_id": "B", "option_text": "Conform to duty and respect persons as ends in themselves"},
+        {"option_id": "C", "option_text": "Increase material wealth alone"},
+        {"option_id": "D", "option_text": "Are commanded by majority opinion only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Kantian Ethics"
+    },
+    {
+      "q_id": "ETH_HI_Q019",
+      "question_number": 19,
+      "question_text": "In public service ethics, 'impartiality' primarily requires a civil servant to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Always favour the poor against the rich"},
+        {"option_id": "B", "option_text": "Treat all persons and cases on their merits without bias or discrimination"},
+        {"option_id": "C", "option_text": "Follow only the wishes of political superiors"},
+        {"option_id": "D", "option_text": "Give priority to family and friends in services"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Impartiality"
+    },
+    {
+      "q_id": "ETH_HI_Q020",
+      "question_number": 20,
+      "question_text": "Empathy as an ethical value in governance refers to the capacity to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Impose one’s own feelings on others"},
+        {"option_id": "B", "option_text": "Understand and share the feelings and perspectives of others"},
+        {"option_id": "C", "option_text": "Ignore emotional aspects of decisions"},
+        {"option_id": "D", "option_text": "Maintain strict emotional detachment in all interactions"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Empathy"
+    },
+    {
+      "q_id": "ETH_HI_Q021",
+      "question_number": 21,
+      "question_text": "Which of the following is an example of 'role conflict' for a public official in ethics?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Conflict between personal role as a parent and official role as an administrator"},
+        {"option_id": "B", "option_text": "Conflict between two private hobbies"},
+        {"option_id": "C", "option_text": "Conflict between two brands of the same product"},
+        {"option_id": "D", "option_text": "Conflict between two academic subjects to study"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Role Conflict"
+    },
+    {
+      "q_id": "ETH_HI_Q022",
+      "question_number": 22,
+      "question_text": "Socialisation is important for ethics because it:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Is only about learning technical skills"},
+        {"option_id": "B", "option_text": "Helps an individual internalise social norms, values and expected behaviours"},
+        {"option_id": "C", "option_text": "Eliminates need for any ethical reflection"},
+        {"option_id": "D", "option_text": "Deals only with economic behaviour"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Socialisation"
+    },
+    {
+      "q_id": "ETH_HI_Q023",
+      "question_number": 23,
+      "question_text": "Which of the following is a 'cognitive' component of an attitude relevant to ethics?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Feelings of like or dislike towards a group"},
+        {"option_id": "B", "option_text": "Beliefs and thoughts about an object or issue"},
+        {"option_id": "C", "option_text": "Behaviour actually shown in a situation"},
+        {"option_id": "D", "option_text": "Legal punishment for wrongdoing"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Attitude Components"
+    },
+    {
+      "q_id": "ETH_HI_Q024",
+      "question_number": 24,
+      "question_text": "Prejudice is best described as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "A carefully reasoned judgment based on evidence"},
+        {"option_id": "B", "option_text": "A negative attitude towards a group formed without adequate knowledge or examination"},
+        {"option_id": "C", "option_text": "A process of logical decision-making"},
+        {"option_id": "D", "option_text": "A neutral description of a social group"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Prejudice"
+    },
+    {
+      "q_id": "ETH_HI_Q025",
+      "question_number": 25,
+      "question_text": "Stereotyping becomes ethically problematic in public service when it leads to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "More efficient data analysis"},
+        {"option_id": "B", "option_text": "Biased treatment of individuals based on group labels rather than their merits"},
+        {"option_id": "C", "option_text": "Equal treatment to all citizens"},
+        {"option_id": "D", "option_text": "Objective policy formulation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Stereotyping"
+    },
+    {
+      "q_id": "ETH_HI_Q026",
+      "question_number": 26,
+      "question_text": "Which of the following is the BEST example of 'ethical dilemma' for a public servant?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Choosing between two equally tasty dishes"},
+        {"option_id": "B", "option_text": "Choosing between strict enforcement of law and showing compassion in a particular case"},
+        {"option_id": "C", "option_text": "Choosing between two office chairs"},
+        {"option_id": "D", "option_text": "Choosing a holiday destination with friends"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ethical Dilemma"
+    },
+    {
+      "q_id": "ETH_HI_Q027",
+      "question_number": 27,
+      "question_text": "Which of the following is NOT a determinant of ethical behaviour in organisations?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Organisational culture and leadership"},
+        {"option_id": "B", "option_text": "Codes of conduct and disciplinary mechanisms"},
+        {"option_id": "C", "option_text": "Peer behaviour and informal norms"},
+        {"option_id": "D", "option_text": "Weather conditions during office hours"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Organisational Ethics"
+    },
+    {
+      "q_id": "ETH_HI_Q028",
+      "question_number": 28,
+      "question_text": "Which of the following statements about 'conscience' is most appropriate from an ethical perspective?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "It is the internal moral sense that guides a person about right and wrong"},
+        {"option_id": "B", "option_text": "It is a purely legal instrument"},
+        {"option_id": "C", "option_text": "It is an external code issued by government"},
+        {"option_id": "D", "option_text": "It is irrelevant to ethical decision-making"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Conscience"
+    },
+    {
+      "q_id": "ETH_HI_Q029",
+      "question_number": 29,
+      "question_text": "Which of the following ethical perspectives emphasises ' ends justify the means ' ?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Strict deontology"},
+        {"option_id": "B", "option_text": "Consequentialism such as utilitarianism"},
+        {"option_id": "C", "option_text": "Virtue ethics"},
+        {"option_id": "D", "option_text": "Rights-based ethics only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Consequentialism"
+    },
+    {
+      "q_id": "ETH_HI_Q030",
+      "question_number": 30,
+      "question_text": "Which of the following statements best highlights the importance of ethics in public administration in a democracy?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ethics ensures faster file movement only"},
+        {"option_id": "B", "option_text": "Ethical conduct builds trust, legitimacy and fairness in governance"},
+        {"option_id": "C", "option_text": "Ethics is required only for top-level officers"},
+        {"option_id": "D", "option_text": "Ethics is necessary only in private life, not in public roles"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Ethics in Governance"
+    },
+    {
+      "q_id": "ETH_HI_Q031",
+      "question_number": 31,
+      "question_text": "Which of the following best illustrates 'public interest' as an ethical standard for decision-making?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Decisions that favour a particular group due to political pressure"},
+        {"option_id": "B", "option_text": "Decisions that promote the welfare of the community as a whole consistent with constitutional values"},
+        {"option_id": "C", "option_text": "Decisions that maximise profit for private companies"},
+        {"option_id": "D", "option_text": "Decisions that serve only the interests of the decision-maker"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Public Interest"
+    },
+    {
+      "q_id": "ETH_HI_Q032",
+      "question_number": 32,
+      "question_text": "Which element of ethical decision-making primarily deals with systematically analysing options and consequences before acting?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Moral imagination"},
+        {"option_id": "B", "option_text": "Moral reasoning"},
+        {"option_id": "C", "option_text": "Moral disengagement"},
+        {"option_id": "D", "option_text": "Moral hazard"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Moral Reasoning"
+    },
+    {
+      "q_id": "ETH_HI_Q033",
+      "question_number": 33,
+      "question_text": "Which of the following behaviours by a civil servant BEST reflects the value of 'accountability'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Withholding information from citizens to avoid criticism"},
+        {"option_id": "B", "option_text": "Providing reasons for decisions and being answerable for outcomes to appropriate forums"},
+        {"option_id": "C", "option_text": "Avoiding documentation of decisions"},
+        {"option_id": "D", "option_text": "Following oral orders without record"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Accountability"
+    },
+    {
+      "q_id": "ETH_HI_Q034",
+      "question_number": 34,
+      "question_text": "Whistle-blowing in ethics typically refers to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Disclosing organisational wrongdoing in good faith to appropriate authorities"},
+        {"option_id": "B", "option_text": "Spreading unverified rumours about colleagues"},
+        {"option_id": "C", "option_text": "Releasing confidential information for personal gain"},
+        {"option_id": "D", "option_text": "Always opposing superiors on every matter"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Whistle-blowing"
+    },
+    {
+      "q_id": "ETH_HI_Q035",
+      "question_number": 35,
+      "question_text": "Which of the following is an ethical risk associated with 'moral disengagement' in public life?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Enhanced responsibility for actions"},
+        {"option_id": "B", "option_text": "Rationalising harmful conduct as acceptable by diffusing or denying responsibility"},
+        {"option_id": "C", "option_text": "Increasing empathy for victims"},
+        {"option_id": "D", "option_text": "Strengthening adherence to ethical codes"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Moral Disengagement"
+    },
+    {
+      "q_id": "ETH_HI_Q036",
+      "question_number": 36,
+      "question_text": "Which of the following factors usually reduces the likelihood of ethical misconduct in an organisation?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ambiguous rules and unchecked discretion"},
+        {"option_id": "B", "option_text": "Strong ethical leadership and transparent systems"},
+        {"option_id": "C", "option_text": "Culture of secrecy and fear"},
+        {"option_id": "D", "option_text": "Rewarding only short-term results regardless of means"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ethical Culture"
+    },
+    {
+      "q_id": "ETH_HI_Q037",
+      "question_number": 37,
+      "question_text": "Which of the following best describes 'value neutrality' expected from civil servants in a plural society?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Having no personal values at all"},
+        {"option_id": "B", "option_text": "Avoiding imposition of personal ideological or religious preferences in official decisions"},
+        {"option_id": "C", "option_text": "Supporting only the dominant social group"},
+        {"option_id": "D", "option_text": "Ignoring constitutional values while deciding cases"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Value Neutrality"
+    },
+    {
+      "q_id": "ETH_HI_Q038",
+      "question_number": 38,
+      "question_text": "From an ethical standpoint, 'respect for diversity' in public service means:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Treating certain communities as inferior"},
+        {"option_id": "B", "option_text": "Recognising and valuing differences in culture, identity and views while ensuring equality and dignity"},
+        {"option_id": "C", "option_text": "Insisting that everyone follow a single cultural pattern"},
+        {"option_id": "D", "option_text": "Favouring only one language in all public dealings"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Diversity and Ethics"
+    },
+    {
+      "q_id": "ETH_HI_Q039",
+      "question_number": 39,
+      "question_text": "Which one of the following ethical principles is most closely related to the idea of 'do no harm' in public policies?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Non-maleficence"},
+        {"option_id": "B", "option_text": "Reciprocity"},
+        {"option_id": "C", "option_text": "Patronage"},
+        {"option_id": "D", "option_text": "Secrecy"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Non-maleficence"
+    },
+    {
+      "q_id": "ETH_HI_Q040",
+      "question_number": 40,
+      "question_text": "The ethical principle of 'beneficence' in governance primarily demands that officials should:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Avoid all action and remain neutral"},
+        {"option_id": "B", "option_text": "Actively promote the welfare and well-being of people"},
+        {"option_id": "C", "option_text": "Work only for self-interest"},
+        {"option_id": "D", "option_text": "Ignore citizen needs if not profitable"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Beneficence"
+    },
+    {
+      "q_id": "ETH_HI_Q041",
+      "question_number": 41,
+      "question_text": "Which of the following best illustrates the ethical value of 'courage of conviction' in public service?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Changing decisions frequently to please everyone"},
+        {"option_id": "B", "option_text": "Standing by a just decision despite pressure and personal risk"},
+        {"option_id": "C", "option_text": "Avoiding responsibility in controversial cases"},
+        {"option_id": "D", "option_text": "Always following majority view without analysis"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Courage of Conviction"
+    },
+    {
+      "q_id": "ETH_HI_Q042",
+      "question_number": 42,
+      "question_text": "The ethical notion of 'respect for autonomy' in dealing with citizens would require that a public authority should:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Make all decisions for people without their consent"},
+        {"option_id": "B", "option_text": "Provide information and respect citizens’ informed choices within legal limits"},
+        {"option_id": "C", "option_text": "Ignore citizens’ views entirely"},
+        {"option_id": "D", "option_text": "Consult only elite groups for all decisions"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Autonomy"
+    },
+    {
+      "q_id": "ETH_HI_Q043",
+      "question_number": 43,
+      "question_text": "Which of the following is an example of ethical behaviour influenced by 'role model' effect?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "An officer emulating the honest conduct of a respected senior"},
+        {"option_id": "B", "option_text": "An officer ignoring all seniors"},
+        {"option_id": "C", "option_text": "An officer following only peers who violate rules"},
+        {"option_id": "D", "option_text": "An officer refusing to learn from anyone"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Role Models"
+    },
+    {
+      "q_id": "ETH_HI_Q044",
+      "question_number": 44,
+      "question_text": "Which statement best describes the 'golden mean' principle of Aristotle’s virtue ethics?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ethical virtue lies in extreme positions"},
+        {"option_id": "B", "option_text": "Ethical virtue lies in a balanced middle path between extremes of excess and deficiency"},
+        {"option_id": "C", "option_text": "There is no middle path in ethics"},
+        {"option_id": "D", "option_text": "Only legal rules matter, not character"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Aristotle and Golden Mean"
+    },
+    {
+      "q_id": "ETH_HI_Q045",
+      "question_number": 45,
+      "question_text": "Which of the following is the MOST appropriate ethical response if a public servant realises that a past decision taken by them has unintentionally harmed a vulnerable group?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Deny responsibility and blame subordinates"},
+        {"option_id": "B", "option_text": "Hide the mistake to protect image"},
+        {"option_id": "C", "option_text": "Acknowledge the mistake, communicate transparently and work to rectify it"},
+        {"option_id": "D", "option_text": "Ignore the issue as it is in the past"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Responsibility and Accountability"
+    },
+    {
+      "q_id": "ETH_HI_Q046",
+      "question_number": 46,
+      "question_text": "Which of the following is a key feature of 'ethical governance' in a democratic state?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Decision-making based solely on personal loyalties"},
+        {"option_id": "B", "option_text": "Transparency, rule of law, participation and responsiveness to citizens"},
+        {"option_id": "C", "option_text": "Concentration of power with no accountability"},
+        {"option_id": "D", "option_text": "Complete secrecy in public affairs"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ethical Governance"
+    },
+    {
+      "q_id": "ETH_HI_Q047",
+      "question_number": 47,
+      "question_text": "Which of the following is an example of 'ethical fading' that may occur during decision-making in public organisations?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Clearly recognising moral issues in each case"},
+        {"option_id": "B", "option_text": "Framing decisions only as technical or financial, ignoring ethical implications"},
+        {"option_id": "C", "option_text": "Discussing values openly in meetings"},
+        {"option_id": "D", "option_text": "Conducting ethics training for staff"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Ethical Fading"
+    },
+    {
+      "q_id": "ETH_HI_Q048",
+      "question_number": 48,
+      "question_text": "Which of the following is MOST likely to strengthen ethical behaviour among citizens in the long run?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Exclusive focus on punitive legal measures"},
+        {"option_id": "B", "option_text": "Value-based education, positive role models and community norms supporting honesty"},
+        {"option_id": "C", "option_text": "Glorifying unethical success stories"},
+        {"option_id": "D", "option_text": "Ignoring ethics in school curricula"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ethical Socialisation"
+    },
+    {
+      "q_id": "ETH_HI_Q049",
+      "question_number": 49,
+      "question_text": "From an ethical standpoint, which of the following best explains why 'ends do not always justify means' in public life?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Means are never important"},
+        {"option_id": "B", "option_text": "Unethical means can damage rights, dignity and trust even if outcomes appear beneficial"},
+        {"option_id": "C", "option_text": "Only outcomes matter for citizens"},
+        {"option_id": "D", "option_text": "Legal processes are irrelevant in administration"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Means and Ends"
+    },
+    {
+      "q_id": "ETH_HI_Q050",
+      "question_number": 50,
+      "question_text": "In the context of ethics and human interface, a 'morally sensitive' public servant is one who:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sees all decisions only as routine administrative tasks"},
+        {"option_id": "B", "option_text": "Recognises moral dimensions in situations, is aware of stakeholders and reflects on right action"},
+        {"option_id": "C", "option_text": "Delegates all decisions to subordinates"},
+        {"option_id": "D", "option_text": "Avoids complex cases to reduce work pressure"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Moral Sensitivity"
+    }
+  ]
+}

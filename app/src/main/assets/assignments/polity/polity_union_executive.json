@@ -1,0 +1,880 @@
+{
+  "test_metadata": {
+    "test_id": "POL_EXEC_MCQT1",
+    "test_title": "Union Executive - President, Vice-President, PM & CoM - Practice MCQ Test",
+    "subject": "Indian Polity & Governance",
+    "gs_paper": "GS II",
+    "unit": "Union Government",
+    "sub_topic": "Union Executive",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "President",
+      "Vice-President",
+      "Prime Minister",
+      "Council of Ministers",
+      "Attorney General",
+      "Union Executive"
+    ],
+    "created_date": "2025-11-17",
+    "description": "MCQs on Union Executive for UPSC practice."
+  },
+  "questions": [
+    {
+      "q_id": "POL_EXEC_Q001",
+      "question_number": 1,
+      "question_text": "Who is the constitutional head of the Union Executive in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Minister"},
+        {"option_id": "B", "option_text": "President"},
+        {"option_id": "C", "option_text": "Vice-President"},
+        {"option_id": "D", "option_text": "Speaker of Lok Sabha"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "President"
+    },
+    {
+      "q_id": "POL_EXEC_Q002",
+      "question_number": 2,
+      "question_text": "Which Article of the Constitution states that there shall be a President of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 52"},
+        {"option_id": "B", "option_text": "Article 53"},
+        {"option_id": "C", "option_text": "Article 54"},
+        {"option_id": "D", "option_text": "Article 56"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "President"
+    },
+    {
+      "q_id": "POL_EXEC_Q003",
+      "question_number": 3,
+      "question_text": "The President of India is elected by an Electoral College consisting of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only elected members of Parliament"},
+        {"option_id": "B", "option_text": "Only elected members of State Legislative Assemblies"},
+        {"option_id": "C", "option_text": "Elected members of Parliament and State Legislative Assemblies"},
+        {"option_id": "D", "option_text": "All members (elected + nominated) of Parliament and Assemblies"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Election"
+    },
+    {
+      "q_id": "POL_EXEC_Q004",
+      "question_number": 4,
+      "question_text": "The minimum age required to be elected as the President of India is:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "25 years"},
+        {"option_id": "B", "option_text": "30 years"},
+        {"option_id": "C", "option_text": "35 years"},
+        {"option_id": "D", "option_text": "40 years"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "President Qualification"
+    },
+    {
+      "q_id": "POL_EXEC_Q005",
+      "question_number": 5,
+      "question_text": "The term of office of the President of India is:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "4 years"},
+        {"option_id": "B", "option_text": "5 years"},
+        {"option_id": "C", "option_text": "6 years"},
+        {"option_id": "D", "option_text": "7 years"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "President Tenure"
+    },
+    {
+      "q_id": "POL_EXEC_Q006",
+      "question_number": 6,
+      "question_text": "The President of India can be removed from office by the process of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Recall"},
+        {"option_id": "B", "option_text": "No-confidence motion"},
+        {"option_id": "C", "option_text": "Impeachment"},
+        {"option_id": "D", "option_text": "Censure motion"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Impeachment"
+    },
+    {
+      "q_id": "POL_EXEC_Q007",
+      "question_number": 7,
+      "question_text": "The President holds office until his successor enters upon his office. This implies:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "There can be no vacancy in the office of President."},
+        {"option_id": "B", "option_text": "President continues in office even after five years until new President assumes office."},
+        {"option_id": "C", "option_text": "President must resign exactly at midnight of the fifth year."},
+        {"option_id": "D", "option_text": "President automatically ceases after five years irrespective of successor."}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Tenure"
+    },
+    {
+      "q_id": "POL_EXEC_Q008",
+      "question_number": 8,
+      "question_text": "The executive power of the Union is vested in the President and is exercised by him:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Directly in all cases"},
+        {"option_id": "B", "option_text": "Through officers subordinate to him"},
+        {"option_id": "C", "option_text": "Either directly or through officers subordinate to him"},
+        {"option_id": "D", "option_text": "Only on advice of the Speaker"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Powers"
+    },
+    {
+      "q_id": "POL_EXEC_Q009",
+      "question_number": 9,
+      "question_text": "Which Article provides that the President shall act in accordance with the aid and advice of the Council of Ministers headed by the Prime Minister?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 53"},
+        {"option_id": "B", "option_text": "Article 74"},
+        {"option_id": "C", "option_text": "Article 75"},
+        {"option_id": "D", "option_text": "Article 79"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Council of Ministers"
+    },
+    {
+      "q_id": "POL_EXEC_Q010",
+      "question_number": 10,
+      "question_text": "Ordinance-making power of the President is given under which Article of the Constitution?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 120"},
+        {"option_id": "B", "option_text": "Article 123"},
+        {"option_id": "C", "option_text": "Article 124"},
+        {"option_id": "D", "option_text": "Article 356"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "President Ordinance"
+    },
+    {
+      "q_id": "POL_EXEC_Q011",
+      "question_number": 11,
+      "question_text": "While exercising ordinance-making power, the President acts on the advice of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Chief Justice of India"},
+        {"option_id": "B", "option_text": "Council of Ministers"},
+        {"option_id": "C", "option_text": "Vice-President"},
+        {"option_id": "D", "option_text": "Leader of Opposition"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Ordinance"
+    },
+    {
+      "q_id": "POL_EXEC_Q012",
+      "question_number": 12,
+      "question_text": "Which one of the following powers is NOT exercised by the President in his capacity as Supreme Commander of the Defence Forces?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Declare war"},
+        {"option_id": "B", "option_text": "Make peace"},
+        {"option_id": "C", "option_text": "Command the army in battlefield personally"},
+        {"option_id": "D", "option_text": "Conclude treaties relating to security"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Military Powers"
+    },
+    {
+      "q_id": "POL_EXEC_Q013",
+      "question_number": 13,
+      "question_text": "Which among the following is a discretionary power of the President as per prevailing conventions and judicial interpretation?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Dissolving Lok Sabha in all cases"},
+        {"option_id": "B", "option_text": "Sending back advice of Council of Ministers once for reconsideration"},
+        {"option_id": "C", "option_text": "Vetoing all bills passed by Parliament"},
+        {"option_id": "D", "option_text": "Refusing to follow Supreme Court judgments"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Discretion"
+    },
+    {
+      "q_id": "POL_EXEC_Q014",
+      "question_number": 14,
+      "question_text": "The Vice-President of India is ex-officio:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Chairman of the Rajya Sabha"},
+        {"option_id": "B", "option_text": "Speaker of Lok Sabha"},
+        {"option_id": "C", "option_text": "Head of NITI Aayog"},
+        {"option_id": "D", "option_text": "Chief Election Commissioner"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Vice-President"
+    },
+    {
+      "q_id": "POL_EXEC_Q015",
+      "question_number": 15,
+      "question_text": "The Vice-President of India is elected by an Electoral College consisting of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Members of Lok Sabha only"},
+        {"option_id": "B", "option_text": "Members of Rajya Sabha only"},
+        {"option_id": "C", "option_text": "Members of both Houses of Parliament"},
+        {"option_id": "D", "option_text": "Members of Parliament and State Assemblies"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vice-President Election"
+    },
+    {
+      "q_id": "POL_EXEC_Q016",
+      "question_number": 16,
+      "question_text": "The Vice-President can be removed from office by a resolution of the Rajya Sabha passed by a majority of all the then members and agreed to by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Lok Sabha by a simple majority"},
+        {"option_id": "B", "option_text": "Lok Sabha by a special majority"},
+        {"option_id": "C", "option_text": "President of India"},
+        {"option_id": "D", "option_text": "Supreme Court"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vice-President Removal"
+    },
+    {
+      "q_id": "POL_EXEC_Q017",
+      "question_number": 17,
+      "question_text": "Who appoints the Prime Minister of India formally under the Constitution?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Lok Sabha"},
+        {"option_id": "B", "option_text": "President"},
+        {"option_id": "C", "option_text": "Rajya Sabha"},
+        {"option_id": "D", "option_text": "Supreme Court"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Prime Minister"
+    },
+    {
+      "q_id": "POL_EXEC_Q018",
+      "question_number": 18,
+      "question_text": "In the Parliamentary system, the real executive authority is exercised by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "President"},
+        {"option_id": "B", "option_text": "Prime Minister and Council of Ministers"},
+        {"option_id": "C", "option_text": "Chief Justice of India"},
+        {"option_id": "D", "option_text": "Cabinet Secretary alone"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Prime Minister"
+    },
+    {
+      "q_id": "POL_EXEC_Q019",
+      "question_number": 19,
+      "question_text": "The Council of Ministers is collectively responsible to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "President"},
+        {"option_id": "B", "option_text": "Rajya Sabha"},
+        {"option_id": "C", "option_text": "Lok Sabha"},
+        {"option_id": "D", "option_text": "Supreme Court"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Council of Ministers"
+    },
+    {
+      "q_id": "POL_EXEC_Q020",
+      "question_number": 20,
+      "question_text": "Which Article provides that there shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 73"},
+        {"option_id": "B", "option_text": "Article 74"},
+        {"option_id": "C", "option_text": "Article 75"},
+        {"option_id": "D", "option_text": "Article 78"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Council of Ministers"
+    },
+    {
+      "q_id": "POL_EXEC_Q021",
+      "question_number": 21,
+      "question_text": "The maximum size of the Council of Ministers including the Prime Minister cannot exceed what percentage of the total strength of Lok Sabha (as per 91st Amendment)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "10%"},
+        {"option_id": "B", "option_text": "12%"},
+        {"option_id": "C", "option_text": "15%"},
+        {"option_id": "D", "option_text": "20%"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Council of Ministers"
+    },
+    {
+      "q_id": "POL_EXEC_Q022",
+      "question_number": 22,
+      "question_text": "Which of the following statements regarding the Prime Minister is correct?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Minister is directly elected by the people of India."},
+        {"option_id": "B", "option_text": "Prime Minister must be a member of Lok Sabha only."},
+        {"option_id": "C", "option_text": "Prime Minister can be a member of either House of Parliament."},
+        {"option_id": "D", "option_text": "Prime Minister is appointed by the Chief Justice of India."}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Prime Minister"
+    },
+    {
+      "q_id": "POL_EXEC_Q023",
+      "question_number": 23,
+      "question_text": "Which of the following powers is exercised by the President in the legislative field?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Summoning and proroguing Parliament"},
+        {"option_id": "B", "option_text": "Dissolving Lok Sabha"},
+        {"option_id": "C", "option_text": "Addressing both Houses of Parliament"},
+        {"option_id": "D", "option_text": "All of the above"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Legislative Powers"
+    },
+    {
+      "q_id": "POL_EXEC_Q024",
+      "question_number": 24,
+      "question_text": "Money bills can be introduced in Parliament only with the prior recommendation of the:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Minister"},
+        {"option_id": "B", "option_text": "President"},
+        {"option_id": "C", "option_text": "Finance Minister"},
+        {"option_id": "D", "option_text": "Speaker of Lok Sabha"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Financial Powers"
+    },
+    {
+      "q_id": "POL_EXEC_Q025",
+      "question_number": 25,
+      "question_text": "Who is the chief legal advisor to the Government of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Chief Justice of India"},
+        {"option_id": "B", "option_text": "Solicitor General of India"},
+        {"option_id": "C", "option_text": "Attorney General for India"},
+        {"option_id": "D", "option_text": "Law Secretary"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Attorney General"
+    },
+    {
+      "q_id": "POL_EXEC_Q026",
+      "question_number": 26,
+      "question_text": "The Attorney General for India holds office:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "For a fixed term of five years"},
+        {"option_id": "B", "option_text": "During the pleasure of the President"},
+        {"option_id": "C", "option_text": "Till attaining the age of 65 years"},
+        {"option_id": "D", "option_text": "As long as Lok Sabha exists"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Attorney General"
+    },
+    {
+      "q_id": "POL_EXEC_Q027",
+      "question_number": 27,
+      "question_text": "Which of the following is NOT correct about the Attorney General for India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "He has the right to audience in all courts in India."},
+        {"option_id": "B", "option_text": "He is a member of the Union Cabinet."},
+        {"option_id": "C", "option_text": "He can take part in the proceedings of Parliament but cannot vote."},
+        {"option_id": "D", "option_text": "He must be qualified to be appointed a Judge of the Supreme Court."}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Attorney General"
+    },
+    {
+      "q_id": "POL_EXEC_Q028",
+      "question_number": 28,
+      "question_text": "The President can declare a National Emergency under Article 352 on the ground of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Internal disturbance (old term) replaced later"},
+        {"option_id": "B", "option_text": "Armed rebellion"},
+        {"option_id": "C", "option_text": "Failure of constitutional machinery in a State"},
+        {"option_id": "D", "option_text": "Financial instability"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Emergency Powers"
+    },
+    {
+      "q_id": "POL_EXEC_Q029",
+      "question_number": 29,
+      "question_text": "President's rule in a State under Article 356 is proclaimed on the basis of failure of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Law and order"},
+        {"option_id": "B", "option_text": "Financial stability"},
+        {"option_id": "C", "option_text": "Constitutional machinery"},
+        {"option_id": "D", "option_text": "Political consensus"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President's Rule"
+    },
+    {
+      "q_id": "POL_EXEC_Q030",
+      "question_number": 30,
+      "question_text": "Which of the following Constitutional provisions deals with the discretionary powers of the President explicitly?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "The Constitution does not use the term 'discretionary powers' for the President."},
+        {"option_id": "B", "option_text": "Article 53 explicitly lists all discretionary powers."},
+        {"option_id": "C", "option_text": "Article 74 explicitly grants discretion."},
+        {"option_id": "D", "option_text": "Article 75 explicitly grants discretion."}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "President Discretion"
+    },
+    {
+      "q_id": "POL_EXEC_Q031",
+      "question_number": 31,
+      "question_text": "The Prime Minister is described as 'first among equals' in relation to whom?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Council of Ministers"},
+        {"option_id": "B", "option_text": "Members of Lok Sabha"},
+        {"option_id": "C", "option_text": "Judges of Supreme Court"},
+        {"option_id": "D", "option_text": "Chief Ministers of States"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Prime Minister"
+    },
+    {
+      "q_id": "POL_EXEC_Q032",
+      "question_number": 32,
+      "question_text": "If the Prime Minister resigns, the Council of Ministers is considered to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Continue till President dismisses them"},
+        {"option_id": "B", "option_text": "Stand dissolved"},
+        {"option_id": "C", "option_text": "Be converted into a caretaker government automatically"},
+        {"option_id": "D", "option_text": "Continue with senior-most minister as PM automatically"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Council of Ministers"
+    },
+    {
+      "q_id": "POL_EXEC_Q033",
+      "question_number": 33,
+      "question_text": "Which of the following statements is correct regarding the individual responsibility of ministers?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ministers are individually responsible to the President."},
+        {"option_id": "B", "option_text": "Ministers are individually responsible to Rajya Sabha."},
+        {"option_id": "C", "option_text": "Ministers hold office during the pleasure of the President, effectively on advice of PM."},
+        {"option_id": "D", "option_text": "Ministers are individually responsible to Supreme Court."}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ministerial Responsibility"
+    },
+    {
+      "q_id": "POL_EXEC_Q034",
+      "question_number": 34,
+      "question_text": "Which Article requires the Prime Minister to communicate to the President all decisions of the Council of Ministers relating to administration of the Union affairs?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 74"},
+        {"option_id": "B", "option_text": "Article 75"},
+        {"option_id": "C", "option_text": "Article 77"},
+        {"option_id": "D", "option_text": "Article 78"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Prime Minister–President Relations"
+    },
+    {
+      "q_id": "POL_EXEC_Q035",
+      "question_number": 35,
+      "question_text": "Which statement correctly describes the nature of the President's veto power in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "President has only absolute veto."},
+        {"option_id": "B", "option_text": "President has only suspensive veto."},
+        {"option_id": "C", "option_text": "President has absolute, suspensive and pocket veto (in practice)."},
+        {"option_id": "D", "option_text": "President has no veto power at all."}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "President Veto"
+    },
+    {
+      "q_id": "POL_EXEC_Q036",
+      "question_number": 36,
+      "question_text": "The President can return which of the following for reconsideration of Parliament?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Money Bill"},
+        {"option_id": "B", "option_text": "Ordinary Bill (not Money Bill)"},
+        {"option_id": "C", "option_text": "Constitutional Amendment Bill"},
+        {"option_id": "D", "option_text": "Appropriation Bill"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "President Veto"
+    },
+    {
+      "q_id": "POL_EXEC_Q037",
+      "question_number": 37,
+      "question_text": "Which one of the following statements regarding the Vice-President is correct?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "He is a member of the Cabinet."},
+        {"option_id": "B", "option_text": "He can be a member of either House of Parliament during his tenure."},
+        {"option_id": "C", "option_text": "He cannot hold any other office of profit."},
+        {"option_id": "D", "option_text": "He is part of the Union Executive and presides over Rajya Sabha."}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vice-President"
+    },
+    {
+      "q_id": "POL_EXEC_Q038",
+      "question_number": 38,
+      "question_text": "Who administers the oath of office to the President of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Minister"},
+        {"option_id": "B", "option_text": "Chief Justice of India"},
+        {"option_id": "C", "option_text": "Speaker of Lok Sabha"},
+        {"option_id": "D", "option_text": "Vice-President"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "President"
+    },
+    {
+      "q_id": "POL_EXEC_Q039",
+      "question_number": 39,
+      "question_text": "During the vacancy in the office of the President due to death, resignation or removal, who acts as the President until a new President is elected?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Minister"},
+        {"option_id": "B", "option_text": "Vice-President"},
+        {"option_id": "C", "option_text": "Chief Justice of India"},
+        {"option_id": "D", "option_text": "Speaker of Lok Sabha"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Vacancy"
+    },
+    {
+      "q_id": "POL_EXEC_Q040",
+      "question_number": 40,
+      "question_text": "Which of the following can be considered as 'real executive' in the Indian Parliamentary system at the Union level?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "President"},
+        {"option_id": "B", "option_text": "Prime Minister and Council of Ministers"},
+        {"option_id": "C", "option_text": "Chief Justice of India"},
+        {"option_id": "D", "option_text": "Election Commission"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Union Executive"
+    },
+    {
+      "q_id": "POL_EXEC_Q041",
+      "question_number": 41,
+      "question_text": "Which body recommends the salaries and allowances of the President and Vice-President from time to time?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Finance Commission"},
+        {"option_id": "B", "option_text": "Parliament by law"},
+        {"option_id": "C", "option_text": "Union Cabinet"},
+        {"option_id": "D", "option_text": "NITI Aayog"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President & VP Conditions"
+    },
+    {
+      "q_id": "POL_EXEC_Q042",
+      "question_number": 42,
+      "question_text": "Which one of the following is NOT a category of ministers at the Union level in practice?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Cabinet Ministers"},
+        {"option_id": "B", "option_text": "Ministers of State (independent charge)"},
+        {"option_id": "C", "option_text": "Deputy Ministers"},
+        {"option_id": "D", "option_text": "Judicial Ministers"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Council of Ministers"
+    },
+    {
+      "q_id": "POL_EXEC_Q043",
+      "question_number": 43,
+      "question_text": "Which of the following correctly describes the Cabinet in the Indian context?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "All members of Council of Ministers"},
+        {"option_id": "B", "option_text": "Group of top-ranking ministers responsible for major policy decisions"},
+        {"option_id": "C", "option_text": "All MPs belonging to the ruling party"},
+        {"option_id": "D", "option_text": "Senior bureaucrats assisting the PM"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Cabinet"
+    },
+    {
+      "q_id": "POL_EXEC_Q044",
+      "question_number": 44,
+      "question_text": "Which Article deals with the conduct of business of the Government of India (allocation of business among ministers etc.)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 73"},
+        {"option_id": "B", "option_text": "Article 74"},
+        {"option_id": "C", "option_text": "Article 77"},
+        {"option_id": "D", "option_text": "Article 79"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Union Executive Procedure"
+    },
+    {
+      "q_id": "POL_EXEC_Q045",
+      "question_number": 45,
+      "question_text": "The President can grant pardon, reprieve, respite or remission of punishment to a person convicted of an offence under which of the following powers?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Legislative power"},
+        {"option_id": "B", "option_text": "Judicial power under Article 72"},
+        {"option_id": "C", "option_text": "Emergency power"},
+        {"option_id": "D", "option_text": "Financial power"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "President Pardon Power"
+    },
+    {
+      "q_id": "POL_EXEC_Q046",
+      "question_number": 46,
+      "question_text": "Under which situation can the Council of Ministers continue in office even when it does not enjoy majority support in Lok Sabha as per convention?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "During President's rule in some States"},
+        {"option_id": "B", "option_text": "As a caretaker government after dissolution of Lok Sabha till new government forms"},
+        {"option_id": "C", "option_text": "Whenever President wishes so"},
+        {"option_id": "D", "option_text": "If Supreme Court orders so for five years"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Caretaker Government"
+    },
+    {
+      "q_id": "POL_EXEC_Q047",
+      "question_number": 47,
+      "question_text": "Which of the following is true regarding the oath of secrecy of Union Ministers?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Administered by the Prime Minister"},
+        {"option_id": "B", "option_text": "Administered by the President"},
+        {"option_id": "C", "option_text": "Administered by the Chief Justice of India"},
+        {"option_id": "D", "option_text": "Not required under Constitution"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Council of Ministers"
+    },
+    {
+      "q_id": "POL_EXEC_Q048",
+      "question_number": 48,
+      "question_text": "A Minister who is not a member of either House of Parliament can remain a Minister for a maximum period of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "3 months"},
+        {"option_id": "B", "option_text": "6 months"},
+        {"option_id": "C", "option_text": "1 year"},
+        {"option_id": "D", "option_text": "Till pleasure of the President"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Council of Ministers"
+    },
+    {
+      "q_id": "POL_EXEC_Q049",
+      "question_number": 49,
+      "question_text": "Which one of the following is NOT a function normally performed by the Prime Minister?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Head of the Council of Ministers"},
+        {"option_id": "B", "option_text": "Link between President and Council of Ministers"},
+        {"option_id": "C", "option_text": "Chairman of Rajya Sabha"},
+        {"option_id": "D", "option_text": "Leader of the majority party in Lok Sabha (normally)"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Prime Minister"
+    },
+    {
+      "q_id": "POL_EXEC_Q050",
+      "question_number": 50,
+      "question_text": "Which one of the following best reflects the position of the President of India in the Indian Parliamentary system?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Real head of the State and Government"},
+        {"option_id": "B", "option_text": "Nominal head of the State acting on aid and advice of Council of Ministers"},
+        {"option_id": "C", "option_text": "Head of Government only"},
+        {"option_id": "D", "option_text": "Head of Legislature only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "President"
+    }
+  ]
+}

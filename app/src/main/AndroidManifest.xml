@@ -45,6 +45,43 @@
             android:theme="@style/Theme.UPSCPrep"
             android:exported="false" />
 
+        <!-- Assignment/Quiz Activities -->
+        <activity
+            android:name=".ui.assignments.activities.SubjectSelectionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UPSCPrep" />
+
+        <activity
+            android:name=".ui.assignments.activities.GSPaperSelectionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UPSCPrep" />
+
+        <activity
+            android:name=".ui.assignments.activities.UnitSelectionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UPSCPrep" />
+
+        <activity
+            android:name=".ui.assignments.activities.QuizActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.UPSCPrep" />
+
+        <activity
+            android:name=".ui.assignments.activities.ResultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UPSCPrep" />
+
+        <activity
+            android:name=".ui.assignments.activities.SolutionReviewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UPSCPrep" />
+
+        <activity
+            android:name=".ui.assignments.activities.TestHistoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UPSCPrep" />
+
     </application>
 
 </manifest>

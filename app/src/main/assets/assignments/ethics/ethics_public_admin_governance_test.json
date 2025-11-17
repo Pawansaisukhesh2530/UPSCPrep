@@ -1,0 +1,880 @@
+{
+  "test_metadata": {
+    "test_id": "ETH_PAGOV_MCQT1",
+    "test_title": "Public Administration and Governance - Practice MCQ Test",
+    "subject": "Ethics, Integrity and Aptitude",
+    "gs_paper": "GS IV",
+    "unit": "Public Administration and Governance",
+    "sub_topic": "Governance, Public Service Values, Administrative Ethics",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 75,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "Governance",
+      "Public Administration",
+      "Civil Services",
+      "Ethical Governance",
+      "Accountability",
+      "Citizen-Centric Administration"
+    ],
+    "created_date": "2025-11-17",
+    "description": "UPSC-style MCQs on public administration, governance, ethical and citizen-centric administration, accountability and service delivery."
+  },
+  "questions": [
+    {
+      "q_id": "ETH_PAGOV_Q001",
+      "question_number": 1,
+      "question_text": "In the context of public administration, 'governance' is best understood as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "The act of ruling by force"},
+        {"option_id": "B", "option_text": "The processes and institutions through which decisions are made and authority is exercised in managing a country’s affairs"},
+        {"option_id": "C", "option_text": "Only the activities of the legislature"},
+        {"option_id": "D", "option_text": "Only the enforcement of criminal law"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Definition of Governance"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q002",
+      "question_number": 2,
+      "question_text": "Which of the following is NOT typically considered a key feature of 'good governance'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Transparency"},
+        {"option_id": "B", "option_text": "Accountability"},
+        {"option_id": "C", "option_text": "Arbitrariness in decision-making"},
+        {"option_id": "D", "option_text": "Participation of stakeholders"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Good Governance"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q003",
+      "question_number": 3,
+      "question_text": "Which of the following principles of public administration focuses on simplifying processes and reducing unnecessary complexities for citizens?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Centralisation"},
+        {"option_id": "B", "option_text": "Procedural rigidity"},
+        {"option_id": "C", "option_text": "Citizen-centric service delivery and simplification"},
+        {"option_id": "D", "option_text": "Secrecy in administration"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Citizen-Centric Administration"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q004",
+      "question_number": 4,
+      "question_text": "Public administration in a democratic polity is expected to be primarily oriented towards:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Serving political party interests only"},
+        {"option_id": "B", "option_text": "Serving public interest and upholding constitutional values"},
+        {"option_id": "C", "option_text": "Maximising profits like private firms"},
+        {"option_id": "D", "option_text": "Favouring particular groups close to power"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Democratic Public Administration"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q005",
+      "question_number": 5,
+      "question_text": "The term 'New Public Management' (NPM) is generally associated with which of the following ideas?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Viewing citizens solely as subjects"},
+        {"option_id": "B", "option_text": "Greater emphasis on efficiency, performance measurement and managerial techniques borrowed from private sector"},
+        {"option_id": "C", "option_text": "Exclusive focus on hierarchy and rigid rules"},
+        {"option_id": "D", "option_text": "Complete absence of accountability"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "New Public Management"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q006",
+      "question_number": 6,
+      "question_text": "In the context of governance, 'accountability' means that public officials:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Are answerable for their actions and decisions to appropriate authorities or the public"},
+        {"option_id": "B", "option_text": "Have absolute discretion without any scrutiny"},
+        {"option_id": "C", "option_text": "Need not record reasons for their decisions"},
+        {"option_id": "D", "option_text": "Are responsible only to their immediate family members"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Accountability"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q007",
+      "question_number": 7,
+      "question_text": "Which one of the following mechanisms promotes 'horizontal accountability' in governance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Elections of representatives by citizens"},
+        {"option_id": "B", "option_text": "Judicial review of executive decisions by courts"},
+        {"option_id": "C", "option_text": "Citizen participation in gram sabhas"},
+        {"option_id": "D", "option_text": "Media debates on policy issues"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Horizontal Accountability"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q008",
+      "question_number": 8,
+      "question_text": "Which of the following is a key objective of 'e-governance' initiatives in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Increasing physical paperwork"},
+        {"option_id": "B", "option_text": "Using information and communication technologies to improve service delivery, transparency and efficiency"},
+        {"option_id": "C", "option_text": "Centralising all decisions in a single office"},
+        {"option_id": "D", "option_text": "Reducing citizen access to information"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "E-Governance"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q009",
+      "question_number": 9,
+      "question_text": "Which one of the following is NOT a typical benefit of e-governance from an ethical governance perspective?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Reduction in discretionary power of lower-level officials"},
+        {"option_id": "B", "option_text": "Improved transparency in processes"},
+        {"option_id": "C", "option_text": "Facilitation of time-bound delivery of services"},
+        {"option_id": "D", "option_text": "Complete elimination of the need for ethical values in officials"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "E-Governance & Ethics"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q010",
+      "question_number": 10,
+      "question_text": "In the context of Indian administration, 'citizen charter' is primarily aimed at:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Outlining citizens’ duties towards the state"},
+        {"option_id": "B", "option_text": "Informing citizens about available services, standards, timelines and grievance redress mechanisms"},
+        {"option_id": "C", "option_text": "Enumerating only financial rights of citizens"},
+        {"option_id": "D", "option_text": "Providing a list of punishments for citizens"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Citizen Charter"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q011",
+      "question_number": 11,
+      "question_text": "Which of the following is a limitation often observed in the implementation of citizen charters in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Excessive legal enforceability of charters"},
+        {"option_id": "B", "option_text": "Lack of awareness among citizens and weak grievance redressal mechanisms"},
+        {"option_id": "C", "option_text": "Too much citizen participation in drafting charters"},
+        {"option_id": "D", "option_text": "Over-simplification of procedures in all departments"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Citizen Charter Limitations"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q012",
+      "question_number": 12,
+      "question_text": "Public service values in administration generally include all of the following EXCEPT:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Integrity"},
+        {"option_id": "B", "option_text": "Objectivity"},
+        {"option_id": "C", "option_text": "Commitment to public interest"},
+        {"option_id": "D", "option_text": "Blind loyalty to private corporate interests"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Public Service Values"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q013",
+      "question_number": 13,
+      "question_text": "Which of the following best explains the concept of 'rule of law' in democratic governance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "All officials are above the law"},
+        {"option_id": "B", "option_text": "Government and citizens are equally subject to publicly known and fairly applied laws"},
+        {"option_id": "C", "option_text": "Law applies only to citizens, not to officials"},
+        {"option_id": "D", "option_text": "Law is enforced only at the discretion of political leaders"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Rule of Law"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q014",
+      "question_number": 14,
+      "question_text": "Which of the following is MOST closely related to 'responsive administration'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ignoring citizen complaints"},
+        {"option_id": "B", "option_text": "Acting promptly and sensitively to citizens’ needs and feedback"},
+        {"option_id": "C", "option_text": "Following rules mechanically without considering citizen needs"},
+        {"option_id": "D", "option_text": "Delaying decisions to avoid responsibility"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Responsiveness"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q015",
+      "question_number": 15,
+      "question_text": "Which one of the following is a major advantage of decentralisation in public administration from a governance perspective?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Decision-making closer to people, allowing better understanding of local needs"},
+        {"option_id": "B", "option_text": "Complete elimination of citizen participation"},
+        {"option_id": "C", "option_text": "Concentration of power at the central level"},
+        {"option_id": "D", "option_text": "Increased secrecy in decisions"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Decentralisation"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q016",
+      "question_number": 16,
+      "question_text": "In Indian context, which of the following institutions primarily embodies local self-governance in rural areas?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Municipal corporations"},
+        {"option_id": "B", "option_text": "Panchayati Raj Institutions"},
+        {"option_id": "C", "option_text": "High Courts"},
+        {"option_id": "D", "option_text": "Public Sector Undertakings"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Local Governance"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q017",
+      "question_number": 17,
+      "question_text": "Which of the following is a key ethical challenge in public administration when there is excessive political interference in routine administrative matters?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Greater impartiality"},
+        {"option_id": "B", "option_text": "Enhanced professionalism"},
+        {"option_id": "C", "option_text": "Erosion of neutrality and merit-based decision-making"},
+        {"option_id": "D", "option_text": "Strengthening of independent judgments"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Political Interference"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q018",
+      "question_number": 18,
+      "question_text": "Which of the following concepts emphasises partnership between government, private sector and civil society in governance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Command-and-control governance"},
+        {"option_id": "B", "option_text": "Network governance and collaborative governance"},
+        {"option_id": "C", "option_text": "Autocratic decision-making"},
+        {"option_id": "D", "option_text": "Exclusive state monopoly over all decisions"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Network Governance"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q019",
+      "question_number": 19,
+      "question_text": "From an ethical standpoint, 'bureaucratic red-tapism' is problematic because it often results in:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Efficient and speedy delivery"},
+        {"option_id": "B", "option_text": "Unnecessary delays, harassment and denial of timely services to citizens"},
+        {"option_id": "C", "option_text": "Greater citizen empowerment"},
+        {"option_id": "D", "option_text": "Enhanced transparency"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Red-Tapism"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q020",
+      "question_number": 20,
+      "question_text": "Which of the following tools directly empowers citizens to demand accountability in service delivery at the local level through social audits and public hearings?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Closed-door meetings of officials"},
+        {"option_id": "B", "option_text": "Right to Information and social audit mechanisms"},
+        {"option_id": "C", "option_text": "Internal office circulars"},
+        {"option_id": "D", "option_text": "Secret oral instructions"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Citizen Oversight"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q021",
+      "question_number": 21,
+      "question_text": "In public administration, 'delegation of authority' should be accompanied by which essential ethical component to prevent misuse?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Unrestricted discretion without any reporting"},
+        {"option_id": "B", "option_text": "Corresponding responsibility and accountability for decisions"},
+        {"option_id": "C", "option_text": "Total absence of monitoring"},
+        {"option_id": "D", "option_text": "Freedom to ignore rules completely"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Delegation and Accountability"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q022",
+      "question_number": 22,
+      "question_text": "Which one of the following is an example of 'procedural justice' in public administration?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ensuring that only final outcomes are fair, procedures can be arbitrary"},
+        {"option_id": "B", "option_text": "Providing fair, consistent and transparent processes for all applicants"},
+        {"option_id": "C", "option_text": "Treating different groups by varying secret rules"},
+        {"option_id": "D", "option_text": "Allowing decisions without any recording of reasons"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Procedural Justice"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q023",
+      "question_number": 23,
+      "question_text": "Ethical public administration requires that discretion given to officials should be exercised primarily on the basis of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Personal relationships and biases"},
+        {"option_id": "B", "option_text": "Rule of law, public interest and relevant facts"},
+        {"option_id": "C", "option_text": "Private gain"},
+        {"option_id": "D", "option_text": "Secret informal instructions alone"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Use of Discretion"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q024",
+      "question_number": 24,
+      "question_text": "In a democratic system, which of the following institutions plays a central role in enforcing executive accountability to the people?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Legislature through debates, questions and committees"},
+        {"option_id": "B", "option_text": "Private companies"},
+        {"option_id": "C", "option_text": "Foreign governments"},
+        {"option_id": "D", "option_text": "Non-registered informal groups only"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Legislative Oversight"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q025",
+      "question_number": 25,
+      "question_text": "From the perspective of ethics in public administration, 'transparency' primarily means that:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "All information is kept secret from citizens"},
+        {"option_id": "B", "option_text": "Relevant information, rules and reasons for decisions are accessible and understandable to those affected"},
+        {"option_id": "C", "option_text": "Only internal memos are shared among officials"},
+        {"option_id": "D", "option_text": "Citizens are not entitled to know procedures"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Transparency"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q026",
+      "question_number": 26,
+      "question_text": "Which of the following best explains 'participatory governance'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Decision-making only by top bureaucrats"},
+        {"option_id": "B", "option_text": "Active involvement of citizens and stakeholder groups in decision-making and policy implementation"},
+        {"option_id": "C", "option_text": "Complete outsourcing of governance to private firms"},
+        {"option_id": "D", "option_text": "Total negation of citizen feedback mechanisms"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Participatory Governance"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q027",
+      "question_number": 27,
+      "question_text": "Service delivery in public administration is considered ethical when it is based on which of the following principles?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Arbitrary denial to some sections"},
+        {"option_id": "B", "option_text": "Equality, fairness, non-discrimination and timeliness"},
+        {"option_id": "C", "option_text": "Favouring only influential citizens"},
+        {"option_id": "D", "option_text": "Providing services only against informal payments"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Ethical Service Delivery"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q028",
+      "question_number": 28,
+      "question_text": "Which of the following features distinguishes 'public servants' from employees of private companies in terms of ethical obligations?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Obligation to maximise shareholder profits"},
+        {"option_id": "B", "option_text": "Primary responsibility to uphold public interest and constitutional values"},
+        {"option_id": "C", "option_text": "No obligation to follow law"},
+        {"option_id": "D", "option_text": "Freedom to keep decisions secret from all oversight bodies"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Public Service Ethos"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q029",
+      "question_number": 29,
+      "question_text": "Which of the following situations BEST indicates 'regulatory capture' in governance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Regulator strictly enforcing laws on all firms"},
+        {"option_id": "B", "option_text": "Regulatory agency acting in the interest of the industry it regulates instead of public interest"},
+        {"option_id": "C", "option_text": "Regulator consulting stakeholders transparently"},
+        {"option_id": "D", "option_text": "Regulator disclosing decisions publicly"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Regulatory Capture"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q030",
+      "question_number": 30,
+      "question_text": "Which one of the following is a direct manifestation of 'clientelism' in public administration?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Provision of services based on eligibility criteria"},
+        {"option_id": "B", "option_text": "Distribution of public benefits based on political loyalty rather than merit or need"},
+        {"option_id": "C", "option_text": "Use of objective selection criteria"},
+        {"option_id": "D", "option_text": "Adherence to legal entitlements for all"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Clientelism"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q031",
+      "question_number": 31,
+      "question_text": "Which of the following is a major ethical risk associated with excessive outsourcing of public services to private entities?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Improved flexibility and innovation"},
+        {"option_id": "B", "option_text": "Potential dilution of public accountability and public service values"},
+        {"option_id": "C", "option_text": "Higher citizen participation"},
+        {"option_id": "D", "option_text": "Greater transparency in all cases"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Outsourcing Risks"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q032",
+      "question_number": 32,
+      "question_text": "The idea of 'minimum government, maximum governance' implies, from an ethical governance perspective, that the state should:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Withdraw from all responsibilities"},
+        {"option_id": "B", "option_text": "Focus on core functions, reduce red tape and enable efficient, citizen-friendly service delivery"},
+        {"option_id": "C", "option_text": "Control all aspects of citizens’ personal lives"},
+        {"option_id": "D", "option_text": "Increase number of rules without simplifying processes"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Minimum Government"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q033",
+      "question_number": 33,
+      "question_text": "From an ethical standpoint, performance appraisal systems in public administration should primarily aim to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Promote favouritism"},
+        {"option_id": "B", "option_text": "Recognise merit, encourage ethical performance and identify training needs objectively"},
+        {"option_id": "C", "option_text": "Reward only outputs, ignoring integrity"},
+        {"option_id": "D", "option_text": "Discourage initiative by penalising risk-takers indiscriminately"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Performance Appraisal"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q034",
+      "question_number": 34,
+      "question_text": "Which of the following is an important ethical consideration in the use of data and technology in governance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ignoring citizens’ privacy and consent"},
+        {"option_id": "B", "option_text": "Ensuring data protection, privacy and non-discriminatory use of algorithms"},
+        {"option_id": "C", "option_text": "Using data for surveillance of political opponents only"},
+        {"option_id": "D", "option_text": "Keeping all algorithms secret from any scrutiny"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Data Ethics"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q035",
+      "question_number": 35,
+      "question_text": "Which one of the following is a key indicator of 'ethical climate' in an organisation?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prevalence of fear and secrecy"},
+        {"option_id": "B", "option_text": "Employees feel safe to raise ethical concerns and wrongdoing is not tolerated"},
+        {"option_id": "C", "option_text": "Frequent reward for results achieved by any means"},
+        {"option_id": "D", "option_text": "Absence of any discussion on ethics"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Ethical Climate"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q036",
+      "question_number": 36,
+      "question_text": "Which of the following is an example of 'grievance redress mechanism' in public administration?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Internal transfers based on favouritism"},
+        {"option_id": "B", "option_text": "Lokpal, Lokayuktas, departmental grievance cells and online complaint portals"},
+        {"option_id": "C", "option_text": "Secret informal arrangements"},
+        {"option_id": "D", "option_text": "Private arbitration for all public complaints"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Grievance Redressal"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q037",
+      "question_number": 37,
+      "question_text": "Ethical leadership in governance primarily requires that leaders should:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Set personal examples of integrity and fairness, and encourage ethical behaviour in others"},
+        {"option_id": "B", "option_text": "Focus only on short-term popularity"},
+        {"option_id": "C", "option_text": "Avoid taking any difficult decisions"},
+        {"option_id": "D", "option_text": "Encourage blind obedience among subordinates"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Ethical Leadership"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q038",
+      "question_number": 38,
+      "question_text": "Which of the following is the MOST appropriate benchmark for ethical evaluation of public policies in a constitutional democracy?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Personal preferences of administrators"},
+        {"option_id": "B", "option_text": "Alignment with constitutional values, human rights and public interest"},
+        {"option_id": "C", "option_text": "Short-term political gains alone"},
+        {"option_id": "D", "option_text": "Benefits to a small elite group"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Policy Ethics"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q039",
+      "question_number": 39,
+      "question_text": "Which of the following illustrates the ethical principle of 'subsidiarity' in governance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Always centralising powers at the national level"},
+        {"option_id": "B", "option_text": "Ensuring that decisions are taken at the lowest competent level close to the people"},
+        {"option_id": "C", "option_text": "Delegating all decisions to international agencies"},
+        {"option_id": "D", "option_text": "Allowing no role for local bodies in governance"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Subsidiarity"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q040",
+      "question_number": 40,
+      "question_text": "From an ethical governance perspective, public consultation before major policy changes helps in:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Reducing legitimacy of policies"},
+        {"option_id": "B", "option_text": "Enhancing legitimacy, trust and inclusiveness in decision-making"},
+        {"option_id": "C", "option_text": "Ensuring secrecy of government decisions"},
+        {"option_id": "D", "option_text": "Excluding marginalised groups from discussion"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Public Consultation"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q041",
+      "question_number": 41,
+      "question_text": "Which of the following BEST represents a conflict between 'efficiency' and 'equity' in public administration?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Choosing only fastest processes even if they systematically exclude weaker sections"},
+        {"option_id": "B", "option_text": "Providing additional support to marginalised groups for fair access"},
+        {"option_id": "C", "option_text": "Reducing corruption"},
+        {"option_id": "D", "option_text": "Improving the quality of data systems"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Efficiency vs Equity"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q042",
+      "question_number": 42,
+      "question_text": "Which of the following is an example of 'ethical neutrality' being misused in public administration?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "An officer applying law fairly to all"},
+        {"option_id": "B", "option_text": "An officer silently implementing orders that violate fundamental rights without raising concern"},
+        {"option_id": "C", "option_text": "An officer recusing from a case due to conflict of interest"},
+        {"option_id": "D", "option_text": "An officer recording dissenting note through proper channels"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Neutrality Misuse"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q043",
+      "question_number": 43,
+      "question_text": "From an ethical standpoint, 'street-level bureaucrats' (like frontline officials) are important because they:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Have no discretion and only process files"},
+        {"option_id": "B", "option_text": "Directly interact with citizens and effectively shape how policies are experienced on the ground"},
+        {"option_id": "C", "option_text": "Work only with computers and not with people"},
+        {"option_id": "D", "option_text": "Decide only internal office rules"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Street-Level Bureaucracy"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q044",
+      "question_number": 44,
+      "question_text": "Which of the following elements is MOST crucial to ensure that grievance redress mechanisms are actually effective from a citizen’s perspective?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Complex and lengthy procedures"},
+        {"option_id": "B", "option_text": "Time-bound resolution, accessibility and feedback to complainants"},
+        {"option_id": "C", "option_text": "Lack of monitoring of resolved cases"},
+        {"option_id": "D", "option_text": "Non-availability of appeal mechanisms"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Effective Redressal"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q045",
+      "question_number": 45,
+      "question_text": "Which one of the following illustrates an ethical use of discretion by a public servant?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Relaxing rules arbitrarily for friends"},
+        {"option_id": "B", "option_text": "Interpreting rules in a humane manner to provide urgent help within legal limits"},
+        {"option_id": "C", "option_text": "Ignoring rules completely in all cases"},
+        {"option_id": "D", "option_text": "Using discretion to delay services as a means of harassment"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Ethical Discretion"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q046",
+      "question_number": 46,
+      "question_text": "Which of the following represents an ethical approach to managing performance targets in public programmes?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Manipulating data to show targets achieved"},
+        {"option_id": "B", "option_text": "Setting realistic targets, monitoring honestly and learning from shortfalls"},
+        {"option_id": "C", "option_text": "Setting impossible targets to impress superiors"},
+        {"option_id": "D", "option_text": "Ignoring any evaluation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Performance Ethics"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q047",
+      "question_number": 47,
+      "question_text": "Which of the following elements of organisational design is MOST likely to reduce unethical behaviour in public agencies?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ambiguous responsibilities and overlapping roles"},
+        {"option_id": "B", "option_text": "Clear roles, checks and balances, and separation of powers"},
+        {"option_id": "C", "option_text": "Concentration of all power in one individual"},
+        {"option_id": "D", "option_text": "Lack of documentation requirements"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Organisational Design"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q048",
+      "question_number": 48,
+      "question_text": "From an ethical governance perspective, which of the following is MOST appropriate when an officer faces conflicting instructions from political and administrative superiors?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Follow any instruction that brings personal benefit"},
+        {"option_id": "B", "option_text": "Prioritise instructions that are legal, in public interest and consistent with rules; record written directions for contentious orders"},
+        {"option_id": "C", "option_text": "Always follow oral political instructions"},
+        {"option_id": "D", "option_text": "Ignore legal provisions to maintain relationships"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Conflicting Instructions"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q049",
+      "question_number": 49,
+      "question_text": "Which one of the following BEST explains the importance of 'ethical training' for civil servants?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "To ensure they memorise all rules without understanding values"},
+        {"option_id": "B", "option_text": "To build moral awareness, reasoning skills and commitment to public service values"},
+        {"option_id": "C", "option_text": "To teach techniques of avoiding accountability"},
+        {"option_id": "D", "option_text": "To train them only in technical procedures"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ethics Training"
+    },
+    {
+      "q_id": "ETH_PAGOV_Q050",
+      "question_number": 50,
+      "question_text": "Ethical public administration ultimately aims to achieve which of the following broad outcomes in a democratic society?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Concentration of benefits among a small elite"},
+        {"option_id": "B", "option_text": "Trustworthy, fair and effective governance that upholds rights and promotes common good"},
+        {"option_id": "C", "option_text": "Complete withdrawal of state from welfare activities"},
+        {"option_id": "D", "option_text": "Maximum secrecy and minimum citizen participation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Goal of Ethical Administration"
+    }
+  ]
+}

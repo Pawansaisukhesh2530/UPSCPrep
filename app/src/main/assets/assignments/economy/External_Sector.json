@@ -1,0 +1,881 @@
+{
+  "test_metadata": {
+    "test_id": "ECO_EXTSEC_MCQT1",
+    "test_title": "External Sector, BoP, Trade and Capital Flows - Practice MCQ Test",
+    "subject": "Indian Economy",
+    "gs_paper": "GS III",
+    "unit": "External Sector",
+    "sub_topic": "BoP, Trade Policy, Exchange Rate, FDI/FPI, External Debt",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "External Sector",
+      "Balance of Payments",
+      "Exchange Rate",
+      "FDI",
+      "FPI",
+      "Trade Policy",
+      "Foreign Exchange Reserves"
+    ],
+    "created_date": "2025-11-17",
+    "description": "UPSC-oriented MCQs on Balance of Payments, exchange rate regimes, foreign trade, FDI/FPI and external vulnerability of the Indian economy."
+  },
+  "questions": [
+    {
+      "q_id": "ECO_EXTSEC_Q001",
+      "question_number": 1,
+      "question_text": "Which of the following best describes the Balance of Payments (BoP) of a country?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Statement of all financial transactions of the government only"},
+        {"option_id": "B", "option_text": "Record of all economic transactions between residents of a country and the rest of the world in a given period"},
+        {"option_id": "C", "option_text": "Statement of all domestic income and expenditure"},
+        {"option_id": "D", "option_text": "Only record of exports and imports of goods"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "BoP Basics"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q002",
+      "question_number": 2,
+      "question_text": "Which of the following accounts is NOT a part of the current account in BoP?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Exports and imports of goods"},
+        {"option_id": "B", "option_text": "Exports and imports of services"},
+        {"option_id": "C", "option_text": "Income from investment and wages"},
+        {"option_id": "D", "option_text": "Foreign direct investment inflows"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "BoP - Current vs Capital"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q003",
+      "question_number": 3,
+      "question_text": "Which of the following transactions is recorded in the capital account of BoP?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Merchandise exports"},
+        {"option_id": "B", "option_text": "Tourism receipts"},
+        {"option_id": "C", "option_text": "External commercial borrowings (ECBs)"},
+        {"option_id": "D", "option_text": "Private remittances from abroad"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Capital Account"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q004",
+      "question_number": 4,
+      "question_text": "A persistent deficit in the current account of BoP is generally a cause of concern because it may indicate:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Excessive domestic savings"},
+        {"option_id": "B", "option_text": "Excess of imports and income payments over exports and income receipts"},
+        {"option_id": "C", "option_text": "Complete absence of capital flows"},
+        {"option_id": "D", "option_text": "Only a temporary change in forex reserves with no macro impact"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Current Account Deficit"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q005",
+      "question_number": 5,
+      "question_text": "Which of the following is TRUE about India’s BoP accounting identity at the broad level?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Current account + Capital account = 0 always, with no balancing item"},
+        {"option_id": "B", "option_text": "Current account + Capital account + Errors and omissions = Change in forex reserves (with sign convention)"},
+        {"option_id": "C", "option_text": "Only current account is relevant; capital account is not recorded"},
+        {"option_id": "D", "option_text": "BoP does not include errors and omissions"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "BoP Identity"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q006",
+      "question_number": 6,
+      "question_text": "Which one of the following is an invisible item in the current account of India’s BoP?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Export of software services"},
+        {"option_id": "B", "option_text": "Export of crude oil"},
+        {"option_id": "C", "option_text": "Import of machinery"},
+        {"option_id": "D", "option_text": "Import of gold"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Invisibles"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q007",
+      "question_number": 7,
+      "question_text": "Workers’ remittances from abroad to India are recorded under which part of the BoP?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Capital account – FDI"},
+        {"option_id": "B", "option_text": "Current account – Transfers"},
+        {"option_id": "C", "option_text": "Capital account – Portfolio investment"},
+        {"option_id": "D", "option_text": "Financial derivatives account"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Remittances"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q008",
+      "question_number": 8,
+      "question_text": "A depreciation of the domestic currency (under a flexible exchange rate) tends to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Make exports cheaper and imports costlier"},
+        {"option_id": "B", "option_text": "Make exports costlier and imports cheaper"},
+        {"option_id": "C", "option_text": "Have no impact on trade flows"},
+        {"option_id": "D", "option_text": "Always lead to current account surplus immediately"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Exchange Rate Effects"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q009",
+      "question_number": 9,
+      "question_text": "Which of the following best describes 'managed float' or 'managed flexible' exchange rate regime followed by many emerging economies including India conceptually?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Completely fixed exchange rate against one currency"},
+        {"option_id": "B", "option_text": "Purely market-determined exchange rate with no central bank intervention"},
+        {"option_id": "C", "option_text": "Market-determined rate with occasional central bank intervention to reduce volatility"},
+        {"option_id": "D", "option_text": "Central bank administratively sets the rate daily without market forces"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Exchange Rate Regimes"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q010",
+      "question_number": 10,
+      "question_text": "Which of the following is NOT typically a component of India’s foreign exchange reserves?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Foreign currency assets"},
+        {"option_id": "B", "option_text": "Gold holdings of RBI"},
+        {"option_id": "C", "option_text": "Special Drawing Rights (SDRs)"},
+        {"option_id": "D", "option_text": "Shares of domestic public sector units held by government"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Forex Reserves"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q011",
+      "question_number": 11,
+      "question_text": "Foreign Direct Investment (FDI) is best distinguished from Foreign Portfolio Investment (FPI) by the fact that FDI generally:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Is of very short-term speculative nature only"},
+        {"option_id": "B", "option_text": "Does not involve any ownership of assets"},
+        {"option_id": "C", "option_text": "Involves long-term interest and control in an enterprise"},
+        {"option_id": "D", "option_text": "Is always routed through multilateral agencies only"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "FDI vs FPI"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q012",
+      "question_number": 12,
+      "question_text": "Which of the following is a likely advantage of FDI for a developing country like India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Reduction in competition"},
+        {"option_id": "B", "option_text": "Access to foreign capital, technology and management practices"},
+        {"option_id": "C", "option_text": "Guaranteed elimination of current account deficit"},
+        {"option_id": "D", "option_text": "Automatic increase in foreign exchange reserves without any liabilities"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "FDI Benefits"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q013",
+      "question_number": 13,
+      "question_text": "Which of the following best explains 'terms of trade' in external sector context?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ratio of tax revenue to GDP"},
+        {"option_id": "B", "option_text": "Ratio of export prices to import prices"},
+        {"option_id": "C", "option_text": "Ratio of exports to imports by volume"},
+        {"option_id": "D", "option_text": "Difference between exports and imports in value terms"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Terms of Trade"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q014",
+      "question_number": 14,
+      "question_text": "A country is said to experience 'trade deficit' when:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Exports of goods exceed imports of goods"},
+        {"option_id": "B", "option_text": "Imports of goods exceed exports of goods"},
+        {"option_id": "C", "option_text": "Capital inflows exceed capital outflows"},
+        {"option_id": "D", "option_text": "Foreign exchange reserves are rising"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Trade Deficit"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q015",
+      "question_number": 15,
+      "question_text": "Which international institution primarily deals with rules of trade between nations and settlement of trade disputes?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "International Monetary Fund"},
+        {"option_id": "B", "option_text": "World Bank"},
+        {"option_id": "C", "option_text": "World Trade Organization"},
+        {"option_id": "D", "option_text": "United Nations Conference on Trade and Development"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "WTO"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q016",
+      "question_number": 16,
+      "question_text": "The IMF’s primary role in the external sector of member countries is to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Provide long-term project loans for infrastructure"},
+        {"option_id": "B", "option_text": "Provide short- to medium-term balance of payments support"},
+        {"option_id": "C", "option_text": "Act as a world trade dispute settlement body"},
+        {"option_id": "D", "option_text": "Decide domestic tax policy of members"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "IMF Role"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q017",
+      "question_number": 17,
+      "question_text": "Special Drawing Rights (SDRs) are best described as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "A currency used by EU only"},
+        {"option_id": "B", "option_text": "An international reserve asset created by IMF"},
+        {"option_id": "C", "option_text": "A form of World Bank loan"},
+        {"option_id": "D", "option_text": "A freely traded private cryptocurrency"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "SDRs"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q018",
+      "question_number": 18,
+      "question_text": "Which of the following would directly worsen India’s merchandise trade balance, ceteris paribus?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Increase in international crude oil prices"},
+        {"option_id": "B", "option_text": "Increase in IT service exports"},
+        {"option_id": "C", "option_text": "Increase in workers’ remittances"},
+        {"option_id": "D", "option_text": "Tourism receipts rising"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Trade Balance"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q019",
+      "question_number": 19,
+      "question_text": "A surge in short-term portfolio capital inflows to India is MOST likely to cause, other things equal:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Depreciation of the rupee"},
+        {"option_id": "B", "option_text": "Appreciation pressure on the rupee"},
+        {"option_id": "C", "option_text": "No change in exchange rate"},
+        {"option_id": "D", "option_text": "Reduction in forex reserves"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Capital Flows and FX"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q020",
+      "question_number": 20,
+      "question_text": "Which of the following correctly explains 'exchange rate pass-through' to inflation in an import-dependent economy?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Exchange rate changes have no effect on domestic prices"},
+        {"option_id": "B", "option_text": "Depreciation of currency raises domestic prices of imports and may raise inflation"},
+        {"option_id": "C", "option_text": "Appreciation of currency always raises inflation"},
+        {"option_id": "D", "option_text": "Exchange rate affects only exports, not prices"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Exchange Rate & Inflation"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q021",
+      "question_number": 21,
+      "question_text": "Which of the following is a major risk associated with high dependence on volatile portfolio flows for financing current account deficit?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "They are always long-term and stable"},
+        {"option_id": "B", "option_text": "Sudden reversal can cause sharp currency depreciation and BoP stress"},
+        {"option_id": "C", "option_text": "They eliminate any need for forex reserves"},
+        {"option_id": "D", "option_text": "They remove all external vulnerability permanently"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "External Vulnerability"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q022",
+      "question_number": 22,
+      "question_text": "In the context of external debt sustainability, which of the following indicators is often used as a critical ratio?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "External debt to forex reserves"},
+        {"option_id": "B", "option_text": "Tax to GDP ratio"},
+        {"option_id": "C", "option_text": "Agricultural GDP to total GDP"},
+        {"option_id": "D", "option_text": "Public expenditure to GDP"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "External Debt"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q023",
+      "question_number": 23,
+      "question_text": "Which among the following is often the largest component of India’s service exports, helping to offset merchandise trade deficit?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Transportation services"},
+        {"option_id": "B", "option_text": "Travel and tourism services"},
+        {"option_id": "C", "option_text": "Software and IT-enabled services"},
+        {"option_id": "D", "option_text": "Construction services only"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Services Exports"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q024",
+      "question_number": 24,
+      "question_text": "Which of the following policies can directly help improve the current account balance of India in the medium term?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Boosting export competitiveness and moderating non-essential imports"},
+        {"option_id": "B", "option_text": "Only increasing external commercial borrowings"},
+        {"option_id": "C", "option_text": "Reducing forex reserves"},
+        {"option_id": "D", "option_text": "Strictly banning all capital inflows"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "BoP Management"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q025",
+      "question_number": 25,
+      "question_text": "Which of the following is an example of a 'non-debt creating' capital flow in BoP?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "External commercial borrowing"},
+        {"option_id": "B", "option_text": "IMF credit"},
+        {"option_id": "C", "option_text": "Foreign Direct Investment (FDI)"},
+        {"option_id": "D", "option_text": "Sovereign external bonds"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Non-Debt Flows"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q026",
+      "question_number": 26,
+      "question_text": "Which of the following statements regarding 'rupee convertibility' is correct conceptually?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Current account convertibility allows free exchange for trade in goods and services"},
+        {"option_id": "B", "option_text": "Capital account convertibility refers to complete absence of any controls on foreign loans only"},
+        {"option_id": "C", "option_text": "Current account convertibility is about FDI policy"},
+        {"option_id": "D", "option_text": "Capital account convertibility deals only with tourism transactions"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Convertibility"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q027",
+      "question_number": 27,
+      "question_text": "India accepted current account convertibility broadly following which global agreement or recommendation era?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bretton Woods conference of 1944"},
+        {"option_id": "B", "option_text": "Post-1991 reforms and IMF Article VIII obligations"},
+        {"option_id": "C", "option_text": "Only after joining WTO in 1995"},
+        {"option_id": "D", "option_text": "Only after adopting GST"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Current Account Convertibility"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q028",
+      "question_number": 28,
+      "question_text": "Which of the following is a typical objective of India’s Foreign Trade Policy (FTP)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only import substitution with bans on all imports"},
+        {"option_id": "B", "option_text": "Promotion of exports, employment and value addition while rationalising imports"},
+        {"option_id": "C", "option_text": "Fixing domestic MSP for all crops"},
+        {"option_id": "D", "option_text": "Determining repo rate and CRR"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Foreign Trade Policy"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q029",
+      "question_number": 29,
+      "question_text": "A 'swap line' arrangement between central banks mainly helps countries to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Swap domestic bonds for equity shares"},
+        {"option_id": "B", "option_text": "Access each other's currency in times of liquidity stress"},
+        {"option_id": "C", "option_text": "Swap fiscal deficits for surpluses"},
+        {"option_id": "D", "option_text": "Swap domestic public debt with private debt"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Swap Lines"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q030",
+      "question_number": 30,
+      "question_text": "A large stock of foreign exchange reserves provides which of the following benefits to a country like India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Removes any need for exports"},
+        {"option_id": "B", "option_text": "Acts as a buffer against external shocks and improves investor confidence"},
+        {"option_id": "C", "option_text": "Automatically eliminates fiscal deficit"},
+        {"option_id": "D", "option_text": "Makes domestic savings unnecessary"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Forex Reserves Role"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q031",
+      "question_number": 31,
+      "question_text": "Which one of the following trends would generally reduce India’s vulnerability on the external sector front, ceteris paribus?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rising short-term external debt"},
+        {"option_id": "B", "option_text": "Higher share of non-debt creating flows like FDI in capital account"},
+        {"option_id": "C", "option_text": "Falling forex reserves"},
+        {"option_id": "D", "option_text": "Widening current account deficit financed by volatile FPI"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "External Risk"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q032",
+      "question_number": 32,
+      "question_text": "Devaluation of domestic currency under a fixed exchange rate system is generally used to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Discourage exports and encourage imports"},
+        {"option_id": "B", "option_text": "Encourage exports and discourage imports"},
+        {"option_id": "C", "option_text": "Have no impact on BoP"},
+        {"option_id": "D", "option_text": "Only reduce fiscal deficit"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Devaluation"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q033",
+      "question_number": 33,
+      "question_text": "Which of the following describes 'dumping' in international trade?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Exporting goods at prices lower than their normal value in home market"},
+        {"option_id": "B", "option_text": "Exporting only primary commodities"},
+        {"option_id": "C", "option_text": "Importing goods at high tariffs"},
+        {"option_id": "D", "option_text": "Dumping waste materials abroad legally"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Dumping"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q034",
+      "question_number": 34,
+      "question_text": "Anti-dumping duties are usually imposed by a country to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Promote dumping of its own goods abroad"},
+        {"option_id": "B", "option_text": "Protect domestic industry from unfairly low-priced imports"},
+        {"option_id": "C", "option_text": "Boost fiscal deficit"},
+        {"option_id": "D", "option_text": "Provide subsidies to exporters directly"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Anti-Dumping"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q035",
+      "question_number": 35,
+      "question_text": "Which of the following is an example of a 'non-tariff barrier' to trade?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Import duty"},
+        {"option_id": "B", "option_text": "Quantitative restrictions and stringent standards"},
+        {"option_id": "C", "option_text": "Export tax"},
+        {"option_id": "D", "option_text": "Customs duty"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Non-Tariff Barriers"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q036",
+      "question_number": 36,
+      "question_text": "In India’s external sector statistics, the 'invisibles surplus' refers to the situation when:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Exports of goods exceed imports of goods"},
+        {"option_id": "B", "option_text": "Net receipts from services, income and transfers exceed payments"},
+        {"option_id": "C", "option_text": "Capital inflows exceed capital outflows"},
+        {"option_id": "D", "option_text": "External debt exceeds forex reserves"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Invisibles Surplus"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q037",
+      "question_number": 37,
+      "question_text": "Which of the following is generally a major source of India’s invisibles surplus?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Oil imports"},
+        {"option_id": "B", "option_text": "Gold imports"},
+        {"option_id": "C", "option_text": "IT and business process outsourcing services"},
+        {"option_id": "D", "option_text": "Import of machinery"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Invisibles Composition"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q038",
+      "question_number": 38,
+      "question_text": "Which of the following policy choices would be MOST consistent with promoting export-led growth for India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High protectionism and inward-looking trade strategy"},
+        {"option_id": "B", "option_text": "Improving logistics, trade facilitation and competitiveness of manufacturing and services"},
+        {"option_id": "C", "option_text": "Maintaining high transaction costs at ports"},
+        {"option_id": "D", "option_text": "Restricting all trade to primary goods only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Export-led Growth"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q039",
+      "question_number": 39,
+      "question_text": "Which of the following is typically considered an advantage of a flexible exchange rate regime for a country like India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Automatic insulation from any external shock"},
+        {"option_id": "B", "option_text": "Allowing exchange rate to act as a shock absorber adjusting to external imbalances"},
+        {"option_id": "C", "option_text": "Complete elimination of BoP crises forever"},
+        {"option_id": "D", "option_text": "Fixing the currency permanently to the US dollar"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Flexible Exchange Rate"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q040",
+      "question_number": 40,
+      "question_text": "Which of the following would directly improve India’s Net International Investment Position (NIIP) over time?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Increasing external liabilities faster than external assets"},
+        {"option_id": "B", "option_text": "Increasing acquisition of foreign assets and reducing growth in external liabilities"},
+        {"option_id": "C", "option_text": "Relying exclusively on short-term external borrowing"},
+        {"option_id": "D", "option_text": "Running very high current account deficits financed by debt"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "NIIP"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q041",
+      "question_number": 41,
+      "question_text": "Which of the following is an example of 'sovereign external debt' of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Loan taken by a private Indian company from a foreign bank"},
+        {"option_id": "B", "option_text": "Loan taken by Government of India from World Bank"},
+        {"option_id": "C", "option_text": "Loan taken by an Indian household from domestic bank"},
+        {"option_id": "D", "option_text": "Deposit of NRIs in Indian banks"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Sovereign Debt"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q042",
+      "question_number": 42,
+      "question_text": "Which one of the following would help reduce the impact of oil price shocks on India’s external sector over the long run?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Increasing dependence on imported crude oil"},
+        {"option_id": "B", "option_text": "Diversifying energy sources and promoting renewables and efficiency"},
+        {"option_id": "C", "option_text": "Keeping domestic fuel prices artificially fixed forever"},
+        {"option_id": "D", "option_text": "Discouraging public transport and promoting only private vehicles"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Oil Shock Management"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q043",
+      "question_number": 43,
+      "question_text": "Which of the following is a major risk of 'original sin' problem often discussed in external debt literature for emerging economies?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Inability to borrow domestically in domestic currency"},
+        {"option_id": "B", "option_text": "Inability to borrow externally in domestic currency, leading to currency mismatch risk"},
+        {"option_id": "C", "option_text": "Inability to borrow in foreign currency"},
+        {"option_id": "D", "option_text": "Inability to export primary commodities"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Original Sin & Currency Risk"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q044",
+      "question_number": 44,
+      "question_text": "Which of the following developments would MOST LIKELY indicate an improvement in India’s external sector health?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Widening trade deficit with no rise in invisibles surplus"},
+        {"option_id": "B", "option_text": "Narrowing current account deficit along with rising forex reserves"},
+        {"option_id": "C", "option_text": "Sharp fall in FDI inflows"},
+        {"option_id": "D", "option_text": "Rising share of short-term external debt in total debt"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "External Sector Indicators"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q045",
+      "question_number": 45,
+      "question_text": "Which of the following best describes 'capital flight' in external sector context?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Gradual rise in FDI"},
+        {"option_id": "B", "option_text": "Sudden and large-scale outflow of capital due to loss of confidence"},
+        {"option_id": "C", "option_text": "Increase in remittances"},
+        {"option_id": "D", "option_text": "Increase in tourism receipts"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Capital Flight"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q046",
+      "question_number": 46,
+      "question_text": "Which of the following policy mix is most appropriate to handle a BoP crisis triggered by a large current account deficit and falling reserves in the short run?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Expansionary fiscal and expansionary monetary policy"},
+        {"option_id": "B", "option_text": "Contractionary monetary policy, some fiscal tightening and external financing support"},
+        {"option_id": "C", "option_text": "Unlimited money printing to buy foreign exchange"},
+        {"option_id": "D", "option_text": "Imposing complete ban on all exports"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "BoP Crisis Management"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q047",
+      "question_number": 47,
+      "question_text": "Which of the following correctly captures the role of RBI in India’s external sector management?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "RBI directly negotiates all trade agreements"},
+        {"option_id": "B", "option_text": "RBI manages foreign exchange reserves and intervenes in forex market to reduce volatility"},
+        {"option_id": "C", "option_text": "RBI decides customs tariff structure"},
+        {"option_id": "D", "option_text": "RBI administers all export promotion schemes"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "RBI & FX"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q048",
+      "question_number": 48,
+      "question_text": "Which of the following is a logical implication of Marshall–Lerner condition for a currency depreciation to improve trade balance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sum of price elasticities of demand for exports and imports should be greater than 1"},
+        {"option_id": "B", "option_text": "Exports and imports should both be perfectly inelastic"},
+        {"option_id": "C", "option_text": "Only exports should respond to prices"},
+        {"option_id": "D", "option_text": "Only imports should respond to prices"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Marshall–Lerner"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q049",
+      "question_number": 49,
+      "question_text": "Which of the following would help India move up the global value chain in external trade in the long run?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Focusing only on low-skill, low-value assembly work"},
+        {"option_id": "B", "option_text": "Investing in skills, technology, R&D and high-value services and manufacturing"},
+        {"option_id": "C", "option_text": "Discouraging innovation and R&D"},
+        {"option_id": "D", "option_text": "Restricting all FDI inflows"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Global Value Chains"
+    },
+    {
+      "q_id": "ECO_EXTSEC_Q050",
+      "question_number": 50,
+      "question_text": "In the context of Indian Economy, 'external sector stability' would MOST appropriately refer to a situation where:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Current account deficit is financed mainly by short-term debt and volatile flows"},
+        {"option_id": "B", "option_text": "External debt and current account deficit are at sustainable levels, adequately covered by forex reserves and non-debt flows"},
+        {"option_id": "C", "option_text": "There is no trade at all with rest of the world"},
+        {"option_id": "D", "option_text": "The country has zero forex reserves always"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "External Sector Stability"
+    }
+  ]
+}

@@ -1,0 +1,923 @@
+{
+  "test_metadata": {
+    "test_id": "HIST_MED_MCQT1",
+    "test_title": "Medieval Indian History - Practice MCQ Test",
+    "subject": "Indian Heritage, Culture, History & Society",
+    "gs_paper": "GS I",
+    "unit": "History of India and World",
+    "sub_topic": "Medieval India",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": ["Medieval History", "Delhi Sultanate", "Mughal Empire", "Vijayanagara", "Bhakti Movement"],
+    "created_date": "2025-11-17",
+    "description": "Handpicked medieval history MCQs for UPSC practice."
+  },
+  "questions": [
+    {
+      "q_id": "HIST_MED_Q001",
+      "question_number": 1,
+      "question_text": "Who founded the Delhi Sultanate?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Qutb-ud-din Aibak"},
+        {"option_id": "B", "option_text": "Iltutmish"},
+        {"option_id": "C", "option_text": "Alauddin Khilji"},
+        {"option_id": "D", "option_text": "Balban"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Delhi Sultanate"
+    },
+
+    {
+      "q_id": "HIST_MED_Q002",
+      "question_number": 2,
+      "question_text": "Who completed the construction of the Qutub Minar?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Qutb-ud-din Aibak"},
+        {"option_id": "B", "option_text": "Iltutmish"},
+        {"option_id": "C", "option_text": "Alauddin Khilji"},
+        {"option_id": "D", "option_text": "Firoz Shah Tughlaq"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Delhi Sultanate"
+    },
+
+    {
+      "q_id": "HIST_MED_Q003",
+      "question_number": 3,
+      "question_text": "The Battle of Talikota (1565) led to the downfall of which empire?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mughal Empire"},
+        {"option_id": "B", "option_text": "Vijayanagara Empire"},
+        {"option_id": "C", "option_text": "Maratha Empire"},
+        {"option_id": "D", "option_text": "Bahmani Kingdom"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vijayanagara"
+    },
+
+    {
+      "q_id": "HIST_MED_Q004",
+      "question_number": 4,
+      "question_text": "Who introduced the market control system?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Alauddin Khilji"},
+        {"option_id": "B", "option_text": "Sher Shah Suri"},
+        {"option_id": "C", "option_text": "Akbar"},
+        {"option_id": "D", "option_text": "Balban"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Khilji Dynasty"
+    },
+
+    {
+      "q_id": "HIST_MED_Q005",
+      "question_number": 5,
+      "question_text": "Who founded the Mughal Empire?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Akbar"},
+        {"option_id": "B", "option_text": "Babur"},
+        {"option_id": "C", "option_text": "Humayun"},
+        {"option_id": "D", "option_text": "Sher Shah Suri"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Empire"
+    },
+
+    {
+      "q_id": "HIST_MED_Q006",
+      "question_number": 6,
+      "question_text": "The First Battle of Panipat (1526) was fought between Babur and:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ibrahim Lodi"},
+        {"option_id": "B", "option_text": "Rana Sanga"},
+        {"option_id": "C", "option_text": "Sher Shah"},
+        {"option_id": "D", "option_text": "Hemu"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Empire"
+    },
+
+    {
+      "q_id": "HIST_MED_Q007",
+      "question_number": 7,
+      "question_text": "Who built the Red Fort in Delhi?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Akbar"},
+        {"option_id": "B", "option_text": "Shah Jahan"},
+        {"option_id": "C", "option_text": "Aurangzeb"},
+        {"option_id": "D", "option_text": "Firoz Shah"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Architecture"
+    },
+
+    {
+      "q_id": "HIST_MED_Q008",
+      "question_number": 8,
+      "question_text": "Which Mughal ruler was known as 'Zinda Pir'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Akbar"},
+        {"option_id": "B", "option_text": "Jahangir"},
+        {"option_id": "C", "option_text": "Aurangzeb"},
+        {"option_id": "D", "option_text": "Babur"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Empire"
+    },
+
+    {
+      "q_id": "HIST_MED_Q009",
+      "question_number": 9,
+      "question_text": "Din-i Ilahi was founded by which ruler?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Aurangzeb"},
+        {"option_id": "B", "option_text": "Akbar"},
+        {"option_id": "C", "option_text": "Shah Jahan"},
+        {"option_id": "D", "option_text": "Jahangir"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Akbar's Reforms"
+    },
+
+    {
+      "q_id": "HIST_MED_Q010",
+      "question_number": 10,
+      "question_text": "Who built the Grand Trunk Road?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Babur"},
+        {"option_id": "B", "option_text": "Sher Shah Suri"},
+        {"option_id": "C", "option_text": "Akbar"},
+        {"option_id": "D", "option_text": "Aurangzeb"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Suri Dynasty"
+    },
+
+    {
+      "q_id": "HIST_MED_Q011",
+      "question_number": 11,
+      "question_text": "The capital of the Vijayanagara Empire was located at:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Belur"},
+        {"option_id": "B", "option_text": "Halebidu"},
+        {"option_id": "C", "option_text": "Hampi"},
+        {"option_id": "D", "option_text": "Badami"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Vijayanagara"
+    },
+
+    {
+      "q_id": "HIST_MED_Q012",
+      "question_number": 12,
+      "question_text": "Who was the first woman ruler of medieval India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Chand Bibi"},
+        {"option_id": "B", "option_text": "Noor Jahan"},
+        {"option_id": "C", "option_text": "Razia Sultana"},
+        {"option_id": "D", "option_text": "Jodha Bai"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Delhi Sultanate"
+    },
+
+    {
+      "q_id": "HIST_MED_Q013",
+      "question_number": 13,
+      "question_text": "Ain-i-Akbari was written by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Badauni"},
+        {"option_id": "B", "option_text": "Abul Fazl"},
+        {"option_id": "C", "option_text": "Ibn Battuta"},
+        {"option_id": "D", "option_text": "Bernier"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Literature"
+    },
+
+    {
+      "q_id": "HIST_MED_Q014",
+      "question_number": 14,
+      "question_text": "The Bahmani Kingdom was founded in which year?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1565"},
+        {"option_id": "B", "option_text": "1347"},
+        {"option_id": "C", "option_text": "1296"},
+        {"option_id": "D", "option_text": "1206"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Bahmani Kingdom"
+    },
+
+    {
+      "q_id": "HIST_MED_Q015",
+      "question_number": 15,
+      "question_text": "Jizya tax was abolished by which Mughal emperor?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Aurangzeb"},
+        {"option_id": "B", "option_text": "Akbar"},
+        {"option_id": "C", "option_text": "Jahangir"},
+        {"option_id": "D", "option_text": "Shah Jahan"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Akbar's Reforms"
+    },
+
+    {
+      "q_id": "HIST_MED_Q016",
+      "question_number": 16,
+      "question_text": "The Sikh Khalsa was founded by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Guru Nanak"},
+        {"option_id": "B", "option_text": "Guru Arjan Dev"},
+        {"option_id": "C", "option_text": "Guru Gobind Singh"},
+        {"option_id": "D", "option_text": "Guru Tegh Bahadur"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Sikhism"
+    },
+
+    {
+      "q_id": "HIST_MED_Q017",
+      "question_number": 17,
+      "question_text": "Who defeated Hemu in the Second Battle of Panipat?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Akbar"},
+        {"option_id": "B", "option_text": "Sher Shah"},
+        {"option_id": "C", "option_text": "Humayun"},
+        {"option_id": "D", "option_text": "Rana Sanga"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Empire"
+    },
+
+    {
+      "q_id": "HIST_MED_Q018",
+      "question_number": 18,
+      "question_text": "The official language of the Delhi Sultanate was:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sanskrit"},
+        {"option_id": "B", "option_text": "Turkish"},
+        {"option_id": "C", "option_text": "Arabic"},
+        {"option_id": "D", "option_text": "Persian"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Delhi Sultanate"
+    },
+
+    {
+      "q_id": "HIST_MED_Q019",
+      "question_number": 19,
+      "question_text": "Who was the last ruler of the Mughal Empire?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Shah Alam II"},
+        {"option_id": "B", "option_text": "Akbar II"},
+        {"option_id": "C", "option_text": "Bahadur Shah Zafar"},
+        {"option_id": "D", "option_text": "Aurangzeb"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Empire"
+    },
+
+    {
+      "q_id": "HIST_MED_Q020",
+      "question_number": 20,
+      "question_text": "Amir Khusrau was associated most closely with:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sher Shah"},
+        {"option_id": "B", "option_text": "Alauddin Khilji"},
+        {"option_id": "C", "option_text": "Akbar"},
+        {"option_id": "D", "option_text": "Babur"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Sufi Culture"
+    },
+
+    {
+      "q_id": "HIST_MED_Q021",
+      "question_number": 21,
+      "question_text": "Who repaired the Qutub Minar after it was damaged by lightning?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Balban"},
+        {"option_id": "B", "option_text": "Iltutmish"},
+        {"option_id": "C", "option_text": "Firoz Shah Tughlaq"},
+        {"option_id": "D", "option_text": "Alauddin"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Delhi Sultanate"
+    },
+
+    {
+      "q_id": "HIST_MED_Q022",
+      "question_number": 22,
+      "question_text": "Who introduced the Mansabdari system?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Akbar"},
+        {"option_id": "B", "option_text": "Aurangzeb"},
+        {"option_id": "C", "option_text": "Jahangir"},
+        {"option_id": "D", "option_text": "Shah Jahan"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Akbar's Reforms"
+    },
+
+    {
+      "q_id": "HIST_MED_Q023",
+      "question_number": 23,
+      "question_text": "Who established the city of Fatehpur Sikri?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Akbar"},
+        {"option_id": "B", "option_text": "Jahangir"},
+        {"option_id": "C", "option_text": "Shah Jahan"},
+        {"option_id": "D", "option_text": "Babur"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Architecture"
+    },
+
+    {
+      "q_id": "HIST_MED_Q024",
+      "question_number": 24,
+      "question_text": "Ibn Battuta visited India during whose reign?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Alauddin Khilji"},
+        {"option_id": "B", "option_text": "Muhammad-bin-Tughlaq"},
+        {"option_id": "C", "option_text": "Balban"},
+        {"option_id": "D", "option_text": "Akbar"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Travelers"
+    },
+
+    {
+      "q_id": "HIST_MED_Q025",
+      "question_number": 25,
+      "question_text": "Which ruler was known as 'Lakh Baksh'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Iltutmish"},
+        {"option_id": "B", "option_text": "Aibak"},
+        {"option_id": "C", "option_text": "Balban"},
+        {"option_id": "D", "option_text": "Alauddin"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Delhi Sultanate"
+    },
+
+    {
+      "q_id": "HIST_MED_Q026",
+      "question_number": 26,
+      "question_text": "Tuzuk-i-Baburi was written by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Babur"},
+        {"option_id": "B", "option_text": "Humayun"},
+        {"option_id": "C", "option_text": "Jahangir"},
+        {"option_id": "D", "option_text": "Akbar"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Literature"
+    },
+
+    {
+      "q_id": "HIST_MED_Q027",
+      "question_number": 27,
+      "question_text": "Which Mughal emperor banned music in the court?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Akbar"},
+        {"option_id": "B", "option_text": "Aurangzeb"},
+        {"option_id": "C", "option_text": "Shah Jahan"},
+        {"option_id": "D", "option_text": "Jahangir"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Culture"
+    },
+
+    {
+      "q_id": "HIST_MED_Q028",
+      "question_number": 28,
+      "question_text": "The Battle of Khanwa (1527) was fought between Babur and:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ibrahim Lodi"},
+        {"option_id": "B", "option_text": "Rana Sanga"},
+        {"option_id": "C", "option_text": "Sher Shah"},
+        {"option_id": "D", "option_text": "Rajputs"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Empire"
+    },
+
+    {
+      "q_id": "HIST_MED_Q029",
+      "question_number": 29,
+      "question_text": "The city of Agra was founded by which ruler?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Babur"},
+        {"option_id": "B", "option_text": "Sikandar Lodi"},
+        {"option_id": "C", "option_text": "Sher Shah"},
+        {"option_id": "D", "option_text": "Akbar"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Delhi Sultanate"
+    },
+
+    {
+      "q_id": "HIST_MED_Q030",
+      "question_number": 30,
+      "question_text": "The token currency experiment was introduced by which ruler?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sher Shah"},
+        {"option_id": "B", "option_text": "Muhammad-bin-Tughlaq"},
+        {"option_id": "C", "option_text": "Alauddin"},
+        {"option_id": "D", "option_text": "Akbar"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Tughlaq Dynasty"
+    },
+
+    {
+      "q_id": "HIST_MED_Q031",
+      "question_number": 31,
+      "question_text": "The Portuguese arrived in India in which year?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1498"},
+        {"option_id": "B", "option_text": "1526"},
+        {"option_id": "C", "option_text": "1600"},
+        {"option_id": "D", "option_text": "1453"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "European Arrival"
+    },
+
+    {
+      "q_id": "HIST_MED_Q032",
+      "question_number": 32,
+      "question_text": "Buland Darwaza at Fatehpur Sikri was built by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Shah Jahan"},
+        {"option_id": "B", "option_text": "Akbar"},
+        {"option_id": "C", "option_text": "Jahangir"},
+        {"option_id": "D", "option_text": "Aurangzeb"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Architecture"
+    },
+
+    {
+      "q_id": "HIST_MED_Q033",
+      "question_number": 33,
+      "question_text": "The First Battle of Tarain was fought between Prithviraj Chauhan and:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ghori"},
+        {"option_id": "B", "option_text": "Ghazanavi"},
+        {"option_id": "C", "option_text": "Timur"},
+        {"option_id": "D", "option_text": "Babur"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Delhi Sultanate"
+    },
+
+    {
+      "q_id": "HIST_MED_Q034",
+      "question_number": 34,
+      "question_text": "The Slave Dynasty was founded by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Iltutmish"},
+        {"option_id": "B", "option_text": "Balban"},
+        {"option_id": "C", "option_text": "Qutb-ud-din Aibak"},
+        {"option_id": "D", "option_text": "Razia"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Slave Dynasty"
+    },
+
+    {
+      "q_id": "HIST_MED_Q035",
+      "question_number": 35,
+      "question_text": "The first Mughal ruler to issue coins with the Kalima was:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Babur"},
+        {"option_id": "B", "option_text": "Akbar"},
+        {"option_id": "C", "option_text": "Aurangzeb"},
+        {"option_id": "D", "option_text": "Jahangir"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Numismatics"
+    },
+
+    {
+      "q_id": "HIST_MED_Q036",
+      "question_number": 36,
+      "question_text": "Guru Arjan Dev was executed by which Mughal ruler?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Akbar"},
+        {"option_id": "B", "option_text": "Jahangir"},
+        {"option_id": "C", "option_text": "Aurangzeb"},
+        {"option_id": "D", "option_text": "Shah Jahan"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Sikhism"
+    },
+
+    {
+      "q_id": "HIST_MED_Q037",
+      "question_number": 37,
+      "question_text": "Who shifted the capital from Delhi to Daulatabad?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Balban"},
+        {"option_id": "B", "option_text": "Firoz Tughlaq"},
+        {"option_id": "C", "option_text": "Muhammad-bin-Tughlaq"},
+        {"option_id": "D", "option_text": "Akbar"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Tughlaq Dynasty"
+    },
+
+    {
+      "q_id": "HIST_MED_Q038",
+      "question_number": 38,
+      "question_text": "The court language of the Mughal Empire was:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Urdu"},
+        {"option_id": "B", "option_text": "Turkish"},
+        {"option_id": "C", "option_text": "Arabic"},
+        {"option_id": "D", "option_text": "Persian"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Administration"
+    },
+
+    {
+      "q_id": "HIST_MED_Q039",
+      "question_number": 39,
+      "question_text": "Who is known as the 'Akbar of Kashmir'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ranjit Singh"},
+        {"option_id": "B", "option_text": "Firuz Shah"},
+        {"option_id": "C", "option_text": "Sikandar"},
+        {"option_id": "D", "option_text": "Zain-ul-Abidin"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Regional Kingdoms"
+    },
+
+    {
+      "q_id": "HIST_MED_Q040",
+      "question_number": 40,
+      "question_text": "Gol Gumbaz in Bijapur was built by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Aurangzeb"},
+        {"option_id": "B", "option_text": "Adil Shah II"},
+        {"option_id": "C", "option_text": "Sher Shah"},
+        {"option_id": "D", "option_text": "Akbar"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Deccan Sultanates"
+    },
+
+    {
+      "q_id": "HIST_MED_Q041",
+      "question_number": 41,
+      "question_text": "Who founded the Maratha Empire?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Shivaji"},
+        {"option_id": "B", "option_text": "Sambhaji"},
+        {"option_id": "C", "option_text": "Ranjit Singh"},
+        {"option_id": "D", "option_text": "Balaji Vishwanath"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Maratha Empire"
+    },
+
+    {
+      "q_id": "HIST_MED_Q042",
+      "question_number": 42,
+      "question_text": "Shivaji was crowned at which fort?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Pratapgad"},
+        {"option_id": "B", "option_text": "Raigad"},
+        {"option_id": "C", "option_text": "Kolhapur"},
+        {"option_id": "D", "option_text": "Panhala"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Maratha Empire"
+    },
+
+    {
+      "q_id": "HIST_MED_Q043",
+      "question_number": 43,
+      "question_text": "The Golden Temple was built under the guidance of which Guru?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Guru Nanak"},
+        {"option_id": "B", "option_text": "Guru Gobind Singh"},
+        {"option_id": "C", "option_text": "Guru Arjan Dev"},
+        {"option_id": "D", "option_text": "Guru Tegh Bahadur"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Sikhism"
+    },
+
+    {
+      "q_id": "HIST_MED_Q044",
+      "question_number": 44,
+      "question_text": "Which Persian traveler visited the Vijayanagara Empire?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ibn Battuta"},
+        {"option_id": "B", "option_text": "Marco Polo"},
+        {"option_id": "C", "option_text": "Abdur Razzaq"},
+        {"option_id": "D", "option_text": "Nicolo Conti"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Travelers"
+    },
+
+    {
+      "q_id": "HIST_MED_Q045",
+      "question_number": 45,
+      "question_text": "In which battle was Prithviraj Chauhan finally defeated?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Battle of Tarain I"},
+        {"option_id": "B", "option_text": "Battle of Khanwa"},
+        {"option_id": "C", "option_text": "Battle of Talikota"},
+        {"option_id": "D", "option_text": "Battle of Tarain II"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Delhi Sultanate"
+    },
+
+    {
+      "q_id": "HIST_MED_Q046",
+      "question_number": 46,
+      "question_text": "Who was the last ruler of the Lodi dynasty?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bahlol Lodi"},
+        {"option_id": "B", "option_text": "Sikandar Lodi"},
+        {"option_id": "C", "option_text": "Ibrahim Lodi"},
+        {"option_id": "D", "option_text": "Daulat Khan"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Delhi Sultanate"
+    },
+
+    {
+      "q_id": "HIST_MED_Q047",
+      "question_number": 47,
+      "question_text": "Who completed the construction of Jama Masjid in Delhi?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Akbar"},
+        {"option_id": "B", "option_text": "Aurangzeb"},
+        {"option_id": "C", "option_text": "Jahangir"},
+        {"option_id": "D", "option_text": "Shah Jahan"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Architecture"
+    },
+
+    {
+      "q_id": "HIST_MED_Q048",
+      "question_number": 48,
+      "question_text": "Who founded the Tughlaq dynasty?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Alauddin"},
+        {"option_id": "B", "option_text": "Ghiyas-ud-din Tughlaq"},
+        {"option_id": "C", "option_text": "Firoz Shah Tughlaq"},
+        {"option_id": "D", "option_text": "Muhammad-bin-Tughlaq"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Tughlaq Dynasty"
+    },
+
+    {
+      "q_id": "HIST_MED_Q049",
+      "question_number": 49,
+      "question_text": "Mansabdars in the Mughal administration were ranked on the basis of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Land revenue"},
+        {"option_id": "B", "option_text": "Zat and Sawar"},
+        {"option_id": "C", "option_text": "Caste"},
+        {"option_id": "D", "option_text": "Religion"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Administration"
+    },
+
+    {
+      "q_id": "HIST_MED_Q050",
+      "question_number": 50,
+      "question_text": "Purana Qila in Delhi was built by which ruler?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Babur"},
+        {"option_id": "B", "option_text": "Sher Shah Suri"},
+        {"option_id": "C", "option_text": "Humayun"},
+        {"option_id": "D", "option_text": "Akbar"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Mughal Architecture"
+    }
+
+  ]
+}

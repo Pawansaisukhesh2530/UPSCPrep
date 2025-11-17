@@ -1,0 +1,879 @@
+{
+  "test_metadata": {
+    "test_id": "HIST_MOD_MCQT1",
+    "test_title": "Modern Indian History - Practice MCQ Test",
+    "subject": "Indian Heritage, Culture, History & Society",
+    "gs_paper": "GS I",
+    "unit": "History of India and World",
+    "sub_topic": "Modern India",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "Modern History",
+      "Freedom Struggle",
+      "Indian National Movement",
+      "Social Reform",
+      "British Rule"
+    ],
+    "created_date": "2025-11-17",
+    "description": "Handpicked modern Indian history MCQs for UPSC practice."
+  },
+  "questions": [
+    {
+      "q_id": "HIST_MOD_Q001",
+      "question_number": 1,
+      "question_text": "Who is known as the 'Father of the Indian Renaissance'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mahatma Gandhi"},
+        {"option_id": "B", "option_text": "Raja Ram Mohan Roy"},
+        {"option_id": "C", "option_text": "Swami Vivekananda"},
+        {"option_id": "D", "option_text": "Dadabhai Naoroji"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Social Reformers"
+    },
+    {
+      "q_id": "HIST_MOD_Q002",
+      "question_number": 2,
+      "question_text": "The Revolt of 1857 began at which place?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Delhi"},
+        {"option_id": "B", "option_text": "Lucknow"},
+        {"option_id": "C", "option_text": "Meerut"},
+        {"option_id": "D", "option_text": "Kanpur"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Revolt of 1857"
+    },
+    {
+      "q_id": "HIST_MOD_Q003",
+      "question_number": 3,
+      "question_text": "Who is regarded as the founder of the Indian National Congress (INC)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Dadabhai Naoroji"},
+        {"option_id": "B", "option_text": "Gopal Krishna Gokhale"},
+        {"option_id": "C", "option_text": "A.O. Hume"},
+        {"option_id": "D", "option_text": "W.C. Bonnerjee"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "INC Formation"
+    },
+    {
+      "q_id": "HIST_MOD_Q004",
+      "question_number": 4,
+      "question_text": "Which Act is also known as the 'Black Act' in modern Indian history?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Regulating Act, 1773"},
+        {"option_id": "B", "option_text": "Pitt's India Act, 1784"},
+        {"option_id": "C", "option_text": "Rowlatt Act, 1919"},
+        {"option_id": "D", "option_text": "Charter Act, 1813"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Repressive Laws"
+    },
+    {
+      "q_id": "HIST_MOD_Q005",
+      "question_number": 5,
+      "question_text": "Who wrote the book 'India Wins Freedom'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Jawaharlal Nehru"},
+        {"option_id": "B", "option_text": "Mahatma Gandhi"},
+        {"option_id": "C", "option_text": "Maulana Abul Kalam Azad"},
+        {"option_id": "D", "option_text": "Sardar Patel"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Freedom Struggle Literature"
+    },
+    {
+      "q_id": "HIST_MOD_Q006",
+      "question_number": 6,
+      "question_text": "In which year did the Jallianwala Bagh massacre take place?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1917"},
+        {"option_id": "B", "option_text": "1919"},
+        {"option_id": "C", "option_text": "1921"},
+        {"option_id": "D", "option_text": "1925"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "National Movement"
+    },
+    {
+      "q_id": "HIST_MOD_Q007",
+      "question_number": 7,
+      "question_text": "Who gave the slogan 'Swaraj is my birthright and I shall have it'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Lala Lajpat Rai"},
+        {"option_id": "B", "option_text": "Bal Gangadhar Tilak"},
+        {"option_id": "C", "option_text": "Bipin Chandra Pal"},
+        {"option_id": "D", "option_text": "Mahatma Gandhi"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Extremist Phase"
+    },
+    {
+      "q_id": "HIST_MOD_Q008",
+      "question_number": 8,
+      "question_text": "The Quit India Movement was launched in which year?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1940"},
+        {"option_id": "B", "option_text": "1941"},
+        {"option_id": "C", "option_text": "1942"},
+        {"option_id": "D", "option_text": "1943"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Gandhian Era"
+    },
+    {
+      "q_id": "HIST_MOD_Q009",
+      "question_number": 9,
+      "question_text": "Who was the first Viceroy of India after the post was created?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Lord Curzon"},
+        {"option_id": "B", "option_text": "Lord Dalhousie"},
+        {"option_id": "C", "option_text": "Lord Canning"},
+        {"option_id": "D", "option_text": "Lord Ripon"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "British Administration"
+    },
+    {
+      "q_id": "HIST_MOD_Q010",
+      "question_number": 10,
+      "question_text": "Who authored the famous book 'The Discovery of India'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mahatma Gandhi"},
+        {"option_id": "B", "option_text": "B.R. Ambedkar"},
+        {"option_id": "C", "option_text": "Jawaharlal Nehru"},
+        {"option_id": "D", "option_text": "Subhash Chandra Bose"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Freedom Struggle Literature"
+    },
+    {
+      "q_id": "HIST_MOD_Q011",
+      "question_number": 11,
+      "question_text": "Where was Mahatma Gandhi born?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Rajkot"},
+        {"option_id": "B", "option_text": "Ahmedabad"},
+        {"option_id": "C", "option_text": "Wardha"},
+        {"option_id": "D", "option_text": "Porbandar"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Gandhian Era"
+    },
+    {
+      "q_id": "HIST_MOD_Q012",
+      "question_number": 12,
+      "question_text": "Who founded the Arya Samaj in 1875?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Swami Vivekananda"},
+        {"option_id": "B", "option_text": "Raja Ram Mohan Roy"},
+        {"option_id": "C", "option_text": "Dayanand Saraswati"},
+        {"option_id": "D", "option_text": "Keshab Chandra Sen"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Social Reformers"
+    },
+    {
+      "q_id": "HIST_MOD_Q013",
+      "question_number": 13,
+      "question_text": "The Partition of Bengal by Lord Curzon took place in which year?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1903"},
+        {"option_id": "B", "option_text": "1905"},
+        {"option_id": "C", "option_text": "1907"},
+        {"option_id": "D", "option_text": "1909"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Partition of Bengal"
+    },
+    {
+      "q_id": "HIST_MOD_Q014",
+      "question_number": 14,
+      "question_text": "Who was the first Indian to pass the Indian Civil Services (ICS) examination?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "R.C. Dutt"},
+        {"option_id": "B", "option_text": "Satyendranath Tagore"},
+        {"option_id": "C", "option_text": "Surendranath Banerjee"},
+        {"option_id": "D", "option_text": "Dadabhai Naoroji"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "British Administration"
+    },
+    {
+      "q_id": "HIST_MOD_Q015",
+      "question_number": 15,
+      "question_text": "Who wrote the political tract 'Hind Swaraj'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bal Gangadhar Tilak"},
+        {"option_id": "B", "option_text": "Mahatma Gandhi"},
+        {"option_id": "C", "option_text": "Jawaharlal Nehru"},
+        {"option_id": "D", "option_text": "B.R. Ambedkar"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Gandhian Literature"
+    },
+    {
+      "q_id": "HIST_MOD_Q016",
+      "question_number": 16,
+      "question_text": "The Simon Commission arrived in India in which year, leading to widespread protests?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1925"},
+        {"option_id": "B", "option_text": "1927"},
+        {"option_id": "C", "option_text": "1928"},
+        {"option_id": "D", "option_text": "1930"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Constitutional Reforms"
+    },
+    {
+      "q_id": "HIST_MOD_Q017",
+      "question_number": 17,
+      "question_text": "Who renounced his knighthood as a protest against the Jallianwala Bagh massacre?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mahatma Gandhi"},
+        {"option_id": "B", "option_text": "Rabindranath Tagore"},
+        {"option_id": "C", "option_text": "C.F. Andrews"},
+        {"option_id": "D", "option_text": "Bipin Chandra Pal"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "National Movement"
+    },
+    {
+      "q_id": "HIST_MOD_Q018",
+      "question_number": 18,
+      "question_text": "Who founded the Ramakrishna Mission in 1897?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ramakrishna Paramahamsa"},
+        {"option_id": "B", "option_text": "Swami Vivekananda"},
+        {"option_id": "C", "option_text": "Aurobindo Ghosh"},
+        {"option_id": "D", "option_text": "Annie Besant"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Social Reformers"
+    },
+    {
+      "q_id": "HIST_MOD_Q019",
+      "question_number": 19,
+      "question_text": "Who popularised the concept of the 'Drain of Wealth' from India to Britain?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bal Gangadhar Tilak"},
+        {"option_id": "B", "option_text": "M.G. Ranade"},
+        {"option_id": "C", "option_text": "Dadabhai Naoroji"},
+        {"option_id": "D", "option_text": "Gopal Krishna Gokhale"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Economic Critique"
+    },
+    {
+      "q_id": "HIST_MOD_Q020",
+      "question_number": 20,
+      "question_text": "Who accompanied Mahatma Gandhi and led from the front during the Salt March to Dandi?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Vallabhbhai Patel"},
+        {"option_id": "B", "option_text": "Jawaharlal Nehru"},
+        {"option_id": "C", "option_text": "Sarojini Naidu"},
+        {"option_id": "D", "option_text": "Rajendra Prasad"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Civil Disobedience"
+    },
+    {
+      "q_id": "HIST_MOD_Q021",
+      "question_number": 21,
+      "question_text": "The capital of British India was shifted from Calcutta to Delhi in which year?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1905"},
+        {"option_id": "B", "option_text": "1909"},
+        {"option_id": "C", "option_text": "1911"},
+        {"option_id": "D", "option_text": "1912"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "British Administration"
+    },
+    {
+      "q_id": "HIST_MOD_Q022",
+      "question_number": 22,
+      "question_text": "Who founded the Forward Bloc in 1939 after resigning from the INC?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Subhash Chandra Bose"},
+        {"option_id": "B", "option_text": "Mahatma Gandhi"},
+        {"option_id": "C", "option_text": "Sardar Patel"},
+        {"option_id": "D", "option_text": "Jawaharlal Nehru"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Revolutionary Movements"
+    },
+    {
+      "q_id": "HIST_MOD_Q023",
+      "question_number": 23,
+      "question_text": "Who designed the modern Indian national flag that we use today?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Pingali Venkayya"},
+        {"option_id": "B", "option_text": "Mahatma Gandhi"},
+        {"option_id": "C", "option_text": "Jawaharlal Nehru"},
+        {"option_id": "D", "option_text": "B.R. Ambedkar"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "National Symbols"
+    },
+    {
+      "q_id": "HIST_MOD_Q024",
+      "question_number": 24,
+      "question_text": "Who is associated with the introduction of the Permanent Settlement in Bengal?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Lord Dalhousie"},
+        {"option_id": "B", "option_text": "Lord Cornwallis"},
+        {"option_id": "C", "option_text": "Lord Ripon"},
+        {"option_id": "D", "option_text": "Lord Curzon"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Land Revenue Systems"
+    },
+    {
+      "q_id": "HIST_MOD_Q025",
+      "question_number": 25,
+      "question_text": "The Ilbert Bill controversy occurred during the tenure of which Viceroy?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Lord Lytton"},
+        {"option_id": "B", "option_text": "Lord Ripon"},
+        {"option_id": "C", "option_text": "Lord Dufferin"},
+        {"option_id": "D", "option_text": "Lord Curzon"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "British Policies"
+    },
+    {
+      "q_id": "HIST_MOD_Q026",
+      "question_number": 26,
+      "question_text": "Who presided over the INC Lahore session of 1929 where 'Purna Swaraj' was declared?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Motilal Nehru"},
+        {"option_id": "B", "option_text": "Subhash Chandra Bose"},
+        {"option_id": "C", "option_text": "Jawaharlal Nehru"},
+        {"option_id": "D", "option_text": "Mahatma Gandhi"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "National Movement"
+    },
+    {
+      "q_id": "HIST_MOD_Q027",
+      "question_number": 27,
+      "question_text": "'Purna Swaraj' (Complete Independence) was officially declared by the INC in which year?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1927"},
+        {"option_id": "B", "option_text": "1929"},
+        {"option_id": "C", "option_text": "1931"},
+        {"option_id": "D", "option_text": "1935"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "National Movement"
+    },
+    {
+      "q_id": "HIST_MOD_Q028",
+      "question_number": 28,
+      "question_text": "Who popularised the Theosophical Society in India and later became President of INC?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Madame Blavatsky"},
+        {"option_id": "B", "option_text": "Annie Besant"},
+        {"option_id": "C", "option_text": "A.O. Hume"},
+        {"option_id": "D", "option_text": "Dadabhai Naoroji"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Social Reform & Nationalism"
+    },
+    {
+      "q_id": "HIST_MOD_Q029",
+      "question_number": 29,
+      "question_text": "Who gave the slogan 'Do or Die' during the Quit India Movement?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mahatma Gandhi"},
+        {"option_id": "B", "option_text": "Jawaharlal Nehru"},
+        {"option_id": "C", "option_text": "Subhash Chandra Bose"},
+        {"option_id": "D", "option_text": "Sardar Patel"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Gandhian Era"
+    },
+    {
+      "q_id": "HIST_MOD_Q030",
+      "question_number": 30,
+      "question_text": "The Indian Councils Act of 1909 is popularly known as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Minto-Morley Reforms"},
+        {"option_id": "B", "option_text": "Montagu-Chelmsford Reforms"},
+        {"option_id": "C", "option_text": "Regulating Act Reforms"},
+        {"option_id": "D", "option_text": "Pitt's India Act Reforms"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Constitutional Reforms"
+    },
+    {
+      "q_id": "HIST_MOD_Q031",
+      "question_number": 31,
+      "question_text": "Who led the Kakori Train Robbery case of 1925?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bhagat Singh"},
+        {"option_id": "B", "option_text": "Chandrasekhar Azad"},
+        {"option_id": "C", "option_text": "Ram Prasad Bismil"},
+        {"option_id": "D", "option_text": "Ashfaqulla Khan"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Revolutionary Movements"
+    },
+    {
+      "q_id": "HIST_MOD_Q032",
+      "question_number": 32,
+      "question_text": "Who started the Aligarh Movement for modern education among Muslims?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Maulana Abul Kalam Azad"},
+        {"option_id": "B", "option_text": "Sir Syed Ahmed Khan"},
+        {"option_id": "C", "option_text": "Allama Iqbal"},
+        {"option_id": "D", "option_text": "Muhammad Ali Jinnah"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Social Reformers"
+    },
+    {
+      "q_id": "HIST_MOD_Q033",
+      "question_number": 33,
+      "question_text": "The Indian Independence Act was passed by the British Parliament in which year?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1945"},
+        {"option_id": "B", "option_text": "1946"},
+        {"option_id": "C", "option_text": "1947"},
+        {"option_id": "D", "option_text": "1948"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Independence"
+    },
+    {
+      "q_id": "HIST_MOD_Q034",
+      "question_number": 34,
+      "question_text": "Who headed the Cabinet Mission sent to India in 1946?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sir Stafford Cripps"},
+        {"option_id": "B", "option_text": "Lord Wavell"},
+        {"option_id": "C", "option_text": "Clement Attlee"},
+        {"option_id": "D", "option_text": "Lord Pethick-Lawrence"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Constitutional Reforms"
+    },
+    {
+      "q_id": "HIST_MOD_Q035",
+      "question_number": 35,
+      "question_text": "Home Rule Leagues in India were established under the leadership of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Gandhi and Nehru"},
+        {"option_id": "B", "option_text": "Tilak and Annie Besant"},
+        {"option_id": "C", "option_text": "Gokhale and Tilak"},
+        {"option_id": "D", "option_text": "Lajpat Rai and Bose"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Home Rule Movement"
+    },
+    {
+      "q_id": "HIST_MOD_Q036",
+      "question_number": 36,
+      "question_text": "Who started the Young Bengal Movement in the 19th century?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Raja Ram Mohan Roy"},
+        {"option_id": "B", "option_text": "Henry Vivian Derozio"},
+        {"option_id": "C", "option_text": "Ishwar Chandra Vidyasagar"},
+        {"option_id": "D", "option_text": "Bankim Chandra Chatterjee"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Social Reformers"
+    },
+    {
+      "q_id": "HIST_MOD_Q037",
+      "question_number": 37,
+      "question_text": "The slogan 'Simon Go Back' is associated with which event?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Non-Cooperation Movement"},
+        {"option_id": "B", "option_text": "Civil Disobedience Movement"},
+        {"option_id": "C", "option_text": "Opposition to Simon Commission"},
+        {"option_id": "D", "option_text": "Quit India Movement"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "National Movement"
+    },
+    {
+      "q_id": "HIST_MOD_Q038",
+      "question_number": 38,
+      "question_text": "Who wrote the famous work 'Annihilation of Caste'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mahatma Gandhi"},
+        {"option_id": "B", "option_text": "B.R. Ambedkar"},
+        {"option_id": "C", "option_text": "Jawaharlal Nehru"},
+        {"option_id": "D", "option_text": "Periyar E.V. Ramasamy"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Social Reform"
+    },
+    {
+      "q_id": "HIST_MOD_Q039",
+      "question_number": 39,
+      "question_text": "Who was the last Viceroy of British India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Lord Wavell"},
+        {"option_id": "B", "option_text": "Lord Mountbatten"},
+        {"option_id": "C", "option_text": "Lord Linlithgow"},
+        {"option_id": "D", "option_text": "Lord Curzon"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Independence"
+    },
+    {
+      "q_id": "HIST_MOD_Q040",
+      "question_number": 40,
+      "question_text": "Who reorganised the Indian National Army (INA) and became its supreme commander?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mahatma Gandhi"},
+        {"option_id": "B", "option_text": "Subhash Chandra Bose"},
+        {"option_id": "C", "option_text": "Rash Behari Bose"},
+        {"option_id": "D", "option_text": "Lala Lajpat Rai"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Revolutionary Movements"
+    },
+    {
+      "q_id": "HIST_MOD_Q041",
+      "question_number": 41,
+      "question_text": "Who led the Champaran Satyagraha of 1917 in Bihar?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mahatma Gandhi"},
+        {"option_id": "B", "option_text": "Rajendra Prasad"},
+        {"option_id": "C", "option_text": "Sardar Patel"},
+        {"option_id": "D", "option_text": "Jawaharlal Nehru"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Gandhian Movements"
+    },
+    {
+      "q_id": "HIST_MOD_Q042",
+      "question_number": 42,
+      "question_text": "Where was the first session of the Indian National Congress held in 1885?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Calcutta"},
+        {"option_id": "B", "option_text": "Bombay"},
+        {"option_id": "C", "option_text": "Madras"},
+        {"option_id": "D", "option_text": "Allahabad"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "INC Sessions"
+    },
+    {
+      "q_id": "HIST_MOD_Q043",
+      "question_number": 43,
+      "question_text": "The Revolt of 1857 is also known in Indian historiography as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "The Sepoy Mutiny"},
+        {"option_id": "B", "option_text": "The First War of Independence"},
+        {"option_id": "C", "option_text": "The Peasants’ War"},
+        {"option_id": "D", "option_text": "The Great Indian War"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Revolt of 1857"
+    },
+    {
+      "q_id": "HIST_MOD_Q044",
+      "question_number": 44,
+      "question_text": "New Delhi, the capital city designed during British rule, was planned mainly by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Le Corbusier"},
+        {"option_id": "B", "option_text": "Edwin Lutyens"},
+        {"option_id": "C", "option_text": "Charles Metcalfe"},
+        {"option_id": "D", "option_text": "Lord Dalhousie"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "British Architecture"
+    },
+    {
+      "q_id": "HIST_MOD_Q045",
+      "question_number": 45,
+      "question_text": "Who wrote the famous essay 'Why I am an Atheist' while in jail?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bhagat Singh"},
+        {"option_id": "B", "option_text": "Subhash Chandra Bose"},
+        {"option_id": "C", "option_text": "B.R. Ambedkar"},
+        {"option_id": "D", "option_text": "Mahatma Gandhi"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Revolutionary Movements"
+    },
+    {
+      "q_id": "HIST_MOD_Q046",
+      "question_number": 46,
+      "question_text": "The Alipore Bomb Case (1908) is associated with which nationalist leader?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Khudiram Bose"},
+        {"option_id": "B", "option_text": "Aurobindo Ghosh"},
+        {"option_id": "C", "option_text": "Rash Behari Bose"},
+        {"option_id": "D", "option_text": "Bhagat Singh"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Revolutionary Movements"
+    },
+    {
+      "q_id": "HIST_MOD_Q047",
+      "question_number": 47,
+      "question_text": "Who founded the Prarthana Samaj in Bombay in 1867?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Atmaram Pandurang"},
+        {"option_id": "B", "option_text": "Gopal Krishna Gokhale"},
+        {"option_id": "C", "option_text": "Raja Ram Mohan Roy"},
+        {"option_id": "D", "option_text": "M.G. Ranade"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Social Reformers"
+    },
+    {
+      "q_id": "HIST_MOD_Q048",
+      "question_number": 48,
+      "question_text": "Who first used and popularised the technique of 'Satyagraha' as a political tool in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Bal Gangadhar Tilak"},
+        {"option_id": "B", "option_text": "Mahatma Gandhi"},
+        {"option_id": "C", "option_text": "Gopal Krishna Gokhale"},
+        {"option_id": "D", "option_text": "Lala Lajpat Rai"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Gandhian Methods"
+    },
+    {
+      "q_id": "HIST_MOD_Q049",
+      "question_number": 49,
+      "question_text": "The famous INA trials after World War II were held at which historic location?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Supreme Court of India"},
+        {"option_id": "B", "option_text": "Red Fort, Delhi"},
+        {"option_id": "C", "option_text": "Bombay High Court"},
+        {"option_id": "D", "option_text": "Fort William, Calcutta"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Freedom Struggle"
+    },
+    {
+      "q_id": "HIST_MOD_Q050",
+      "question_number": 50,
+      "question_text": "The Constitution of India came into effect on which date?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "15 August 1947"},
+        {"option_id": "B", "option_text": "26 November 1949"},
+        {"option_id": "C", "option_text": "26 January 1950"},
+        {"option_id": "D", "option_text": "2 October 1950"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Constitution & Polity"
+    }
+  ]
+}

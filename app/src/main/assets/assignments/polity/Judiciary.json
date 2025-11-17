@@ -1,0 +1,911 @@
+{
+  "test_metadata": {
+    "test_id": "POL_JUD_MCQT1",
+    "test_title": "Indian Judiciary - Practice MCQ Test",
+    "subject": "Indian Polity & Governance",
+    "gs_paper": "GS II",
+    "unit": "Constitution, Governance, Judiciary",
+    "sub_topic": "Judiciary",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": ["Judiciary", "Supreme Court", "High Courts", "Constitution"],
+    "created_date": "2025-11-17",
+    "description": "Detailed UPSC MCQs on the Supreme Court, High Courts, judicial review, independence of judiciary, and powers."
+  },
+  "questions": [
+    {
+      "q_id": "POL_JUD_Q001",
+      "question_number": 1,
+      "question_text": "Which Article of the Constitution establishes the Supreme Court of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 124"},
+        {"option_id": "B", "option_text": "Article 131"},
+        {"option_id": "C", "option_text": "Article 136"},
+        {"option_id": "D", "option_text": "Article 143"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Supreme Court"
+    },
+    {
+      "q_id": "POL_JUD_Q002",
+      "question_number": 2,
+      "question_text": "The Supreme Court of India consists of the Chief Justice and a maximum of how many judges?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "21"},
+        {"option_id": "B", "option_text": "31"},
+        {"option_id": "C", "option_text": "34"},
+        {"option_id": "D", "option_text": "42"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Supreme Court Strength"
+    },
+    {
+      "q_id": "POL_JUD_Q003",
+      "question_number": 3,
+      "question_text": "Who appoints the Chief Justice of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Minister"},
+        {"option_id": "B", "option_text": "President"},
+        {"option_id": "C", "option_text": "Union Cabinet"},
+        {"option_id": "D", "option_text": "Parliament"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Appointment of Judges"
+    },
+    {
+      "q_id": "POL_JUD_Q004",
+      "question_number": 4,
+      "question_text": "Judges of the Supreme Court can be removed from office by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "President alone"},
+        {"option_id": "B", "option_text": "Prime Minister"},
+        {"option_id": "C", "option_text": "Parliament by impeachment"},
+        {"option_id": "D", "option_text": "Chief Justice of India"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Removal of Judges"
+    },
+    {
+      "q_id": "POL_JUD_Q005",
+      "question_number": 5,
+      "question_text": "What is the minimum age for appointment as a judge of the Supreme Court?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "30 years"},
+        {"option_id": "B", "option_text": "35 years"},
+        {"option_id": "C", "option_text": "40 years"},
+        {"option_id": "D", "option_text": "No minimum age is prescribed"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Eligibility"
+    },
+    {
+      "q_id": "POL_JUD_Q006",
+      "question_number": 6,
+      "question_text": "Which of the following is NOT a condition for being a judge of the Supreme Court?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Citizen of India"},
+        {"option_id": "B", "option_text": "Judge of High Court for 5 years"},
+        {"option_id": "C", "option_text": "Advocate of a High Court for 10 years"},
+        {"option_id": "D", "option_text": "Minimum age of 45 years"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Eligibility"
+    },
+    {
+      "q_id": "POL_JUD_Q007",
+      "question_number": 7,
+      "question_text": "The Supreme Court has exclusive original jurisdiction in:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Election disputes of MPs"},
+        {"option_id": "B", "option_text": "Disputes between Centre and States"},
+        {"option_id": "C", "option_text": "Civil cases"},
+        {"option_id": "D", "option_text": "Criminal cases"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Original Jurisdiction"
+    },
+    {
+      "q_id": "POL_JUD_Q008",
+      "question_number": 8,
+      "question_text": "Which Article gives the Supreme Court the power of judicial review?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 32"},
+        {"option_id": "B", "option_text": "Article 136"},
+        {"option_id": "C", "option_text": "Article 13"},
+        {"option_id": "D", "option_text": "Article 141"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Judicial Review"
+    },
+    {
+      "q_id": "POL_JUD_Q009",
+      "question_number": 9,
+      "question_text": "Which Article declares that the law declared by the Supreme Court is binding on all courts?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 124"},
+        {"option_id": "B", "option_text": "Article 141"},
+        {"option_id": "C", "option_text": "Article 142"},
+        {"option_id": "D", "option_text": "Article 144"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Supreme Court Decisions"
+    },
+    {
+      "q_id": "POL_JUD_Q010",
+      "question_number": 10,
+      "question_text": "The power of the Supreme Court to do 'complete justice' is provided under:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 136"},
+        {"option_id": "B", "option_text": "Article 142"},
+        {"option_id": "C", "option_text": "Article 131"},
+        {"option_id": "D", "option_text": "Article 143"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Article 142"
+    },
+    {
+      "q_id": "POL_JUD_Q011",
+      "question_number": 11,
+      "question_text": "The power of the Supreme Court to review its own judgment is provided under:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 137"},
+        {"option_id": "B", "option_text": "Article 141"},
+        {"option_id": "C", "option_text": "Article 145"},
+        {"option_id": "D", "option_text": "Article 148"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Review Power"
+    },
+    {
+      "q_id": "POL_JUD_Q012",
+      "question_number": 12,
+      "question_text": "The Supreme Court of India is the 'Guardian of the Constitution' because it:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Conducts judicial appointments"},
+        {"option_id": "B", "option_text": "Protects fundamental rights"},
+        {"option_id": "C", "option_text": "Supervises High Courts"},
+        {"option_id": "D", "option_text": "Approves constitutional amendments"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Judicial Role"
+    },
+
+    {
+      "q_id": "POL_JUD_Q013",
+      "question_number": 13,
+      "question_text": "Which Article empowers the Supreme Court to issue writs for enforcement of Fundamental Rights?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 32"},
+        {"option_id": "B", "option_text": "Article 226"},
+        {"option_id": "C", "option_text": "Article 227"},
+        {"option_id": "D", "option_text": "Article 139"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Writ Jurisdiction"
+    },
+
+    {
+      "q_id": "POL_JUD_Q014",
+      "question_number": 14,
+      "question_text": "Which is NOT a type of writ issued by the Supreme Court?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Habeas Corpus"},
+        {"option_id": "B", "option_text": "Prohibition"},
+        {"option_id": "C", "option_text": "Mandamus"},
+        {"option_id": "D", "option_text": "Advisory Writ"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Writs"
+    },
+
+    {
+      "q_id": "POL_JUD_Q015",
+      "question_number": 15,
+      "question_text": "The Supreme Court's advisory jurisdiction is provided under:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 143"},
+        {"option_id": "B", "option_text": "Article 142"},
+        {"option_id": "C", "option_text": "Article 131"},
+        {"option_id": "D", "option_text": "Article 129"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Advisory Jurisdiction"
+    },
+
+    {
+      "q_id": "POL_JUD_Q016",
+      "question_number": 16,
+      "question_text": "The Judicial Review power in India is borrowed from which country?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "UK"},
+        {"option_id": "B", "option_text": "USA"},
+        {"option_id": "C", "option_text": "Canada"},
+        {"option_id": "D", "option_text": "Australia"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Judicial Review"
+    },
+
+    {
+      "q_id": "POL_JUD_Q017",
+      "question_number": 17,
+      "question_text": "Which landmark judgment established the Basic Structure Doctrine?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Golaknath Case"},
+        {"option_id": "B", "option_text": "Kesavananda Bharati Case"},
+        {"option_id": "C", "option_text": "Minerva Mills Case"},
+        {"option_id": "D", "option_text": "SR Bommai Case"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Basic Structure"
+    },
+
+    {
+      "q_id": "POL_JUD_Q018",
+      "question_number": 18,
+      "question_text": "Public Interest Litigation (PIL) in India was introduced by which judge?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Justice PN Bhagwati"},
+        {"option_id": "B", "option_text": "Justice VR Krishna Iyer"},
+        {"option_id": "C", "option_text": "Justice MN Venkatachaliah"},
+        {"option_id": "D", "option_text": "Justice JS Verma"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "PIL"
+    },
+
+    {
+      "q_id": "POL_JUD_Q019",
+      "question_number": 19,
+      "question_text": "Which of the following courts is known as the 'Court of Record'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Supreme Court"},
+        {"option_id": "B", "option_text": "High Courts"},
+        {"option_id": "C", "option_text": "Both Supreme Court and High Courts"},
+        {"option_id": "D", "option_text": "District Courts"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Court of Record"
+    },
+
+    {
+      "q_id": "POL_JUD_Q020",
+      "question_number": 20,
+      "question_text": "Which Article gives the Supreme Court power to punish for contempt?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 129"},
+        {"option_id": "B", "option_text": "Article 142"},
+        {"option_id": "C", "option_text": "Article 144"},
+        {"option_id": "D", "option_text": "Article 148"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Contempt"
+    },
+
+    {
+      "q_id": "POL_JUD_Q021",
+      "question_number": 21,
+      "question_text": "Which court has the power of superintendence over all courts within its territorial jurisdiction?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Supreme Court"},
+        {"option_id": "B", "option_text": "High Court"},
+        {"option_id": "C", "option_text": "District Court"},
+        {"option_id": "D", "option_text": "Session Court"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "High Court Powers"
+    },
+
+    {
+      "q_id": "POL_JUD_Q022",
+      "question_number": 22,
+      "question_text": "Which Article deals with the writ jurisdiction of High Courts?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 32"},
+        {"option_id": "B", "option_text": "Article 226"},
+        {"option_id": "C", "option_text": "Article 227"},
+        {"option_id": "D", "option_text": "Article 124"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "High Court"
+    },
+
+    {
+      "q_id": "POL_JUD_Q023",
+      "question_number": 23,
+      "question_text": "Which court is often referred to as the 'Protector of Fundamental Rights'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "District Court"},
+        {"option_id": "B", "option_text": "High Court"},
+        {"option_id": "C", "option_text": "Supreme Court"},
+        {"option_id": "D", "option_text": "Family Court"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Fundamental Rights"
+    },
+
+    {
+      "q_id": "POL_JUD_Q024",
+      "question_number": 24,
+      "question_text": "In India, the power of judicial review is exercised by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Supreme Court only"},
+        {"option_id": "B", "option_text": "High Courts only"},
+        {"option_id": "C", "option_text": "Both Supreme Court and High Courts"},
+        {"option_id": "D", "option_text": "President"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Judicial Review"
+    },
+
+    {
+      "q_id": "POL_JUD_Q025",
+      "question_number": 25,
+      "question_text": "Which commission recommended the establishment of Gram Nyayalayas?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sarkaria Commission"},
+        {"option_id": "B", "option_text": "Law Commission"},
+        {"option_id": "C", "option_text": "Administrative Reforms Commission"},
+        {"option_id": "D", "option_text": "National Advisory Council"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Judicial Reforms"
+    },
+
+    {
+      "q_id": "POL_JUD_Q026",
+      "question_number": 26,
+      "question_text": "Which court in India is known as the 'Federal Court'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High Courts"},
+        {"option_id": "B", "option_text": "District Courts"},
+        {"option_id": "C", "option_text": "Supreme Court"},
+        {"option_id": "D", "option_text": "Subordinate Courts"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Federal Court"
+    },
+
+    {
+      "q_id": "POL_JUD_Q027",
+      "question_number": 27,
+      "question_text": "Who decides the number of judges in the Supreme Court?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "President"},
+        {"option_id": "B", "option_text": "Parliament"},
+        {"option_id": "C", "option_text": "Chief Justice of India"},
+        {"option_id": "D", "option_text": "Prime Minister"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Supreme Court Strength"
+    },
+
+    {
+      "q_id": "POL_JUD_Q028",
+      "question_number": 28,
+      "question_text": "What is the retirement age of Supreme Court judges?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "60"},
+        {"option_id": "B", "option_text": "62"},
+        {"option_id": "C", "option_text": "65"},
+        {"option_id": "D", "option_text": "70"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Retirement Age"
+    },
+
+    {
+      "q_id": "POL_JUD_Q029",
+      "question_number": 29,
+      "question_text": "Which of the following is NOT a jurisdiction of the Supreme Court?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Original"},
+        {"option_id": "B", "option_text": "Appellate"},
+        {"option_id": "C", "option_text": "Advisory"},
+        {"option_id": "D", "option_text": "Election to Parliament and State Legislatures"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Jurisdiction"
+    },
+
+    {
+      "q_id": "POL_JUD_Q030",
+      "question_number": 30,
+      "question_text": "What is the retirement age of High Court judges?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "60"},
+        {"option_id": "B", "option_text": "62"},
+        {"option_id": "C", "option_text": "65"},
+        {"option_id": "D", "option_text": "70"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "HC Retirement"
+    },
+
+    {
+      "q_id": "POL_JUD_Q031",
+      "question_number": 31,
+      "question_text": "Who appoints the Chief Justice of a High Court?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Governor"},
+        {"option_id": "B", "option_text": "President"},
+        {"option_id": "C", "option_text": "Supreme Court"},
+        {"option_id": "D", "option_text": "Chief Minister"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "HC Appointment"
+    },
+
+    {
+      "q_id": "POL_JUD_Q032",
+      "question_number": 32,
+      "question_text": "Which of the following is a necessary qualification to be appointed as a High Court judge?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Experience as a district judge for 5 years"},
+        {"option_id": "B", "option_text": "Advocate for 10 years"},
+        {"option_id": "C", "option_text": "Distinguished jurist"},
+        {"option_id": "D", "option_text": "All of the above (subject to Constitution)"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "HC Eligibility"
+    },
+
+    {
+      "q_id": "POL_JUD_Q033",
+      "question_number": 33,
+      "question_text": "The power of a High Court to supervise subordinate courts is provided under:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 226"},
+        {"option_id": "B", "option_text": "Article 227"},
+        {"option_id": "C", "option_text": "Article 228"},
+        {"option_id": "D", "option_text": "Article 230"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Superintendence"
+    },
+
+    {
+      "q_id": "POL_JUD_Q034",
+      "question_number": 34,
+      "question_text": "Which Article deals with transfer of certain cases from High Court to Supreme Court?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 131"},
+        {"option_id": "B", "option_text": "Article 136"},
+        {"option_id": "C", "option_text": "Article 139A"},
+        {"option_id": "D", "option_text": "Article 145"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Transfer of Cases"
+    },
+
+    {
+      "q_id": "POL_JUD_Q035",
+      "question_number": 35,
+      "question_text": "Which Article declares that High Courts are 'Courts of Record'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 226"},
+        {"option_id": "B", "option_text": "Article 215"},
+        {"option_id": "C", "option_text": "Article 214"},
+        {"option_id": "D", "option_text": "Article 220"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Court of Record"
+    },
+
+    {
+      "q_id": "POL_JUD_Q036",
+      "question_number": 36,
+      "question_text": "Which of the following cases reaffirmed the Basic Structure Doctrine?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Golaknath Case"},
+        {"option_id": "B", "option_text": "Minerva Mills Case"},
+        {"option_id": "C", "option_text": "SR Bommai Case"},
+        {"option_id": "D", "option_text": "Maneka Gandhi Case"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Basic Structure"
+    },
+
+    {
+      "q_id": "POL_JUD_Q037",
+      "question_number": 37,
+      "question_text": "Which Supreme Court case expanded the meaning of 'personal liberty' under Article 21?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "ADM Jabalpur Case"},
+        {"option_id": "B", "option_text": "Maneka Gandhi Case"},
+        {"option_id": "C", "option_text": "Golaknath Case"},
+        {"option_id": "D", "option_text": "Indira Sawhney Case"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Article 21"
+    },
+
+    {
+      "q_id": "POL_JUD_Q038",
+      "question_number": 38,
+      "question_text": "Which case is associated with the 'rarest of rare' doctrine in awarding death penalty?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Maneka Gandhi Case"},
+        {"option_id": "B", "option_text": "Golaknath Case"},
+        {"option_id": "C", "option_text": "Bachan Singh Case"},
+        {"option_id": "D", "option_text": "Indira Sawhney Case"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Criminal Law"
+    },
+
+    {
+      "q_id": "POL_JUD_Q039",
+      "question_number": 39,
+      "question_text": "The doctrine of 'Prospective Overruling' was first introduced in which case?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Golaknath Case"},
+        {"option_id": "B", "option_text": "Kesavananda Bharati Case"},
+        {"option_id": "C", "option_text": "Minerva Mills Case"},
+        {"option_id": "D", "option_text": "Shah Bano Case"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Judicial Doctrines"
+    },
+
+    {
+      "q_id": "POL_JUD_Q040",
+      "question_number": 40,
+      "question_text": "Which Supreme Court case upheld the validity of the 10th Schedule (Anti-Defection Act)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Golaknath Case"},
+        {"option_id": "B", "option_text": "Kihoto Hollohan Case"},
+        {"option_id": "C", "option_text": "Minerva Mills Case"},
+        {"option_id": "D", "option_text": "R C Cooper Case"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Anti-Defection"
+    },
+
+    {
+      "q_id": "POL_JUD_Q041",
+      "question_number": 41,
+      "question_text": "Which Supreme Court case led to the introduction of the Collegium system for judicial appointments?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "First Judges Case"},
+        {"option_id": "B", "option_text": "Second Judges Case"},
+        {"option_id": "C", "option_text": "Third Judges Case"},
+        {"option_id": "D", "option_text": "Fourth Judges Case"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Collegium"
+    },
+
+    {
+      "q_id": "POL_JUD_Q042",
+      "question_number": 42,
+      "question_text": "Which case clarified the composition and functioning of the Collegium system?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Second Judges Case"},
+        {"option_id": "B", "option_text": "Third Judges Case"},
+        {"option_id": "C", "option_text": "Kesavananda Bharati Case"},
+        {"option_id": "D", "option_text": "Minerva Mills Case"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Collegium"
+    },
+
+    {
+      "q_id": "POL_JUD_Q043",
+      "question_number": 43,
+      "question_text": "The Supreme Court declared the NJAC unconstitutional in which case?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Shayara Bano Case"},
+        {"option_id": "B", "option_text": "NJAC Judgment (2015)"},
+        {"option_id": "C", "option_text": "S R Bommai Case"},
+        {"option_id": "D", "option_text": "Golaknath Case"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "NJAC"
+    },
+
+    {
+      "q_id": "POL_JUD_Q044",
+      "question_number": 44,
+      "question_text": "Judicial activism in India is closely associated with:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "PIL"},
+        {"option_id": "B", "option_text": "Ordinances"},
+        {"option_id": "C", "option_text": "Emergency provisions"},
+        {"option_id": "D", "option_text": "President’s advisory jurisdiction"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Judicial Activism"
+    },
+
+    {
+      "q_id": "POL_JUD_Q045",
+      "question_number": 45,
+      "question_text": "Which case is related to protection of the environment as part of Article 21?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "MC Mehta Cases"},
+        {"option_id": "B", "option_text": "Golaknath Case"},
+        {"option_id": "C", "option_text": "Shah Bano Case"},
+        {"option_id": "D", "option_text": "Kesavananda Bharati Case"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Environmental Jurisprudence"
+    },
+
+    {
+      "q_id": "POL_JUD_Q046",
+      "question_number": 46,
+      "question_text": "In which case did the Supreme Court state that 'Right to Privacy' is a Fundamental Right?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "ADM Jabalpur"},
+        {"option_id": "B", "option_text": "Puttaswamy Judgment (2017)"},
+        {"option_id": "C", "option_text": "Maneka Gandhi"},
+        {"option_id": "D", "option_text": "Golaknath Case"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Right to Privacy"
+    },
+
+    {
+      "q_id": "POL_JUD_Q047",
+      "question_number": 47,
+      "question_text": "Which of the following ensures the independence of the judiciary?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Security of tenure"},
+        {"option_id": "B", "option_text": "Fixed service conditions"},
+        {"option_id": "C", "option_text": "Removal only through impeachment"},
+        {"option_id": "D", "option_text": "All of the above"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Judicial Independence"
+    },
+
+    {
+      "q_id": "POL_JUD_Q048",
+      "question_number": 48,
+      "question_text": "Which body in India has the power to investigate corruption allegations against judges?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "CVC"},
+        {"option_id": "B", "option_text": "CBI"},
+        {"option_id": "C", "option_text": "Judicial Inquiry Committee (under Judges Inquiry Act)"},
+        {"option_id": "D", "option_text": "Election Commission"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Judicial Accountability"
+    },
+
+    {
+      "q_id": "POL_JUD_Q049",
+      "question_number": 49,
+      "question_text": "Which commission recommended the creation of All India Judicial Service?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sarkaria Commission"},
+        {"option_id": "B", "option_text": "Law Commission"},
+        {"option_id": "C", "option_text": "Administrative Reforms Commission"},
+        {"option_id": "D", "option_text": "Punchhi Commission"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Judicial Reforms"
+    },
+
+    {
+      "q_id": "POL_JUD_Q050",
+      "question_number": 50,
+      "question_text": "In India, the doctrine of separation of powers is:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Explicitly mentioned in the Constitution"},
+        {"option_id": "B", "option_text": "Completely absent"},
+        {"option_id": "C", "option_text": "Implicitly embedded through checks and balances"},
+        {"option_id": "D", "option_text": "Made part of Fundamental Duties"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Separation of Powers"
+    }
+  ]
+}

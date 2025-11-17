@@ -1,0 +1,873 @@
+{
+  "test_metadata": {
+    "test_id": "GEO_PHY_MCQT1",
+    "test_title": "Physical Geography - Practice MCQ Test",
+    "subject": "Geography of India and World",
+    "gs_paper": "GS I",
+    "unit": "Physical Geography",
+    "sub_topic": "Earth, Atmosphere, Landforms, Oceans",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": ["Physical Geography", "Earth", "Atmosphere", "Landforms", "Oceans", "Climate"],
+    "created_date": "2025-11-17",
+    "description": "Physical geography MCQs covering earth, atmosphere, landforms, climate and oceans for UPSC practice."
+  },
+  "questions": [
+    {
+      "q_id": "GEO_PHY_Q001",
+      "question_number": 1,
+      "question_text": "The Earth completes one rotation on its axis in approximately:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "12 hours"},
+        {"option_id": "B", "option_text": "18 hours"},
+        {"option_id": "C", "option_text": "24 hours"},
+        {"option_id": "D", "option_text": "30 hours"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Earth Motions"
+    },
+    {
+      "q_id": "GEO_PHY_Q002",
+      "question_number": 2,
+      "question_text": "The Earth's revolution around the Sun is responsible mainly for:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Day and night"},
+        {"option_id": "B", "option_text": "Seasons"},
+        {"option_id": "C", "option_text": "Ocean currents"},
+        {"option_id": "D", "option_text": "Tides"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Earth Motions"
+    },
+    {
+      "q_id": "GEO_PHY_Q003",
+      "question_number": 3,
+      "question_text": "The imaginary line that divides the Earth into Northern and Southern Hemispheres is called:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Meridian"},
+        {"option_id": "B", "option_text": "Tropic of Cancer"},
+        {"option_id": "C", "option_text": "Equator"},
+        {"option_id": "D", "option_text": "Arctic Circle"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Latitude and Longitude"
+    },
+    {
+      "q_id": "GEO_PHY_Q004",
+      "question_number": 4,
+      "question_text": "Lines joining places of equal atmospheric pressure on a weather map are called:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Isotherms"},
+        {"option_id": "B", "option_text": "Isobars"},
+        {"option_id": "C", "option_text": "Isohyets"},
+        {"option_id": "D", "option_text": "Isohalines"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Atmosphere"
+    },
+    {
+      "q_id": "GEO_PHY_Q005",
+      "question_number": 5,
+      "question_text": "The layer of the atmosphere in which almost all weather phenomena occur is:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Troposphere"},
+        {"option_id": "B", "option_text": "Stratosphere"},
+        {"option_id": "C", "option_text": "Mesosphere"},
+        {"option_id": "D", "option_text": "Thermosphere"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Atmosphere"
+    },
+    {
+      "q_id": "GEO_PHY_Q006",
+      "question_number": 6,
+      "question_text": "The ozone layer is mainly found in which layer of the atmosphere?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Troposphere"},
+        {"option_id": "B", "option_text": "Stratosphere"},
+        {"option_id": "C", "option_text": "Mesosphere"},
+        {"option_id": "D", "option_text": "Exosphere"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Atmosphere"
+    },
+    {
+      "q_id": "GEO_PHY_Q007",
+      "question_number": 7,
+      "question_text": "Which type of wind blows steadily in the same direction throughout the year between 30°N and 30°S?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Westerlies"},
+        {"option_id": "B", "option_text": "Trade winds"},
+        {"option_id": "C", "option_text": "Polar winds"},
+        {"option_id": "D", "option_text": "Monsoon winds"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Winds"
+    },
+    {
+      "q_id": "GEO_PHY_Q008",
+      "question_number": 8,
+      "question_text": "The Coriolis force is a result of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Earth's revolution"},
+        {"option_id": "B", "option_text": "Earth's rotation"},
+        {"option_id": "C", "option_text": "Gravitational pull of Moon"},
+        {"option_id": "D", "option_text": "Solar radiation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Earth Motions"
+    },
+    {
+      "q_id": "GEO_PHY_Q009",
+      "question_number": 9,
+      "question_text": "Which of the following is a warm ocean current?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Labrador Current"},
+        {"option_id": "B", "option_text": "Canary Current"},
+        {"option_id": "C", "option_text": "Gulf Stream"},
+        {"option_id": "D", "option_text": "Peru Current"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ocean Currents"
+    },
+    {
+      "q_id": "GEO_PHY_Q010",
+      "question_number": 10,
+      "question_text": "The Ring of Fire is associated with:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Hot deserts"},
+        {"option_id": "B", "option_text": "Coral reefs"},
+        {"option_id": "C", "option_text": "Volcanoes and earthquakes"},
+        {"option_id": "D", "option_text": "Monsoon regions"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Plate Tectonics"
+    },
+    {
+      "q_id": "GEO_PHY_Q011",
+      "question_number": 11,
+      "question_text": "Which of the following best describes a 'delta' landform?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Steep-sided valley"},
+        {"option_id": "B", "option_text": "Fan-shaped deposit at river mouth"},
+        {"option_id": "C", "option_text": "Flat-topped plateau"},
+        {"option_id": "D", "option_text": "Circular coral formation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Fluvial Landforms"
+    },
+    {
+      "q_id": "GEO_PHY_Q012",
+      "question_number": 12,
+      "question_text": "The innermost layer of the Earth is called:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Crust"},
+        {"option_id": "B", "option_text": "Mantle"},
+        {"option_id": "C", "option_text": "Outer core"},
+        {"option_id": "D", "option_text": "Inner core"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Interior of Earth"
+    },
+    {
+      "q_id": "GEO_PHY_Q013",
+      "question_number": 13,
+      "question_text": "Which seismic waves travel fastest through the Earth’s interior?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "S-waves"},
+        {"option_id": "B", "option_text": "P-waves"},
+        {"option_id": "C", "option_text": "Surface waves"},
+        {"option_id": "D", "option_text": "L-waves"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Earthquakes"
+    },
+    {
+      "q_id": "GEO_PHY_Q014",
+      "question_number": 14,
+      "question_text": "A steep-sided, deep, narrow valley formed by river erosion is known as a:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Canyon"},
+        {"option_id": "B", "option_text": "Delta"},
+        {"option_id": "C", "option_text": "Alluvial fan"},
+        {"option_id": "D", "option_text": "Basin"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Fluvial Landforms"
+    },
+    {
+      "q_id": "GEO_PHY_Q015",
+      "question_number": 15,
+      "question_text": "The percentage of nitrogen in the Earth's atmosphere by volume is approximately:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "21%"},
+        {"option_id": "B", "option_text": "78%"},
+        {"option_id": "C", "option_text": "50%"},
+        {"option_id": "D", "option_text": "1%"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Atmosphere Composition"
+    },
+    {
+      "q_id": "GEO_PHY_Q016",
+      "question_number": 16,
+      "question_text": "Trade winds converge near the Equator in a low-pressure belt known as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Horse Latitudes"},
+        {"option_id": "B", "option_text": "Doldrums"},
+        {"option_id": "C", "option_text": "Roaring Forties"},
+        {"option_id": "D", "option_text": "Hadley Cell"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Winds"
+    },
+    {
+      "q_id": "GEO_PHY_Q017",
+      "question_number": 17,
+      "question_text": "Which of the following is a characteristic of Mediterranean climate?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Heavy rainfall throughout the year"},
+        {"option_id": "B", "option_text": "Hot, wet summers and dry winters"},
+        {"option_id": "C", "option_text": "Hot, dry summers and mild, wet winters"},
+        {"option_id": "D", "option_text": "Very cold and dry conditions"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "World Climate"
+    },
+    {
+      "q_id": "GEO_PHY_Q018",
+      "question_number": 18,
+      "question_text": "The meeting line of two air masses with different characteristics is called a:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Trough"},
+        {"option_id": "B", "option_text": "Front"},
+        {"option_id": "C", "option_text": "Jet stream"},
+        {"option_id": "D", "option_text": "Cyclone eye"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Air Masses and Fronts"
+    },
+    {
+      "q_id": "GEO_PHY_Q019",
+      "question_number": 19,
+      "question_text": "Which of the following cloud types is associated with thunderstorms and heavy rainfall?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Cirrus"},
+        {"option_id": "B", "option_text": "Cumulonimbus"},
+        {"option_id": "C", "option_text": "Stratus"},
+        {"option_id": "D", "option_text": "Altostratus"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Clouds and Precipitation"
+    },
+    {
+      "q_id": "GEO_PHY_Q020",
+      "question_number": 20,
+      "question_text": "Which instrument is used to measure atmospheric pressure?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Thermometer"},
+        {"option_id": "B", "option_text": "Barometer"},
+        {"option_id": "C", "option_text": "Hygrometer"},
+        {"option_id": "D", "option_text": "Anemometer"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Weather Instruments"
+    },
+    {
+      "q_id": "GEO_PHY_Q021",
+      "question_number": 21,
+      "question_text": "In the Koppen climate classification, 'Af' denotes which type of climate?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Humid subtropical"},
+        {"option_id": "B", "option_text": "Hot desert"},
+        {"option_id": "C", "option_text": "Tropical rainforest"},
+        {"option_id": "D", "option_text": "Mediterranean"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "World Climate"
+    },
+    {
+      "q_id": "GEO_PHY_Q022",
+      "question_number": 22,
+      "question_text": "Which one of the following is an example of a fold mountain system?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Himalayas"},
+        {"option_id": "B", "option_text": "Deccan Plateau"},
+        {"option_id": "C", "option_text": "Aravalli Craton"},
+        {"option_id": "D", "option_text": "Vindhyan Scarplands"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Mountains"
+    },
+    {
+      "q_id": "GEO_PHY_Q023",
+      "question_number": 23,
+      "question_text": "Which process is mainly responsible for the formation of 'U-shaped' valleys in mountain regions?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "River erosion"},
+        {"option_id": "B", "option_text": "Wind erosion"},
+        {"option_id": "C", "option_text": "Glacial erosion"},
+        {"option_id": "D", "option_text": "Wave action"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Glacial Landforms"
+    },
+    {
+      "q_id": "GEO_PHY_Q024",
+      "question_number": 24,
+      "question_text": "The zone of active volcanism and earthquakes along the Pacific Ocean margins is often called:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Pacific Crescent"},
+        {"option_id": "B", "option_text": "Pacific Fire Belt"},
+        {"option_id": "C", "option_text": "Ring of Fire"},
+        {"option_id": "D", "option_text": "Seismic Arc"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Plate Tectonics"
+    },
+    {
+      "q_id": "GEO_PHY_Q025",
+      "question_number": 25,
+      "question_text": "The 'Hadley cell' circulation in the atmosphere is driven primarily by:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Differences in salinity"},
+        {"option_id": "B", "option_text": "Latitudinal temperature contrast"},
+        {"option_id": "C", "option_text": "Earth’s magnetic field"},
+        {"option_id": "D", "option_text": "Tidal forces"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Atmospheric Circulation"
+    },
+    {
+      "q_id": "GEO_PHY_Q026",
+      "question_number": 26,
+      "question_text": "The salinity of ocean water is usually expressed in:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Percent"},
+        {"option_id": "B", "option_text": "Parts per million"},
+        {"option_id": "C", "option_text": "Parts per thousand"},
+        {"option_id": "D", "option_text": "Grams per litre"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Oceans"
+    },
+    {
+      "q_id": "GEO_PHY_Q027",
+      "question_number": 27,
+      "question_text": "The tidal range is maximum during which type of tide?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Neap tide"},
+        {"option_id": "B", "option_text": "Spring tide"},
+        {"option_id": "C", "option_text": "Diurnal tide"},
+        {"option_id": "D", "option_text": "Mixed tide"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Tides"
+    },
+    {
+      "q_id": "GEO_PHY_Q028",
+      "question_number": 28,
+      "question_text": "Which one of the following is NOT an agent of mechanical weathering?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Frost action"},
+        {"option_id": "B", "option_text": "Temperature changes"},
+        {"option_id": "C", "option_text": "Solution by water"},
+        {"option_id": "D", "option_text": "Salt crystal growth"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Weathering"
+    },
+    {
+      "q_id": "GEO_PHY_Q029",
+      "question_number": 29,
+      "question_text": "Loess deposits are typically formed by the action of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Glaciers"},
+        {"option_id": "B", "option_text": "Rivers"},
+        {"option_id": "C", "option_text": "Wind"},
+        {"option_id": "D", "option_text": "Waves"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Aeolian Landforms"
+    },
+    {
+      "q_id": "GEO_PHY_Q030",
+      "question_number": 30,
+      "question_text": "Karst topography is primarily associated with the chemical weathering of which rock type?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Granite"},
+        {"option_id": "B", "option_text": "Basalt"},
+        {"option_id": "C", "option_text": "Limestone"},
+        {"option_id": "D", "option_text": "Sandstone"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Karst Landforms"
+    },
+    {
+      "q_id": "GEO_PHY_Q031",
+      "question_number": 31,
+      "question_text": "Which of the following pairs is correctly matched? 'Desert' – 'Location'",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Atacama – Australia"},
+        {"option_id": "B", "option_text": "Sahara – Africa"},
+        {"option_id": "C", "option_text": "Gobi – South America"},
+        {"option_id": "D", "option_text": "Kalahari – North America"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "World Deserts"
+    },
+    {
+      "q_id": "GEO_PHY_Q032",
+      "question_number": 32,
+      "question_text": "The zone of transition between two ecosystems is termed as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ecotone"},
+        {"option_id": "B", "option_text": "Biome"},
+        {"option_id": "C", "option_text": "Community"},
+        {"option_id": "D", "option_text": "Habitat"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Biogeography"
+    },
+    {
+      "q_id": "GEO_PHY_Q033",
+      "question_number": 33,
+      "question_text": "Which one of the following currents reduces the temperature along the western coasts of continents in the mid-latitudes?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Kuroshio"},
+        {"option_id": "B", "option_text": "Gulf Stream"},
+        {"option_id": "C", "option_text": "Canary Current"},
+        {"option_id": "D", "option_text": "Brazil Current"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Ocean Currents"
+    },
+    {
+      "q_id": "GEO_PHY_Q034",
+      "question_number": 34,
+      "question_text": "The phenomenon of apparent shifting of the position of a star due to Earth's revolution is known as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Parallax"},
+        {"option_id": "B", "option_text": "Refraction"},
+        {"option_id": "C", "option_text": "Diffraction"},
+        {"option_id": "D", "option_text": "Dispersion"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Astronomical Geography"
+    },
+    {
+      "q_id": "GEO_PHY_Q035",
+      "question_number": 35,
+      "question_text": "A tropical cyclone in the Atlantic Ocean is commonly called a:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Typhoon"},
+        {"option_id": "B", "option_text": "Hurricane"},
+        {"option_id": "C", "option_text": "Willi-willi"},
+        {"option_id": "D", "option_text": "Tornado"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Cyclones"
+    },
+    {
+      "q_id": "GEO_PHY_Q036",
+      "question_number": 36,
+      "question_text": "The boundary between the crust and mantle of the Earth is known as:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Gutenberg discontinuity"},
+        {"option_id": "B", "option_text": "Lehmann discontinuity"},
+        {"option_id": "C", "option_text": "Mohorovičić discontinuity"},
+        {"option_id": "D", "option_text": "Conrad discontinuity"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Interior of Earth"
+    },
+    {
+      "q_id": "GEO_PHY_Q037",
+      "question_number": 37,
+      "question_text": "Which one of the following is an intrusive igneous landform?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Lava plateau"},
+        {"option_id": "B", "option_text": "Shield volcano"},
+        {"option_id": "C", "option_text": "Batholith"},
+        {"option_id": "D", "option_text": "Ash cone"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Igneous Landforms"
+    },
+    {
+      "q_id": "GEO_PHY_Q038",
+      "question_number": 38,
+      "question_text": "The daily range of temperature is the difference between:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Maximum and minimum temperature of a day"},
+        {"option_id": "B", "option_text": "Average summer and winter temperature"},
+        {"option_id": "C", "option_text": "Mean annual temperature and mean monthly temperature"},
+        {"option_id": "D", "option_text": "Tropical and polar temperature"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Temperature"
+    },
+    {
+      "q_id": "GEO_PHY_Q039",
+      "question_number": 39,
+      "question_text": "Which latitude is also known as the Tropic of Cancer?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "0°"},
+        {"option_id": "B", "option_text": "23.5° N"},
+        {"option_id": "C", "option_text": "23.5° S"},
+        {"option_id": "D", "option_text": "66.5° N"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Latitude and Longitude"
+    },
+    {
+      "q_id": "GEO_PHY_Q040",
+      "question_number": 40,
+      "question_text": "Which of the following statements regarding jet streams is correct?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "They are surface-level winds."},
+        {"option_id": "B", "option_text": "They blow only over oceans."},
+        {"option_id": "C", "option_text": "They are high-speed winds found in the upper troposphere."},
+        {"option_id": "D", "option_text": "They occur only in tropical regions."}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Upper Air Circulation"
+    },
+    {
+      "q_id": "GEO_PHY_Q041",
+      "question_number": 41,
+      "question_text": "Which of the following plate boundaries is associated with seafloor spreading?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Convergent boundary"},
+        {"option_id": "B", "option_text": "Divergent boundary"},
+        {"option_id": "C", "option_text": "Transform boundary"},
+        {"option_id": "D", "option_text": "Passive margin"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Plate Tectonics"
+    },
+    {
+      "q_id": "GEO_PHY_Q042",
+      "question_number": 42,
+      "question_text": "Which one of the following is a 'rain shadow' region characteristic?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "High rainfall on windward side"},
+        {"option_id": "B", "option_text": "Heavy snowfall"},
+        {"option_id": "C", "option_text": "Dry conditions on leeward side of mountains"},
+        {"option_id": "D", "option_text": "Permanent cloud cover"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Orographic Rainfall"
+    },
+    {
+      "q_id": "GEO_PHY_Q043",
+      "question_number": 43,
+      "question_text": "Which factor is primarily responsible for the vertical zonation of vegetation on mountains?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Soil salinity"},
+        {"option_id": "B", "option_text": "Altitude-related temperature change"},
+        {"option_id": "C", "option_text": "Wind direction"},
+        {"option_id": "D", "option_text": "Ocean proximity"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Biogeography"
+    },
+    {
+      "q_id": "GEO_PHY_Q044",
+      "question_number": 44,
+      "question_text": "Which one of the following is a depositional coastal landform?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Sea cliff"},
+        {"option_id": "B", "option_text": "Sea cave"},
+        {"option_id": "C", "option_text": "Beach"},
+        {"option_id": "D", "option_text": "Wave-cut platform"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Coastal Landforms"
+    },
+    {
+      "q_id": "GEO_PHY_Q045",
+      "question_number": 45,
+      "question_text": "The term 'albedo' of the Earth's surface refers to:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Heat stored in oceans"},
+        {"option_id": "B", "option_text": "Reflected portion of incoming solar radiation"},
+        {"option_id": "C", "option_text": "Longwave radiation from Earth"},
+        {"option_id": "D", "option_text": "Latent heat in atmosphere"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Heat Budget"
+    },
+    {
+      "q_id": "GEO_PHY_Q046",
+      "question_number": 46,
+      "question_text": "Which of the following is an example of a tropical grassland biome?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prairies"},
+        {"option_id": "B", "option_text": "Steppes"},
+        {"option_id": "C", "option_text": "Savannas"},
+        {"option_id": "D", "option_text": "Pampas"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Biomes"
+    },
+    {
+      "q_id": "GEO_PHY_Q047",
+      "question_number": 47,
+      "question_text": "Which of the following is the main cause of tides on Earth?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Wind stress"},
+        {"option_id": "B", "option_text": "Earth’s rotation alone"},
+        {"option_id": "C", "option_text": "Gravitational pull of Moon and Sun"},
+        {"option_id": "D", "option_text": "Ocean currents"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Tides"
+    },
+    {
+      "q_id": "GEO_PHY_Q048",
+      "question_number": 48,
+      "question_text": "The polar night (24 hours darkness) occurs because of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Total solar eclipse"},
+        {"option_id": "B", "option_text": "High cloud cover"},
+        {"option_id": "C", "option_text": "Earth’s axial tilt and revolution"},
+        {"option_id": "D", "option_text": "Oceanic circulation patterns"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Earth Motions"
+    },
+    {
+      "q_id": "GEO_PHY_Q049",
+      "question_number": 49,
+      "question_text": "The heat received at the Earth’s surface from the Sun is mainly by which process in the atmosphere?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Direct absorption of solar radiation"},
+        {"option_id": "B", "option_text": "Conduction from space"},
+        {"option_id": "C", "option_text": "Re-radiation from Earth after absorption"},
+        {"option_id": "D", "option_text": "Nuclear fusion in air"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Heat Budget"
+    },
+    {
+      "q_id": "GEO_PHY_Q050",
+      "question_number": 50,
+      "question_text": "Which of the following best explains the term 'Monsoon'?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "A type of cyclonic storm"},
+        {"option_id": "B", "option_text": "A seasonal reversal of winds"},
+        {"option_id": "C", "option_text": "A local sea breeze"},
+        {"option_id": "D", "option_text": "A permanent planetary wind"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Monsoon"
+    }
+  ]
+}

@@ -1,0 +1,882 @@
+{
+  "test_metadata": {
+    "test_id": "POL_LOCAL_CB_MCQT1",
+    "test_title": "Local Government & Constitutional Bodies - Practice MCQ Test",
+    "subject": "Indian Polity & Governance",
+    "gs_paper": "GS II",
+    "unit": "Polity & Governance",
+    "sub_topic": "Local Self-Government and Constitutional Bodies",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 60,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "Panchayati Raj",
+      "Municipalities",
+      "Election Commission",
+      "UPSC",
+      "CAG",
+      "Finance Commission",
+      "NCSC",
+      "NCST"
+    ],
+    "created_date": "2025-11-17",
+    "description": "UPSC-style MCQs on 73rd & 74th Amendments and key Constitutional bodies of India."
+  },
+  "questions": [
+    {
+      "q_id": "POL_LOCAL_Q001",
+      "question_number": 1,
+      "question_text": "Which Constitutional Amendment is known for giving constitutional status to Panchayati Raj Institutions (PRIs)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "42nd Amendment"},
+        {"option_id": "B", "option_text": "44th Amendment"},
+        {"option_id": "C", "option_text": "73rd Amendment"},
+        {"option_id": "D", "option_text": "74th Amendment"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "73rd Amendment"
+    },
+    {
+      "q_id": "POL_LOCAL_Q002",
+      "question_number": 2,
+      "question_text": "The 74th Constitutional Amendment deals with which of the following?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Scheduled Areas"},
+        {"option_id": "B", "option_text": "Urban Local Bodies"},
+        {"option_id": "C", "option_text": "Gram Nyayalayas"},
+        {"option_id": "D", "option_text": "Inter-State Councils"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "74th Amendment"
+    },
+    {
+      "q_id": "POL_LOCAL_Q003",
+      "question_number": 3,
+      "question_text": "Which Part of the Constitution was added by the 73rd Amendment to deal with Panchayats?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Part VIII"},
+        {"option_id": "B", "option_text": "Part IX"},
+        {"option_id": "C", "option_text": "Part IXA"},
+        {"option_id": "D", "option_text": "Part X"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Panchayats"
+    },
+    {
+      "q_id": "POL_LOCAL_Q004",
+      "question_number": 4,
+      "question_text": "Which Part of the Constitution deals with Municipalities after the 74th Amendment?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Part IX"},
+        {"option_id": "B", "option_text": "Part IXA"},
+        {"option_id": "C", "option_text": "Part X"},
+        {"option_id": "D", "option_text": "Part XI"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Municipalities"
+    },
+    {
+      "q_id": "POL_LOCAL_Q005",
+      "question_number": 5,
+      "question_text": "Which Schedule contains the Eleventh Schedule listing subjects of Panchayats?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "9th Schedule"},
+        {"option_id": "B", "option_text": "10th Schedule"},
+        {"option_id": "C", "option_text": "11th Schedule"},
+        {"option_id": "D", "option_text": "12th Schedule"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "11th Schedule"
+    },
+    {
+      "q_id": "POL_LOCAL_Q006",
+      "question_number": 6,
+      "question_text": "The Twelfth Schedule of the Constitution deals with functions of which institutions?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Panchayats"},
+        {"option_id": "B", "option_text": "Municipalities"},
+        {"option_id": "C", "option_text": "Co-operative societies"},
+        {"option_id": "D", "option_text": "Scheduled Areas Councils"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "12th Schedule"
+    },
+    {
+      "q_id": "POL_LOCAL_Q007",
+      "question_number": 7,
+      "question_text": "What is the minimum age required to be a member of a Panchayat as per the 73rd Amendment (subject to State law)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "18 years"},
+        {"option_id": "B", "option_text": "21 years"},
+        {"option_id": "C", "option_text": "25 years"},
+        {"option_id": "D", "option_text": "30 years"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Panchayat Membership"
+    },
+    {
+      "q_id": "POL_LOCAL_Q008",
+      "question_number": 8,
+      "question_text": "Reservation of seats for SCs and STs in Panchayats is based on which principle?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Minimum 10%"},
+        {"option_id": "B", "option_text": "Proportion to their population in the Panchayat area"},
+        {"option_id": "C", "option_text": "Equal in all States"},
+        {"option_id": "D", "option_text": "Left fully to State discretion without guidelines"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Reservation in PRIs"
+    },
+    {
+      "q_id": "POL_LOCAL_Q009",
+      "question_number": 9,
+      "question_text": "What is the minimum reservation for women in seats and chairperson posts in Panchayats mandated by the Constitution (73rd Amendment)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "1/4 of the total seats"},
+        {"option_id": "B", "option_text": "1/3 of the total seats"},
+        {"option_id": "C", "option_text": "1/2 of the total seats"},
+        {"option_id": "D", "option_text": "No constitutional reservation for women"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Women Reservation"
+    },
+    {
+      "q_id": "POL_LOCAL_Q010",
+      "question_number": 10,
+      "question_text": "The Gram Sabha consists of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only elected members of Gram Panchayat"},
+        {"option_id": "B", "option_text": "All persons in the village whose names are in the electoral rolls"},
+        {"option_id": "C", "option_text": "Only adult males of the village"},
+        {"option_id": "D", "option_text": "Only elected representatives of Panchayat Samiti"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Gram Sabha"
+    },
+    {
+      "q_id": "POL_LOCAL_Q011",
+      "question_number": 11,
+      "question_text": "Which level is NOT part of the three-tier Panchayati Raj system mandated (for States with population above 20 lakh)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Gram Panchayat"},
+        {"option_id": "B", "option_text": "Panchayat Samiti (Block)"},
+        {"option_id": "C", "option_text": "Zila Parishad"},
+        {"option_id": "D", "option_text": "Metropolitan Council"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Panchayat Levels"
+    },
+    {
+      "q_id": "POL_LOCAL_Q012",
+      "question_number": 12,
+      "question_text": "The State Election Commission (SEC) conducts elections for which of the following bodies?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Lok Sabha"},
+        {"option_id": "B", "option_text": "State Legislative Assembly"},
+        {"option_id": "C", "option_text": "Panchayats and Municipalities"},
+        {"option_id": "D", "option_text": "Rajya Sabha"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "State Election Commission"
+    },
+    {
+      "q_id": "POL_LOCAL_Q013",
+      "question_number": 13,
+      "question_text": "Which Article provides for the establishment of a State Finance Commission (SFC) every five years to review the financial position of Panchayats and Municipalities (combined after 74th)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 240"},
+        {"option_id": "B", "option_text": "Article 243I and 243Y"},
+        {"option_id": "C", "option_text": "Article 280"},
+        {"option_id": "D", "option_text": "Article 324"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "State Finance Commission"
+    },
+    {
+      "q_id": "POL_LOCAL_Q014",
+      "question_number": 14,
+      "question_text": "Reservation for women in Urban Local Bodies (ULBs) such as Municipalities is at least:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "10%"},
+        {"option_id": "B", "option_text": "25%"},
+        {"option_id": "C", "option_text": "33%"},
+        {"option_id": "D", "option_text": "50%"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Women in ULBs"
+    },
+    {
+      "q_id": "POL_LOCAL_Q015",
+      "question_number": 15,
+      "question_text": "Which of the following is NOT a type of Urban Local Body listed in the Constitution after the 74th Amendment?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Municipal Corporation"},
+        {"option_id": "B", "option_text": "Municipal Council"},
+        {"option_id": "C", "option_text": "Nagar Panchayat"},
+        {"option_id": "D", "option_text": "Development Authority"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "ULB Types"
+    },
+    {
+      "q_id": "POL_LOCAL_Q016",
+      "question_number": 16,
+      "question_text": "Which Constitutional provision aims to extend Panchayats to the Scheduled Areas?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Fifth Schedule"},
+        {"option_id": "B", "option_text": "Sixth Schedule"},
+        {"option_id": "C", "option_text": "PESA Act, 1996"},
+        {"option_id": "D", "option_text": "Article 324"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "PESA"
+    },
+    {
+      "q_id": "POL_LOCAL_Q017",
+      "question_number": 17,
+      "question_text": "The institution of Panchayati Raj was first recommended by which Committee in post-independence India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Balwant Rai Mehta Committee"},
+        {"option_id": "B", "option_text": "Ashok Mehta Committee"},
+        {"option_id": "C", "option_text": "G.V.K. Rao Committee"},
+        {"option_id": "D", "option_text": "L.M. Singhvi Committee"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Panchayat Committees"
+    },
+    {
+      "q_id": "POL_LOCAL_Q018",
+      "question_number": 18,
+      "question_text": "Which Committee strongly recommended giving Constitutional status to Panchayats, leading eventually to the 73rd Amendment?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Balwant Rai Mehta Committee"},
+        {"option_id": "B", "option_text": "Ashok Mehta Committee"},
+        {"option_id": "C", "option_text": "L.M. Singhvi Committee"},
+        {"option_id": "D", "option_text": "Santhanam Committee"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Panchayat Committees"
+    },
+    {
+      "q_id": "POL_LOCAL_Q019",
+      "question_number": 19,
+      "question_text": "Which of the following is a Constitutional Body?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Central Vigilance Commission (CVC)"},
+        {"option_id": "B", "option_text": "Election Commission of India"},
+        {"option_id": "C", "option_text": "Central Information Commission"},
+        {"option_id": "D", "option_text": "National Human Rights Commission"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Constitutional Bodies"
+    },
+    {
+      "q_id": "POL_LOCAL_Q020",
+      "question_number": 20,
+      "question_text": "Which Part of the Constitution deals with the Election Commission of India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Part XIV"},
+        {"option_id": "B", "option_text": "Part XV"},
+        {"option_id": "C", "option_text": "Part XVI"},
+        {"option_id": "D", "option_text": "Part XVII"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Election Commission"
+    },
+    {
+      "q_id": "POL_LOCAL_Q021",
+      "question_number": 21,
+      "question_text": "The Election Commission of India is a multi-member body presently consisting of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Chief Election Commissioner only"},
+        {"option_id": "B", "option_text": "CEC and one Election Commissioner"},
+        {"option_id": "C", "option_text": "CEC and two Election Commissioners"},
+        {"option_id": "D", "option_text": "CEC and four Election Commissioners"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Election Commission Composition"
+    },
+    {
+      "q_id": "POL_LOCAL_Q022",
+      "question_number": 22,
+      "question_text": "Who appoints the Chief Election Commissioner and other Election Commissioners of India (as per original constitutional scheme, ignoring later reforms debates)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Minister"},
+        {"option_id": "B", "option_text": "President"},
+        {"option_id": "C", "option_text": "Chief Justice of India"},
+        {"option_id": "D", "option_text": "Speaker of Lok Sabha"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Election Commission Appointment"
+    },
+    {
+      "q_id": "POL_LOCAL_Q023",
+      "question_number": 23,
+      "question_text": "The removal procedure of the Chief Election Commissioner is similar to that of:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Minister"},
+        {"option_id": "B", "option_text": "Supreme Court Judge"},
+        {"option_id": "C", "option_text": "Governor"},
+        {"option_id": "D", "option_text": "CAG"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Election Commission Removal"
+    },
+    {
+      "q_id": "POL_LOCAL_Q024",
+      "question_number": 24,
+      "question_text": "Which Article provides for the Comptroller and Auditor General of India (CAG)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 148"},
+        {"option_id": "B", "option_text": "Article 280"},
+        {"option_id": "C", "option_text": "Article 324"},
+        {"option_id": "D", "option_text": "Article 315"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "CAG"
+    },
+    {
+      "q_id": "POL_LOCAL_Q025",
+      "question_number": 25,
+      "question_text": "The CAG of India audits the accounts of which of the following?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Union and State Governments"},
+        {"option_id": "B", "option_text": "Government companies"},
+        {"option_id": "C", "option_text": "Authorities substantially financed from government revenues"},
+        {"option_id": "D", "option_text": "All of the above, as provided by law"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "CAG Functions"
+    },
+    {
+      "q_id": "POL_LOCAL_Q026",
+      "question_number": 26,
+      "question_text": "Which body is described as the 'watchdog of public purse' in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Finance Commission"},
+        {"option_id": "B", "option_text": "CAG"},
+        {"option_id": "C", "option_text": "Public Accounts Committee"},
+        {"option_id": "D", "option_text": "NITI Aayog"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "CAG"
+    },
+    {
+      "q_id": "POL_LOCAL_Q027",
+      "question_number": 27,
+      "question_text": "Which Part of the Constitution deals with Public Service Commissions (UPSC and SPSC)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Part XIV"},
+        {"option_id": "B", "option_text": "Part XV"},
+        {"option_id": "C", "option_text": "Part XVI"},
+        {"option_id": "D", "option_text": "Part XVII"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "UPSC"
+    },
+    {
+      "q_id": "POL_LOCAL_Q028",
+      "question_number": 28,
+      "question_text": "Which of the following is NOT a function of the Union Public Service Commission (UPSC)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Conducting examinations for All India Services"},
+        {"option_id": "B", "option_text": "Advising on service matters of civil servants"},
+        {"option_id": "C", "option_text": "Deciding pay and allowances of MPs"},
+        {"option_id": "D", "option_text": "Conducting Central civil services exams"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "UPSC Functions"
+    },
+    {
+      "q_id": "POL_LOCAL_Q029",
+      "question_number": 29,
+      "question_text": "The Finance Commission is a Constitutional Body appointed every five years under which Article?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 270"},
+        {"option_id": "B", "option_text": "Article 280"},
+        {"option_id": "C", "option_text": "Article 324"},
+        {"option_id": "D", "option_text": "Article 315"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Finance Commission"
+    },
+    {
+      "q_id": "POL_LOCAL_Q030",
+      "question_number": 30,
+      "question_text": "Which Constitution (Amendment) Act created the National Commission for Scheduled Castes (separate from SC/ST combined commission earlier)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "65th Amendment"},
+        {"option_id": "B", "option_text": "89th Amendment"},
+        {"option_id": "C", "option_text": "101st Amendment"},
+        {"option_id": "D", "option_text": "102nd Amendment"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "NCSC/NCST"
+    },
+    {
+      "q_id": "POL_LOCAL_Q031",
+      "question_number": 31,
+      "question_text": "The National Commission for Scheduled Castes (NCSC) is provided under which Article group?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Articles 330–342"},
+        {"option_id": "B", "option_text": "Article 338"},
+        {"option_id": "C", "option_text": "Article 338A"},
+        {"option_id": "D", "option_text": "Article 340"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "NCSC"
+    },
+    {
+      "q_id": "POL_LOCAL_Q032",
+      "question_number": 32,
+      "question_text": "The National Commission for Scheduled Tribes (NCST) is provided under which Article inserted later?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Article 338"},
+        {"option_id": "B", "option_text": "Article 338A"},
+        {"option_id": "C", "option_text": "Article 339"},
+        {"option_id": "D", "option_text": "Article 340"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "NCST"
+    },
+    {
+      "q_id": "POL_LOCAL_Q033",
+      "question_number": 33,
+      "question_text": "Which Amendment gave constitutional status to the National Commission for Backward Classes (NCBC)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "89th Amendment"},
+        {"option_id": "B", "option_text": "97th Amendment"},
+        {"option_id": "C", "option_text": "101st Amendment"},
+        {"option_id": "D", "option_text": "102nd Amendment"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "NCBC"
+    },
+    {
+      "q_id": "POL_LOCAL_Q034",
+      "question_number": 34,
+      "question_text": "Which of the following is NOT correctly matched? 'Body – Type'",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Election Commission – Constitutional"},
+        {"option_id": "B", "option_text": "CAG – Constitutional"},
+        {"option_id": "C", "option_text": "UPSC – Constitutional"},
+        {"option_id": "D", "option_text": "NHRC – Constitutional"}
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Constitutional vs Statutory"
+    },
+    {
+      "q_id": "POL_LOCAL_Q035",
+      "question_number": 35,
+      "question_text": "The tenure of a member of the Union Public Service Commission (UPSC) is:",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "6 years or until age 60, whichever is earlier"},
+        {"option_id": "B", "option_text": "6 years or until age 62, whichever is earlier"},
+        {"option_id": "C", "option_text": "5 years or until age 65, whichever is earlier"},
+        {"option_id": "D", "option_text": "Fixed 5 years with no age limit"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "UPSC Tenure"
+    },
+    {
+      "q_id": "POL_LOCAL_Q036",
+      "question_number": 36,
+      "question_text": "Which of the following is a function of the State Finance Commission (SFC)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Distribution of central taxes to States"},
+        {"option_id": "B", "option_text": "Review of financial position of Panchayats and Municipalities"},
+        {"option_id": "C", "option_text": "Auditing accounts of PSUs"},
+        {"option_id": "D", "option_text": "Conducting elections to PRIs"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "SFC Functions"
+    },
+    {
+      "q_id": "POL_LOCAL_Q037",
+      "question_number": 37,
+      "question_text": "Which institution is called the 'fourth branch' of the State in some governance literature due to its watchdog role (though not constitutionally called so)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "UPSC"},
+        {"option_id": "B", "option_text": "CAG"},
+        {"option_id": "C", "option_text": "Election Commission"},
+        {"option_id": "D", "option_text": "NITI Aayog"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Accountability Institutions"
+    },
+    {
+      "q_id": "POL_LOCAL_Q038",
+      "question_number": 38,
+      "question_text": "Who lays the reports of the CAG before the Parliament or State Legislature, as the case may be?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prime Minister or Chief Minister"},
+        {"option_id": "B", "option_text": "Speaker of Lok Sabha only"},
+        {"option_id": "C", "option_text": "President or Governor"},
+        {"option_id": "D", "option_text": "Finance Commission"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "CAG Reports"
+    },
+    {
+      "q_id": "POL_LOCAL_Q039",
+      "question_number": 39,
+      "question_text": "Which of the following Constitutional bodies primarily safeguards free and fair elections in India?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Election Commission of India"},
+        {"option_id": "B", "option_text": "UPSC"},
+        {"option_id": "C", "option_text": "CAG"},
+        {"option_id": "D", "option_text": "Finance Commission"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "ECI Role"
+    },
+    {
+      "q_id": "POL_LOCAL_Q040",
+      "question_number": 40,
+      "question_text": "Which statement about Panchayati Raj Institutions (PRIs) is correct after the 73rd Amendment?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "PRIs are optional; States may or may not constitute them."},
+        {"option_id": "B", "option_text": "PRIs are constitutionally mandated with basic features, but details left to States."},
+        {"option_id": "C", "option_text": "PRIs are directly under Union Government control."},
+        {"option_id": "D", "option_text": "PRIs are controlled by Election Commission of India."}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Nature of PRIs"
+    },
+    {
+      "q_id": "POL_LOCAL_Q041",
+      "question_number": 41,
+      "question_text": "Which of the following is a distinguishing feature of Municipal Corporations compared to Municipal Councils in urban governance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "They are established in smaller towns only."},
+        {"option_id": "B", "option_text": "They are established for larger urban areas and big cities."},
+        {"option_id": "C", "option_text": "They work only in rural areas."},
+        {"option_id": "D", "option_text": "They are appointed bodies, not elected."}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Urban Local Bodies"
+    },
+    {
+      "q_id": "POL_LOCAL_Q042",
+      "question_number": 42,
+      "question_text": "Which of the following correctly distinguishes between ECI and State Election Commissions (SEC)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "ECI conducts elections to Parliament and State Legislatures; SEC conducts elections to PRIs and Municipalities."},
+        {"option_id": "B", "option_text": "Both conduct all types of elections jointly."},
+        {"option_id": "C", "option_text": "SEC conducts only panchayat elections for entire India."},
+        {"option_id": "D", "option_text": "ECI conducts elections only for President and Vice-President."}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "ECI vs SEC"
+    },
+    {
+      "q_id": "POL_LOCAL_Q043",
+      "question_number": 43,
+      "question_text": "Which body at the State level is analogous to the Finance Commission at the Union level, for local bodies?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "State Planning Board"},
+        {"option_id": "B", "option_text": "State Finance Commission"},
+        {"option_id": "C", "option_text": "State Public Service Commission"},
+        {"option_id": "D", "option_text": "State Vigilance Commission"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "SFC Analogy"
+    },
+    {
+      "q_id": "POL_LOCAL_Q044",
+      "question_number": 44,
+      "question_text": "In the context of Panchayati Raj, 'Nyaya Panchayats' are associated with which function mainly?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Development planning"},
+        {"option_id": "B", "option_text": "Judicial or quasi-judicial dispute resolution"},
+        {"option_id": "C", "option_text": "Tax collection only"},
+        {"option_id": "D", "option_text": "Election management"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Nyaya Panchayats"
+    },
+    {
+      "q_id": "POL_LOCAL_Q045",
+      "question_number": 45,
+      "question_text": "Which of the following is NOT an objective of giving Constitutional status to PRIs and ULBs?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "To ensure regular elections and continuity"},
+        {"option_id": "B", "option_text": "To strengthen grassroots democracy"},
+        {"option_id": "C", "option_text": "To centralize all planning decisions at Union level"},
+        {"option_id": "D", "option_text": "To provide constitutional backing to decentralization"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Decentralization Goals"
+    },
+    {
+      "q_id": "POL_LOCAL_Q046",
+      "question_number": 46,
+      "question_text": "Which of the following correctly describes the role of the National Commission for Scheduled Tribes (NCST)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Only conducts elections for ST reserved constituencies"},
+        {"option_id": "B", "option_text": "Investigates and monitors safeguards for STs and advises on socio-economic development of STs"},
+        {"option_id": "C", "option_text": "Audits accounts of tribal welfare schemes"},
+        {"option_id": "D", "option_text": "Appoints Governors for tribal States"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "NCST Role"
+    },
+    {
+      "q_id": "POL_LOCAL_Q047",
+      "question_number": 47,
+      "question_text": "Which Constitutional body is primarily responsible for recommending distribution of net tax proceeds between Centre and States, as well as principles for grants-in-aid to States?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "CAG"},
+        {"option_id": "B", "option_text": "Finance Commission"},
+        {"option_id": "C", "option_text": "UPSC"},
+        {"option_id": "D", "option_text": "Election Commission"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Finance Commission Role"
+    },
+    {
+      "q_id": "POL_LOCAL_Q048",
+      "question_number": 48,
+      "question_text": "Which one of the following bodies is a Constitutional body concerned mainly with service matters and recruitment?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "UPSC"},
+        {"option_id": "B", "option_text": "CAG"},
+        {"option_id": "C", "option_text": "NCSC"},
+        {"option_id": "D", "option_text": "ECI"}
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "UPSC Role"
+    },
+    {
+      "q_id": "POL_LOCAL_Q049",
+      "question_number": 49,
+      "question_text": "Which of the following best reflects the rationale behind including local bodies in the Constitution (Parts IX and IXA)?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "To treat them as central agencies only"},
+        {"option_id": "B", "option_text": "To ensure stable, regular, and empowered local self-government as a third tier"},
+        {"option_id": "C", "option_text": "To replace States in the federal structure"},
+        {"option_id": "D", "option_text": "To abolish State Legislatures gradually"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "3rd Tier of Government"
+    },
+    {
+      "q_id": "POL_LOCAL_Q050",
+      "question_number": 50,
+      "question_text": "Which of the following statements about Constitutional Bodies in India is correct?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "They are created by ordinary legislation only."},
+        {"option_id": "B", "option_text": "They cannot be abolished without amending the Constitution."},
+        {"option_id": "C", "option_text": "They are always subordinate to the executive."},
+        {"option_id": "D", "option_text": "They are accountable only to the judiciary."}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Constitutional Bodies Nature"
+    }
+  ]
+}

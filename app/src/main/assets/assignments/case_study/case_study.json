@@ -1,0 +1,882 @@
+{
+  "test_metadata": {
+    "test_id": "ETH_CASE_APPL_MCQT1",
+    "test_title": "Case Studies and Applied Ethics - Practice MCQ Test",
+    "subject": "Ethics, Integrity and Aptitude",
+    "gs_paper": "GS IV",
+    "unit": "Case Studies and Applied Ethics",
+    "sub_topic": "Applied Ethics, Dilemmas, Decision-Making",
+    "test_type": "subject_wise",
+    "source": "Custom",
+    "total_questions": 50,
+    "total_marks": 100,
+    "time_limit_minutes": 90,
+    "difficulty": "Medium",
+    "negative_marking": true,
+    "negative_marks_per_wrong": 0.66,
+    "tags": [
+      "Case Studies",
+      "Applied Ethics",
+      "Decision-Making",
+      "Dilemmas",
+      "Public Service",
+      "Administration"
+    ],
+    "created_date": "2025-11-17",
+    "description": "Scenario-based MCQs on applied ethics, administrative dilemmas and decision-making in public life for GS IV."
+  },
+  "questions": [
+    {
+      "q_id": "ETH_CASE_Q001",
+      "question_number": 1,
+      "question_text": "You are a newly posted SDM. A local leader pressures you to overlook violations in a building project, promising political support for future postings. What is the MOST ethical course of action?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Agree informally to secure future career benefits"},
+        {"option_id": "B", "option_text": "Ignore the violation since many such buildings exist"},
+        {"option_id": "C", "option_text": "Firmly refuse, record the violations and act as per law, documenting any undue pressure"},
+        {"option_id": "D", "option_text": "Transfer the case to a subordinate unofficially"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Political Pressure and Rule of Law"
+    },
+    {
+      "q_id": "ETH_CASE_Q002",
+      "question_number": 2,
+      "question_text": "A senior officer informally asks you to alter the evaluation report of a contractor to ensure the contract is renewed, hinting that 'everyone does it'. What should you MOST appropriately do?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Alter the report as requested to maintain good relations"},
+        {"option_id": "B", "option_text": "Politely refuse, keep the evaluation factual and, if needed, seek written instructions"},
+        {"option_id": "C", "option_text": "Ignore the request but do not report it"},
+        {"option_id": "D", "option_text": "Complain anonymously without any documentation"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Integrity in Reporting"
+    },
+    {
+      "q_id": "ETH_CASE_Q003",
+      "question_number": 3,
+      "question_text": "As a block development officer, you discover that your predecessor diverted a small portion of funds to complete an urgently needed village bridge, technically violating financial rules but preventing accidents. What is the MOST ethical response now?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Suppress all records to avoid controversy"},
+        {"option_id": "B", "option_text": "Report the facts honestly, ensure regularisation as per rules and strengthen systems to avoid such violations in future"},
+        {"option_id": "C", "option_text": "Ignore the issue since the outcome was good"},
+        {"option_id": "D", "option_text": "Publicly accuse your predecessor without verifying documents"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Means vs Ends"
+    },
+    {
+      "q_id": "ETH_CASE_Q004",
+      "question_number": 4,
+      "question_text": "A citizen from a marginalised community comes to your office with incomplete documents for a time-bound scholarship scheme. The deadline is today and she cannot arrange the missing certificate immediately. What is the MOST appropriate action?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Reject the application without guidance"},
+        {"option_id": "B", "option_text": "Accept the application, give written time to submit the missing document if rules allow, and guide her properly"},
+        {"option_id": "C", "option_text": "Ask her to pay a small amount to 'manage' the missing document"},
+        {"option_id": "D", "option_text": "Tell her to try again next year without checking rules"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Empathy and Procedural Fairness"
+    },
+    {
+      "q_id": "ETH_CASE_Q005",
+      "question_number": 5,
+      "question_text": "You’re part of a committee to shortlist beneficiaries for a housing scheme. A colleague pushes for including his distant relative who is slightly above the eligibility income limit. What is the MOST ethical option?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Agree silently since the relative is not very rich"},
+        {"option_id": "B", "option_text": "Insist on strict adherence to eligibility criteria and record any dissent transparently in minutes"},
+        {"option_id": "C", "option_text": "Leave the meeting to avoid conflict and accept the final list"},
+        {"option_id": "D", "option_text": "Privately request the colleague to add your relative as well for 'balance'"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Fairness and Nepotism"
+    },
+    {
+      "q_id": "ETH_CASE_Q006",
+      "question_number": 6,
+      "question_text": "As a police officer, you find that a poor street vendor has violated licensing rules but his goods are his only livelihood. What is the MOST ethical way to respond, balancing compassion and rule of law?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ignore the law completely and regularise him orally"},
+        {"option_id": "B", "option_text": "Use minimum necessary legal action, inform him of procedures and help him access proper licensing support"},
+        {"option_id": "C", "option_id": "C", "option_text": "Confiscate all goods harshly to 'set an example'"},
+        {"option_id": "D", "option_text": "Take money from him and allow him to continue"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Compassion and Legality"
+    },
+    {
+      "q_id": "ETH_CASE_Q007",
+      "question_number": 7,
+      "question_text": "You are the head of a public hospital. Media reports highlight negligence in one ward. Initial inquiry suggests some lapses but exact responsibility is unclear. What should you do FIRST?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Deny everything publicly without checking facts"},
+        {"option_id": "B", "option_text": "Initiate a prompt, fair inquiry, ensure patient care is immediately improved and communicate transparently"},
+        {"option_id": "C", "option_text": "Suspend random staff members to show 'action'"},
+        {"option_id": "D", "option_text": "Blame lack of funds and do nothing"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Responsibility and Openness"
+    },
+    {
+      "q_id": "ETH_CASE_Q008",
+      "question_number": 8,
+      "question_text": "A junior officer reports to you that a senior colleague is regularly demanding bribes for issuing permits. There is no hard evidence yet, but multiple complaints exist. What is your MOST ethical response?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Tell the junior officer to remain silent to avoid trouble"},
+        {"option_id": "B", "option_text": "Informally warn the senior but take no further action"},
+        {"option_id": "C", "option_text": "Initiate discreet fact-finding, strengthen transparent processes and, if evidence emerges, proceed as per vigilance and legal procedures"},
+        {"option_id": "D", "option_text": "Immediately publicise the allegation in media without verification"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Handling Allegations"
+    },
+    {
+      "q_id": "ETH_CASE_Q009",
+      "question_number": 9,
+      "question_text": "As a municipal commissioner, you discover that garbage collection contracts are awarded to the same firms every year with inflated rates. What is the MOST ethical administrative step?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Continue as it is to avoid conflict"},
+        {"option_id": "B", "option_text": "Order a review, redesign tender conditions transparently, and introduce competitive bidding with clear criteria"},
+        {"option_id": "C", "option_text": "Privately ask current contractors to share profits with you"},
+        {"option_id": "D", "option_text": "Cancel all contracts immediately without alternative arrangements"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Procurement Ethics"
+    },
+    {
+      "q_id": "ETH_CASE_Q010",
+      "question_number": 10,
+      "question_text": "You are evaluating exam answer scripts. A relative’s roll number appears in your batch. What is the MOST appropriate ethical action?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Award maximum marks to help your relative"},
+        {"option_id": "B", "option_text": "Strictly follow model answers and evaluate objectively despite relation"},
+        {"option_id": "C", "option_text": "Immediately inform the authority and request reallocation of that script to avoid conflict of interest"},
+        {"option_id": "D", "option_text": "Give very low marks to show you are impartial"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Conflict of Interest"
+    },
+    {
+      "q_id": "ETH_CASE_Q011",
+      "question_number": 11,
+      "question_text": "In a drought-affected area, you must allocate limited water tankers between two villages: one more vocal and influential, the other more affected but less organised. What is the MOST ethical way to decide?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Favour the influential village to avoid protests"},
+        {"option_id": "B", "option_text": "Divide water equally regardless of need"},
+        {"option_id": "C", "option_text": "Assess objective need (population, severity) and allocate proportionally with clear communication"},
+        {"option_id": "D", "option_text": "Give all tankers to the nearest village to save fuel"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Distributive Justice"
+    },
+    {
+      "q_id": "ETH_CASE_Q012",
+      "question_number": 12,
+      "question_text": "As a senior officer, you are given a performance target that can realistically be met only if data are manipulated. What should you MOST ethically do?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Quietly manipulate data since others also do it"},
+        {"option_id": "B", "option_text": "Explain ground realities to higher authorities, propose realistic targets and refuse to falsify data"},
+        {"option_id": "C", "option_text": "Ignore the target and do nothing"},
+        {"option_id": "D", "option_text": "Ask subordinates to adjust numbers 'slightly' so you are technically safe"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Data Integrity"
+    },
+    {
+      "q_id": "ETH_CASE_Q013",
+      "question_number": 13,
+      "question_text": "A private company offers to refurbish your government office free of cost in exchange for prominent advertising banners inside the office. What is the MOST ethical response?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Accept immediately since it reduces government expenditure"},
+        {"option_id": "B", "option_text": "Accept informally and allow banners without any formal agreement"},
+        {"option_id": "C", "option_text": "Examine rules on sponsorships, ensure no conflict of interest or undue influence, and proceed only through transparent, approved procedures if allowed"},
+        {"option_id": "D", "option_text": "Reject without considering any rule or public benefit"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Public-Private Interface"
+    },
+    {
+      "q_id": "ETH_CASE_Q014",
+      "question_number": 14,
+      "question_text": "You are in charge of disaster relief distribution. A local politician insists that his supporters be given priority. Refusal may create law and order issues. What is the MOST ethical course of action?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Agree fully to maintain peace"},
+        {"option_id": "B", "option_text": "Follow approved vulnerability criteria transparently, involve multiple stakeholders and seek additional security support if needed"},
+        {"option_id": "C", "option_text": "Stop relief work completely to avoid conflict"},
+        {"option_id": "D", "option_text": "Privately distribute extra relief to supporters only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Disaster Ethics"
+    },
+    {
+      "q_id": "ETH_CASE_Q015",
+      "question_number": 15,
+      "question_text": "A clerk known for integrity is frequently transferred for resisting illegal orders. Staff feel demoralised. As the head of office, what is the MOST ethical action?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ask the clerk to be 'practical' and cooperate"},
+        {"option_id": "B", "option_text": "Support the clerk, document unfair transfers and raise the issue through proper channels highlighting impact on morale"},
+        {"option_id": "C", "option_text": "Stay neutral and say it is a 'policy matter'"},
+        {"option_id": "D", "option_text": "Discourage others from discussing such issues"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Protecting Ethical Staff"
+    },
+    {
+      "q_id": "ETH_CASE_Q016",
+      "question_number": 16,
+      "question_text": "A teacher in a government school disciplines a student for cheating. The student's parent, a powerful local leader, pressures the teacher to change the report card. As the principal, what should you MOST ethically do?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ask the teacher to change marks to avoid conflict"},
+        {"option_id": "B", "option_text": "Stand by fair evaluation, counsel both sides and explain the importance of integrity in education"},
+        {"option_id": "C", "option_text": "Shift blame to the teacher and remain silent"},
+        {"option_id": "D", "option_text": "Offer to 'adjust' marks quietly in future exams instead"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Academic Integrity"
+    },
+    {
+      "q_id": "ETH_CASE_Q017",
+      "question_number": 17,
+      "question_text": "As a district officer, you must decide on closing an old polluting industry that provides jobs to many locals. What is the MOST ethical approach to decision-making?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ignore pollution because jobs are important"},
+        {"option_id": "B", "option_text": "Order immediate closure without studying impacts or alternatives"},
+        {"option_id": "C", "option_text": "Assess legal compliance, environmental and livelihood impacts, consult stakeholders and explore cleaner alternatives or phased transition"},
+        {"option_id": "D", "option_text": "Wait indefinitely without taking any decision"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Environment vs Livelihood"
+    },
+    {
+      "q_id": "ETH_CASE_Q018",
+      "question_number": 18,
+      "question_text": "A woman complains that she was asked for a bribe to get a widow pension sanctioned. You head the relevant section. What is the MOST ethical immediate step?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Tell her such things are 'normal' and she should adjust"},
+        {"option_id": "B", "option_text": "Verify her eligibility, ensure her case is processed fairly and initiate inquiry into the demand for bribe"},
+        {"option_id": "C", "option_text": "Informally warn the staff not to get 'caught' again"},
+        {"option_id": "D", "option_text": "Ignore the complaint as there is no written proof yet"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Responding to Corruption Complaints"
+    },
+    {
+      "q_id": "ETH_CASE_Q019",
+      "question_number": 19,
+      "question_text": "You are tasked with shortlisting NGOs for a government partnership. One NGO has excellent work record but has recently criticised government policies. What is the MOST ethical criterion to follow?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Reject NGOs that criticise the government"},
+        {"option_id": "B", "option_text": "Select NGOs only based on political alignment"},
+        {"option_id": "C", "option_text": "Use objective criteria like capacity, past performance and transparency, irrespective of criticism"},
+        {"option_id": "D", "option_text": "Select only unknown NGOs with no track record"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Objectivity and Fairness"
+    },
+    {
+      "q_id": "ETH_CASE_Q020",
+      "question_number": 20,
+      "question_text": "A staff member who is usually honest has made a minor procedural mistake causing small financial loss to the department but no personal gain. What is the MOST ethical way to address this as the supervisor?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ignore the mistake completely"},
+        {"option_id": "B", "option_text": "Punish severely to 'set an example'"},
+        {"option_id": "C", "option_text": "Acknowledge the mistake, document it, recover loss if required, and use it as a learning opportunity without being vindictive"},
+        {"option_id": "D", "option_text": "Transfer the staff member immediately without explanation"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Proportional Response"
+    },
+    {
+      "q_id": "ETH_CASE_Q021",
+      "question_number": 21,
+      "question_text": "During a recruitment process you supervise, you receive an anonymous envelope with cash and a note requesting favour in interview. What is the MOST ethical step?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Quietly return the envelope and proceed as usual"},
+        {"option_id": "B", "option_text": "Keep the money and still conduct a fair interview"},
+        {"option_id": "C", "option_text": "Report the incident to higher authority or vigilance, return/secure the money as per rules, and ensure the process remains strictly merit-based"},
+        {"option_id": "D", "option_text": "Destroy the envelope and forget about it"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Bribery Attempts"
+    },
+    {
+      "q_id": "ETH_CASE_Q022",
+      "question_number": 22,
+      "question_text": "You handle RTI applications. A politically sensitive RTI seeks information that is legally disclosable but may embarrass your department. What is the MOST ethical response?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Deny information citing vague 'national interest' reasons"},
+        {"option_id": "B", "option_text": "Delay the reply as much as possible"},
+        {"option_id": "C", "option_text": "Provide information as per RTI Act provisions, withholding only what is legitimately exempt"},
+        {"option_id": "D", "option_text": "Ask the applicant to withdraw the request informally"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Transparency vs Embarrassment"
+    },
+    {
+      "q_id": "ETH_CASE_Q023",
+      "question_number": 23,
+      "question_text": "A subordinate regularly makes caste-based remarks about citizens. Complaints have reached you. What is the MOST ethical immediate step as head of office?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ignore as 'informal talk'"},
+        {"option_id": "B", "option_text": "Verbally ask him to be 'careful' but take no formal step"},
+        {"option_id": "C", "option_text": "Initiate appropriate disciplinary process, counsel on equality and dignity, and make it clear such behaviour is unacceptable"},
+        {"option_id": "D", "option_text": "Transfer complainants instead of addressing the issue"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Respect and Non-discrimination"
+    },
+    {
+      "q_id": "ETH_CASE_Q024",
+      "question_number": 24,
+      "question_text": "As a traffic officer, your junior stops a VIP’s car for over-speeding. The VIP calls you, demanding that the challan be cancelled and the junior be 'taught a lesson'. What is the MOST ethical response?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Cancel the challan to avoid trouble"},
+        {"option_id": "B", "option_text": "Rebuke the junior for stopping a VIP"},
+        {"option_id": "C", "option_text": "Support the junior for lawful action, maintain the challan and politely explain that law is equal for all"},
+        {"option_id": "D", "option_text": "Ignore the call and do nothing"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Equality Before Law"
+    },
+    {
+      "q_id": "ETH_CASE_Q025",
+      "question_number": 25,
+      "question_text": "A government engineer finds that a contractor has used substandard material in a school building. Local people want the work to be accepted quickly so children can use it. What is the MOST ethical action?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Approve the work to satisfy locals, ignoring safety"},
+        {"option_id": "B", "option_text": "Reject or ask for rectification as per norms, explaining safety concerns and ensuring the contractor complies"},
+        {"option_id": "C", "option_text": "Take money from contractor and pass the work"},
+        {"option_id": "D", "option_text": "Delay decision indefinitely"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Safety and Quality"
+    },
+    {
+      "q_id": "ETH_CASE_Q026",
+      "question_number": 26,
+      "question_text": "You are assigned to investigate irregularities in a scheme. The main accused is known to be close to your superior. Your superior hints that a 'soft report' is expected. What is the MOST ethical course of action?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Write a soft report to maintain your career prospects"},
+        {"option_id": "B", "option_text": "Conduct an impartial investigation, document evidence and submit a truthful report, seeking written instructions for any changes"},
+        {"option_id": "C", "option_text": "Refuse to investigate without any explanation"},
+        {"option_id": "D", "option_text": "Leak information to media without internal process"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Impartial Investigation"
+    },
+    {
+      "q_id": "ETH_CASE_Q027",
+      "question_number": 27,
+      "question_text": "As a public information officer, you discover that a file related to an RTI query has gone missing, possibly to avoid disclosure. What is the MOST ethical step?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Claim that the information 'never existed'"},
+        {"option_id": "B", "option_text": "Inform the applicant honestly about missing records, initiate formal reconstruction/trace and report the loss to competent authority"},
+        {"option_id": "C", "option_text": "Ask the applicant to withdraw RTI to avoid embarrassment"},
+        {"option_id": "D", "option_text": "Ignore the RTI application"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Record Management and RTI"
+    },
+    {
+      "q_id": "ETH_CASE_Q028",
+      "question_number": 28,
+      "question_text": "A colleague who is your close friend routinely comes late to office but performs well overall. Other staff feel demotivated. As the section head, what is the MOST ethical way to handle this?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ignore his lateness because of friendship"},
+        {"option_id": "B", "option_text": "Apply attendance rules uniformly, counsel him privately and emphasise fairness to the team"},
+        {"option_id": "C", "option_text": "Publicly humiliate him in front of others"},
+        {"option_id": "D", "option_text": "Penalise other staff to compensate"},
+        {"option_id": "E", "option_text": "None"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Impartiality and Team Morale"
+    },
+    {
+      "q_id": "ETH_CASE_Q029",
+      "question_number": 29,
+      "question_text": "During a field visit, villagers complain that your subordinate demands bribes for issuing caste certificates. He is otherwise hardworking. What is the MOST ethical immediate step?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Defend him without inquiry because he is hardworking"},
+        {"option_id": "B", "option_text": "Assure villagers of fair action, gather evidence through proper channels and, if allegations are proven, take disciplinary measures"},
+        {"option_id": "C", "option_text": "Ask the subordinate to be more 'careful' while taking money"},
+        {"option_id": "D", "option_text": "Transfer complaining villagers’ applications elsewhere"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Handling Citizen Grievances"
+    },
+    {
+      "q_id": "ETH_CASE_Q030",
+      "question_number": 30,
+      "question_text": "You are part of a panel interviewing candidates from disadvantaged backgrounds. One candidate is nervous but has genuine potential, another is polished due to elite schooling. What is the MOST ethical approach to evaluation?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Prefer the polished candidate solely for fluent English"},
+        {"option_id": "B", "option_text": "Consider merit holistically, including potential, context and fairness, while staying within prescribed criteria"},
+        {"option_id": "C", "option_text": "Give full marks to disadvantaged candidate only out of sympathy"},
+        {"option_id": "D", "option_text": "Ignore all guidelines and decide intuitively"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Equity and Merit"
+    },
+    {
+      "q_id": "ETH_CASE_Q031",
+      "question_number": 31,
+      "question_text": "A social media post wrongly accuses your department of denying services to a community. Public anger is rising, but you know the facts are different. What is the MOST ethical first response?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ignore the post completely"},
+        {"option_id": "B", "option_text": "React angrily and threaten legal action immediately"},
+        {"option_id": "C", "option_text": "Verify facts, issue a calm factual clarification and invite genuine complainants to contact you"},
+        {"option_id": "D", "option_text": "Ask staff to create fake accounts and attack critics"}
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Communication and Accountability"
+    },
+    {
+      "q_id": "ETH_CASE_Q032",
+      "question_number": 32,
+      "question_text": "You are designing a welfare scheme portal. The IT vendor suggests hiding some complex eligibility information to 'reduce confusion', but this may mislead citizens. What is the MOST ethical decision?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Accept the suggestion to get the portal live quickly"},
+        {"option_id": "B", "option_text": "Ensure all important conditions are clearly disclosed in simple language, even if it takes more effort"},
+        {"option_id": "C", "option_text": "Publish information only in English"},
+        {"option_id": "D", "option_text": "Share conditions only through internal circulars"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Informed Consent and Transparency"
+    },
+    {
+      "q_id": "ETH_CASE_Q033",
+      "question_number": 33,
+      "question_text": "As a senior officer, you discover a long-standing practice of 'adjusting' travel bills slightly upward to cover unofficial office expenses (tea, stationery). Staff see it as harmless. What is the MOST ethical resolution?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Allow practice to continue since amount is small"},
+        {"option_id": "B", "option_text": "Stop the practice, regularise genuine office expenses through proper budget heads and sensitise staff about financial integrity"},
+        {"option_id": "C", "option_text": "Punish everyone harshly without explanation"},
+        {"option_id": "D", "option_text": "Ignore as it helps office functioning"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Everyday Corruption"
+    },
+    {
+      "q_id": "ETH_CASE_Q034",
+      "question_number": 34,
+      "question_text": "A junior officer makes a courageous note opposing an illegal land allotment order by higher-ups, citing legal and ethical reasons. You are his immediate superior. What is the MOST ethical way to support him?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ask him to withdraw the note to avoid controversy"},
+        {"option_id": "B", "option_text": "Endorse his reasoning if valid, add your considered view and send it up the chain formally"},
+        {"option_id": "C", "option_text": "Remain silent and detach your note"},
+        {"option_id": "D", "option_text": "Advise him never to write such notes again"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Courage of Conviction"
+    },
+    {
+      "q_id": "ETH_CASE_Q035",
+      "question_number": 35,
+      "question_text": "You are managing a scholarship scheme. A deserving student missed the deadline due to a genuine medical emergency, supported by documents. Rules do not clearly mention such exceptional cases. What is the MOST ethical approach?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Reject strictly, ignoring all context"},
+        {"option_id": "B", "option_text": "Explore if rules allow condonation/relaxation in exceptional cases, seek approval if needed and process transparently"},
+        {"option_id": "C", "option_text": "Accept quietly without any record"},
+        {"option_id": "D", "option_text": "Ask for informal payment to help the student"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Equity within Rules"
+    },
+    {
+      "q_id": "ETH_CASE_Q036",
+      "question_number": 36,
+      "question_text": "A contractor offers to donate computers to a government school if his pending bills are cleared immediately, even though some quality issues are under examination. What is the MOST ethical response as the approving officer?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Accept the offer and clear bills immediately"},
+        {"option_id": "B", "option_text": "Reject any linkage between donations and official decisions, and clear bills only after objective quality verification"},
+        {"option_id": "C", "option_text": "Ask him to donate more in future in return for favours"},
+        {"option_id": "D", "option_text": "Ignore quality issues and close the file"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Quid Pro Quo and Integrity"
+    },
+    {
+      "q_id": "ETH_CASE_Q037",
+      "question_number": 37,
+      "question_text": "You are heading an exam cell. A printing error in question paper may disadvantage some candidates. Exams are over. What is the MOST ethical immediate step?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Hide the error hoping no one notices"},
+        {"option_id": "B", "option_text": "Acknowledge the error, place it before competent authority and suggest fair remedies (grace marks, re-exam, etc.)"},
+        {"option_id": "C", "option_text": "Blame printing press publicly without internal review"},
+        {"option_id": "D", "option_text": "Destroy the question papers to remove evidence"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Fairness in Evaluation"
+    },
+    {
+      "q_id": "ETH_CASE_Q038",
+      "question_number": 38,
+      "question_text": "A subordinate quietly informs you that certain senior officials have relatives as 'ghost beneficiaries' in a welfare scheme. There is partial documentary indication. What is your MOST ethical next step?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ignore to avoid angering seniors"},
+        {"option_id": "B", "option_text": "Conduct discreet verification, cross-check records and if fraud is confirmed, report through proper vigilance/administrative channels"},
+        {"option_id": "C", "option_text": "Leak everything to social media immediately"},
+        {"option_id": "D", "option_text": "Advise the subordinate not to interfere in seniors’ matters"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Fraud Detection"
+    },
+    {
+      "q_id": "ETH_CASE_Q039",
+      "question_number": 39,
+      "question_text": "While compiling district performance data, you realise that including accurate data will lower the ranking of your district, which may annoy your superiors. What is the MOST ethical action?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Adjust figures slightly to maintain ranking"},
+        {"option_id": "B", "option_text": "Report accurate data, highlight reasons for lower performance and suggest genuine improvement measures"},
+        {"option_id": "C", "option_text": "Refuse to send any data"},
+        {"option_id": "D", "option_text": "Use last year’s numbers again without change"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Honesty in Reporting"
+    },
+    {
+      "q_id": "ETH_CASE_Q040",
+      "question_number": 40,
+      "question_text": "You are an investigating officer. The accused in a corruption case tries to emotionally influence you by sharing personal hardships and asks for a 'sympathetic' report. What is the MOST ethical stance?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Let personal hardship fully override facts and evidence"},
+        {"option_id": "B", "option_text": "Maintain objectivity, base findings on evidence while still treating the accused with dignity"},
+        {"option_id": "C", "option_text": "Refuse to hear any explanation"},
+        {"option_id": "D", "option_text": "Promise to ignore incriminating evidence"},
+        {"option_id": "E", "option_text": "None"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Objectivity vs Sympathy"
+    },
+    {
+      "q_id": "ETH_CASE_Q041",
+      "question_number": 41,
+      "question_text": "In a village meeting, women complain that they are rarely allowed to speak when development priorities are discussed. You chair the meeting. What is the MOST ethical way to handle this situation?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Continue as usual to avoid upsetting local customs"},
+        {"option_id": "B", "option_text": "Explicitly encourage women to speak, ensure they get time and record their inputs fairly in decisions"},
+        {"option_id": "C", "option_text": "End the meeting immediately"},
+        {"option_id": "D", "option_text": "Ask women to submit written suggestions later only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Participation and Gender Sensitivity"
+    },
+    {
+      "q_id": "ETH_CASE_Q042",
+      "question_number": 42,
+      "question_text": "You are a probationer with strong ideals posted under a cynical senior who openly mocks ethical behaviour and pressures you to 'adjust'. What is the MOST ethical strategy?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Follow all unethical instructions to 'learn the system'"},
+        {"option_id": "B", "option_text": "Respectfully maintain your integrity, seek guidance from training materials/mentors and politely refuse blatantly illegal acts"},
+        {"option_id": "C", "option_text": "Constantly argue in public meetings with him"},
+        {"option_id": "D", "option_text": "Quit the job immediately without trying any institutional remedies"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Maintaining Values under Pressure"
+    },
+    {
+      "q_id": "ETH_CASE_Q043",
+      "question_number": 43,
+      "question_text": "As the nodal officer for a vaccination drive, you notice that rural areas with weaker voice are getting fewer doses than urban centres with strong media presence. What is the MOST ethical corrective action?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Maintain status quo to avoid complaints from cities"},
+        {"option_id": "B", "option_text": "Redistribute doses based on objective criteria like population, risk and vulnerability, communicating transparently"},
+        {"option_id": "C", "option_text": "Send all doses to rural areas only"},
+        {"option_id": "D", "option_text": "Stop vaccination in rural areas to avoid logistics issues"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Equitable Allocation"
+    },
+    {
+      "q_id": "ETH_CASE_Q044",
+      "question_number": 44,
+      "question_text": "An officer accidentally shares a draft confidential policy paper with an external academic group by email. No serious damage has occurred yet. What is the MOST ethical response?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Hide the mistake and hope no one finds out"},
+        {"option_id": "B", "option_text": "Report the incident to superiors, request deletion/return, review security protocols and accept responsibility"},
+        {"option_id": "C", "option_text": "Blame a non-existent technical glitch"},
+        {"option_id": "D", "option_text": "Ask the academic group to keep it secret informally only"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Accountability for Errors"
+    },
+    {
+      "q_id": "ETH_CASE_Q045",
+      "question_number": 45,
+      "question_text": "You head a scholarship committee. Two candidates are tied on all criteria. One has written about commitment to public service; the other has no such indication. Rules allow limited discretion in tie cases. What is the MOST ethical use of this discretion?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Use discretion to favour a relative instead"},
+        {"option_id": "B", "option_text": "Use discretion transparently to prefer the candidate with demonstrated commitment to public service, recording reasons"},
+        {"option_id": "C", "option_text": "Flip a coin without disclosure"},
+        {"option_id": "D", "option_text": "Ask both candidates to offer informal payments"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Using Discretion Ethically"
+    },
+    {
+      "q_id": "ETH_CASE_Q046",
+      "question_number": 46,
+      "question_text": "A citizen with disability finds it difficult to access your office on the second floor as there is no ramp or lift. What is the MOST ethical and practical response as the office head?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Ask them to send someone else on their behalf always"},
+        {"option_id": "B", "option_text": "Immediately arrange to meet them on ground floor and initiate steps to improve accessibility infrastructure"},
+        {"option_id": "C", "option_text": "Tell them to visit another day"},
+        {"option_id": "D", "option_text": "State that such cases are 'rare' and no change is needed"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic_tag": "Dignity and Accessibility"
+    },
+    {
+      "q_id": "ETH_CASE_Q047",
+      "question_number": 47,
+      "question_text": "You are part of a committee to rank proposals for CSR partnership with government. A colleague argues to favour a company because it recently donated to a cultural festival you attended personally. What is the MOST ethical response?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Agree since the company supported culture"},
+        {"option_id": "B", "option_text": "Clarify that ranking must be based on objective criteria and public interest, not personal gratitude"},
+        {"option_id": "C", "option_text": "Remove competing companies without explanation"},
+        {"option_id": "D", "option_text": "Ask the company for personal favours as well"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Impartiality in Partnerships"
+    },
+    {
+      "q_id": "ETH_CASE_Q048",
+      "question_number": 48,
+      "question_text": "A young officer is praised in media for refusing bribes, but within the department, colleagues isolate and mock him. As his senior, what is the MOST ethical way to support him and the right values?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Advise him to 'compromise' to fit in"},
+        {"option_id": "B", "option_text": "Publicly acknowledge his integrity, ensure he is not victimised and promote a culture that values honesty"},
+        {"option_id": "C", "option_text": "Ignore the situation"},
+        {"option_id": "D", "option_text": "Transfer him to an obscure post for 'safety'"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Supporting Ethical Behaviour"
+    },
+    {
+      "q_id": "ETH_CASE_Q049",
+      "question_number": 49,
+      "question_text": "During a surprise inspection, you find that attendance registers in a remote office have been routinely filled for absent staff. The local head says 'this is how it has always been'. What is the MOST ethical course of action?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Accept the explanation and leave"},
+        {"option_id": "B", "option_text": "Document the irregularity, fix responsibility, initiate corrective and disciplinary steps and introduce stricter monitoring"},
+        {"option_id": "C", "option_text": "Ask for a share of the benefits"},
+        {"option_id": "D", "option_text": "Destroy the registers and start fresh without any report"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic_tag": "Attendance Fraud"
+    },
+    {
+      "q_id": "ETH_CASE_Q050",
+      "question_number": 50,
+      "question_text": "You are drafting a note on a controversial policy with both benefits and serious risks for vulnerable groups. Political pressure favours highlighting only benefits. What is the MOST ethical way to write your note?",
+      "question_type": "single_choice",
+      "options": [
+        {"option_id": "A", "option_text": "Mention only benefits and omit risks"},
+        {"option_id": "B", "option_text": "Provide a balanced, evidence-based analysis of both benefits and risks, especially for vulnerable groups, and record your considered recommendation"},
+        {"option_id": "C", "option_text": "Refuse to write any note"},
+        {"option_id": "D", "option_text": "Copy an old note from another policy without change"}
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic_tag": "Policy Advice and Integrity"
+    }
+  ]
+}
