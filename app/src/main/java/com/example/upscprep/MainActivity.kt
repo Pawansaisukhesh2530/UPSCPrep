@@ -112,8 +112,6 @@ fun MainNavigation(
                 }
             )
         }
-
-        // Topics Screen
         composable(
             route = "topics/{subjectName}",
             arguments = listOf(
