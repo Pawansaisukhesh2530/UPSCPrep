@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Dark Theme Colors -->
+    <color name="background_dark">#0F0F23</color>
+    <color name="surface_dark">#1A1A2E</color>
+    <color name="card_background">#16213E</color>
+    <color name="card_background_light">#1E2139</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_purple_start">#6B4CE6</color>
+    <color name="gradient_purple_mid">#5B7CE6</color>
+    <color name="gradient_blue_end">#4E9AF1</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_coral">#E94560</color>
+    <color name="accent_green">#00D9A3</color>
+    <color name="status_online">#00FF88</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B8B8D2</color>
+    <color name="text_tertiary">#8A8AA0</color>
+
+    <!-- Border and Stroke Colors -->
+    <color name="border_light">#33FFFFFF</color>
+    <color name="border_purple">#6B4CE6</color>
+
+    <!-- Overlay Colors -->
+    <color name="overlay_gradient">#266B4CE6</color>
+    <color name="scrim_dark">#CC000000</color>
+
+    <!-- Legacy Colors (keep for compatibility) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+</resources>
