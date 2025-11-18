@@ -21,6 +21,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.upscprep.ui.assignments.components.TestConfigBottomSheet
+import com.example.upscprep.ui.assignments.components.TestConfiguration
 import com.example.upscprep.ui.theme.*
 import com.example.upscprep.utils.QuestionLoaderHelper
 import kotlinx.coroutines.Dispatchers
@@ -42,14 +44,41 @@ class GSPaperSelectionActivity : ComponentActivity() {
 
         setContent {
             UPSCPrepTheme() {
-                GSPaperSelectionScreen(onPaperSelected = { paper ->
-                    val intent = Intent(this, SubjectSelectionActivity::class.java)
-                    // 'paper' here is a String (e.g. "GS I"); pass it directly
-                    intent.putExtra("paper", paper)
-                    startActivity(intent)
-                }, onBack = { finish() })
+                var selectedPaper by remember { mutableStateOf<String?>(null) }
+                var showConfigDialog by remember { mutableStateOf(false) }
+
+                GSPaperSelectionScreen(
+                    onPaperSelected = { paper ->
+                        selectedPaper = paper
+                        showConfigDialog = true
+                    },
+                    onBack = { finish() }
+                )
+
+                // Test Configuration Dialog
+                if (showConfigDialog && selectedPaper != null) {
+                    TestConfigBottomSheet(
+                        onConfigSelected = { config ->
+                            showConfigDialog = false
+                            startQuizWithConfig(selectedPaper!!, config)
+                        },
+                        onDismiss = {
+                            showConfigDialog = false
+                            selectedPaper = null
+                        }
+                    )
+                }
             }
         }
+    }
+
+    private fun startQuizWithConfig(paper: String, config: TestConfiguration) {
+        val intent = Intent(this, QuizActivity::class.java)
+        intent.putExtra("gs_paper", paper)
+        intent.putExtra("mode", "gs_paper")
+        intent.putExtra("num_questions", config.numQuestions)
+        intent.putExtra("duration_minutes", config.durationMinutes)
+        startActivity(intent)
     }
 }
 

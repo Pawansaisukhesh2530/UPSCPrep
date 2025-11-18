@@ -23,6 +23,8 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.upscprep.ui.assignments.components.TestConfigBottomSheet
+import com.example.upscprep.ui.assignments.components.TestConfiguration
 import com.example.upscprep.ui.theme.*
 import com.example.upscprep.utils.QuestionLoaderHelper
 import kotlinx.coroutines.Dispatchers
@@ -46,30 +48,50 @@ class SubjectSelectionActivity : ComponentActivity() {
 
         setContent {
             UPSCPrepTheme() {
+                var selectedSubject by remember { mutableStateOf<String?>(null) }
+                var showConfigDialog by remember { mutableStateOf(false) }
+
                 SubjectSelectionScreen(
                     mode = mode,
                     onSubjectSelected = { subjectName ->
-                        handleSubjectSelection(subjectName)
+                        if (mode == "unit") {
+                            // Navigate to Unit Selection
+                            val intent = Intent(this, UnitSelectionActivity::class.java)
+                            intent.putExtra("subject", subjectName)
+                            startActivity(intent)
+                        } else {
+                            // Show config dialog before starting quiz
+                            selectedSubject = subjectName
+                            showConfigDialog = true
+                        }
                     },
                     onBack = { finish() }
                 )
+
+                // Test Configuration Dialog
+                if (showConfigDialog && selectedSubject != null) {
+                    TestConfigBottomSheet(
+                        onConfigSelected = { config ->
+                            showConfigDialog = false
+                            startQuizWithConfig(selectedSubject!!, config)
+                        },
+                        onDismiss = {
+                            showConfigDialog = false
+                            selectedSubject = null
+                        }
+                    )
+                }
             }
         }
     }
 
-    private fun handleSubjectSelection(subjectName: String) {
-        if (mode == "unit") {
-            // Navigate to Unit Selection
-            val intent = Intent(this, UnitSelectionActivity::class.java)
-            intent.putExtra("subject", subjectName)
-            startActivity(intent)
-        } else {
-            // Navigate directly to Quiz with all questions from subject
-            val intent = Intent(this, QuizActivity::class.java)
-            intent.putExtra("subject", subjectName)
-            intent.putExtra("mode", "subject")
-            startActivity(intent)
-        }
+    private fun startQuizWithConfig(subjectName: String, config: TestConfiguration) {
+        val intent = Intent(this, QuizActivity::class.java)
+        intent.putExtra("subject", subjectName)
+        intent.putExtra("mode", "subject")
+        intent.putExtra("num_questions", config.numQuestions)
+        intent.putExtra("duration_minutes", config.durationMinutes)
+        startActivity(intent)
     }
 }
 

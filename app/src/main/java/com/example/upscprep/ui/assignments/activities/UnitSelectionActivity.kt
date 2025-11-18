@@ -21,6 +21,8 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.upscprep.ui.assignments.components.TestConfigBottomSheet
+import com.example.upscprep.ui.assignments.components.TestConfiguration
 import com.example.upscprep.ui.theme.*
 import com.example.upscprep.utils.QuestionLoaderHelper
 import kotlinx.coroutines.Dispatchers
@@ -42,19 +44,43 @@ class UnitSelectionActivity : ComponentActivity() {
         setContent {
             // Respect saved app theme; don't force darkTheme here
             UPSCPrepTheme() {
+                var selectedUnit by remember { mutableStateOf<String?>(null) }
+                var showConfigDialog by remember { mutableStateOf(false) }
+
                 UnitSelectionScreen(
                     subject = subject,
                     onUnitSelected = { unitName ->
-                        val intent = Intent(this, QuizActivity::class.java)
-                        intent.putExtra("subject", subject)
-                        intent.putExtra("unit", unitName)
-                        intent.putExtra("mode", "unit")
-                        startActivity(intent)
+                        selectedUnit = unitName
+                        showConfigDialog = true
                     },
                     onBack = { finish() }
                 )
+
+                // Test Configuration Dialog
+                if (showConfigDialog && selectedUnit != null) {
+                    TestConfigBottomSheet(
+                        onConfigSelected = { config ->
+                            showConfigDialog = false
+                            startQuizWithConfig(selectedUnit!!, config)
+                        },
+                        onDismiss = {
+                            showConfigDialog = false
+                            selectedUnit = null
+                        }
+                    )
+                }
             }
         }
+    }
+
+    private fun startQuizWithConfig(unitName: String, config: TestConfiguration) {
+        val intent = Intent(this, QuizActivity::class.java)
+        intent.putExtra("subject", subject)
+        intent.putExtra("unit", unitName)
+        intent.putExtra("mode", "unit")
+        intent.putExtra("num_questions", config.numQuestions)
+        intent.putExtra("duration_minutes", config.durationMinutes)
+        startActivity(intent)
     }
 }
 

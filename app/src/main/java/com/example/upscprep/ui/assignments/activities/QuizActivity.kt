@@ -36,8 +36,6 @@ import java.util.Locale
 
 class QuizActivity : ComponentActivity() {
 
-    private val QUIZ_DURATION_MS = 30 * 60 * 1000L // 30 minutes
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -46,6 +44,11 @@ class QuizActivity : ComponentActivity() {
         val unit = intent.getStringExtra("unit")
         val gsPaper = intent.getStringExtra("gs_paper")
 
+        // Get custom configuration from intent (defaults if not provided)
+        val numQuestions = intent.getIntExtra("num_questions", 15)
+        val durationMinutes = intent.getIntExtra("duration_minutes", 20)
+        val quizDurationMs = durationMinutes * 60 * 1000L
+
         setContent {
             UPSCPrepTheme() {
                 QuizScreen(
@@ -53,7 +56,8 @@ class QuizActivity : ComponentActivity() {
                     subject = subject,
                     unit = unit,
                     gsPaper = gsPaper,
-                    quizDuration = QUIZ_DURATION_MS,
+                    numQuestions = numQuestions,
+                    quizDuration = quizDurationMs,
                     onSubmit = { questions, answers, timeTaken ->
                         navigateToResult(questions, answers, timeTaken, mode, subject, unit, gsPaper)
                     },
@@ -92,6 +96,7 @@ fun QuizScreen(
     subject: String?,
     unit: String?,
     gsPaper: String?,
+    numQuestions: Int,
     quizDuration: Long,
     onSubmit: (List<Question>, Map<String, UserAnswer>, Long) -> Unit,
     onExit: () -> Unit
@@ -111,11 +116,11 @@ fun QuizScreen(
 
     val pagerState = rememberPagerState(pageCount = { questions.size })
 
-    // Load questions
+    // Load questions with custom count
     LaunchedEffect(Unit) {
         scope.launch {
             questions = withContext(Dispatchers.IO) {
-                loadQuestions(context, mode, subject, unit, gsPaper)
+                loadQuestions(context, mode, subject, unit, gsPaper, numQuestions)
             }
             isLoading = false
             startTime = System.currentTimeMillis()
@@ -740,7 +745,8 @@ private fun loadQuestions(
     mode: String,
     subject: String?,
     unit: String?,
-    gsPaper: String?
+    gsPaper: String?,
+    numQuestions: Int
 ): List<Question> {
     val allQuestions = when (mode) {
         "subject" -> {
@@ -758,6 +764,7 @@ private fun loadQuestions(
         else -> emptyList()
     }
 
-    // Return exactly 15 random questions
-    return QuestionLoaderHelper.getRandomQuestions(allQuestions, 15)
+    // Return requested number of random questions (or all if fewer available)
+    val actualCount = minOf(numQuestions, allQuestions.size)
+    return QuestionLoaderHelper.getRandomQuestions(allQuestions, actualCount)
 }
