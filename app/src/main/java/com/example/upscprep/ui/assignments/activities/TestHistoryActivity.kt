@@ -53,19 +53,28 @@ fun TestHistoryScreen(
 ) {
     val context = androidx.compose.ui.platform.LocalContext.current
     val scope = rememberCoroutineScope()
-    val database = remember { AppDatabase.getDatabase(context) }
 
     var attempts by remember { mutableStateOf<List<TestAttempt>>(emptyList()) }
     var isLoading by remember { mutableStateOf(true) }
     var sortBy by remember { mutableStateOf("recent") } // recent, score
+    var errorMessage by remember { mutableStateOf<String?>(null) }
 
     LaunchedEffect(sortBy) {
         scope.launch {
-            attempts = database.testAttemptDao().getAllAttempts()
-            if (sortBy == "score") {
-                attempts = attempts.sortedByDescending { it.percentage }
+            try {
+                val database = AppDatabase.getDatabase(context)
+                attempts = database.testAttemptDao().getAllAttempts()
+                if (sortBy == "score") {
+                    attempts = attempts.sortedByDescending { it.percentage }
+                }
+                errorMessage = null
+            } catch (e: Exception) {
+                e.printStackTrace()
+                errorMessage = "Failed to load test history"
+                attempts = emptyList()
+            } finally {
+                isLoading = false
             }
-            isLoading = false
         }
     }
 

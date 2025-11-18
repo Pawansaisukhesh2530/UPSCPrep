@@ -64,18 +64,11 @@
             <!-- Email Input -->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilEmail"
-                style="@style/Widget.Material3.TextInputLayout.FilledBox"
+                style="@style/Widget.UPSCPrep.TextInputLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_xxl"
                 android:hint="Email"
-                app:boxBackgroundColor="@color/card_background_light"
-                app:boxCornerRadiusBottomEnd="@dimen/corner_radius_md"
-                app:boxCornerRadiusBottomStart="@dimen/corner_radius_md"
-                app:boxCornerRadiusTopEnd="@dimen/corner_radius_md"
-                app:boxCornerRadiusTopStart="@dimen/corner_radius_md"
-                app:boxStrokeColor="@color/border_purple"
-                app:hintTextColor="@color/text_secondary"
                 app:layout_constraintTop_toBottomOf="@id/tvSubtitle"
                 app:startIconDrawable="@drawable/ic_email"
                 app:startIconTint="@color/gradient_purple_start">
@@ -94,18 +87,11 @@
             <!-- Password Input -->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilPassword"
-                style="@style/Widget.Material3.TextInputLayout.FilledBox"
+                style="@style/Widget.UPSCPrep.TextInputLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_md"
                 android:hint="Password"
-                app:boxBackgroundColor="@color/card_background_light"
-                app:boxCornerRadiusBottomEnd="@dimen/corner_radius_md"
-                app:boxCornerRadiusBottomStart="@dimen/corner_radius_md"
-                app:boxCornerRadiusTopEnd="@dimen/corner_radius_md"
-                app:boxCornerRadiusTopStart="@dimen/corner_radius_md"
-                app:boxStrokeColor="@color/border_purple"
-                app:hintTextColor="@color/text_secondary"
                 app:layout_constraintTop_toBottomOf="@id/tilEmail"
                 app:passwordToggleEnabled="true"
                 app:passwordToggleTint="@color/gradient_purple_start"
@@ -186,4 +172,3 @@
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-

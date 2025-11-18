@@ -32,17 +32,28 @@ import kotlinx.coroutines.launch
 fun AssignmentsScreen() {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
-    val database = remember { AppDatabase.getDatabase(context) }
 
     var totalTests by remember { mutableStateOf(0) }
     var avgScore by remember { mutableStateOf(0.0) }
     var bestScore by remember { mutableStateOf(0.0) }
+    var isLoading by remember { mutableStateOf(true) }
 
     LaunchedEffect(Unit) {
         scope.launch {
-            totalTests = database.testAttemptDao().getTotalAttempts()
-            avgScore = database.testAttemptDao().getAverageScore() ?: 0.0
-            bestScore = database.testAttemptDao().getBestScore() ?: 0.0
+            try {
+                val database = AppDatabase.getDatabase(context)
+                totalTests = database.testAttemptDao().getTotalAttempts()
+                avgScore = database.testAttemptDao().getAverageScore() ?: 0.0
+                bestScore = database.testAttemptDao().getBestScore() ?: 0.0
+            } catch (e: Exception) {
+                e.printStackTrace()
+                // Keep default values on error
+                totalTests = 0
+                avgScore = 0.0
+                bestScore = 0.0
+            } finally {
+                isLoading = false
+            }
         }
     }
 
@@ -58,7 +69,11 @@ fun AssignmentsScreen() {
                 },
                 actions = {
                     IconButton(onClick = {
-                        context.startActivity(Intent(context, TestHistoryActivity::class.java))
+                        try {
+                            context.startActivity(Intent(context, TestHistoryActivity::class.java))
+                        } catch (e: Exception) {
+                            e.printStackTrace()
+                        }
                     }) {
                         Icon(
                             imageVector = Icons.Default.List,
@@ -74,26 +89,36 @@ fun AssignmentsScreen() {
         },
         containerColor = BackgroundDark
     ) { paddingValues ->
-        LazyColumn(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(
-                    brush = Brush.verticalGradient(
-                        colors = listOf(BackgroundDark, SurfaceDark, BackgroundDark)
-                    )
-                )
-                .padding(paddingValues)
-                .padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp)
-        ) {
-            // Statistics Card
-            item {
-                StatisticsCard(
-                    totalTests = totalTests,
-                    avgScore = avgScore,
-                    bestScore = bestScore
-                )
+        if (isLoading) {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(paddingValues),
+                contentAlignment = Alignment.Center
+            ) {
+                CircularProgressIndicator(color = GradientStart)
             }
+        } else {
+            LazyColumn(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(
+                        brush = Brush.verticalGradient(
+                            colors = listOf(BackgroundDark, SurfaceDark, BackgroundDark)
+                        )
+                    )
+                    .padding(paddingValues)
+                    .padding(16.dp),
+                verticalArrangement = Arrangement.spacedBy(16.dp)
+            ) {
+                // Statistics Card
+                item {
+                    StatisticsCard(
+                        totalTests = totalTests,
+                        avgScore = avgScore,
+                        bestScore = bestScore
+                    )
+                }
 
             // Test Mode Cards
             item {
@@ -150,6 +175,7 @@ fun AssignmentsScreen() {
             item {
                 Spacer(modifier = Modifier.height(16.dp))
             }
+        }
         }
     }
 }

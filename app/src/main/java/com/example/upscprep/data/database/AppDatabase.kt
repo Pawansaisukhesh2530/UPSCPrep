@@ -17,15 +17,17 @@ abstract class AppDatabase : RoomDatabase() {
 
         fun getDatabase(context: Context): AppDatabase {
             return INSTANCE ?: synchronized(this) {
+                // Using fallbackToDestructiveMigration to avoid IllegalStateException when schema versions mismatch
+                // If you reintroduce version upgrades later, add proper Migration objects and remove the fallback.
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     AppDatabase::class.java,
                     "upsc_prep_database"
-                ).build()
+                ).fallbackToDestructiveMigration()
+                 .build()
                 INSTANCE = instance
                 instance
             }
         }
     }
 }
-
