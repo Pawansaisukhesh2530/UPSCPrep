@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.upscprep.utils.SecurePreferences
-import com.example.upscprep.utils.ThemeHelper
+import com.example.upscprep.utils.ThemeManager
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -19,8 +19,8 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
     private val context = application.applicationContext
 
     // Current theme state
-    private val _currentTheme = MutableStateFlow(ThemeHelper.getSavedTheme(context))
-    val currentTheme: StateFlow<String> = _currentTheme.asStateFlow()
+    private val _currentTheme = MutableStateFlow(ThemeManager.getThemePreference(context))
+    val currentTheme: StateFlow<ThemeManager.ThemeMode> = _currentTheme.asStateFlow()
 
     // Current username state
     private val _currentUsername = MutableStateFlow("")
@@ -40,7 +40,7 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
     private fun loadUserSettings() {
         viewModelScope.launch {
             // Load current theme
-            _currentTheme.value = ThemeHelper.getSavedTheme(context)
+            _currentTheme.value = ThemeManager.getThemePreference(context)
 
             // Load username from SecurePreferences or intent
             val savedEmail = SecurePreferences.getSavedEmail(context)
@@ -52,15 +52,10 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
      * Change app theme
      * @param theme New theme (light, dark, system)
      */
-    fun changeTheme(theme: String) {
+    fun changeTheme(theme: ThemeManager.ThemeMode) {
         viewModelScope.launch {
-            // Save theme preference
-            ThemeHelper.saveTheme(context, theme)
-
-            // Apply theme immediately
-            ThemeHelper.applyTheme(theme)
-
-            // Update state
+            ThemeManager.saveThemePreference(context, theme)
+            ThemeManager.applyTheme(theme)
             _currentTheme.value = theme
         }
     }
@@ -104,8 +99,7 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
      */
     fun resetToDefaults() {
         viewModelScope.launch {
-            // Reset theme to system default
-            changeTheme(ThemeHelper.THEME_SYSTEM)
+            changeTheme(ThemeManager.ThemeMode.SYSTEM_DEFAULT)
 
             // Reset username to default
             _currentUsername.value = "Aspirant"

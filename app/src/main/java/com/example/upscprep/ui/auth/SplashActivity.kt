@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.upscprep.MainActivity
 import com.example.upscprep.R
 import com.example.upscprep.utils.SecurePreferences
+import com.example.upscprep.utils.ThemeManager
 import com.google.firebase.auth.FirebaseAuth
 
 /**
@@ -28,7 +29,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         // Apply saved theme before showing splash
-        com.example.upscprep.utils.ThemeHelper.applySavedTheme(this)
+        ThemeManager.applySavedTheme(this)
 
         setContentView(R.layout.activity_splash)
 

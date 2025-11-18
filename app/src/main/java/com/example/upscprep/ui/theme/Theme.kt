@@ -2,6 +2,7 @@ package com.example.upscprep.ui.theme
 
 import android.app.Activity
 import android.os.Build
+import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
@@ -16,61 +17,67 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
-import com.example.upscprep.utils.ThemeHelper
-
-private val DarkColorScheme = darkColorScheme(
-    primary = GradientStart,
-    secondary = GradientEnd,
-    tertiary = AccentCoral,
-    background = BackgroundDark,
-    surface = SurfaceDark,
-    onPrimary = TextPrimary,
-    onSecondary = TextPrimary,
-    onTertiary = TextPrimary,
-    onBackground = TextPrimary,
-    onSurface = TextPrimary,
-    surfaceVariant = CardBackground,
-    onSurfaceVariant = TextSecondary
-)
+import com.example.upscprep.utils.ThemeManager
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40,
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
+    primary = DeepBlue,
     onPrimary = Color.White,
-    onSecondary = Color.White,
+    primaryContainer = MistBlue,
+    onPrimaryContainer = DeepBlue,
+    secondary = GoldAmber,
+    onSecondary = Color.Black,
+    tertiary = AccentTeal,
     onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
+    background = BackgroundLight,
+    onBackground = TextPrimaryLight,
+    surface = SurfaceLight,
+    onSurface = TextPrimaryLight,
+    surfaceVariant = Color(0xFFE3E8F6),
+    onSurfaceVariant = TextSecondary,
+    outline = OutlineLight,
+    outlineVariant = OutlineLight
+)
+
+private val DarkColorScheme = darkColorScheme(
+    primary = MistBlue,
+    onPrimary = Color.Black,
+    primaryContainer = DeepBlue,
+    onPrimaryContainer = Color.White,
+    secondary = GoldAmber,
+    onSecondary = Color.Black,
+    tertiary = AccentTeal,
+    onTertiary = Color.Black,
+    background = BackgroundDark,
+    onBackground = TextPrimaryDark,
+    surface = SurfaceDark,
+    onSurface = TextPrimaryDark,
+    surfaceVariant = ElevatedDark,
+    onSurfaceVariant = TextSecondaryDark,
+    outline = OutlineDark,
+    outlineVariant = OutlineDark
 )
 
 @Composable
 fun UPSCPrepTheme(
-    // keep parameter for compatibility but actual theme is derived from saved pref
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = false, // Changed to false to use our custom theme
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val context = LocalContext.current
+    val savedTheme by ThemeManager.themeState()
+        .collectAsState(initial = ThemeManager.getThemePreference(context))
 
-    // Observe ThemeHelper's stateFlow so Compose recomposes when theme changes
-    val savedTheme by ThemeHelper.themeStateFlow().collectAsState(initial = ThemeHelper.getSavedTheme(context))
-    val darkThemeFinal = when (savedTheme) {
-        ThemeHelper.THEME_DARK -> true
-        ThemeHelper.THEME_LIGHT -> false
-        ThemeHelper.THEME_SYSTEM -> isSystemInDarkTheme()
-        else -> darkTheme // fallback to the provided parameter to avoid unused-parameter warning
+    val prefersDark = when (savedTheme) {
+        ThemeManager.ThemeMode.DARK -> true
+        ThemeManager.ThemeMode.LIGHT -> false
+        ThemeManager.ThemeMode.SYSTEM_DEFAULT -> darkTheme
     }
 
-    val colorScheme = when {
+    val baseScheme = when {
         dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-            val ctx = LocalContext.current
-            if (darkThemeFinal) dynamicDarkColorScheme(ctx) else dynamicLightColorScheme(ctx)
+            if (prefersDark) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
-        darkThemeFinal -> DarkColorScheme
+        prefersDark -> DarkColorScheme
         else -> LightColorScheme
     }
 
@@ -78,14 +85,16 @@ fun UPSCPrepTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
-            // Avoid direct assignment to statusBarColor (deprecated); only control icon appearance
-            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = !darkThemeFinal
+            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = !prefersDark
         }
     }
 
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
-        content = content
-    )
+    Crossfade(targetState = baseScheme, label = "theme_transitions") { scheme ->
+        MaterialTheme(
+            colorScheme = scheme,
+            typography = UPSCTypography,
+            shapes = UPSCShapes,
+            content = content
+        )
+    }
 }

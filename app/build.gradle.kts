@@ -52,6 +52,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.material)
 
     // Navigation Compose
     implementation(libs.androidx.navigation.compose)
@@ -73,18 +74,18 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     // Gson for JSON parsing
-    implementation("com.google.code.gson:gson:2.10.1")
+    implementation(libs.gson)
 
     // Room Database
-    implementation("androidx.room:room-runtime:2.6.1")
-    implementation("androidx.room:room-ktx:2.6.1")
-    ksp("androidx.room:room-compiler:2.6.1")
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
 
     // Security Crypto for encrypted SharedPreferences
-    implementation("androidx.security:security-crypto:1.1.0-alpha06")
+    implementation(libs.androidx.security.crypto)
 
     // Biometric authentication for Remember Me
-    implementation("androidx.biometric:biometric:1.2.0-alpha05")
+    implementation(libs.androidx.biometric)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

@@ -1,52 +1,81 @@
 package com.example.upscprep.ui.theme
 
+import androidx.compose.runtime.Immutable
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 
-// Primary Dark Theme Colors
-val BackgroundDark = Color(0xFF0F0F23)
-val SurfaceDark = Color(0xFF1A1A2E)
-val CardBackground = Color(0xFF16213E)
+// Core palette (UPSC inspired)
+val DeepBlue = Color(0xFF1A237E)
+val NavyBlue = Color(0xFF283593)
+val MidnightBlue = Color(0xFF101B4D)
+val SteelBlue = Color(0xFF3E4A7A)
+val MistBlue = Color(0xFF8EA0D4)
 
-// Gradient Colors
-val GradientStart = Color(0xFF6B4CE6)
-val GradientEnd = Color(0xFF4E9AF1)
-val GradientMid = Color(0xFF5B7CE6)
+val GoldAmber = Color(0xFFFFA000)
+val AccentTeal = Color(0xFF00897B)
+val AccentSky = Color(0xFF4DD0E1)
 
-// Accent Colors
-val AccentCoral = Color(0xFFE94560)
-val SuccessGreen = Color(0xFF00D9A3)
-val StatusOnline = Color(0xFF00FF88)
+val BackgroundLight = Color(0xFFFAFAFA)
+val BackgroundDark = Color(0xFF263238)
+val SurfaceLight = Color(0xFFFFFFFF)
+val SurfaceDark = Color(0xFF37474F)
+val ElevatedDark = Color(0xFF2E3A45)
 
-// Text Colors
-val TextPrimary = Color(0xFFFFFFFF)
-val TextSecondary = Color(0xFFB8B8D2)
-val TextTertiary = Color(0xFF8E8EA9)
+val OutlineLight = Color(0xFFE0E0E0)
+val OutlineDark = Color(0xFF455A64)
 
-// Subject Colors
-val SubjectRed = Color(0xFFEF5350)
-val SubjectOrange = Color(0xFFFF9800)
-val SubjectYellow = Color(0xFFFFEB3B)
-val SubjectGreen = Color(0xFF66BB6A)
-val SubjectBlue = Color(0xFF42A5F5)
-val SubjectIndigo = Color(0xFF5C6BC0)
-val SubjectPurple = Color(0xFFAB47BC)
-val SubjectPink = Color(0xFFEC407A)
-val SubjectTeal = Color(0xFF26A69A)
-val SubjectCyan = Color(0xFF26C6DA)
-val SubjectLime = Color(0xFFD4E157)
-val SubjectAmber = Color(0xFFFFCA28)
+val TextPrimaryLight = Color(0xFF212121)
+val TextPrimaryDark = Color(0xFFFFFFFF)
+val TextSecondary = Color(0xFF757575)
+val TextSecondaryDark = Color(0xFFB0BEC5)
 
-// Stat Card Colors
-val StatGreen = Color(0xFF4CAF50)
-val StatOrange = Color(0xFFFF9800)
-val StatBlue = Color(0xFF2196F3)
-val StatPurple = Color(0xFF9C27B0)
+val SuccessGreen = Color(0xFF2E7D32)
+val WarningAmber = Color(0xFFFFA000)
+val ErrorRed = Color(0xFFC62828)
+val InfoBlue = Color(0xFF29B6F6)
 
-// Default Material Colors (kept for compatibility)
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Legacy aliases to reduce churn while migrating UI code
+val GradientStart = DeepBlue
+val GradientMid = NavyBlue
+val GradientEnd = MidnightBlue
+val AccentCoral = GoldAmber
+val CardBackground = ElevatedDark
+val TextPrimary = TextPrimaryDark
+val TextTertiary = TextSecondaryDark
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Subject palette (used for icons/chips)
+val SubjectHistory = Color(0xFFB46914)
+val SubjectPolity = Color(0xFF4E84C4)
+val SubjectEconomy = Color(0xFF00897B)
+val SubjectGeography = Color(0xFF5C6BC0)
+val SubjectEnvironment = Color(0xFF2E7D32)
+val SubjectScience = Color(0xFF26C6DA)
+val SubjectCurrent = Color(0xFF8E24AA)
+val SubjectEthics = Color(0xFFFFB300)
+val SubjectArtCulture = Color(0xFFEC407A)
+
+val SubjectRed = SubjectHistory
+val SubjectOrange = SubjectEthics
+val SubjectYellow = GoldAmber
+val SubjectGreen = SubjectEnvironment
+val SubjectBlue = SubjectPolity
+val SubjectIndigo = SubjectGeography
+val SubjectPurple = SubjectCurrent
+val SubjectPink = SubjectArtCulture
+val SubjectTeal = SubjectEconomy
+val SubjectCyan = SubjectScience
+val SubjectLime = Color(0xFFC5E1A5)
+val SubjectAmber = GoldAmber
+
+val StatGreen = SuccessGreen
+val StatOrange = WarningAmber
+val StatBlue = InfoBlue
+val StatPurple = SubjectPurple
+
+@Immutable
+object UPSCGradients {
+    val Hero = Brush.verticalGradient(listOf(DeepBlue, NavyBlue, MidnightBlue))
+    val Progress = Brush.horizontalGradient(listOf(GoldAmber, AccentTeal))
+    val CardGloss = Brush.linearGradient(listOf(Color.White.copy(alpha = 0.15f), Color.Transparent))
+    val ElevatedDarkGradient = Brush.verticalGradient(listOf(ElevatedDark, SurfaceDark))
+}

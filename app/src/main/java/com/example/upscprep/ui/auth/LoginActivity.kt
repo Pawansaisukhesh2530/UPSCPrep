@@ -11,6 +11,7 @@ import com.example.upscprep.MainActivity
 import com.example.upscprep.databinding.ActivityLoginBinding
 import com.example.upscprep.utils.BiometricAuthHelper
 import com.example.upscprep.utils.SecurePreferences
+import com.example.upscprep.utils.ThemeManager
 import com.google.android.material.snackbar.Snackbar
 
 /**
@@ -40,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         // Apply saved theme
-        com.example.upscprep.utils.ThemeHelper.applySavedTheme(this)
+        ThemeManager.applySavedTheme(this)
 
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)

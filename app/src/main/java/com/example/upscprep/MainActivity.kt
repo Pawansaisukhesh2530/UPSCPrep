@@ -31,6 +31,7 @@ import com.example.upscprep.ui.theme.UPSCPrepTheme
 import com.example.upscprep.ui.trackingitems.TrackingItemsScreen
 import com.example.upscprep.ui.units.UnitsScreen
 import com.example.upscprep.utils.SecurePreferences
+import com.example.upscprep.utils.ThemeManager
 import kotlinx.coroutines.delay
 
 /**
@@ -53,7 +54,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         // Apply saved theme before setting content
-        com.example.upscprep.utils.ThemeHelper.applySavedTheme(this)
+        ThemeManager.applySavedTheme(this)
 
         // Read username from SharedPreferences and observe changes so Settings updates reflect immediately
         val prefs = getSharedPreferences("upsc_settings", MODE_PRIVATE)
@@ -73,8 +74,8 @@ class MainActivity : ComponentActivity() {
         prefs.registerOnSharedPreferenceChangeListener(listener)
 
         setContent {
-            // Use UPSCPrepTheme without forcing darkTheme so ThemeHelper controls appearance
-            UPSCPrepTheme() {
+            // Use UPSCPrepTheme without forcing darkTheme so ThemeManager controls appearance
+            UPSCPrepTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -164,6 +165,7 @@ fun MainNavigation(
 ) {
     val subjects by viewModel.subjects.collectAsState()
     val stats by viewModel.stats.collectAsState()
+    val refreshing by viewModel.isLoading.collectAsState()
     val repository = viewModel.getRepository()
 
     // Bottom navigation tab state
@@ -271,7 +273,9 @@ fun MainNavigation(
                                 stats = stats,
                                 subjects = subjects,
                                 onLogout = onLogout,
-                                viewModel = viewModel
+                                viewModel = viewModel,
+                                isRefreshing = refreshing,
+                                onRefresh = { viewModel.refresh() }
                             )
                         }
 

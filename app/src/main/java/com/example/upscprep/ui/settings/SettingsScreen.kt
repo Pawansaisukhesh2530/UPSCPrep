@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.upscprep.ui.theme.*
-import com.example.upscprep.utils.ThemeHelper
+import com.example.upscprep.utils.ThemeManager
 
 /**
  * Settings Screen - Allows users to customize app theme and profile settings
@@ -216,27 +216,27 @@ fun SettingsSection(
  */
 @Composable
 fun ThemeSelector(
-    currentTheme: String,
-    onThemeSelected: (String) -> Unit
+    currentTheme: ThemeManager.ThemeMode,
+    onThemeSelected: (ThemeManager.ThemeMode) -> Unit
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         ThemeOption(
             icon = Icons.Default.Star,
             label = "Light Mode",
-            isSelected = currentTheme == ThemeHelper.THEME_LIGHT,
-            onClick = { onThemeSelected(ThemeHelper.THEME_LIGHT) }
+            isSelected = currentTheme == ThemeManager.ThemeMode.LIGHT,
+            onClick = { onThemeSelected(ThemeManager.ThemeMode.LIGHT) }
         )
         ThemeOption(
             icon = Icons.Default.Clear,
             label = "Dark Mode",
-            isSelected = currentTheme == ThemeHelper.THEME_DARK,
-            onClick = { onThemeSelected(ThemeHelper.THEME_DARK) }
+            isSelected = currentTheme == ThemeManager.ThemeMode.DARK,
+            onClick = { onThemeSelected(ThemeManager.ThemeMode.DARK) }
         )
         ThemeOption(
             icon = Icons.Default.Phone,
             label = "System Default",
-            isSelected = currentTheme == ThemeHelper.THEME_SYSTEM,
-            onClick = { onThemeSelected(ThemeHelper.THEME_SYSTEM) }
+            isSelected = currentTheme == ThemeManager.ThemeMode.SYSTEM_DEFAULT,
+            onClick = { onThemeSelected(ThemeManager.ThemeMode.SYSTEM_DEFAULT) }
         )
     }
 }

@@ -1,31 +1,59 @@
 package com.example.upscprep.ui.assignments
 
-import android.content.Context
 import android.content.Intent
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.*
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.material.icons.filled.List
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.DateRange
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.upscprep.data.database.AppDatabase
 import com.example.upscprep.ui.assignments.activities.GSPaperSelectionActivity
 import com.example.upscprep.ui.assignments.activities.SubjectSelectionActivity
 import com.example.upscprep.ui.assignments.activities.TestHistoryActivity
-import com.example.upscprep.ui.theme.*
+import com.example.upscprep.ui.theme.microInteractionClickable
 import kotlinx.coroutines.launch
+import kotlin.math.roundToInt
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -40,264 +68,166 @@ fun AssignmentsScreen() {
 
     LaunchedEffect(Unit) {
         scope.launch {
-            try {
-                val database = AppDatabase.getDatabase(context)
-                totalTests = database.testAttemptDao().getTotalAttempts()
-                avgScore = database.testAttemptDao().getAverageScore() ?: 0.0
-                bestScore = database.testAttemptDao().getBestScore() ?: 0.0
-            } catch (e: Exception) {
-                e.printStackTrace()
-                // Keep default values on error
-                totalTests = 0
-                avgScore = 0.0
-                bestScore = 0.0
-            } finally {
-                isLoading = false
+            runCatching {
+                val dao = AppDatabase.getDatabase(context).testAttemptDao()
+                totalTests = dao.getTotalAttempts()
+                avgScore = dao.getAverageScore() ?: 0.0
+                bestScore = dao.getBestScore() ?: 0.0
             }
+            isLoading = false
         }
     }
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = {
-                    Text(
-                        text = "Practice Tests",
-                        fontWeight = FontWeight.Bold,
-                        color = TextPrimary
-                    )
-                },
+                title = { Text("Practice Labs", fontWeight = FontWeight.Bold) },
                 actions = {
                     IconButton(onClick = {
-                        try {
-                            context.startActivity(Intent(context, TestHistoryActivity::class.java))
-                        } catch (e: Exception) {
-                            e.printStackTrace()
-                        }
+                        context.startActivity(Intent(context, TestHistoryActivity::class.java))
                     }) {
-                        Icon(
-                            imageVector = Icons.Default.List,
-                            contentDescription = "Test History",
-                            tint = TextPrimary
-                        )
+                        Icon(Icons.Default.List, contentDescription = "History")
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = SurfaceDark
+                    containerColor = MaterialTheme.colorScheme.surface
                 )
             )
         },
-        containerColor = BackgroundDark
-    ) { paddingValues ->
+        containerColor = MaterialTheme.colorScheme.background
+    ) { padding ->
         if (isLoading) {
             Box(
                 modifier = Modifier
                     .fillMaxSize()
-                    .padding(paddingValues),
+                    .padding(padding),
                 contentAlignment = Alignment.Center
             ) {
-                CircularProgressIndicator(color = GradientStart)
+                CircularProgressIndicator()
             }
         } else {
             LazyColumn(
                 modifier = Modifier
                     .fillMaxSize()
-                    .background(
-                        brush = Brush.verticalGradient(
-                            colors = listOf(BackgroundDark, SurfaceDark, BackgroundDark)
-                        )
-                    )
-                    .padding(paddingValues)
-                    .padding(16.dp),
-                verticalArrangement = Arrangement.spacedBy(16.dp)
+                    .padding(padding)
+                    .padding(horizontal = 20.dp),
+                contentPadding = PaddingValues(vertical = 24.dp),
+                verticalArrangement = Arrangement.spacedBy(20.dp)
             ) {
-                // Statistics Card
                 item {
-                    StatisticsCard(
-                        totalTests = totalTests,
-                        avgScore = avgScore,
-                        bestScore = bestScore
-                    )
+                    PracticeHeroCard(totalTests, avgScore, bestScore)
                 }
 
-            // Test Mode Cards
-            item {
-                Text(
-                    text = "Choose Test Mode",
-                    fontSize = 18.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = TextPrimary,
-                    modifier = Modifier.padding(vertical = 8.dp)
-                )
-            }
+                item {
+                    Text("Choose a mode", style = MaterialTheme.typography.titleMedium)
+                }
 
-            item {
-                TestModeCard(
-                    title = "Subject-wise Practice",
-                    description = "Test yourself on individual subjects",
-                    icon = Icons.Default.Menu,
-                    color = StatBlue,
-                    onClick = {
-                        val intent = Intent(context, SubjectSelectionActivity::class.java)
-                        intent.putExtra("mode", "subject")
-                        context.startActivity(intent)
+                item {
+                    PracticeModeCard(
+                        title = "Subject-wise Practice",
+                        description = "Curated tests focused on one subject at a time.",
+                        gradient = listOf(MaterialTheme.colorScheme.primary, MaterialTheme.colorScheme.secondary),
+                        icon = Icons.Default.Info
+                    ) {
+                        context.startActivity(Intent(context, SubjectSelectionActivity::class.java).apply {
+                            putExtra("mode", "subject")
+                        })
                     }
-                )
-            }
+                }
 
-            item {
-                TestModeCard(
-                    title = "GS Paper Mock Test",
-                    description = "Complete paper with mixed subjects",
-                    icon = Icons.Default.Star,
-                    color = StatOrange,
-                    onClick = {
+                item {
+                    PracticeModeCard(
+                        title = "GS Paper Simulator",
+                        description = "Full mock tests across GS papers with timer & analysis.",
+                        gradient = listOf(Color(0xFFFFA000), Color(0xFFFF7043)),
+                        icon = Icons.Default.Star
+                    ) {
                         context.startActivity(Intent(context, GSPaperSelectionActivity::class.java))
                     }
-                )
-            }
+                }
 
-            item {
-                TestModeCard(
-                    title = "Topic-wise Practice",
-                    description = "Practice specific units/topics",
-                    icon = Icons.Default.CheckCircle,
-                    color = StatGreen,
-                    onClick = {
-                        val intent = Intent(context, SubjectSelectionActivity::class.java)
-                        intent.putExtra("mode", "unit")
-                        context.startActivity(intent)
+                item {
+                    PracticeModeCard(
+                        title = "Topic Labs",
+                        description = "Mix topics, difficulty, and duration for quick drills.",
+                        gradient = listOf(Color(0xFF00897B), Color(0xFF26C6DA)),
+                        icon = Icons.Default.DateRange
+                    ) {
+                        context.startActivity(Intent(context, SubjectSelectionActivity::class.java).apply {
+                            putExtra("mode", "unit")
+                        })
                     }
-                )
+                }
             }
-
-            // Bottom spacing
-            item {
-                Spacer(modifier = Modifier.height(16.dp))
-            }
-        }
         }
     }
 }
 
 @Composable
-fun StatisticsCard(
-    totalTests: Int,
-    avgScore: Double,
-    bestScore: Double
-) {
+private fun PracticeHeroCard(totalTests: Int, avgScore: Double, bestScore: Double) {
     Card(
         modifier = Modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(containerColor = CardBackground),
-        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+        shape = RoundedCornerShape(24.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surface
+        ),
+        elevation = CardDefaults.cardElevation(defaultElevation = 8.dp)
     ) {
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp)
-        ) {
-            Text(
-                text = "Your Statistics",
-                fontSize = 18.sp,
-                fontWeight = FontWeight.Bold,
-                color = TextPrimary
-            )
-            Spacer(modifier = Modifier.height(12.dp))
-
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceEvenly
-            ) {
-                StatItem(label = "Tests Taken", value = totalTests.toString(), color = StatBlue)
-                StatItem(label = "Avg Score", value = "${avgScore.toInt()}%", color = StatOrange)
-                StatItem(label = "Best Score", value = "${bestScore.toInt()}%", color = StatGreen)
+        Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            Text("Consistency tracker", style = MaterialTheme.typography.titleMedium)
+            Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
+                HeroStat(label = "Tests", value = totalTests.toString())
+                HeroStat(label = "Best Score", value = "${bestScore.roundToInt()}%")
+                HeroStat(label = "Avg Score", value = "${avgScore.roundToInt()}%")
             }
         }
     }
 }
 
 @Composable
-fun StatItem(label: String, value: String, color: Color) {
+private fun HeroStat(label: String, value: String) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(
-            text = value,
-            fontSize = 24.sp,
-            fontWeight = FontWeight.Bold,
-            color = color
-        )
-        Text(
-            text = label,
-            fontSize = 12.sp,
-            color = TextSecondary
-        )
+        Text(value, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+        Text(label, color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f))
     }
 }
 
 @Composable
-fun TestModeCard(
+private fun PracticeModeCard(
     title: String,
     description: String,
-    icon: ImageVector,
-    color: Color,
+    gradient: List<Color>,
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
     onClick: () -> Unit
 ) {
-    Card(
+    Surface(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable(onClick = onClick),
-        shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(containerColor = CardBackground),
-        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+            .microInteractionClickable { onClick() },
+        shape = RoundedCornerShape(24.dp),
+        tonalElevation = 8.dp
     ) {
-        Row(
+        Box(
             modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically
+                .background(Brush.linearGradient(gradient))
+                .padding(20.dp)
         ) {
-            // Icon Box
-            Box(
-                modifier = Modifier
-                    .size(56.dp)
-                    .background(
-                        color = color.copy(alpha = 0.2f),
-                        shape = RoundedCornerShape(12.dp)
-                    ),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(
-                    imageVector = icon,
-                    contentDescription = title,
-                    tint = color,
-                    modifier = Modifier.size(32.dp)
-                )
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                Surface(
+                    modifier = Modifier.size(56.dp),
+                    shape = CircleShape,
+                    color = Color.White.copy(alpha = 0.2f)
+                ) {
+                    Box(contentAlignment = Alignment.Center) {
+                        Icon(icon, contentDescription = null, tint = Color.White)
+                    }
+                }
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(title, color = Color.White, fontWeight = FontWeight.SemiBold)
+                    Text(description, color = Color.White.copy(alpha = 0.8f))
+                }
+                Icon(Icons.Default.List, contentDescription = null, tint = Color.White)
             }
-
-            Spacer(modifier = Modifier.width(16.dp))
-
-            // Content
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = title,
-                    fontSize = 16.sp,
-                    fontWeight = FontWeight.SemiBold,
-                    color = TextPrimary
-                )
-                Spacer(modifier = Modifier.height(4.dp))
-                Text(
-                    text = description,
-                    fontSize = 14.sp,
-                    color = TextSecondary
-                )
-            }
-
-            // Arrow
-            Icon(
-                imageVector = Icons.Default.KeyboardArrowRight,
-                contentDescription = "Start",
-                tint = TextSecondary
-            )
         }
     }
 }

@@ -1,45 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary Dark Theme Colors -->
-    <color name="background_dark">#0F0F23</color>
-    <color name="surface_dark">#1A1A2E</color>
-    <color name="card_background">#16213E</color>
-    <color name="card_background_light">#1E2139</color>
+    <!-- UPSC Brand Palette -->
+    <color name="upsc_primary">#1A237E</color>
+    <color name="upsc_primary_variant">#283593</color>
+    <color name="upsc_navy_dark">#101B4D</color>
+    <color name="upsc_secondary">#FFA000</color>
+    <color name="upsc_accent_teal">#00897B</color>
+    <color name="upsc_accent_sky">#4DD0E1</color>
 
-    <!-- Gradient Colors -->
-    <color name="gradient_purple_start">#6B4CE6</color>
-    <color name="gradient_purple_mid">#5B7CE6</color>
-    <color name="gradient_blue_end">#4E9AF1</color>
+    <!-- Surfaces -->
+    <color name="upsc_background_light">#FAFAFA</color>
+    <color name="upsc_surface_light">#FFFFFF</color>
+    <color name="upsc_surface_alt">#ECEFF5</color>
 
-    <!-- Accent Colors -->
-    <color name="accent_coral">#E94560</color>
-    <color name="accent_green">#00D9A3</color>
-    <color name="status_online">#00FF88</color>
+    <!-- Text -->
+    <color name="upsc_text_primary">#212121</color>
+    <color name="upsc_text_secondary">#757575</color>
+    <color name="upsc_text_muted">#9E9E9E</color>
 
-    <!-- Text Colors -->
-    <color name="text_primary">#FFFFFF</color>
-    <color name="text_secondary">#B8B8D2</color>
-    <color name="text_tertiary">#8A8AA0</color>
+    <!-- Feedback -->
+    <color name="upsc_success">#2E7D32</color>
+    <color name="upsc_warning">#FFA000</color>
+    <color name="upsc_error">#C62828</color>
 
-    <!-- Border and Stroke Colors -->
-    <color name="border_light">#33FFFFFF</color>
-    <color name="border_purple">#6B4CE6</color>
+    <!-- Utility -->
+    <color name="upsc_outline">#E0E0E0</color>
+    <color name="upsc_overlay">#1F2A50</color>
+    <color name="upsc_overlay_alpha">#331A237E</color>
 
-    <!-- Overlay Colors -->
-    <color name="overlay_gradient">#266B4CE6</color>
-    <color name="scrim_dark">#CC000000</color>
+    <!-- Legacy aliases for backward compatibility -->
+    <color name="gradient_purple_start">@color/upsc_primary</color>
+    <color name="gradient_purple_mid">@color/upsc_primary_variant</color>
+    <color name="gradient_blue_end">@color/upsc_navy_dark</color>
+    <color name="accent_coral">@color/upsc_secondary</color>
+    <color name="accent_green">@color/upsc_accent_teal</color>
+    <color name="text_primary">@color/upsc_text_primary</color>
+    <color name="text_secondary">@color/upsc_text_secondary</color>
+    <color name="text_tertiary">@color/upsc_text_muted</color>
+    <color name="background_dark">@color/upsc_background_light</color>
+    <color name="surface_dark">@color/upsc_surface_light</color>
+    <color name="card_background">@color/upsc_surface_alt</color>
+    <color name="card_background_light">@color/upsc_surface_light</color>
+    <color name="border_light">@color/upsc_outline</color>
+    <color name="border_purple">@color/upsc_primary</color>
 
-    <!-- Legacy Colors (keep for compatibility) -->
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-
-    <!-- Standard Colors -->
+    <!-- Standard -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-    <!-- Transparent -->
     <color name="transparent">#00000000</color>
 </resources>

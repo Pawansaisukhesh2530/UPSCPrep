@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="upsc_primary">#8EA0D4</color>
+    <color name="upsc_primary_variant">#5364A3</color>
+    <color name="upsc_navy_dark">#0D132F</color>
+    <color name="upsc_secondary">#FFA000</color>
+    <color name="upsc_accent_teal">#26A69A</color>
+    <color name="upsc_accent_sky">#4DD0E1</color>
+
+    <color name="upsc_background_light">#263238</color>
+    <color name="upsc_surface_light">#37474F</color>
+    <color name="upsc_surface_alt">#2E3A45</color>
+
+    <color name="upsc_text_primary">#FFFFFF</color>
+    <color name="upsc_text_secondary">#B0BEC5</color>
+    <color name="upsc_text_muted">#90A4AE</color>
+
+    <color name="upsc_success">#66BB6A</color>
+    <color name="upsc_warning">#FFB300</color>
+    <color name="upsc_error">#EF5350</color>
+
+    <color name="upsc_outline">#455A64</color>
+    <color name="upsc_overlay">#112032</color>
+    <color name="upsc_overlay_alpha">#660D1425</color>
+
+    <color name="gradient_purple_start">@color/upsc_primary</color>
+    <color name="gradient_purple_mid">@color/upsc_primary_variant</color>
+    <color name="gradient_blue_end">@color/upsc_navy_dark</color>
+    <color name="accent_coral">@color/upsc_secondary</color>
+    <color name="accent_green">@color/upsc_accent_teal</color>
+    <color name="text_primary">@color/upsc_text_primary</color>
+    <color name="text_secondary">@color/upsc_text_secondary</color>
+    <color name="text_tertiary">@color/upsc_text_muted</color>
+    <color name="background_dark">@color/upsc_background_light</color>
+    <color name="surface_dark">@color/upsc_surface_light</color>
+    <color name="card_background">@color/upsc_surface_alt</color>
+    <color name="card_background_light">@color/upsc_surface_light</color>
+    <color name="border_light">@color/upsc_outline</color>
+    <color name="border_purple">@color/upsc_primary</color>
+</resources>
+

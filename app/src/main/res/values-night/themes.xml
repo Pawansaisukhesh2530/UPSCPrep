@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UPSCPrep" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/upsc_primary</item>
+        <item name="colorPrimaryContainer">@color/upsc_surface_alt</item>
+        <item name="colorSecondary">@color/upsc_secondary</item>
+        <item name="colorTertiary">@color/upsc_accent_teal</item>
+        <item name="android:colorBackground">@color/upsc_background_light</item>
+        <item name="colorSurface">@color/upsc_surface_light</item>
+        <item name="colorOnSurface">@color/upsc_text_primary</item>
+        <item name="android:textColor">@color/upsc_text_primary</item>
+        <item name="android:textColorHint">@color/upsc_text_secondary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/upsc_surface_light</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="materialButtonStyle">@style/Widget.UPSCPrep.Button</item>
+        <item name="textInputStyle">@style/Widget.UPSCPrep.TextInputLayout</item>
+        <item name="materialCardViewStyle">@style/Widget.UPSCPrep.Card</item>
+    </style>
+</resources>
+
